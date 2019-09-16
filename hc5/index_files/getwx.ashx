@@ -1,0 +1,1 @@
+var wechat = [{'num':'15521013501','pic':'https://wxlb.gzqxxz.net/WeChatQRCodeFiles/2356bbec-1568-4768-b680-883584a95ec7.jpg','wid':'2356bbec-1568-4768-b680-883584a95ec7','cid':'7018'}];

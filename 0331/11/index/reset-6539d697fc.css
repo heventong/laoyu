@@ -1,0 +1,454 @@
+﻿.content img {
+    width: 100%;
+    vertical-align: middle
+}
+
+a {
+    text-decoration: none;
+    color: #333
+}
+
+li {
+    list-style: none
+}
+
+.first ul {
+    margin-top: -5px
+}
+
+.test-wrapper img {
+    width: 99%
+}
+
+.test-wrapper .fl {
+    float: left
+}
+
+.test-wrapper .change .tips {
+    height: 80px;
+    line-height: 80px;
+    text-align: right;
+    font-size: 15px;
+    margin-right: 15px;
+    color: #999;
+    font-weight: inherit
+}
+
+.test-wrapper .change .prev {
+    margin-left: 8px
+}
+
+.test-wrapper .change #case {
+    margin-top: 10px
+}
+
+.test-wrapper .change #case img {
+    height: 300px
+}
+
+.test-wrapper .change #case .first {
+    height: 142px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: 0 0;
+    width: 100%
+}
+
+.test-wrapper .change #case .first p:nth-of-type(1) {
+    color: #64aaff;
+    margin-top: 13px
+}
+
+.test-wrapper .change #case .first p:nth-of-type(2) {
+    color: #ff679a;
+    margin-top: 3px
+}
+
+.test-wrapper .change #case .first p {
+    text-align: center
+}
+
+.test-wrapper .change #case .first h3 {
+    text-align: center;
+    margin-top: 7px;
+    font-weight: inherit;
+    font-size: 18px!important
+}
+
+.test-wrapper .change #case .first a {
+    color: #64aaff;
+    font-size: 15px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 11px
+}
+
+.test-wrapper .change #case .first #submit_btn {
+    background: #37ac94;
+    color: #fff;
+    font-size: 15px;
+    padding: 14px 70px;
+    border-bottom: none;
+    border-radius: 4px;
+    margin-top: 20px!important
+}
+
+.test-wrapper .change #case .first ul {
+    padding: 20px 0 10px 10px;
+    width: 100%;
+    margin-top: -5px
+}
+
+.test-wrapper .change #case .first li {
+    float: left;
+    width: 29%;
+    background: #43bea5;
+    text-align: center;
+    padding: 14px 0;
+    color: #fff;
+    border-radius: 3px;
+    margin: 1%;
+    line-height: 10px;
+    font-size: 11px
+}
+
+.test-wrapper .change #case .first li.on {
+    background: #37ac94!important
+}
+
+.test-wrapper .change #case p {
+    font-size: 10px;
+    line-height: 14px
+}
+
+.test-wrapper .change #case #swiper_container {
+    padding: 7px 0
+}
+
+.test-wrapper .test-result-list {
+    background: #eee;
+    padding: 15px;
+    margin-top: 30px
+}
+
+.test-wrapper .test-result-list h4 {
+    text-align: center;
+    border-bottom: 2px solid #b350a3;
+    padding-bottom: 10px;
+    font-size: 21px
+}
+
+.test-wrapper .test-result-list .case-content {
+    color: #666;
+    font-size: 14px;
+    margin-top: 20px;
+    line-height: 24px
+}
+
+.test-wrapper .test-title {
+    font-size: 13px;
+    margin-top: 20px;
+    padding: 0 15px;
+    color: #999
+}
+
+.test-wrapper .wc-btn-list {
+    margin-top: 30px
+}
+
+.test-wrapper .wc-btn-list .wc-title {
+    width: 60%;
+    margin: 0 auto;
+    height: 70px;
+    background: #37ac94;
+    border-radius: 5px;
+    line-height: 70px;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700
+}
+
+.test-wrapper .wc-btn-list .wc-title-two {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 13px;
+    color: #999
+}
+
+.sidebar-wrapper {
+    position: fixed;
+    right: 15px;
+    top: 45%;
+    z-index: 1000
+}
+
+.tip-list-wrapper {
+    max-width: 640px;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .6);
+    position: fixed;
+    top: 0;
+    z-index: 11000;
+    display: none
+}
+
+.tip-list-wrapper .tip-list {
+    position: relative;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    top: 30%;
+    background: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #e5e5e5
+}
+
+.tip-list-wrapper .tip-list .close-img {
+    position: absolute;
+    top: 15px;
+    right: 15px
+}
+
+.tip-list-wrapper .tip-list .close-img img {
+    width: 20px;
+    height: 20px
+}
+
+.tip-list-wrapper .tip-list .title {
+    margin-top: 15px;
+    font-size: 15px
+}
+
+.test-wrapper-view {
+    width: 100%;
+    height: 100%;
+    max-width: 640px;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, .6);
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    display: none
+}
+
+.test-wrapper-view .test-wrapper-list {
+    padding: 0 15px;
+    position: relative;
+    top: 15%
+}
+
+.test-wrapper-view .test-wrapper-list .close-img-btn {
+    position: absolute;
+    top: -40px;
+    right: 15px
+}
+
+.test-wrapper-view .test-wrapper-list .close-img-btn img {
+    width: 30px;
+    height: 30px
+}
+
+.test-wrapper-view .test-wrapper-list .test-wrapper {
+    background: #fff;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    padding: 20px 10px 0
+}
+
+.test-result {
+    max-width: 640px;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .6);
+    position: fixed;
+    top: 0;
+    z-index: 1100
+}
+
+.test-result .test-result-list {
+    padding: 0 15px;
+    position: relative;
+    top: 19%
+}
+
+.test-result .test-result-list .close-img-btn {
+    position: absolute;
+    top: 0px;
+    right: 15px
+}
+
+.test-result .wc-copy {
+    padding: 0
+}
+
+.test-result .wc-copy .wc-copy-list,
+.wc-copy .wc-copy-list {
+    background: #f2f2f2;
+    padding: 40px 15px;
+    border-radius: 13px;
+    text-align: center
+}
+
+.test-result .wc-copy .wc-copy-list .test-title {
+    color: #37ac94;
+    font-size: 28px;
+    margin: 12px 0 20px;
+    letter-spacing: 3px;
+    font-weight: 500
+}
+
+.test-result .wc-copy .wc-copy-list .copy-title1 {
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+    font-weight: inherit
+}
+
+.test-result .wc-copy .wc-copy-list .copy-title {
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    color: #666
+}
+
+.test-result .wc-copy .wc-copy-list .copy-title .fontBold {
+    font-weight: 600
+}
+
+.test-result .wc-copy .wc-copy-list .btn-list {
+    display: block;
+    margin-top: 10px
+}
+
+.test-result .wc-copy .wc-copy-list .btn-list .btn-img {
+    width: 100%
+}
+
+.test-result .wc-copy .wc-copy-list .btn-list .btn-img1 {
+    width: 70%
+}
+
+.test-result .wc-copy .text-view {
+    font-size: 12px;
+    margin-top: 20px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #666;
+    line-height: 20px
+}
+
+.test-result .wc-copy .text-view1 {
+    font-size: 10px;
+    margin-top: -4px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #666
+}
+
+.fontS20 {
+    font-size: 20px
+}
+
+.wc-copy .wc-copy-list .test-title {
+    color: #37ac94;
+    font-size: 28px;
+    margin: 12px 0 20px;
+    letter-spacing: 3px
+}
+
+.wc-copy .wc-copy-list .copy-title1 {
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+    font-weight: inherit
+}
+
+.wc-copy .wc-copy-list .copy-title {
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    color: #666
+}
+
+.wc-copy .wc-copy-list .copy-title .fontBold {
+    font-weight: 600
+}
+
+.wc-copy .wc-copy-list .btn-list {
+    display: block;
+    margin-top: 10px
+}
+
+.wc-copy .wc-copy-list .btn-list .btn-img {
+    width: 100%
+}
+
+.wc-copy .wc-copy-list .btn-list .btn-img1 {
+    width: 70%
+}
+
+.wc-copy .text-view {
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #666;
+    line-height: 23px
+}
+
+.footer-nav,
+.wc-copy-pop {
+    max-width:720px;
+    margin: 0 auto
+}
+
+.wc-copy-pop {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .6);
+    position: fixed;
+    top: 0;
+    z-index: 1100;
+    display: none
+}
+
+.wc-copy-pop .wc-copy-list {
+    position: relative
+}
+
+.wc-copy-pop .wc-copy-list .btn-img {
+    position: absolute;
+    right: 10px;
+    top: 10px
+}
+
+.wc-copy-pop .wc-copy-list .btn-img img {
+    width: 25px;
+    height: 25px
+}
+
+.wc-copy-pop .wc-copy {
+    position: relative;
+    top: 22%;
+    padding: 15px
+}
+
+.footer-nav {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 11111
+}
+
+.footer-nav .footer-nav-list {
+    display: flex
+}

@@ -1,0 +1,292 @@
+﻿* {
+    margin: 0;
+    padding: 0
+}
+
+body,
+html {
+    max-width: 720px;
+    width: 100%;
+    font-size: 10px;
+    color: #333;
+    margin: 0 auto;
+    overflow-x: hidden;
+    font-family: 'Microsoft Yahei', '\5FAE\8F6F\96C5\9ED1', Arial, 'Hiragino Sans GB', '\5B8B\4F53'
+}
+
+.content img {
+    width: 100%;
+    vertical-align: middle
+}
+
+a {
+    text-decoration: none;
+    color: #333
+}
+
+li {
+    list-style: none
+}
+
+.colorGreen {
+    font-weight: 600
+}
+
+.colorGreen1,
+.colorRed1 {
+    font-weight: 700
+}
+
+.wc-wrapper {
+    padding: 0 23px
+}
+
+.wc-wrapper .lineH {
+    line-height: 24px
+}
+
+.wc-wrapper .wc-content {
+    font-size: 1.4rem
+}
+
+.wc-wrapper .wc-content .wc-title {
+    font-size: 2.2rem
+}
+
+.wc-wrapper .wc-content .btnCode {
+    font-size: 1.5rem
+}
+
+.tip-list-wrapper {
+    max-width: 640px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .6);
+    position: fixed;
+    top: 0;
+    z-index: 11000;
+    display: none
+}
+
+.tip-list-wrapper .tip-list {
+    position: relative;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    top: 30%;
+    background: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #e5e5e5
+}
+
+.tip-list-wrapper .tip-list .close-img {
+    position: absolute;
+    top: 15px;
+    right: 15px
+}
+
+.tip-list-wrapper .tip-list .close-img img {
+    width: 20px;
+    height: 20px
+}
+
+.footer,
+.footer-relate {
+    max-width: 720px;
+    width: 100%;
+    bottom: 0
+}
+
+.tip-list-wrapper .tip-list .title {
+    margin-top: 15px;
+    font-size: 1.5rem
+}
+
+.btnColor {
+    color: #d21010
+}
+
+.footer {
+    margin: 0 auto;
+    position: fixed;
+  
+    background: #eee;
+    z-index: 1000;
+    box-shadow: 0 -5px 10px rgba(0, 0, 0, .05)
+}
+
+.footer .footer-list {
+    font-size: 1.6rem;
+ 
+    color: #666;
+}
+
+.footer .footer-list .wc-code {
+    font-size: 2.3rem;
+    font-weight: 700
+}
+
+.footer .footer-list .img-icon {
+    position: relative
+}
+
+.footer .footer-list .img-icon img {
+    position: absolute;
+    left: 0;
+    top: 2px
+}
+
+.footer .footer-list a {
+    color: #fff
+}
+
+.footer-relate {
+    height: 80px;
+    background: #227446;
+    position: fixed;
+    z-index: 9999
+}
+
+.footer-relate .footer-relate-list {
+    padding: 0 15px
+}
+
+.footer-relate .footer-relate-list .text-code-list {
+    font-size: 13px;
+    padding: 15px 0;
+    color: #fff;
+    float: left;
+    width: 80%;
+    word-break: break-all
+}
+
+.footer-relate .footer-relate-list .text-code-list .iconF {
+    display: inline-block;
+    position: relative;
+    width: 25px
+}
+
+.footer-relate .footer-relate-list .text-code-list .iconF img {
+    position: absolute;
+    top: -20px
+}
+
+.footer-relate .footer-relate-list .text-code-list .wc-fontS {
+    font-size: 17px;
+    color: #feff00
+}
+
+.footer-relate .footer-relate-list .relate-into-list {
+    float: right;
+    width: 20%;
+    text-align: right;
+    padding: 13px 0
+}
+
+.sidebar-wrapper {
+    position: fixed;
+    right: 15px;
+    top: 45%
+}
+
+@media screen and (min-width:600px) {
+    .wc-wrapper {
+        padding: 0 30px
+    }
+    .wc-wrapper .wc-content {
+        font-size: 2.4rem
+    }
+    .wc-wrapper .wc-content .wc-title {
+        font-size: 2.5rem
+    }
+    .wc-wrapper .wc-content .btnCode {
+        font-size: 2.3rem
+    }
+}
+
+.wc-code-btn {
+    padding: 0 30px
+}
+
+.wc-code-btn .code-btn {
+    background: #227446;
+    padding: 10px;
+    border-radius: 30px;
+    text-align: center;
+    color: #fcf105;
+    font-size: 1.6rem;
+    letter-spacing: 2px
+}
+
+.colorYellow,
+.wc-code-btn .code-btn .btn-code {
+    color: #F86464
+}
+
+.colorGreen {
+    color: #36774d
+}
+
+.colorRed,
+.colorRed1 {
+    color: #b44118
+}
+
+.colorGreen1 {
+    color: #36774d
+}
+
+.fontS20 {
+    font-size: 20px
+}
+
+.wc-copy .wc-copy-list .copy-title,
+.wc-copy .wc-copy-list .copy-title1 {
+    font-size: 1.6rem;
+    margin-bottom: 5px;
+    letter-spacing: 2px
+}
+
+.wc-copy {
+    padding: 0 24px
+}
+
+.wc-copy .wc-copy-list {
+    background: #f2f2f2;
+    padding: 20px 15px;
+    border-radius: 13px;
+    text-align: center
+}
+
+.wc-copy .wc-copy-list .copy-title {
+    font-weight: 600
+}
+
+.wc-copy .wc-copy-list .btn-list {
+    display: block;
+    margin-top: 10px
+}
+
+.wc-copy .wc-copy-list .btn-list .btn-img {
+    width: 100%
+}
+
+.wc-copy .text-view {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    font-weight: 600;
+    letter-spacing: 2px
+}
+
+.footer-copy,
+.footer-wrapper .footer-text {
+    color: #999;
+    font-size: 10px;
+    text-align: center
+}
+
+.footer-copy {
+    height: 50px;
+    line-height: 50px
+}

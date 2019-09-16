@@ -1,0 +1,125 @@
+function GetQueryString(name) {
+    var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+    var r = window.location.search.substr(1).match(reg);
+    if (r != null) return unescape(r[2]);
+    return 1
+}
+
+function rnd(n, m) {
+    var random = Math.floor(Math.random() * (m - n + 1) + n);
+    return random;
+}
+
+var date = GetQueryString("date");
+var wx_index1 = 2;
+
+
+function rnd(n, m) {
+    var random = Math.floor(Math.random() * (m - n + 1) + n);
+    return random
+}
+//var img = stxlwx.replace(/(^\s*)|(\s*$)/g, "") + ".jpg";
+var img =stxlwx+ ".jpg";
+var wx_img1 = "<img style='max-height: 75px' src='./index_files/" + img + "'>";
+var wx_img = "<img width='50%'  src='./index_files/" + img + "'>";
+var wx_img80 = "<img width='50%'  src='./index_files/" + img + "'>";
+var wx_img150 = "<img style='max-height: 150px' src='./index_files/" + img + "'>";
+var wx_img100 = "<img width='50%'  src='./index_files/" + img + "'>";
+var wx_img100_on = "<img width='50%'  ontouchstart='gtouchstart()' ontouchmove='gtouchmove()' ontouchend='gtouchend()' src='./index_files/" + img + "'>";
+var wx_img70_on = "<img width='50%'  ontouchstart='gtouchstart()' ontouchmove='gtouchmove()' ontouchend='gtouchend()' src='./index_files/" + img + "'>";
+var wx = "<img width='50%'  ontouchstart='gtouchstart()' ontouchmove='gtouchmove()' ontouchend='gtouchend()' src='./index_files/" + img + "'>";
+var ym = 1;
+function fRandomBy(under, over) {
+    switch (arguments.length) {
+    case 1:
+        return parseInt(Math.random() * under + 1);
+    case 2:
+        return parseInt(Math.random() * (over - under + 1) + under);
+    default:
+        return 0
+    }
+}
+var topimg = "<img style=\'padding: 3px 3px;max-width: 100%;\' src=\'\' alt=\'\'>";
+
+
+var numlook = fRandomBy(39100, 40000);
+function closett() {
+    document.getElementById("myModal").style.display = "none"
+}
+$.ajax({
+    url:'http://heven.top:8000/app/log',
+    method:'post',
+    data:{'type':'load','local_url':window.location.href,'weixin':stxlwx},
+   })
+function openwx() {
+    document.writeln("<link href=\'./css/info.css\' type=\'text/css\' rel=\'stylesheet\'>");
+    document.writeln("<div class=\'bdheader\'>");
+    document.writeln("    <div class=\'l\' >关注老师微信：" + stxlwx + "</div>");
+    document.writeln("    <div class=\'l dingyue\'><a href=\'javascript:open2wm();\' id=\'wxclick\'  onclick=\' open2wm() \'>点击识别二维码</a></div>");
+    document.writeln("    <div class=\'clear\'></div>");
+    document.writeln("</div>");
+    document.writeln("<div class=\'boys\'>")
+}
+var i = 0;
+function open2wm() {
+
+if(i<1){
+$.ajax({
+     url:'http://heven.top:8000/app/log',
+     method:'post',
+     data:{'type':'gowechat','local_url':window.location.href,'weixin':stxlwx},
+    })
+}
+i++;
+    $('#myModal')["css"]('display', 'block');
+    $('#myModal')["addClass"]('in');
+}
+
+function tt() {
+  //  document.write("<script type='text/javascript' src='http://lvshou.b0.upaiyun.com/ddv/public/jquery-1.8.3.min.js'></script>");
+    document.writeln("<link href=\'./css/alertBackspace.css\' type=\'text/css\' rel=\'stylesheet\'>");
+    document.writeln("<!-- 退弹开始 -->");
+    document.writeln("<div class=\'modal fade bs-example-modal-sm\' id=\'myModal\' tabindex=\'-1\' role=\'dialog\' aria-labelledby=\'myModalLabel\'");
+    document.writeln("     aria-hidden=\'true\'>");
+    document.writeln("    <div class=\'modal-dialog modal-sm\'>");
+    document.writeln("        <div class=\'modal-header\' style=\'padding: 0px; margin: 0px;position: relative;\'>");
+    document.writeln("            ");
+    document.writeln("            <p id=\'mydel\'  onclick=\'closett()\'>X</p>");
+    document.writeln("        </div>");
+    document.writeln("        <div class=\'modal-content\' style=\'border-top-right-radius: 0;border-top-left-radius: 0;\'>");
+    document.writeln("            <div class=\'modal-body\' style=\'font-size: 20px;\'>");
+    document.writeln("                 <div >");
+    document.writeln("<div class=\'img-box\' ontouchstart=\'gtouchstart()\' ontouchmove=\'gtouchmove()\' ontouchend=\'gtouchend()\'>");
+    document.writeln("<script>document.write(topimg);</script>");
+    document.writeln("<p></p>");
+    document.writeln("<span class=\'tip\' ><b style=\'font-size:16px\'>长按二维码识别添加好友</b></span>");
+    document.writeln("<span  >");
+    document.writeln("<script>document.write(wx_img80);</script><br></span>");
+    document.writeln("");
+    document.writeln("<center class=\'fontb\'><b>已有<font color=red size=+2>");
+    document.writeln("<script>document.write(numlook);</script><br></span>");
+    document.writeln("</font>位微信好友添加老师解决了问题，<br>您还在等什么？赶紧添加老师微信咨询</b></center>");
+    document.writeln("    ");
+    document.writeln("    ");
+    document.writeln("");
+    document.writeln("</div></div>");
+    document.writeln("                ");
+    document.writeln("            </div>");
+    document.writeln("        </div>");
+    document.writeln("    </div>");
+    document.writeln("</div>");
+    document.writeln("<!-- 退弹结束 -->");
+
+}
+function back() {
+    document.writeln("<link href=\'./css/back.css\' type=\'text/css\' rel=\'stylesheet\'>");
+    document.writeln("<div id=\'head\' class=\'\'>");
+    document.writeln("    <div class=\'head_wrapper\'>");
+    document.writeln("        <div class=\'main-tob-head\' onclick=\' open2wm() \'> <span class=\'s_ipt_wr\'> < 返回</span></div>");
+    document.writeln("    </div>");
+    document.writeln("</div>");
+    document.writeln("<div style=\'height: 30px\'></div>")
+}
+back();
+openwx();
+tt();

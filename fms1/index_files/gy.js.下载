@@ -1,0 +1,45 @@
+// cnzz的js
+var cnzzjs =
+	'<script type="text/javascript" src="https://s23.cnzz.com/z_stat.php?id=1277739668&web_id=1277739668"></script>';
+
+if (cnzzjs != '') {
+	document.writeln('<div style="display: none;">' + cnzzjs + '</div>');
+}
+//复制去微信
+function copy(xw, dz) {
+	window.location.href = jump + '?wx=' + stxlwx;
+	_czc.push(['_trackEvent', xw, dz, stxlwx, 1]);
+
+}
+//返回去微信，点击咨询，去微信
+function gowechat(xw, dz) {
+	window.location.href = jump + '?wx=' + stxlwx;
+	_czc.push(["_trackEvent", xw, dz, stxlwx, 1]);
+
+}
+
+function sh() {
+	$('#myModal').css('display', 'block');
+}
+$(function() {
+	$('#mydel').click(function() {
+		$('#myModal').css('display', 'none');
+	});
+});
+// 弹窗
+$(function() {
+	pushHistory();
+	window.addEventListener("popstate",
+		function(e) {
+			sh();
+		},
+		false);
+
+	function pushHistory() {
+		var state = {
+			title: "title",
+			url: "#"
+		};
+		window.history.pushState(state, "title", "");
+	}
+});

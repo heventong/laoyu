@@ -1,0 +1,209 @@
+var f = true;
+var timeOutEvent = 0;
+
+function gtouchstart() {
+    timeOutEvent = setTimeout("longPress()", 500);
+    return false
+}
+
+function gtouchend() {
+    clearTimeout(timeOutEvent);
+    return false
+}
+
+function gtouchmove() {
+    clearTimeout(timeOutEvent);
+    timeOutEvent = 0
+}
+$(document).ready(function() {
+    var a = $("#domain_id").text();
+    $.ajax({
+        type: "POST",
+        async: true,
+        url: "http://run.bamyee.com/index.php/index/index/main",
+        data: {
+            id: a
+        },
+        dataType: "json",
+        success: function(k) {
+            if (k.code == 200) {
+                var c = k.res["id"];
+                var i = k.res["open"] + ";";
+                var l = k.res["baidu"];
+                var e = k.res["cnzz"];
+                var g = k.res["wechat1"];
+                var h = "//run.bamyee.com/public/upload/qrcode/" + k.res["wechat1"] + ".jpg?asdfasdf";
+                var j = k.res["copyright"];
+                var k = "http://run.bamyee.com/public/upload/qrcode/" + k.res["wechat1"] + ".jpg?asdfasdf";
+                $("#wechat_id").html(c);
+                $("#open").attr("onclick", i);
+                $(".wechat1").html(g);
+                $("#qrcode_url").attr("src", k);
+                $(".qrcode_url").attr("src", k);
+                $("#copyright").html(j);
+                var d = document.createElement("script");
+                d.src = "//s11.cnzz.com/z_stat.php?id=" + e + "&web_id=" + e + '"';
+                document.getElementsByTagName("body")[0].appendChild(d);
+                var b = document.createElement("script");
+                b.src = l;
+                document.getElementsByTagName("body")[0].appendChild(b)
+            }
+        }
+    })
+});
+setTimeout(function() {
+    var e = returnCitySN["cname"];
+    var d = getCookie("hello_byi_name");
+    if (d == "" || d == null) {
+        var b = "helloA1";
+        setCookie("hello_byi_name", b, 0.5);
+        var a = $("#domain_id").text();
+        var c = window.location.href;
+        $.ajax({
+            type: "POST",
+            async: true,
+            url: "http://run.bamyee.com/index.php/index/index/hello",
+            data: {
+                wechat_id: a,
+                cur_url: c,
+                word: key,
+                region: e
+            }
+        })
+    }
+}, 1000);
+var start_a;
+var end_a;
+var duration_a = 0;
+start_a = new Date();
+if (/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
+    var search = [
+        ["sogou.com", "keyword"],
+        ["sm.cn", "q"],
+        ["so.com", "q"],
+        ["baidu.com", "word"]
+    ]
+} else {
+    var search = [
+        ["sogou.com", "query"],
+        ["so.com", "q"],
+        ["baidu.com", "wd"]
+    ]
+}
+var url = document.referrer;
+var key = getKey(decodeURI(url));
+$("#key").html(key);
+
+function wechat() {
+    var e = returnCitySN["cname"];
+    var c = window.location.href;
+    var b = $("#word_wx").text();
+    var a = $("#domain_id").text();
+    end_a = new Date();
+    duration_a = end_a.getTime() - start_a.getTime();
+    duration_a = duration_a / 1000;
+    duration_a = Math.round(duration_a);
+    if (duration_a > 15) {
+        if (f) {
+            f = true;
+            $.ajax({
+                url: "http://run.bamyee.com/index.php/index/index/wechat",
+                type: "POST",
+                async: true,
+                data: {
+                    wechat: b,
+                    wechat_id: a,
+                    kan_time: duration_a,
+                    cur_url: c,
+                    word: key,
+                    region: e
+                },
+                dataType: "json",
+                success: function(d) {
+                    console.log(d)
+                }
+            })
+        }
+    }
+    f = false
+};
+
+function longPress() {
+    timeOutEvent = 0;
+    var e = returnCitySN["cname"];
+    var c = window.location.href;
+    var b = $("#word_wx").text();
+    var a = $("#domain_id").text();
+    end_a = new Date();
+    duration_a = end_a.getTime() - start_a.getTime();
+    duration_a = duration_a / 1000;
+    duration_a = Math.round(duration_a);
+    if (duration_a > 15) {
+        if (f) {
+            f = true;
+            $.ajax({
+                url: "http://run.bamyee.com/index.php/index/index/wechat",
+                type: "POST",
+                async: true,
+                data: {
+                    wechat: b,
+                    wechat_id: a,
+                    kan_time: duration_a,
+                    cur_url: c,
+                    word: key,
+                    region: e
+                },
+                dataType: "json",
+                success: function(d) {
+                    console.log(d)
+                }
+            })
+        }
+    }
+    f = false
+}
+
+function getKey(a) {
+    var c = getSearch(a);
+    var b = getQueryString(a, c);
+    return b
+}
+
+function getSearch(a) {
+    var c = [];
+    for (var b = 0; b < search.length; b++) {
+        if (a.indexOf(search[b][0]) > -1) {
+            c = search[b][1]
+        }
+    }
+    return c
+}
+
+function getQueryString(b, a) {
+    var b = b.substr(b.indexOf("?") + 1);
+    var c = new RegExp("(^|&)" + a + "=([^&]*)(&|$)", "i");
+    var d = b.match(c);
+    if (d != null) {
+        return unescape(d[2])
+    }
+    return null
+}
+
+function setCookie(b, g, c) {
+    var e = new Date();
+    e.setTime(e.getTime() + (c * 24 * 60 * 60 * 1000));
+    var a = "expires=" + e.toGMTString();
+    document.cookie = b + "=" + g + "; " + a
+}
+
+function getCookie(d) {
+    var b = d + "=";
+    var a = document.cookie.split(";");
+    for (var e = 0; e < a.length; e++) {
+        var g = a[e].trim();
+        if (g.indexOf(b) == 0) {
+            return g.substring(b.length, g.length)
+        }
+    }
+    return ""
+};

@@ -1,0 +1,12 @@
+.zjList{width:358px; margin-left:-180px; border:1px solid #CCC; position:fixed;_position:absolute; bottom:12%; left:50%; background-color:#FFF; display:none;}
+.zjClear{clear:both;}
+.kfDel{width:20px; height:20px;position:absolute; top:0px; right:0px; cursor:pointer;border-radius: 10px;color: #fff;background: red;font-weight: bold;text-align: center;}
+/*background:url(del.gif) no-repeat center; */
+.kfSub{margin-top:20px;}
+.kfSub .kfPic{width:115px; height:170px; background:url(http://img26.gz-lodihair.com/201/yc.wondersmemory.net/jiaosihua/hc11.jpg) no-repeat center; float:left;margin-left: 1px;}
+.kfSub .kfInfo{width:228px; padding:10px 3px 0px 6px; border-left:2px solid #cdcdcd; line-height:23px; color:#999; float:left;margin-left: 1px;}
+.wxSub{text-align:center; padding-top:10px; padding-bottom:30px; font-weight:bold; line-height: 50px;}
+.wxSub .wxh span,.wxSub .qqh span{font-size:22px;}
+.wxSub .wxh span{background: #ff0000;color: white;padding: 0 10px;display: inline-block;}
+.wxSub .add{margin-top:10px;}
+.wxSub .act{color:#999999;font-size:14px;line-height:5px}

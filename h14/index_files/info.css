@@ -1,0 +1,30 @@
+.bdheader {
+    width: 640px;
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+    background: url(https://qqpublic.qpic.cn/qq_public/0/0-2385149361-C0EA266B1BF68EFC12219E06FCF40E5A/0?fmt=jpeg&size=4&rs=3-3&h=108&w=620&ppv=1);
+    line-height: 60px;
+    font-family: "微软雅黑";
+    color: #FFF;
+    font-weight: bold;
+    
+z-index: 999;
+}
+
+.l{float: left;}	
+
+@media screen and (max-width:1170px){
+.side{display: none;}
+.bdheader{width:640px;height: 60px; position: fixed;bottom: 0; background:url(https://qqpublic.qpic.cn/qq_public/0/0-2385149361-C0EA266B1BF68EFC12219E06FCF40E5A/0?fmt=jpeg&size=4&rs=3-3&h=108&w=620&ppv=1); line-height: 60px; font-family: "微软雅黑"; color: #FFF; font-weight: bold;}
+.dingyue{background: #b23636;padding:0 10px;margin: 10px 5px; line-height: 40px;}
+.bdheader a:link,a:visited,a:hover,a:active{margin:0 5px 0 5px; color:#FFF;}
+}
+@media screen and (min-width:1170px){
+.bdheader{display: none;}
+foot{display: none;}
+}
+
+.bdheader{width:640px;height: 60px; position: fixed;bottom: 0; background:url(https://qqpublic.qpic.cn/qq_public/0/0-2385149361-C0EA266B1BF68EFC12219E06FCF40E5A/0?fmt=jpeg&size=4&rs=3-3&h=108&w=620&ppv=1); line-height: 60px; font-family: "微软雅黑"; color: #FFF; font-weight: bold;}
+.dingyue{background: #b23636;padding:0 10px;margin: 10px 5px; line-height: 40px;}
+.bdheader a:link,a:visited,a:hover,a:active{margin:0 5px 0 5px; color:#FFF;}

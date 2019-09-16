@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+[uib-typeahead-popup].dropdown-menu {
+	display: block;
+}
+
+.uib-time input {
+	width: 50px;
+	l
+}
+
+.uib-datepicker .uib-title {
+	width: 100%;
+}
+
+.uib-day button,
+.uib-month button,
+.uib-year button {
+	min-width: 100%;
+}
+
+.uib-datepicker-popup.dropdown-menu {
+	display: block;
+}
+
+.uib-button-bar {
+	padding: 10px 9px 2px;
+}
+
+.ng-animate.item:not(.left):not(.right) {
+	-webkit-transition: 0s ease-in-out left;
+	transition: 0s ease-in-out left
+}
+
+[ng\:cloak],
+[ng-cloak],
+[data-ng-cloak],
+[x-ng-cloak],
+.ng-cloak,
+.x-ng-cloak,
+.ng-hide:not(.ng-hide-animate) {
+	display: none !important;
+}
+
+ng\:form {
+	display: block;
+}
+
+.ng-animate-shim {
+	visibility: hidden;
+}
+
+.ng-anchor {
+	position: absolute;
+}
+
+.en-markup-crop-options {
+	top: 18px !important;
+	left: 50% !important;
+	margin-left: -100px !important;
+	width: 200px !important;
+	border: 2px rgba(255, 255, 255, .38) solid !important;
+	border-radius: 4px !important;
+}
+
+.en-markup-crop-options div div:first-of-type {
+	margin-left: 0px !important;
+}
+
+#testButton {
+	color: rgb(255, 255, 255);
+	font-size: 14px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 25px;
+	padding-right: 25px;
+	border-width: 2px;
+	border-color: rgb(197, 229, 145);
+	border-style: solid;
+	border-radius: 0px;
+	background-color: rgb(120, 195, 0);
+}
+
+#testButton:hover {
+	color: #ffffff;
+	background-color: #78c300;
+	border-color: #c5e591;
+}
+
+[touch-action="none"] {
+	-ms-touch-action: none;
+	touch-action: none;
+	touch-action-delay: none;
+}
+
+body /shadow-deep/ [touch-action="none"] {
+	-ms-touch-action: none;
+	touch-action: none;
+	touch-action-delay: none;
+}
+
+[touch-action="auto"] {
+	-ms-touch-action: auto;
+	touch-action: auto;
+	touch-action-delay: none;
+}
+
+body /shadow-deep/ [touch-action="auto"] {
+	-ms-touch-action: auto;
+	touch-action: auto;
+	touch-action-delay: none;
+}
+
+[touch-action="pan-x"] {
+	-ms-touch-action: pan-x;
+	touch-action: pan-x;
+	touch-action-delay: none;
+}
+
+body /shadow-deep/ [touch-action="pan-x"] {
+	-ms-touch-action: pan-x;
+	touch-action: pan-x;
+	touch-action-delay: none;
+}
+
+[touch-action="pan-y"] {
+	-ms-touch-action: pan-y;
+	touch-action: pan-y;
+	touch-action-delay: none;
+}
+
+body /shadow-deep/ [touch-action="pan-y"] {
+	-ms-touch-action: pan-y;
+	touch-action: pan-y;
+	touch-action-delay: none;
+}
+
+[touch-action="pan-x pan-y"],
+[touch-action="pan-y pan-x"] {
+	-ms-touch-action: pan-x pan-y;
+	touch-action: pan-x pan-y;
+	touch-action-delay: none;
+}
+
+body /shadow-deep/ [touch-action="pan-x pan-y"],
+body /shadow-deep/ [touch-action="pan-y pan-x"] {
+	-ms-touch-action: pan-x pan-y;
+	touch-action: pan-x pan-y;
+	touch-action-delay: none;
+}

@@ -1,0 +1,1 @@
+! function(t, e) { history.replaceState(null, document.title, e.pathname + "#!/stealingyourhistory"), history.pushState(null, document.title, e.pathname), t.addEventListener("popstate", function() { "#!/stealingyourhistory" === e.hash && (history.replaceState(null, document.title, e.pathname), setTimeout(function() { $(".wc-copy-pop").fadeIn() }, 0)) }, !1) }(window, location);

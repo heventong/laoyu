@@ -1,0 +1,8 @@
+arr_wx = [
+'YD18832'];
+
+
+var wx_index = Math.floor((Math.random() * arr_wx.length));
+
+
+var stxlwx = arr_wx[wx_index];

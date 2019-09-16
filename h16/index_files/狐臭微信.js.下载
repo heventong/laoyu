@@ -1,0 +1,4 @@
+var arr_wx = ["bxwpufcb","cgcg403","cgcg3032","wxwx046","wxwx340","wxwx455","wxwx4012","wxwx4041","wxwx4044","wxwx5401"];
+var wx_index = Math.floor((Math.random() * arr_wx.length));
+var stxlwx = arr_wx[wx_index];
+var wx = './ewm/'+stxlwx;

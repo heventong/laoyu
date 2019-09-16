@@ -1,0 +1,174 @@
+*{word-wrap:break-word}
+html,body,h1,h2,h3,h4,h5,h6,hr,p,iframe,dl,dt,dd,ul,ol,li,pre,form,button,input,textarea,th,td,fieldset{margin:0;padding:0}
+ul,ol,dl{list-style-type:none}
+html,body{*position:static}
+html{font-family: sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}
+address,caption,cite,code,dfn,em,th,var{font-style:normal;font-weight:400}
+input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit}
+input,button{overflow: visible;vertical-align:middle;outline:none}
+body,th,td,button,input,select,textarea{font-family:"Microsoft Yahei","Hiragino Sans GB","Helvetica Neue",Helvetica,tahoma,arial,Verdana,sans-serif,"WenQuanYi Micro Hei","\5B8B\4F53";font-size:12px;color: #333;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing:grayscale}
+body{line-height:1.6}
+h1,h2,h3,h4,h5,h6{font-size:100%}
+a,area{outline:none;blr:expression(this.onFocus=this.blur())}
+a{text-decoration:none;cursor: pointer}
+a:hover{text-decoration:underline;outline:none}
+a.ie6:hover{zoom:1}
+a:focus{outline:none}
+a:hover,a:active{outline:none}:focus{outline:none}
+sub,sup{vertical-align:baseline}
+button,input[type="button"], input[type="submit"] {line-height:normal !important}
+/*img*/
+img{border:0;vertical-align:middle}
+a img,img{-ms-interpolation-mode:bicubic}
+.img-responsive{max-width: 100%;height: auto}
+ 
+/*IE下a:hover 背景闪烁*/
+*html{overflow:-moz-scrollbars-vertical;zoom:expression(function(ele){ele.style.zoom = "1";document.execCommand("BackgroundImageCache",false,true)}(this))}
+ 
+/*HTML5 reset*/
+header,footer,section,aside,details,menu,article,section,nav,address,hgroup,figure,figcaption,legend{display:block;margin:0;padding:0}time{display:inline}
+audio,canvas,video{display:inline-block;*display:inline;*zoom:1}
+audio:not([controls]){display:none}
+legend{width:100%;margin-bottom:20px;font-size:21px;line-height:40px;border:0;border-bottom:1px solid #e5e5e5}
+legend small{font-size:15px;color:#999}
+svg:not(:root) {overflow: hidden}
+fieldset {border-width:0;padding: 0.35em 0.625em 0.75em;margin: 0 2px;border: 1px solid #c0c0c0}
+input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button {height: auto}
+input[type="search"] {-webkit-appearance: textfield; /* 1 */-moz-box-sizing: content-box;-webkit-box-sizing: content-box; /* 2 */box-sizing: content-box}
+input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration {-webkit-appearance: none}
+/*
+Name:			style_clearfix
+Example:		class="clearfix|cl"
+Explain:		Clearfix（简写cl）避免因子元素浮动而导致的父元素高度缺失能问题
+*/
+.cl:after,.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}.cl,.clearfix{zoom:1}
+
+
+body{ max-width: 700px; margin: auto;}
+hr{ border-color: #227446;}
+/*main*/
+.main{ width: 100%; max-width: 700px; margin: auto; padding-bottom: 1.5rem;}
+.main>.content{ width: 95%; margin: auto;}
+.main>.content>.img{ width: 100%; padding-bottom: .5rem;}
+.main>.content>div>img{ width: 100%;}
+.main>.content>div.message>ul{ position: relative; padding: .3rem;}
+.main>.content>.message>ul:before{ border-left: .02rem solid #227446;border-top: .02rem solid #227446; width: 1rem; height: 1rem; content: ''; position: absolute; left: 0; top: 0;}
+.main>.content>.message>ul:after{ border-right: .02rem solid #227446;border-bottom: .02rem solid #227446; width: 1rem; height: 1rem; content: ''; position: absolute; right: 0; bottom: 0;}
+.main>.content>div.message>ul>li{ font-size: 0.25rem; font-weight: 700; color: #227446;}
+
+.content_text>h2{ font-size: .5rem; text-align: center; color: #000; padding-bottom: .1rem;}
+.content_text>.text{ font-size: 0.3rem; text-indent: 2em;}
+.content_text>.text>em{ color: #227446;}
+.content_text>.b_text{ font-weight: 700; color: #fff; text-indent: 2em; font-size: 0.3rem; background-color: #227446; padding: .2rem 0;}
+.content_text>.b_text>em{ color: yellow; font-weight: 700;}
+
+
+.i_text{ background-color: #227446; padding: .25rem 0; margin-top: 0.5rem; margin-bottom: .2rem;}
+.i_text>.c_text{ font-weight: 900; color: #fff; text-align: center; font-size: .4rem;}
+.i_text>.c_text>em{ color: yellow; font-weight: 900;}
+
+
+.zs_title{ margin-top: .3rem; margin-bottom: .2rem;}
+.zs_title>span.i{ background: #227446; color: #fff; border-radius: 50%; text-align: center; font-weight: 900; display: inline-block; width: 0.6rem; height: 0.6rem; line-height: 0.6rem; font-size: 0.4rem;}
+.zs_title>span.t{ font-size: 0.4rem; font-weight: 900; display: inline-block; height: 0.6rem; line-height: 0.6rem;}
+
+.d_text{ font-size: 0.3rem; text-indent: 2em; font-size: .35rem; padding: .3rem 0; border: 1px solid #ddd; margin-bottom: .15rem;}
+.d_text>em{ color: #227446;}
+.d_text>span{ color: red; background-color: yellow;}
+
+.l_text{ background: #227446; padding: .2rem 0; margin-bottom: .2rem;}
+.l_text>p{ color: yellow; text-align: left; font-weight: 900;}
+.content>h4{ color: #636363; font-size: .35rem;}
+.content>h4>span{ color: #fff; background: red;}
+
+
+/*test*/
+.test{ margin-top: .3rem;}
+.test>h3{ color: #000; text-align: center; font-size: .4rem;}
+.test>p{ color: #333; text-align: center; font-size: .3rem; padding: .15rem 0 .2rem;}
+.test>h5{ color: #aaa; text-align: center; font-size: .3rem; margin-bottom: .2rem;}
+.test>hr{ border-width: 2px; width: 85%; margin: auto; margin-bottom: .4rem; background: #227446; border-color: #227446; color: #227446;}
+
+.c{ width: 85%; overflow: hidden; margin-left: 7.5%;}
+.c>ul{ width: 100%; overflow: hidden; position: relative;}
+.c>ul>li{ width: 100%; position: relative; float: left;}
+.c>ul>li>span{ position: absolute; right: 10px; top: .4rem;}
+.c>ul>li>img{ width: 100%;}
+.c>ul>li>div{ position: absolute; left: 0; top: 0; margin-top: 1.2rem; width: 100%;}
+.c>ul>li>div>ol{ width: 90%; margin: auto;}
+.c>ul>li>div>h6{ text-align: center; font-size: .3rem; margin-bottom: .2rem;}
+.c>ul>li>div>ol>li{ width: 44%; margin: 2% 3%; float: left; text-align: center; background: #ff8db3; color: #fff; border-radius: .3rem; line-height: 0.7rem; cursor: pointer;}
+.c>ul>li>div>ol>li.on{ background: #ff679a;}
+.c>ul>li>button{ width: 44%; line-height: 0.9rem; text-align: center; background: #ff8db3; color: #fff; border-radius: .3rem; cursor: pointer; position: absolute; bottom: 20px; border: none; display: block; height: .6rem; margin-left: 28%;}
+.c>ul>li>em{ position: absolute; left: 10px; top: 0; height: 1.5rem; display: block; line-height: 1.5rem; font-size: .25rem; cursor: pointer;}
+
+.t_message{ margin-top: .5rem;}
+.t_message>li{ position: relative; padding-bottom: .3rem; border-bottom: 1px solid #f0f0f0; margin-bottom: .3rem;}
+.t_message>li>div>img{ border-radius: 50%; max-height: 100%;}
+.t_message>li>div{ height: .6rem;}
+.t_message>li>div>.name{ font-size: .2rem; color: #3990e6;}
+.t_message>li>div>.address{ font-size: .2rem; color: #aaa;}
+.t_message>li>p{ color: #333; font-size: .25rem; margin-left: .6rem;}
+.t_message>li>em{ color: #aaa; font-size: .2rem; margin-left: .6rem; margin-top: .2rem;}
+.t_message>li>.zan{ position: absolute; right: 0px; bottom: .1rem; height: .4rem; line-height: .4rem;}
+.t_message>li>.zan>img{ max-height: 100%; }
+.t_message>li>.zan>span{ color: #666; font-size: .2rem;}
+
+
+.bq{ text-align: center; color: #ccc; font-size: .25rem;}
+
+/*test*/
+.t_test{ margin-top: .3rem; display: none;}
+.t_test>h3{ color: #000; text-align: center; font-size: .4rem;}
+.t_test>p{ color: #333; text-align: center; font-size: .3rem; padding: .15rem 0 .2rem;}
+.t_test>h5{ color: #aaa; text-align: center; font-size: .3rem; margin-bottom: .2rem;}
+.t_test>hr{ border-width: 2px; width: 85%; margin: auto; margin-bottom: .4rem; background: #227446; border-color: #227446; color: #227446;}
+.t_c{ padding: 0px 7.5%; text-align: center;}
+.t_c>h2{ color: #ff3d00; font-size: .3rem; font-weight: 900; margin-bottom: .1rem;}
+.t_c>p{ color: rgb(255, 87, 34);}
+.t_c>span{ display: block; color: #9b9b9b; font-size: .3rem; text-align: center;}
+.t_c>b{ background: #227446; border-radius: 10px; display: block; width: 70%; padding: 10px; font-size: .4rem; color: #fff; text-align: center; margin: auto;}
+.t_c>a{ text-align: center; display: inline-block; background: #227446; color: #fff;}
+.t_c>hr{ width: 90%; margin: auto; margin-top: 1rem; border: none; border-bottom: 1px solid #ccc;}
+
+
+.b_message{ margin-top: 1rem; display: none;}
+.b_message>li{ width: 90%; margin-left: 5%; margin-bottom: .5rem; padding-bottom: .3rem; border-bottom: 1px solid #ccc;}
+.user{ margin-bottom: .2rem;}
+.user>span{ font-weight: 900; font-size: .3rem; padding-left: .2rem;}
+.user>img{ border-radius: 50%;}
+.b_message>li>p{ font-size: .4rem; margin-bottom: .2rem;}
+.b_message>li>p>span{ color: #fff; background: red;}
+.b_message>li>img{ width: 50%;}
+
+
+
+/*返回浮窗*/
+.z{ background-color: rgba(0,0,0,0.4); display: none; width: 100%; height: 100%; position: fixed; z-index: 89988; top: 0px; left: 0px;}
+.fix{ position: fixed; top: 20%; width: 74%; left: 14%; display: none; z-index: 99999;}
+.f_img{ width: 100%;}
+.f_img>img{ width: 100%;}
+.f_text{ border: 1px solid #ddd; border-top: 2px solid #ddd; border-radius: 10px; text-align: center; background-color: rgb(255,255,255); padding: 20px 0px;}
+.f_text>p:nth-child(1){ font-weight: 900; font-family: '黑体'; font-size: 17px; padding-bottom: 0.5em;}
+.f_text>p:nth-child(1)>span{ color: red;}
+.f_text>p:nth-child(2){ font-weight: 900; color: red; font-family: '黑体'; font-size: 20px; padding-bottom: 0.5em;}
+.f_text>p:nth-child(3){ color: red; font-weight: 900; padding-bottom: 0.5em;}
+.f_text>p:nth-child(4){ font-weight: 900; color: #000; padding-bottom: 0.5em;}
+.f_text>p:nth-child(4)>span{ color: red;}
+
+
+/*底部浮窗*/
+#tc{ height: 70px; position: fixed; bottom: 0px; max-width: 700px; margin: 0 auto; width: 100%; background: #fff; z-index: 99999;}
+#tc>.wechat1{ float: left; width: 14%; padding-left: 1%;  height: 70px;}
+#tc>.text{ float: left; width: 60%; height: 70px; margin-top: 10px;}
+#tc>.gowechat{ float: right; width: 20%; height: 50px; margin-right: 3%;}
+#tc>.text>p{ text-align: center; color: #000; font-weight: 900; margin-top: 2px;}
+#tc>.gowechat>button{ height: 40px; margin-top: 15px; background-color: #259dab; border: none; padding: 0px 5px; width: 90%; border-radius: 3px; color: #fff; font-size: 18px;}
+
+
+/*点击弹窗*/
+.zz{ position: fixed; top: 35%; width: 70%; left: 15%; border: 2px solid green; border-radius: 10px; text-align: center; background-color: #fff; padding: 40px 0px; display: none; z-index: 999;}
+.zz_t>p:nth-child(1){ font-size: 16px; color: red; font-weight: 900; margin: 0px; margin-bottom: 15px;}
+.zz_t>p:nth-child(2){ font-size: 14px; color: red; font-weight: 900; margin: 0px; margin-bottom: 25px;}
+#hide{ background-color: rgb(127,201,77); color: #fff; text-align: center; padding: 4px 0px; border: none; font-size: 20px; border-radius: 5px; width: 30%; font-family: '微软雅黑';}
+#wechat{ background-color: rgb(127,201,77); color: #fff; text-align: center; padding: 4px 0px; border: none; font-size: 20px; border-radius: 5px; width: 30%; font-family: '微软雅黑';}
