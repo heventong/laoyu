@@ -2,7 +2,7 @@
 <!-- saved from url=(0040)https://sale.sctx.com/sale-20190702.html -->
 <html lang="zh-CN" style="font-size: 100px;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-<title>来利奥利司他胶囊全国指定订购网站,奥利司他减肥胶囊_奥利司他官网</title>
+<title>来利奥利司他胶囊</title>
     <!-- 头部元数据 -->
     <meta name="csrf-param" content="_csrf">
 <meta name="csrf-token" content="8WXwIjQjmDU9iq3nGKvivNFEAX-S99rpfbzyw3NKzpqrVsRUVlrMA3_a2atNzYTKuXZvKcCw74ET77CZFAilyQ==">
@@ -15,7 +15,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
 <meta name="wap-font-scale" content="no">
 <meta name="Keywords" content="来利奥利司他胶囊,来利奥利司他,奥利司他">
-<meta name="Description" content="来利奥利司他胶囊全国指定订购网站,奥利司他减肥胶囊_奥利司他官网">
+<meta name="Description" content="来利奥利司他胶囊">
 <!-- #is_wabp_start -->
 <meta name="is_webp" content="no">
 <!-- #is_wabp_end -->
@@ -249,7 +249,7 @@
 					<div class="btn-wrap">
 						
 							
-						<button class="btnsubmit">立即预订</button>
+						<button class="btnsubmit" style="color: red">立即预订</button>
 						<!---->
 					</div>
 				</div>
@@ -298,8 +298,8 @@
 		
 		// 立即预定
 		$(container).find(".btnsubmit").click(function(){
-			alert('预订成功!')
-			return false;
+			// alert('预订成功!')
+			// return false;
 			var consignee = $("#consignee").val();
 			var mobile = $("#mobile").val();
 			var smsCaptcha = $("#smsCaptcha").val();
@@ -331,6 +331,8 @@
 				layer.msg('请填写详细地址');
 				return false;
 			}
+			alert('预订成功!')
+			return false;
 			$.loading.start();
 			var csrfToken = $('meta[name="csrf-token"]').attr("content");
 			$.post('/sale/form-subm', {
@@ -439,8 +441,8 @@
 		goods_number.value >= 20 ? '20' : goods_number.value = parseInt(goods_number.value) + 1;
 	}
 	function formsModule() {
-		alert('预订成功!')
-		return false;
+		// alert('预订成功!')
+		// return false;
 		$("html, body").animate({ scrollTop: $("#formsModule").offset().top }, { duration: 0 });
 		return false;
 	}

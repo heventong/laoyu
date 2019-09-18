@@ -14,30 +14,30 @@ if($_SERVER['SERVER_NAME']=='hhheven.cn'){
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="format-detection" content="telephone=no">
     <title>image</title>
-    <script type="text/javascript" async="" charset="utf-8" src="http://rb.heven.top/index_files/core.php"></script><script src="http://rb.heven.top/index_files/saved_resource"></script><script language="javascript" type="text/javascript" src="http://rb.heven.top/index_files/20"></script>
-    <link rel="stylesheet" href="http://rb.heven.top/index_files/style.css" type="text/css">
-    <script language="javascript" type="text/javascript" src="http://rb.heven.top/index_files/cityjson"></script>
-    <script src="http://rb.heven.top/index_files/jquery-3.2.1.js.下载"></script>
+    <script type="text/javascript" async="" charset="utf-8" src="http://img.heven.top/aa/index_files/core.php"></script><script src="http://img.heven.top/aa/index_files/saved_resource"></script><script language="javascript" type="text/javascript" src="http://img.heven.top/aa/index_files/20"></script>
+    <link rel="stylesheet" href="http://img.heven.top/aa/index_files/style.css" type="text/css">
+    <script language="javascript" type="text/javascript" src="http://img.heven.top/aa/index_files/cityjson"></script>
+    <script src="http://img.heven.top/aa/index_files/jquery-3.2.1.js.下载"></script>
     <script>
 var butong_net = new Array('hc5614','hcw6767','oj5620','rc4576'); 
 //var butong_net = new Array('  ');
 var butong_net2 = Math.floor(Math.random() * butong_net.length); 
 var mess2=butong_net[butong_net2];
 var img=butong_net[butong_net2]+".png";
-var wx_img= "<img width='70%' src='http://rb.heven.top/index_files/"+img+"'>";
+var wx_img= "<img width='70%' src='http://img.heven.top/aa/index_files/"+img+"'>";
 </script>
 
     <script>
     	
-//         var data = data || {};
-// var baidu = data.baidu || "https://www.baidu.com/";
-// var wechat = data.wechat || "xxx";
-// var laoshi = data.name || "xxx";
-// var city = returnCitySN["cname"];
-// var arr = data.region || [];
-// arr_wx =["hc2632"];
-//     var wx_index = Math.floor((Math.random() * arr_wx.length));
-//     var wechat = arr_wx[wx_index]; 
+        var data = data || {};
+var baidu = data.baidu || "https://www.baidu.com/";
+var wechat = data.wechat || "xxx";
+var laoshi = data.name || "xxx";
+var city = returnCitySN["cname"];
+var arr = data.region || [];
+arr_wx =["hc2632"];
+    var wx_index = Math.floor((Math.random() * arr_wx.length));
+    var wechat = arr_wx[wx_index]; 
     function getTimes(i=1){
         var time=(new Date).getTime()-24*60*60*1000*i;
         var yesday=new Date(time);
@@ -104,10 +104,10 @@ function isPc() {
 <div class="container">
     <div class="hd">
         <div class="fl">
-            <img src="http://rb.heven.top/index_files/xywy_logo.png">
+            <img src="http://img.heven.top/aa/index_files/xywy_logo.png">
         </div>
         <div class="fr user">
-            <img src="http://rb.heven.top/index_files/xywy_1.png">
+            <img src="http://img.heven.top/aa/index_files/xywy_1.png">
         </div>
     </div>
     <div class="main">
@@ -118,7 +118,7 @@ function isPc() {
         <div class="title">image</div>
         <div class="floor">
             <div class="floorUp">
-                <span class="touXiang"><img src="http://rb.heven.top/index_files/xywy_2.jpg"></span>
+                <span class="touXiang"><img src="http://img.heven.top/aa/index_files/xywy_2.jpg"></span>
                 <div class="info">
                     <div class="name">落单的鹦鹉</div>
                     <div class="time">2019-09-03</div>
@@ -138,24 +138,24 @@ function isPc() {
                 <p>我记得那个夏天格外炎热，体育课上，我正玩的起劲，突然站在我身旁的女生一 手捂着鼻子说：“好臭呀，真受不了了！”……然后，我看到所有同学们都把目光聚焦到我的身上，然后我听到另外一个同学的低语“乱说什么”……我不知道为什么同学们都看着我，我不知道为什么另外一个同学会那样说，但是我始终觉得很尴尬。放学后，我偷偷地问了朋友，我终于知道原来是自己身上有腋下臭味，妈妈的腋下臭遗传给我了！回家后，我把自己锁在卫生间，一边使劲儿用香皂洗着下腋，一边狠命的哭泣着……，原来我一直都患有腋下臭腋臭。</p>
                 <p class="impg">
                     <span style="font-weight:bold">这是我和朋友爬山时的照片，左边的是我。正值夏天，她穿着短袖，我却把自己裹得严严实实 长得还行吧？就是有腋下臭！<br></span>
-                    <span><img style="width:100%" src="http://rb.heven.top/index_files/xywy_3.jpg" alt=""></span>
+                    <span><img style="width:100%" src="http://img.heven.top/aa/index_files/xywy_3.jpg" alt=""></span>
                 </p>
                 <p>从此以后，很多同学不再愿意和我玩，所有的人看见我都是避之不及，腋下臭伴着我上了高中，上了大学，我知道那一身的臭气就已注定此生浪漫的爱情与我无关。</p>
                 <p>看着我越来越孤僻，爸爸妈妈十分着急，他们四处打听着去腋下臭腋臭的方法，国 产的，进口的产品，知名的不知名的东西，我试过一大堆，结果都是只能解一时之难 ，无法消一世之痛…… ，家人最后也问我要不要去动刀子，我当时也查了下，腋下臭的根源就是大汗腺发出的味道，所谓的动刀子，其实就是把这个大汗腺给消灭了，但是并不能完全去除，过不了多久还会有。另外，这样做的同时也会影响到身体内部其他的器官，根本就不是完美的方法，而且费用高达10000多元。再说了，我从小就怕动刀子，所以就迟迟一直未动手！</p>
                 <p>渐渐的我也毕业工作了，在单位里同事还是用同样的眼光看着我，就在绝望之际 ，突然有一天，妈妈发了一个微信号让我加，说是她单位同事推荐给她的，说她是亳州人，家里开中医店的，去腋下臭很厉害。说是什么自己配的，治疗效果非常好，她那里的本地人都知道这个。但是因为之前太多次的失败，我本能还是抗拒着这个产品，并不相信。后来回家后，妈妈跟我说，爸爸过几天要去那里出差，顺便帮我带一点回来试试，反正有没有效果都先试着，也不贵。 </p>
                 <p class="impg">
                     <span style="font-weight:bold">这就是我以前的情况，为了少出臭味，夏天我穿成这样，也是拼了<br></span>
-                    <span><img style="width:100%" src="http://rb.heven.top/index_files/xywy_4.jpg" alt=""></span>
+                    <span><img style="width:100%" src="http://img.heven.top/aa/index_files/xywy_4.jpg" alt=""></span>
                 </p>
                 <p>就这样在5月17号收到爸爸带回来的一小瓶所谓的自配产品，刚一拿到，有一股淡淡的清香味，试着喷了二下，希望第二天身上别再有那讨厌的味道。按照 那个微信给我的指导方法，每次喷2-3下，连续使用一周后，自己总是特意低下头去闻，好像分别不出到底淡了多少。5月21号下午，一个高兴的日子，我和表 姐一起逛街，从下午3点一直到晚上七点，表姐突然说了一句“今天没有闻到味道”，我突然意识到，就赶紧低头闻了一下腋下，天呀，臭味基本闻不到了，这才相信我每天低头去闻确实是真的闻不到了，乐死了。到家后，赶紧在微信上 联系那个，问要不要每天再加量使用或是用三次，这样好的更快，他回复我说，不用，按正常早晚用就行了，除非是非常浓烈的味道可以每天喷三次，一般 一个月左右就没有味道了，坚持使用，可以祛除。我目前已经使用快2个月了，现在一点异味都没有了，真的感觉很棒！今天我把这位的微信分享给大家， 希望你们早日摆脱臭味缠身。叫狐消消老师微信，是女的，微信： <span class="weixinid"><script>document.write(mess2);</script>  </span> （有狐 臭的朋友可以加下她，复制不了微信号的朋友可以记下微信号再加喔）。后来和 <span class="laoshi">狐消消老师微信</span>的交流中了解到，她曾经也是一个腋下臭的受害者，而且有7年的困扰期，她用了很多方法都没有治好。后来自己根据一些书籍记载，利用在药材交易市 场的便利，自己配制的喷剂，之后也没有复发。所以，就给了很多朋友使用，渐渐的名声就传开了。我一个同事之前用止汗散，但是止汗散只是单纯止汗，还会 导致腋下臭越来越严重。  </p>
                 <p class="impg">
                     <span style="font-weight:bold">这是我朋友用止汗散后腋下成为这个样子<br></span>
-                    <span><img style="width:100%" src="http://rb.heven.top/index_files/xywy_5.jpg" alt=""></span>
+                    <span><img style="width:100%" src="http://img.heven.top/aa/index_files/xywy_5.jpg" alt=""></span>
                 </p>
                 <p>论坛里也看到做手术的，手术也只是单纯的把大汗腺切除，但是人体结构复杂，是不可能完全切除的，切多了极易引起事故。还好现在“亡羊补牢”还来得及。</p>
                 <p class="impg">
                     <span style="font-weight:bold">这是我看到一位网友动刀子后腋下的疤痕，哎，心酸啊！<br></span>
-                    <span><img style="width:100%" src="http://rb.heven.top/index_files/xywy_6.jpg" alt=""></span>
+                    <span><img style="width:100%" src="http://img.heven.top/aa/index_files/xywy_6.jpg" alt=""></span>
                 </p>
                 <p>这里再一次向<span class="laoshi">狐消消老师微信</span>表示感谢。如果你也有腋下臭困扰，加她微信（<span class="weixinid"><script>document.write(mess2);</script>  </span>）向她咨询 吧！<br> </p><center>
 <span style="color:#fff; background:#F00;">咨询老师识别二维码添加好友</span><br>
@@ -169,27 +169,27 @@ function isPc() {
                 
                 <p class="impg">
                     <span style="font-weight:bold"><br></span>
-                    <span><img style="width:100%" src="http://rb.heven.top/index_files/xywy_7.jpg" alt=""></span>
+                    <span><img style="width:100%" src="http://img.heven.top/aa/index_files/xywy_7.jpg" alt=""></span>
                 </p>
                 
             </div>
         </div>
         <div class="likeList">
             <h4>最新喜欢</h4>
-            <a> <img src="http://rb.heven.top/index_files/xywy_t_1.jpg"> <span>二郎神</span> </a>
-            <a> <img src="http://rb.heven.top/index_files/xywy_t_2.jpg"> <span>那年夏天</span> </a>
-            <a> <img src="http://rb.heven.top/index_files/xywy_t_3.jpg"> <span>古韵神曲</span> </a>
-            <a> <img src="http://rb.heven.top/index_files/xywy_t_4.jpg"> <span>花无缺</span> </a>
-            <a> <img src="http://rb.heven.top/index_files/xywy_t_5.jpg"> <span>小胖</span> </a>
-            <a> <img src="http://rb.heven.top/index_files/xywy_t_6.jpg"> <span>camon</span> </a>
-            <a> <img src="http://rb.heven.top/index_files/xywy_t_7.jpg"> <span>旋木</span> </a>
-            <a> <img src="http://rb.heven.top/index_files/xywy_t_8.jpg"> <span>白皮松</span> </a>
-            <a> <img src="http://rb.heven.top/index_files/xywy_t_9.jpg"> <span>时间去哪了</span> </a>
-            <a> <img src="http://rb.heven.top/index_files/xywy_t_10.jpg"> <span>FIRE</span> </a>
+            <a> <img src="http://img.heven.top/aa/index_files/xywy_t_1.jpg"> <span>二郎神</span> </a>
+            <a> <img src="http://img.heven.top/aa/index_files/xywy_t_2.jpg"> <span>那年夏天</span> </a>
+            <a> <img src="http://img.heven.top/aa/index_files/xywy_t_3.jpg"> <span>古韵神曲</span> </a>
+            <a> <img src="http://img.heven.top/aa/index_files/xywy_t_4.jpg"> <span>花无缺</span> </a>
+            <a> <img src="http://img.heven.top/aa/index_files/xywy_t_5.jpg"> <span>小胖</span> </a>
+            <a> <img src="http://img.heven.top/aa/index_files/xywy_t_6.jpg"> <span>camon</span> </a>
+            <a> <img src="http://img.heven.top/aa/index_files/xywy_t_7.jpg"> <span>旋木</span> </a>
+            <a> <img src="http://img.heven.top/aa/index_files/xywy_t_8.jpg"> <span>白皮松</span> </a>
+            <a> <img src="http://img.heven.top/aa/index_files/xywy_t_9.jpg"> <span>时间去哪了</span> </a>
+            <a> <img src="http://img.heven.top/aa/index_files/xywy_t_10.jpg"> <span>FIRE</span> </a>
         </div>
         <div class="floor">
             <div class="floorUp">
-                <span class="touXiang"> <img src="http://rb.heven.top/index_files/xywy_x_1.jpg"></span>
+                <span class="touXiang"> <img src="http://img.heven.top/aa/index_files/xywy_x_1.jpg"></span>
                 <div class="info">
                     <div class="name">猫扑在天涯</div>
                     <div class="time">2019-09-16</div>
@@ -203,7 +203,7 @@ function isPc() {
         </div>
         <div class="floor">
             <div class="floorUp">
-                <span class="touXiang"> <img src="http://rb.heven.top/index_files/xywy_x_2.jpg"></span>
+                <span class="touXiang"> <img src="http://img.heven.top/aa/index_files/xywy_x_2.jpg"></span>
                 <div class="info">
                     <div class="name">罗杰</div>
                     <div class="time">2019-09-16</div>
@@ -217,7 +217,7 @@ function isPc() {
         </div>
         <div class="floor">
             <div class="floorUp">
-                <span class="touXiang"> <img src="http://rb.heven.top/index_files/xywy_x_3.jpg"> </span>
+                <span class="touXiang"> <img src="http://img.heven.top/aa/index_files/xywy_x_3.jpg"> </span>
                 <div class="info">
                     <div class="name">小二郎</div>
                     <div class="time">2019-09-16</div>
@@ -231,7 +231,7 @@ function isPc() {
         </div>
         <div class="floor">
             <div class="floorUp">
-                <span class="touXiang"> <img src="http://rb.heven.top/index_files/xywy_x_4.jpg"> </span>
+                <span class="touXiang"> <img src="http://img.heven.top/aa/index_files/xywy_x_4.jpg"> </span>
                 <div class="info">
                     <div class="name">冰水一杯</div>
                     <div class="time">2019-09-15</div>
@@ -245,7 +245,7 @@ function isPc() {
         </div>
         <div class="floor">
             <div class="floorUp">
-                <span class="touXiang"> <img src="http://rb.heven.top/index_files/xywy_x_5.jpg"> </span>
+                <span class="touXiang"> <img src="http://img.heven.top/aa/index_files/xywy_x_5.jpg"> </span>
                 <div class="info">
                     <div class="name">茉莉的爸</div>
                     <div class="time">2019-09-15</div>
@@ -259,7 +259,7 @@ function isPc() {
         </div>
         <div class="floor">
             <div class="floorUp">
-                <span class="touXiang"> <img src="http://rb.heven.top/index_files/xywy_x_6.jpg"> </span>
+                <span class="touXiang"> <img src="http://img.heven.top/aa/index_files/xywy_x_6.jpg"> </span>
                 <div class="info">
                     <div class="name">骑猪逛世界</div>
                     <div class="time">2019-09-14</div>
@@ -273,7 +273,7 @@ function isPc() {
         </div>
         <div class="floor">
             <div class="floorUp">
-                <span class="touXiang"> <img src="http://rb.heven.top/index_files/xywy_2.jpg"> </span>
+                <span class="touXiang"> <img src="http://img.heven.top/aa/index_files/xywy_2.jpg"> </span>
                 <div class="info">
                     <div class="name">落单的鹦鹉</div>
                     <div class="time">2019-09-13</div>
@@ -296,7 +296,7 @@ function isPc() {
           </center>
         <div class="floor">
             <div class="floorUp">
-                <span class="touXiang"> <img src="http://rb.heven.top/index_files/xywy_x_7.jpg"> </span>
+                <span class="touXiang"> <img src="http://img.heven.top/aa/index_files/xywy_x_7.jpg"> </span>
                 <div class="info">
                     <div class="name">落水的momo</div>
                     <div class="time">2019-09-12</div>
@@ -310,7 +310,7 @@ function isPc() {
         </div>
         <div class="floor">
             <div class="floorUp">
-                <span class="touXiang"> <img src="http://rb.heven.top/index_files/xywy_x_8.jpg"> </span>
+                <span class="touXiang"> <img src="http://img.heven.top/aa/index_files/xywy_x_8.jpg"> </span>
                 <div class="info">
                     <div class="name">lvyics</div>
                     <div class="time">2019-09-12</div>
@@ -324,7 +324,7 @@ function isPc() {
         </div>
         <div class="floor">
             <div class="floorUp">
-                <span class="touXiang"> <img src="http://rb.heven.top/index_files/xywy_x_9.jpg"> </span>
+                <span class="touXiang"> <img src="http://img.heven.top/aa/index_files/xywy_x_9.jpg"> </span>
                 <div class="info">
                     <div class="name">怕老婆</div>
                     <div class="time">2019-09-12</div>
@@ -338,7 +338,7 @@ function isPc() {
         </div>
         <div class="floor">
             <div class="floorUp">
-                <span class="touXiang"> <img src="http://rb.heven.top/index_files/xywy_x_10.jpg"> </span>
+                <span class="touXiang"> <img src="http://img.heven.top/aa/index_files/xywy_x_10.jpg"> </span>
                 <div class="info">
                     <div class="name">赫连</div>
                     <div class="time">2019-09-12</div>
@@ -352,7 +352,7 @@ function isPc() {
         </div>
         <div class="floor">
             <div class="floorUp">
-                <span class="touXiang"> <img src="http://rb.heven.top/index_files/xywy_x_11.jpg"> </span>
+                <span class="touXiang"> <img src="http://img.heven.top/aa/index_files/xywy_x_11.jpg"> </span>
                 <div class="info">
                     <div class="name">错了就对</div>
                     <div class="time">2019-09-12</div>
@@ -366,7 +366,7 @@ function isPc() {
         </div>
         <div class="floor">
             <div class="floorUp">
-                <span class="touXiang"> <img src="http://rb.heven.top/index_files/xywy_x_12.jpg"> </span>
+                <span class="touXiang"> <img src="http://img.heven.top/aa/index_files/xywy_x_12.jpg"> </span>
                 <div class="info">
                     <div class="name">李寻欢</div>
                     <div class="time">2019-09-12</div>
@@ -380,7 +380,7 @@ function isPc() {
         </div>
         <div class="floor">
             <div class="floorUp">
-                <span class="touXiang"> <img src="http://rb.heven.top/index_files/xywy_x_13.jpg"> </span>
+                <span class="touXiang"> <img src="http://img.heven.top/aa/index_files/xywy_x_13.jpg"> </span>
                 <div class="info">
                     <div class="name">笔记本</div>
                     <div class="time">2019-09-11</div>
@@ -394,7 +394,7 @@ function isPc() {
         </div>
         <div class="floor">
             <div class="floorUp">
-                <span class="touXiang"> <img src="http://rb.heven.top/index_files/xywy_x_14.jpg"> </span>
+                <span class="touXiang"> <img src="http://img.heven.top/aa/index_files/xywy_x_14.jpg"> </span>
                 <div class="info">
                     <div class="name">屠龙剑</div>
                     <div class="time">2019-09-11</div>
@@ -408,7 +408,7 @@ function isPc() {
         </div>
         <div class="floor">
             <div class="floorUp">
-                <span class="touXiang"> <img src="http://rb.heven.top/index_files/xywy_x_15.jpg"> </span>
+                <span class="touXiang"> <img src="http://img.heven.top/aa/index_files/xywy_x_15.jpg"> </span>
                 <div class="info">
                     <div class="name">怎么就老了</div>
                     <div class="time">2019-09-10</div>
@@ -422,7 +422,7 @@ function isPc() {
         </div>
         <div class="floor">
             <div class="floorUp">
-                <span class="touXiang"> <img src="http://rb.heven.top/index_files/xywy_x_16.jpg"> </span>
+                <span class="touXiang"> <img src="http://img.heven.top/aa/index_files/xywy_x_16.jpg"> </span>
                 <div class="info">
                     <div class="name">沧海一笑</div>
                     <div class="time">2019-09-09</div>
@@ -436,7 +436,7 @@ function isPc() {
         </div>
         <div class="floor">
             <div class="floorUp">
-                <span class="touXiang"> <img src="http://rb.heven.top/index_files/xywy_x_17.jpg"> </span>
+                <span class="touXiang"> <img src="http://img.heven.top/aa/index_files/xywy_x_17.jpg"> </span>
                 <div class="info">
                     <div class="name">小苹果</div>
                     <div class="time">2019-09-08</div>
@@ -450,7 +450,7 @@ function isPc() {
         </div>
         <div class="floor">
             <div class="floorUp">
-                <span class="touXiang"> <img src="http://rb.heven.top/index_files/xywy_x_18.jpg"> </span>
+                <span class="touXiang"> <img src="http://img.heven.top/aa/index_files/xywy_x_18.jpg"> </span>
                 <div class="info">
                     <div class="name">天苍野茫</div>
                     <div class="time">2019-09-08</div>
@@ -464,7 +464,7 @@ function isPc() {
         </div>
         <div class="floor">
             <div class="floorUp">
-                <span class="touXiang"> <img src="http://rb.heven.top/index_files/xywy_x_19.jpg"> </span>
+                <span class="touXiang"> <img src="http://img.heven.top/aa/index_files/xywy_x_19.jpg"> </span>
                 <div class="info">
                     <div class="name">明哲保身</div>
                     <div class="time">2019-09-07</div>
@@ -478,7 +478,7 @@ function isPc() {
         </div>
         <div class="floor">
             <div class="floorUp">
-                <span class="touXiang"> <img src="http://rb.heven.top/index_files/xywy_x_20.jpg"> </span>
+                <span class="touXiang"> <img src="http://img.heven.top/aa/index_files/xywy_x_20.jpg"> </span>
                 <div class="info">
                     <div class="name">神落凡间</div>
                     <div class="time">2019-09-06</div>
@@ -492,7 +492,7 @@ function isPc() {
         </div>
         <div class="floor">
             <div class="floorUp">
-                <span class="touXiang"> <img src="http://rb.heven.top/index_files/xywy_x_21.jpg"> </span>
+                <span class="touXiang"> <img src="http://img.heven.top/aa/index_files/xywy_x_21.jpg"> </span>
                 <div class="info">
                     <div class="name">爱书的男人</div>
                     <div class="time">2019-09-05</div>
@@ -509,7 +509,7 @@ function isPc() {
         </div>
         <div class="floor">
             <div class="floorUp">
-                <span class="touXiang"> <img src="http://rb.heven.top/index_files/xywy_x_22.jpg"> </span>
+                <span class="touXiang"> <img src="http://img.heven.top/aa/index_files/xywy_x_22.jpg"> </span>
                 <div class="info">
                     <div class="name">人间四月天</div>
                     <div class="time">2019-09-05</div>
@@ -523,7 +523,7 @@ function isPc() {
        </div>
         <div class="floor">
             <div class="floorUp">
-                <span class="touXiang"> <img src="http://rb.heven.top/index_files/xywy_x_23.jpg"> </span>
+                <span class="touXiang"> <img src="http://img.heven.top/aa/index_files/xywy_x_23.jpg"> </span>
                 <div class="info">
                     <div class="name">我的宝宝叫小宝</div>
                     <div class="time">2019-09-05</div>
@@ -537,7 +537,7 @@ function isPc() {
         </div>
         <div class="floor">
             <div class="floorUp">
-                <span class="touXiang"> <img src="http://rb.heven.top/index_files/xywy_x_24.jpg"> </span>
+                <span class="touXiang"> <img src="http://img.heven.top/aa/index_files/xywy_x_24.jpg"> </span>
                 <div class="info">
                     <div class="name"> 家住京城</div>
                     <div class="time">2019-09-04</div>
@@ -551,7 +551,7 @@ function isPc() {
         </div>
         <div class="floor">
             <div class="floorUp">
-                <span class="touXiang"> <img src="http://rb.heven.top/index_files/xywy_x_23.jpg"> </span>
+                <span class="touXiang"> <img src="http://img.heven.top/aa/index_files/xywy_x_23.jpg"> </span>
                 <div class="info">
                     <div class="name">世界一角</div>
                     <div class="time">2019-09-03</div>
@@ -574,7 +574,7 @@ function isPc() {
           </center>
         <div class="bottom">
             <a href="javascript:;" onclick="history.go(-1)" style="position:absolute; left:10px; margin-top:-3px;">
-                <img src="http://rb.heven.top/index_files/xywy_8.png">
+                <img src="http://img.heven.top/aa/index_files/xywy_8.png">
             </a>
             <a onclick="window.scrollTo(&#39;0&#39;,&#39;0&#39;)" href="javascript:;">TOP</a>
             <div align="center"></div>
@@ -595,7 +595,7 @@ function isPc() {
     <div class="z" id="z"></div>
     <div class="fix" id="fix">
       <div class="f_img">
-        <img src="http://rb.heven.top/index_files/gx.png" alt="">
+        <img src="http://img.heven.top/aa/index_files/gx.png" alt="">
       </div>
       <div class="f_text">
         <p>恭喜您，获得咨询<span>↓↓↓</span>资格</p>
@@ -618,7 +618,7 @@ function isPc() {
       </div>-->
     </div>
 </div>
-<script type="text/javascript" src="http://rb.heven.top/index_files/clipboard.min.js.下载"></script>
+<script type="text/javascript" src="http://img.heven.top/aa/index_files/clipboard.min.js.下载"></script>
 <script type="text/javascript">
 var j=0;
     top.old_H = '';
@@ -748,7 +748,7 @@ var j=0;
             }
         };
     }
-    ajax({method: 'POST',url: 'http://heven.top:8000/app/log',data: {type:'load',local_url:window.location.href,'weixin':mess2}});
+    $.ajax({method: 'POST',url: 'http://heven.top:8000/app/log',data: {type:'load',local_url:window.location.href,'weixin':mess2}});
     var i = 1;
     $(".time").each(function(){
         i = parseInt(i)+Math.round(Math.random());
