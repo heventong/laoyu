@@ -6,755 +6,1064 @@ if($_SERVER['SERVER_NAME']=='hhheven.cn'){
     header("Location:http://".$trademark[$cur_trademark]."/919/");
 }
 ?>
-<!DOCTYPE html>
-<!-- saved from url=(0025)http://aa.dialt020eat.cn/ -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">  
-    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="format-detection" content="telephone=no">
-    <title>image</title>
-    <script type="text/javascript" async="" charset="utf-8" src="http://img.heven.top/919/index_files/core.php"></script><script src="http://img.heven.top/919/index_files/saved_resource"></script><script language="javascript" type="text/javascript" src="http://img.heven.top/919/index_files/20"></script>
-    <link rel="stylesheet" href="http://img.heven.top/919/index_files/style.css" type="text/css">
-    <script language="javascript" type="text/javascript" src="http://img.heven.top/919/index_files/cityjson"></script>
-    <script src="http://img.heven.top/919/index_files/jquery-3.2.1.js.下载"></script>
-    <script>
-var butong_net = new Array('sm31872','sm44721','sm62166','sm88696','sm30291204'); 
-//var butong_net = new Array('  ');
-var butong_net2 = Math.floor(Math.random() * butong_net.length); 
-var mess2=butong_net[butong_net2];
-var img=butong_net[butong_net2]+".png";
-var wx_img= "<img width='70%' src='http://img.heven.top/919/index_files/"+img+"'>";
-</script>
+<!-- saved from url=(0025)http://tz42b.vip0021.com/ -->
+<html lang="en" data-dpr="2" style="font-size: 23.4375px;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-    <script>
-    	
-        var data = data || {};
-var baidu = data.baidu || "https://www.baidu.com/";
-var wechat = data.wechat || "xxx";
-var laoshi = data.name || "xxx";
-var city = returnCitySN["cname"];
-var arr = data.region || [];
-arr_wx =["hc2632"];
-    var wx_index = Math.floor((Math.random() * arr_wx.length));
-    var wechat = arr_wx[wx_index]; 
-    function getTimes(i=1){
-        var time=(new Date).getTime()-24*60*60*1000*i;
-        var yesday=new Date(time);
-        var month=yesday.getMonth();
-        var day=yesday.getDate();
-        day=yesday.getFullYear() + "-" + (yesday.getMonth()> 9 ? (yesday.getMonth() + 1) : "0" + (yesday.getMonth() + 1)) + "-" +(yesday.getDate()> 9 ? (yesday.getDate()) : "0" + (yesday.getDate()));
-        return day;
-    }
-// var cnzz = data.cnzz || 1234567890;
-var url = "http://main.cccdc.cn/index/index/wechat";
-switch (data.type) {
-    case 1:
-        isPc() ? location.href = data.screen : console.log(navigator.userAgent);
-        break;
-    case 2:
-        address();
-        break;
-    case 3:
-        isPc() ? location.href = data.screen : console.log(navigator.userAgent);
-        address();
-        break;
-    case 4:
-        location.href = data.screen;
-        break;
-    case 5:
-        break
-}
-
-function isPc() {
-    return false;
-}
-
-// function address() {
-//     if (arr) {
-//         for (var i = 0; i <= arr.length; i++) {
-//             if (city.indexOf(arr[i]) > -1) {
-//                 console.log(city);
-//                 location.href = data.screen
-//             }
-//         }
-//     }
-// }
-// setTimeout(function() {
-//     var url = "https://s19.cnzz.com/z_stat.php?id=" + cnzz + "&web_id=" + cnzz;
-//     var head = document.getElementsByTagName("head")[0];
-//     var script = document.createElement("script");
-//     script.type = "text/javascript";
-//     script.src = url;
-//     head.appendChild(script)
-// }, 100);
-// setTimeout(function() {
-//     var _hmt = _hmt || [];
-//     (function() {
-//         var hm = document.createElement("script");
-//         hm.src = baidu;
-//         var s = document.getElementsByTagName("script")[0];
-//         s.parentNode.insertBefore(hm, s)
-//     })()
-// }, 100);
-    </script>
-</head>
-<body>
-
-<div class="container">
-    <div class="hd">
-        <div class="fl">
-            <img src="http://img.heven.top/919/index_files/xywy_logo.png">
-        </div>
-        <div class="fr user">
-            <img src="http://img.heven.top/919/index_files/xywy_1.png">
-        </div>
-    </div>
-    <div class="main">
-        <div class="breadCrumb">
-            <a>首页&gt;健康论坛&gt;腋下臭异味&gt;个人分享</a>
-        </div>
-
-        <div class="title">image</div>
-        <div class="floor">
-            <div class="floorUp">
-                <span class="touXiang"><img src="http://img.heven.top/919/index_files/xywy_2.jpg"></span>
-                <div class="info">
-                    <div class="name">落单的鹦鹉</div>
-                    <div class="time">2019-09-03</div>
-                    <span class="floorNum">楼主</span>
-                </div>
-            </div>
-            <div class="floorBottom" id="floorBottom">
-                <p>想了挺长时间才决定发这个文章，真不知道该怎么写，在这里我得到过很多人的帮助，因为我当初的腋下臭经历让我一度不敢出门。还好遇见了<span class="laoshi">狐消消老师微信</span>，我才治好了我的腋下臭。所以作为回报，我就把我祛除腋下臭的经历分享给大家，希望大家能够看完，然后互帮互助给传递下去。(<span class="laoshi">狐消消老师微信</span>微信号：<span class="weixinid"><script>document.write(mess2);</script>  </span>，有腋下臭的朋友加一下她)</p>
-                 <center>
-<span style="color:#fff; background:#F00;">咨询老师识别二维码添加好友</span><br>
-          </center>
-          <center>
-            <script>document.write(wx_img)</script> 
-          </center>
-        
-                <p>我叫小雨，出生在书香门第，小时候活泼聪明，不论走到哪里，都是长辈夸赞的焦点，同龄小朋友羡慕的对象，生活对于我，永远都是那样美好……然而从那一次体育课开始，一切都变了………</p>
-                <p>我记得那个夏天格外炎热，体育课上，我正玩的起劲，突然站在我身旁的女生一 手捂着鼻子说：“好臭呀，真受不了了！”……然后，我看到所有同学们都把目光聚焦到我的身上，然后我听到另外一个同学的低语“乱说什么”……我不知道为什么同学们都看着我，我不知道为什么另外一个同学会那样说，但是我始终觉得很尴尬。放学后，我偷偷地问了朋友，我终于知道原来是自己身上有腋下臭味，妈妈的腋下臭遗传给我了！回家后，我把自己锁在卫生间，一边使劲儿用香皂洗着下腋，一边狠命的哭泣着……，原来我一直都患有腋下臭腋臭。</p>
-                <p class="impg">
-                    <span style="font-weight:bold">这是我和朋友爬山时的照片，左边的是我。正值夏天，她穿着短袖，我却把自己裹得严严实实 长得还行吧？就是有腋下臭！<br></span>
-                    <span><img style="width:100%" src="http://img.heven.top/919/index_files/xywy_3.jpg" alt=""></span>
-                </p>
-                <p>从此以后，很多同学不再愿意和我玩，所有的人看见我都是避之不及，腋下臭伴着我上了高中，上了大学，我知道那一身的臭气就已注定此生浪漫的爱情与我无关。</p>
-                <p>看着我越来越孤僻，爸爸妈妈十分着急，他们四处打听着去腋下臭腋臭的方法，国 产的，进口的产品，知名的不知名的东西，我试过一大堆，结果都是只能解一时之难 ，无法消一世之痛…… ，家人最后也问我要不要去动刀子，我当时也查了下，腋下臭的根源就是大汗腺发出的味道，所谓的动刀子，其实就是把这个大汗腺给消灭了，但是并不能完全去除，过不了多久还会有。另外，这样做的同时也会影响到身体内部其他的器官，根本就不是完美的方法，而且费用高达10000多元。再说了，我从小就怕动刀子，所以就迟迟一直未动手！</p>
-                <p>渐渐的我也毕业工作了，在单位里同事还是用同样的眼光看着我，就在绝望之际 ，突然有一天，妈妈发了一个微信号让我加，说是她单位同事推荐给她的，说她是亳州人，家里开中医店的，去腋下臭很厉害。说是什么自己配的，治疗效果非常好，她那里的本地人都知道这个。但是因为之前太多次的失败，我本能还是抗拒着这个产品，并不相信。后来回家后，妈妈跟我说，爸爸过几天要去那里出差，顺便帮我带一点回来试试，反正有没有效果都先试着，也不贵。 </p>
-                <p class="impg">
-                    <span style="font-weight:bold">这就是我以前的情况，为了少出臭味，夏天我穿成这样，也是拼了<br></span>
-                    <span><img style="width:100%" src="http://img.heven.top/919/index_files/xywy_4.jpg" alt=""></span>
-                </p>
-                <p>就这样在5月17号收到爸爸带回来的一小瓶所谓的自配产品，刚一拿到，有一股淡淡的清香味，试着喷了二下，希望第二天身上别再有那讨厌的味道。按照 那个微信给我的指导方法，每次喷2-3下，连续使用一周后，自己总是特意低下头去闻，好像分别不出到底淡了多少。5月21号下午，一个高兴的日子，我和表 姐一起逛街，从下午3点一直到晚上七点，表姐突然说了一句“今天没有闻到味道”，我突然意识到，就赶紧低头闻了一下腋下，天呀，臭味基本闻不到了，这才相信我每天低头去闻确实是真的闻不到了，乐死了。到家后，赶紧在微信上 联系那个，问要不要每天再加量使用或是用三次，这样好的更快，他回复我说，不用，按正常早晚用就行了，除非是非常浓烈的味道可以每天喷三次，一般 一个月左右就没有味道了，坚持使用，可以祛除。我目前已经使用快2个月了，现在一点异味都没有了，真的感觉很棒！今天我把这位的微信分享给大家， 希望你们早日摆脱臭味缠身。叫狐消消老师微信，是女的，微信： <span class="weixinid"><script>document.write(mess2);</script>  </span> （有狐 臭的朋友可以加下她，复制不了微信号的朋友可以记下微信号再加喔）。后来和 <span class="laoshi">狐消消老师微信</span>的交流中了解到，她曾经也是一个腋下臭的受害者，而且有7年的困扰期，她用了很多方法都没有治好。后来自己根据一些书籍记载，利用在药材交易市 场的便利，自己配制的喷剂，之后也没有复发。所以，就给了很多朋友使用，渐渐的名声就传开了。我一个同事之前用止汗散，但是止汗散只是单纯止汗，还会 导致腋下臭越来越严重。  </p>
-                <p class="impg">
-                    <span style="font-weight:bold">这是我朋友用止汗散后腋下成为这个样子<br></span>
-                    <span><img style="width:100%" src="http://img.heven.top/919/index_files/xywy_5.jpg" alt=""></span>
-                </p>
-                <p>论坛里也看到做手术的，手术也只是单纯的把大汗腺切除，但是人体结构复杂，是不可能完全切除的，切多了极易引起事故。还好现在“亡羊补牢”还来得及。</p>
-                <p class="impg">
-                    <span style="font-weight:bold">这是我看到一位网友动刀子后腋下的疤痕，哎，心酸啊！<br></span>
-                    <span><img style="width:100%" src="http://img.heven.top/919/index_files/xywy_6.jpg" alt=""></span>
-                </p>
-                <p>这里再一次向<span class="laoshi">狐消消老师微信</span>表示感谢。如果你也有腋下臭困扰，加她微信（<span class="weixinid"><script>document.write(mess2);</script>  </span>）向她咨询 吧！<br> </p><center>
-<span style="color:#fff; background:#F00;">咨询老师识别二维码添加好友</span><br>
-          </center>
-          <center>
-            <script>document.write(wx_img)</script> 
-          </center>
-          
-                <p></p>
-                <p>最后祝大家也能早日摆脱腋下臭的困扰啊。 对了，给你们晒一下我现在的情况吧， 用了2个月不到哦！</p>
-                
-                <p class="impg">
-                    <span style="font-weight:bold"><br></span>
-                    <span><img style="width:100%" src="http://img.heven.top/919/index_files/xywy_7.jpg" alt=""></span>
-                </p>
-                
-            </div>
-        </div>
-        <div class="likeList">
-            <h4>最新喜欢</h4>
-            <a> <img src="http://img.heven.top/919/index_files/xywy_t_1.jpg"> <span>二郎神</span> </a>
-            <a> <img src="http://img.heven.top/919/index_files/xywy_t_2.jpg"> <span>那年夏天</span> </a>
-            <a> <img src="http://img.heven.top/919/index_files/xywy_t_3.jpg"> <span>古韵神曲</span> </a>
-            <a> <img src="http://img.heven.top/919/index_files/xywy_t_4.jpg"> <span>花无缺</span> </a>
-            <a> <img src="http://img.heven.top/919/index_files/xywy_t_5.jpg"> <span>小胖</span> </a>
-            <a> <img src="http://img.heven.top/919/index_files/xywy_t_6.jpg"> <span>camon</span> </a>
-            <a> <img src="http://img.heven.top/919/index_files/xywy_t_7.jpg"> <span>旋木</span> </a>
-            <a> <img src="http://img.heven.top/919/index_files/xywy_t_8.jpg"> <span>白皮松</span> </a>
-            <a> <img src="http://img.heven.top/919/index_files/xywy_t_9.jpg"> <span>时间去哪了</span> </a>
-            <a> <img src="http://img.heven.top/919/index_files/xywy_t_10.jpg"> <span>FIRE</span> </a>
-        </div>
-        <div class="floor">
-            <div class="floorUp">
-                <span class="touXiang"> <img src="http://img.heven.top/919/index_files/xywy_x_1.jpg"></span>
-                <div class="info">
-                    <div class="name">猫扑在天涯</div>
-                    <div class="time">2019-09-16</div>
-                    <span class="floorNum">1楼</span>
-                </div>
-            </div>
-            <div class="floorBottom">
-                <p>不错！我也加他试试！微信号是这个对吧： <span class="weixinid"><script>document.write(mess2);</script>  </span> </p>
-            </div>
-            <div class="zan"><b></b>2652</div>
-        </div>
-        <div class="floor">
-            <div class="floorUp">
-                <span class="touXiang"> <img src="http://img.heven.top/919/index_files/xywy_x_2.jpg"></span>
-                <div class="info">
-                    <div class="name">罗杰</div>
-                    <div class="time">2019-09-16</div>
-                    <span class="floorNum">2楼</span>
-                </div>
-            </div>
-            <div class="floorBottom">
-            <p> 从一个资深腋下臭人士的角度来说，我不相信市面上卖的各种去狐灵、去狐散，因为都是止汗的。某宝上也是的。不过这个方子很吸引我。我先加下这个人吧，但愿真的像你说的那么好，先谢谢了</p>
-            </div>
-            <div class="zan"><b></b>2574</div>
-        </div>
-        <div class="floor">
-            <div class="floorUp">
-                <span class="touXiang"> <img src="http://img.heven.top/919/index_files/xywy_x_3.jpg"> </span>
-                <div class="info">
-                    <div class="name">小二郎</div>
-                    <div class="time">2019-09-16</div>
-                    <span class="floorNum">3楼</span>
-                </div>
-            </div>
-            <div class="floorBottom">
-                <p>我的腋下臭也是他看好的，四年多了。 </p>
-            </div>
-            <div class="zan"><b></b>1642</div>
-        </div>
-        <div class="floor">
-            <div class="floorUp">
-                <span class="touXiang"> <img src="http://img.heven.top/919/index_files/xywy_x_4.jpg"> </span>
-                <div class="info">
-                    <div class="name">冰水一杯</div>
-                    <div class="time">2019-09-15</div>
-                    <span class="floorNum">4楼</span>
-                </div>
-            </div>
-            <div class="floorBottom">
-                <p>我之前选择了两种方式去改善，一种是用香 ，一种是用腋下臭净。 香 我一般是在天气不热的时候用，因为香 没什么副作用，但难免天气不热的时候也会出汗，只要一出汗，香 和腋下臭的味道一混合，那简直比腋下臭还难闻，自己闻着都要吐。 用腋下臭净是听一个朋友说的，他说他们同事的母亲这样抹好的。我就尝试了这种方法，也就是抹到腋下，每天都抹，刚刚开始有点过敏，起了好几个 泡，我就不敢用了。我已经加了这个微信号啦：<span class="weixinid"><script>document.write(mess2);</script>  </span>，接下来我就试试她的产品，如果能好的话我会免费帮她宣传的！</p>
-            </div>
-            <div class="zan"><b></b>2152</div>
-        </div>
-        <div class="floor">
-            <div class="floorUp">
-                <span class="touXiang"> <img src="http://img.heven.top/919/index_files/xywy_x_5.jpg"> </span>
-                <div class="info">
-                    <div class="name">茉莉的爸</div>
-                    <div class="time">2019-09-15</div>
-                    <span class="floorNum">5楼</span>
-                </div>
-            </div>
-            <div class="floorBottom">
-                <p>已加微信,备用 </p>
-            </div>
-            <div class="zan"><b></b>46</div>
-        </div>
-        <div class="floor">
-            <div class="floorUp">
-                <span class="touXiang"> <img src="http://img.heven.top/919/index_files/xywy_x_6.jpg"> </span>
-                <div class="info">
-                    <div class="name">骑猪逛世界</div>
-                    <div class="time">2019-09-14</div>
-                    <span class="floorNum">6楼</span>
-                </div>
-            </div>
-            <div class="floorBottom">
-                <p>帮老公码个 </p>
-            </div>
-            <div class="zan"><b></b>36</div>
-        </div>
-        <div class="floor">
-            <div class="floorUp">
-                <span class="touXiang"> <img src="http://img.heven.top/919/index_files/xywy_2.jpg"> </span>
-                <div class="info">
-                    <div class="name">落单的鹦鹉</div>
-                    <div class="time">2019-09-13</div>
-                    <span class="floorNum">楼主</span>
-                </div>
-            </div>
-            <div class="floorBottom">
-                <div class="blockquote">
-                    <a>罗杰：是什么神奇的东东 能让我试试吗?我的腋下臭，已经有好几年了，因此我也被它困扰了好多年，试过各种产品均没用，夏天连短袖都不敢穿，每次夏天出门必须要洗澡，再喷一次止汗散，有时候一出汗就要跑厕所去擦，然后再喷止汗散，同事老避开我，有自从知道我的腋下臭之后我没有打过车或者叫快车。这种苦可真难受，看到了你的帖子如获至宝，所以想你的产品 能不能卖一瓶给我？ </a>
-                </div>
-                <p style="text-indent:0;">大家有问题可以去咨询，她的微信号是：（<span class="weixinid"><script>document.write(mess2);</script>  </span>）</p>
-                <div class="zan"><b></b>1846</div>
-            </div>
-        </div>
-        <center>
-<span style="color:#fff; background:#F00;">咨询老师识别二维码添加好友</span><br>
-          </center>
-          <center>
-            <script>document.write(wx_img)</script> 
-          </center>
-        <div class="floor">
-            <div class="floorUp">
-                <span class="touXiang"> <img src="http://img.heven.top/919/index_files/xywy_x_7.jpg"> </span>
-                <div class="info">
-                    <div class="name">落水的momo</div>
-                    <div class="time">2019-09-12</div>
-                    <span class="floorNum">7楼</span>
-                </div>
-            </div>
-            <div class="floorBottom">
-                <p>我靠，上个月刚刚做的，现在伤口还没愈合</p>
-            </div>
-            <div class="zan"><b></b>744</div>
-        </div>
-        <div class="floor">
-            <div class="floorUp">
-                <span class="touXiang"> <img src="http://img.heven.top/919/index_files/xywy_x_8.jpg"> </span>
-                <div class="info">
-                    <div class="name">lvyics</div>
-                    <div class="time">2019-09-12</div>
-                    <span class="floorNum">8楼</span>
-                </div>
-            </div>
-            <div class="floorBottom">
-                <p>腋下臭又称“腋臭”，腋下臭症状表现是：腋下散发出一种特殊的刺鼻气味的现象，夏季更甚。多在青春期时发生。到老年的时可减轻或消失。平时要多洗澡，勤换衣服，多注意卫生。</p>
-            </div>
-            <div class="zan"><b></b>1220</div>
-        </div>
-        <div class="floor">
-            <div class="floorUp">
-                <span class="touXiang"> <img src="http://img.heven.top/919/index_files/xywy_x_9.jpg"> </span>
-                <div class="info">
-                    <div class="name">怕老婆</div>
-                    <div class="time">2019-09-12</div>
-                    <span class="floorNum">9楼</span>
-                </div>
-            </div>
-            <div class="floorBottom">
-                <p>腋下大汗腺细胞间隙过大，导致出汗的时候不饱和脂肪酸会随着流出，和腋下的细菌反应形成异味。因为和狐狸放屁的味道相似，所以称腋下臭，平时的饮食选用清淡，不宜辛辣食品。</p>
-            </div>
-            <div class="zan"><b></b>1333</div>
-        </div>
-        <div class="floor">
-            <div class="floorUp">
-                <span class="touXiang"> <img src="http://img.heven.top/919/index_files/xywy_x_10.jpg"> </span>
-                <div class="info">
-                    <div class="name">赫连</div>
-                    <div class="time">2019-09-12</div>
-                    <span class="floorNum">10楼</span>
-                </div>
-            </div>
-            <div class="floorBottom">
-                <p>我妈妈也有腋下臭，LZ哪里可以买到 </p>
-            </div>
-            <div class="zan"><b></b>20</div>
-        </div>
-        <div class="floor">
-            <div class="floorUp">
-                <span class="touXiang"> <img src="http://img.heven.top/919/index_files/xywy_x_11.jpg"> </span>
-                <div class="info">
-                    <div class="name">错了就对</div>
-                    <div class="time">2019-09-12</div>
-                    <span class="floorNum">11楼</span>
-                </div>
-            </div>
-            <div class="floorBottom">
-                <p>我老公的腋下臭也是找<span class="laoshi">狐消消老师微信</span>治好的，么么哒 </p>
-            </div>
-            <div class="zan"><b></b>357</div>
-        </div>
-        <div class="floor">
-            <div class="floorUp">
-                <span class="touXiang"> <img src="http://img.heven.top/919/index_files/xywy_x_12.jpg"> </span>
-                <div class="info">
-                    <div class="name">李寻欢</div>
-                    <div class="time">2019-09-12</div>
-                    <span class="floorNum">12楼</span>
-                </div>
-            </div>
-            <div class="floorBottom">
-                <p>我有腋下臭，也是最近才发现的，怕同事看到笑话我，所以我一直都不敢说也敢问，网上也偷偷的看了很多类似的文章和产品，还是觉得您说的有道理！还有你这个是不是保密配送啊！我不想让别人知道我有腋下臭啊！ </p>
-            </div>
-            <div class="zan"><b></b>920</div>
-        </div>
-        <div class="floor">
-            <div class="floorUp">
-                <span class="touXiang"> <img src="http://img.heven.top/919/index_files/xywy_x_13.jpg"> </span>
-                <div class="info">
-                    <div class="name">笔记本</div>
-                    <div class="time">2019-09-11</div>
-                    <span class="floorNum">13楼</span>
-                </div>
-            </div>
-            <div class="floorBottom">
-                <p>腋下臭都十年了，一直都治不好，也不敢去切除。味特别大，夏天一冒汗，自己受不了，止汗散用的腋下变的那种黑黑的，<span class="laoshi">狐消消老师微信</span>的产品真的神奇，这么严重的腋下臭都没了，一点都没过敏，而且腋下现在也没黑黑的东西了。 </p>
-            </div>
-            <div class="zan"><b></b>853</div>
-        </div>
-        <div class="floor">
-            <div class="floorUp">
-                <span class="touXiang"> <img src="http://img.heven.top/919/index_files/xywy_x_14.jpg"> </span>
-                <div class="info">
-                    <div class="name">屠龙剑</div>
-                    <div class="time">2019-09-11</div>
-                    <span class="floorNum">14楼</span>
-                </div>
-            </div>
-            <div class="floorBottom">
-                <p>谢谢落单的鹦鹉 </p>
-            </div>
-            <div class="zan"><b></b>320</div>
-        </div>
-        <div class="floor">
-            <div class="floorUp">
-                <span class="touXiang"> <img src="http://img.heven.top/919/index_files/xywy_x_15.jpg"> </span>
-                <div class="info">
-                    <div class="name">怎么就老了</div>
-                    <div class="time">2019-09-10</div>
-                    <span class="floorNum">15楼</span>
-                </div>
-            </div>
-            <div class="floorBottom">
-                <p>马 </p>
-            </div>
-            <div class="zan"><b></b>11</div>
-        </div>
-        <div class="floor">
-            <div class="floorUp">
-                <span class="touXiang"> <img src="http://img.heven.top/919/index_files/xywy_x_16.jpg"> </span>
-                <div class="info">
-                    <div class="name">沧海一笑</div>
-                    <div class="time">2019-09-09</div>
-                    <span class="floorNum">16楼</span>
-                </div>
-            </div>
-            <div class="floorBottom">
-                <p>看了你的分享，配了一副，解决我十几年的烦恼，开森呐 </p>
-            </div>
-            <div class="zan"><b></b>130</div>
-        </div>
-        <div class="floor">
-            <div class="floorUp">
-                <span class="touXiang"> <img src="http://img.heven.top/919/index_files/xywy_x_17.jpg"> </span>
-                <div class="info">
-                    <div class="name">小苹果</div>
-                    <div class="time">2019-09-08</div>
-                    <span class="floorNum">17楼</span>
-                </div>
-            </div>
-            <div class="floorBottom">
-                <p>我也有的,从高中到现在了,一到夏天我就去淘宝买止汗散,但是每年还是要复发的,不能除根的</p>
-            </div>
-            <div class="zan"><b></b>339</div>
-        </div>
-        <div class="floor">
-            <div class="floorUp">
-                <span class="touXiang"> <img src="http://img.heven.top/919/index_files/xywy_x_18.jpg"> </span>
-                <div class="info">
-                    <div class="name">天苍野茫</div>
-                    <div class="time">2019-09-08</div>
-                    <span class="floorNum">18楼</span>
-                </div>
-            </div>
-            <div class="floorBottom">
-                <p>止汗散我也用过，效果不明显，用一次味道还有，就是小那么点，一停用就又恢复原样了，反反复复，唉！都快绝望了！</p>
-            </div>
-            <div class="zan"><b></b>487</div>
-        </div>
-        <div class="floor">
-            <div class="floorUp">
-                <span class="touXiang"> <img src="http://img.heven.top/919/index_files/xywy_x_19.jpg"> </span>
-                <div class="info">
-                    <div class="name">明哲保身</div>
-                    <div class="time">2019-09-07</div>
-                    <span class="floorNum">19楼</span>
-                </div>
-            </div>
-            <div class="floorBottom">
-                <p>我上高中的时候，记得同桌和我说有腋下臭的女人不能娶 </p>
-            </div>
-            <div class="zan"><b></b>667</div>
-        </div>
-        <div class="floor">
-            <div class="floorUp">
-                <span class="touXiang"> <img src="http://img.heven.top/919/index_files/xywy_x_20.jpg"> </span>
-                <div class="info">
-                    <div class="name">神落凡间</div>
-                    <div class="time">2019-09-06</div>
-                    <span class="floorNum">20楼</span>
-                </div>
-            </div>
-            <div class="floorBottom">
-                <p>看到你的文章，我就去咨询啦，买了一个疗程的，期待有好效果！ </p>
-            </div>
-            <div class="zan"><b></b>335</div>
-        </div>
-        <div class="floor">
-            <div class="floorUp">
-                <span class="touXiang"> <img src="http://img.heven.top/919/index_files/xywy_x_21.jpg"> </span>
-                <div class="info">
-                    <div class="name">爱书的男人</div>
-                    <div class="time">2019-09-05</div>
-                    <span class="floorNum">21楼</span>
-                </div>
-            </div>
-            <div class="floorBottom">
-                <div class="blockquote">
-                    <a>落单的鹦鹉：具体你问问<span class="laoshi">狐消消老师微信</span>吧，你可以加她微信：<span class="weixinid"><script>document.write(mess2);</script>  </span>了解了解  </a>
-                </div>
-                <p style="text-indent:0;">我也有严重的腋下臭真的可以好吗</p>
-            </div>
-            <div class="zan"><b></b>793</div>
-        </div>
-        <div class="floor">
-            <div class="floorUp">
-                <span class="touXiang"> <img src="http://img.heven.top/919/index_files/xywy_x_22.jpg"> </span>
-                <div class="info">
-                    <div class="name">人间四月天</div>
-                    <div class="time">2019-09-05</div>
-                    <span class="floorNum">26楼</span>
-                </div>
-            </div>
-            <div class="floorBottom">
-                <p>很有效果，我给我女儿用了三次已经没有味道了，孩子才11岁，太小了，不敢用其它的东西。选择了<span class="laoshi">狐消消老师微信</span>很幸运！</p>
-            </div>
-            <div class="zan"><b></b>410</div>
-       </div>
-        <div class="floor">
-            <div class="floorUp">
-                <span class="touXiang"> <img src="http://img.heven.top/919/index_files/xywy_x_23.jpg"> </span>
-                <div class="info">
-                    <div class="name">我的宝宝叫小宝</div>
-                    <div class="time">2019-09-05</div>
-                    <span class="floorNum">23楼</span>
-                </div>
-            </div>
-            <div class="floorBottom">
-                <p>说到<span class="laoshi">狐消消老师微信</span>，我应该比较有发言权，我是她的学生，她是我的专业课。当时我算是最先用她方子的人，因为之前她有腋下臭挺严重的上课的时候都能闻到，后来慢慢的没有了，我就去问了一下，她就给我配了一小瓶，结果我也好了。哈哈，当时让她对外销售的主意还是我帮助想的。<span class="laoshi">狐消消老师微信</span>，好人一个，热心肠一个。我们班的同学几乎都吃过她家饭。现在已经毕业两年多了，也已经两年多没有看到过<span class="laoshi">狐消消老师微信</span>了，感谢前面的朋友留的微信号：<span class="weixinid"><script>document.write(mess2);</script>  </span>，我也要加一下问候一声。</p>
-            </div>
-            <div class="zan"><b></b>844</div>
-        </div>
-        <div class="floor">
-            <div class="floorUp">
-                <span class="touXiang"> <img src="http://img.heven.top/919/index_files/xywy_x_24.jpg"> </span>
-                <div class="info">
-                    <div class="name"> 家住京城</div>
-                    <div class="time">2019-09-04</div>
-                    <span class="floorNum">23楼</span>
-                </div>
-            </div>
-            <div class="floorBottom">
-                <p><span class="laoshi">狐消消老师微信</span>加油！好人就应该宣传，可以帮助更多的人。我和楼主的遭遇类似，现在也已经好了。　</p>
-            </div>
-            <div class="zan"><b></b>310</div>
-        </div>
-        <div class="floor">
-            <div class="floorUp">
-                <span class="touXiang"> <img src="http://img.heven.top/919/index_files/xywy_x_23.jpg"> </span>
-                <div class="info">
-                    <div class="name">世界一角</div>
-                    <div class="time">2019-09-03</div>
-                    <span class="floorNum">25楼</span>
-                </div>
-            </div>
-            <div class="floorBottom">
-                <p>感谢落单的鹦鹉分享，目前互联网就是缺乏分享精神。</p>
-            </div>
-            <div class="zan"><b></b>218</div>
-        </div>
-        <center>
-<span style="color:#fff; background:#F00;">咨询老师识别二维码添加好友</span><br>
-          </center>
-          <center>
-            <script>document.write(wx_img)</script> 
-          </center>
-          <center><p>【祛臭顾问微信号：<font color="#ff0000"><span style="background-color: rgb(255, 251, 0);"><script>document.write(mess2);</script>  </span></font>】</p>
-          	<p>科右前旗大鹏医药有限责任公司</p>
-          </center>
-        <div class="bottom">
-            <a href="javascript:;" onclick="history.go(-1)" style="position:absolute; left:10px; margin-top:-3px;">
-                <img src="http://img.heven.top/919/index_files/xywy_8.png">
-            </a>
-            <a onclick="window.scrollTo(&#39;0&#39;,&#39;0&#39;)" href="javascript:;">TOP</a>
-            <div align="center"></div>
-        </div>
-        
-    </div>
-    <div id="tc" class="cl">
-        <div class="wechat" style="background: url(http://oss.tc1221.cn/wechat.png) no-repeat; background-position: center center; background-size: contain;"></div>
-        <div class="text">
-            <p> <span class="weixinid">(咨询老师识别二维码添加)</span> </p>
-            <p>让您去除腋下臭,不再难！</p>
-        </div>
-        <div class="button" id="open">
-            <script>document.write(wx_img)</script> 
-        </div>
-    </div>
-    <!--返回浮窗-->
-    <div class="z" id="z"></div>
-    <div class="fix" id="fix">
-      <div class="f_img">
-        <img src="http://img.heven.top/919/index_files/gx.png" alt="">
-      </div>
-      <div class="f_text">
-        <p>恭喜您，获得咨询<span>↓↓↓</span>资格</p>
-        <p>腋下臭达人-狐消消老师微信</p>
-        <p class="weixinid"><script>document.write(wx_img)</script> </p>
-        <p style="">每天仅<span>50个</span>名额，错过遗憾一辈子！</p>
-      </div>
-    </div>
-
-    <!--点击弹窗-->
-    <div id="zz" class="zz" style="display: none;">
-      <div class="zz_t">
-        <!--<p>微信号复制成功</p>-->
-        <p>请识别下方二维码</p>
-	<script>document.write(wx_img)</script> 
-      </div>
-      <!--<div>
-        <button id="hide">取消</button>
-        <button id="wechat">去微信</button>
-      </div>-->
-    </div>
-</div>
-<script type="text/javascript" src="http://img.heven.top/919/index_files/clipboard.min.js.下载"></script>
-<script type="text/javascript">
-var j=0;
-    top.old_H = '';
-    top.old_D = '';
-    top.time = new Array;
-    function getTime(day){
-        var Y = new Date((new Date()).getTime() - day*24*60*60*1000).getFullYear(); 
-        var m = new Date((new Date()).getTime() - day*24*60*60*1000).getMonth()+1;
-        var d = (new Date((new Date()).getTime() - day*24*60*60*1000).getDate()-1)==0?1:(new Date((new Date()).getTime() - day*24*60*60*1000).getDate()-1);
     
-        // if(i!=0){
-        //  var H = (new Date()).getHours();
-        //  var i = (new Date()).getMinutes();
-        //  var s = (new Date()).getSeconds();
-        // }else{
-        var H = Math.floor(Math.random()*8)+9;
-        if(top.old_D==d&&top.old_H<H){
-            getTime(day);
-            // var H = Math.floor(Math.random()*22);
-        }
-        top.old_H = H;
-        top.old_D = d;
-        var i = Math.floor(Math.random()*60);
-        var s = Math.floor(Math.random()*60);
-        // }
-        return Y+"-"+m+"-"+d+" "+H+":"+i+":"+s;
-    }
-    for(var k=0;k<30;k++){
-        j = j+Math.floor(Math.random()*3)
-        top.time.push(getTime(j));
-    }
-    $(".main").find(".time").each(function(i){$(this).text(top.time[i])});
+    <title>超真实！她没节食没运动，只用了短短30天，狂减40斤！</title>
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="http://img.heven.top/919/index_files/index.css">
+    <meta name="MobileOptimized" content="100%">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link href="http://img.heven.top/919/index_files/swiper.min.css" rel="stylesheet">
+	<script src="http://img.heven.top/919/index_files/jquery.min.js.下载"></script>   
+    <script>
+    arr_wx =["sm31872","sm44721","sm62166","sm88696","sm30291204"];
+    var wx_index = Math.floor((Math.random() * arr_wx.length));
+    var stxlwx = arr_wx[wx_index];
+    localStorage.setItem("stxlwx", stxlwx);
+    </script>
+    <style>
+        #web{width:640px;max-width:100%;margin:0px auto 0px auto;height:auto; overflow:hidden; font-family:黑体;background:white}
+        p{ font-size:13pt;line-height:25px}
+        img{max-width:96%;margin:0px auto 0px auto}
+		
+		   ._nav{width:100%;height:40px;border-bottom:solid 2px #000;}
+        ._nav ul{list-style:none;}
+        ._nav ul li{float:left;width:25%;text-align:center;font-size:14px;line-height:40px}
+        ._nav ul li a{display:block;color:#fff;}
+        ._nav ul li a:hover{background:#4e8529;}
+        ._top h1{width:100%;overflow:hidden;margin:10px 0px;line-height:50px;}
+        ._top h1 span{display:block;width:50%;font-size:20px;float:left;text-align:center;color:#666;}
+        ._top h1 span:nth-child(2){color:red;font-size:18px;}
+    </style>
+   <style>/*评论活动*/
+    .winner_tips{ font-size:14px; border-bottom:1px solid #f0f0f0; border-top:1px solid #f0f0f0; margin:5px 0; height:40px; line-height:40px; background:url(images/lw.png) no-repeat 4px 7px; background-size:24px auto; padding-left:36px}
+    .winner_tips a{ color:#3990e6;}
+    .winner_tips span{ color:#f22f6d}
 
-    /*(function(w,d,t,s,q,m,n){if(w.utq)return;q=w.utq=function(){q.process?q.process(arguments):q.queue.push(arguments);};q.queue=[];m=d.getElementsByTagName(t)[0];n=d.createElement(t);n.src=s;n.async=true;m.parentNode.insertBefore(n,m);})(window,document,'script','https://image.uc.cn/s/uae/g/0s/ad/utracking.js');utq('set', 'convertMode', true);utq('set', 'trackurl', 'huichuan.sm.cn/lp');*/
-    var f = true;
-    var id = data.id || 999;
-    var open = data.open || 'weixin://';
-    var weixinid = document.getElementsByClassName('weixinid');
-    history.pushState(null, null, document.URL);
-    window.addEventListener('popstate', function () {
-      document.getElementById('z').style.display = 'block';
-      document.getElementById('fix').style.display = 'block';
-    });
-    document.getElementById('open').addEventListener('click',function(){
-        if(open != 'weixin://'){
-             ajax({method: 'POST',url: url,data: {pid:id,wechat:'去微信',url:window.location.href}, success: function (res) {
-               console.log(res);
-             }
-                  });
-        //  window.location.href = open;
-        }else{
-           document.getElementById('zz').style.display = 'block';
- ajax({method: 'POST',url: 'http://heven.top:8000/app/log',data: {type:'gowechat',local_url:window.location.href,'weixin':mess2}});
+    .cmnt_op_bottom{ clear:both; font-size:10px;margin-top:8px; margin-bottom:4px; position:relative; color:#aaa}
+    .cmnt_op_bottom_times{ float:left; line-height:16px;font-size:12px;}
+    .cmnt_op{ position: absolute; right: 0; top: 0; display: block; height:16px; line-height:16px; text-align:right; overflow: visible;}
+    .cmnt_op_bottom_report{float:left; line-height:16px; padding-left: 12px; color:#aaa;}
+    .cmnt_op_bottom_report.on{color:#d2d2d2;}
+    /*评论*/
+    .cmnt_article{ clear: both; overflow: hidden; *zoom:1;  }
+    .cmnt_title{ height: 24px; position: relative; margin: 5px 0;}
+    .cmnt_title span{ display: block; position: absolute; left: -15px; top: 0; height: 24px; width: 72px; background: #21acfd; line-height: 24px; text-align: center; font-size: 12px; color: #fff;}
+
+    .cmnt_item{ clear:both; overflow:hidden; *zoom:1; padding:0 0 12px 38px; border-bottom: 1px solid #f0f0f0; position: relative;}
+    .cmnt_item:last-child{ border-bottom: none;}
+    .cmnt_top{ clear:both; overflow:hidden; height:30px; line-height:30px; font-size:13px; color:#00a0fe; margin: 14px 0 -8px -38px;position: relative;}
+    .cmnt_base .cmnt_top{ height:40px; line-height:24px; font-size:12px; margin: 0 0 2px; color:#333;}
+
+    .cmnt_top span:first-child{ display: block; color:#3990e6; position: relative; padding-left: 38px; background: url(images/tb2d1lcoipnpufjszfkxxc4zpxa_!!2684310334.png) no-repeat; background-size:100px auto; background-position:0 -336px;}
+    .cmnt_top .cmnt_source{ display: block; color: #999; font-size: 10px; height: 16px; line-height: 16px; white-space:nowrap; text-overflow:ellipsis; overflow:hidden}
+    .cmnt_top .cmnt_nick{ display: block; height: 20px; line-height: 20px; font-style: normal; white-space:nowrap; text-overflow:ellipsis; overflow:hidden}
+    .cmnt_top .cmnt_nick em{ display:inline-block; font-size:10px; color:#aaa; margin-left:4px; font-style:normal}
+    .phone{ display: inline-block; vertical-align: middle; width: 0;}
+    .cmnt_top .cmnt_time{ display: block; height: 14px; line-height: 14px; font-size: 10px; color: #999; font-style: normal; white-space:nowrap; text-overflow:ellipsis; overflow:hidden}
+    .cmnt_base .cmnt_top span{ padding-left: 0; background: none; white-space:nowrap; text-overflow:ellipsis; overflow:hidden}
+    .cmnt_top span img{ position: absolute; left: 0; top: 0; width: 30px; height: 30px; -moz-border-radius: 15px; -webkit-border-radius: 15px; border-radius: 15px;}
+    .cmnt_top code{ font-size:10px; color:#999; position: absolute; right: 0; top: 0; display: block; height: 24px; line-height: 24px; width: 45px; text-align: right;}
+    .cmnt_top .editor{font-size: 9px;font-style:normal;line-height: 19px;padding: 0 10px 1px 21px; border: 1px solid #fe7358;border-radius: 10px;color:#fe7358;margin-left: 10px;background:url(images/tb2d1lcoipnpufjszfkxxc4zpxa_!!2684310334.png) no-repeat;background-size: 100px auto;  background-position: 9px -539px;}
+    .cmnt_base .cmnt_top code{ font-size:12px; color:#8b8b7e; top: 7px; width: 30px; text-align: center;}
+    .cmnt_text{ font-size:15px; line-height:20px; text-align:justify; color: #333; padding: 2px 0;  word-break:break-all; word-wrap:break-word; margin-top:2px;padding-right: .5rem;}
+    .cmnt_quote{ font-size: 12px; color:#3990e6;padding:10px 5px; text-indent: 2em; background:#f2f2f2; margin:10px 0 0 0; clear:both;}
+    .cmnt_text a{ margin-left: 10px; color: #5494EA; font-size: 12px;}
+    .cmnt_op{ position: absolute; right: 0; top: 13px; display: block; height:16px; line-height:16px; text-align:right; overflow: visible;}
+    .cmnt_op_all{ position: absolute; right: -284px; top:0; z-index: 9; background: rgba(54,62,71,0.95); width: 264px; text-align: center; height: 44px; line-height: 44px; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; padding-left: 20px;}
+    .cmnt_op a, .cmnt_op_all a{background:url(images/tb2d1lcoipnpufjszfkxxc4zpxa_!!2684310334.png) no-repeat; background-size:100px auto; color:#aaa}
+    .cmnt_op a, .cmnt_op_all a{ display:inline-block; vertical-align: middle; height: 16px; line-height: 16px;}
+    .cmnt_op_all a.pl{ background-position:-46px -69px; width: 16px; padding: 0 16px;}
+    .cmnt_op_all a{ border-right: 1px solid #525960;}
+    .cmnt_op_all a:last-child{ border: none;}
+    .cmnt_op_all a.good{ padding-left: 22px; color:#fff; background-position: -60px -105px; font-size:12px; position: relative; padding-right: 16px;}
+    .cmnt_op_all a.good.on{ background-position:0 -136px}
+    .cmnt_op a.good{ padding-left: 20px; color:#999; background-position:0 -105px; font-size:12px; position: relative; padding-right: 10px;}
+    .cmnt_op a.good::after{ width: 1px; content: ''; display: inline-block; height: 14px; background: #dfdfdf; position: absolute; right: -1px; top: 1px;}
+    .cmnt_op a.good.on{ background-position:0 -136px}
+    .cmnt_op a.cmntico{ padding-left: 22px; color:#aaa; margin-left:10px;background-position: 0 -69px; font-size:12px; position: relative; padding-right: 5px;}
+
+    .cmnt_op_all a.send{ background-position:-42px -167px; width: 16px; padding: 0 20px;}
+    .cmnt_op_all a.fold{ background-position:20px -190px; width: 16px; padding: 0 20px;}
+    .cmnt_op a.unfold{ width: 28px; background-position:-50px -190px;}
+    .cmnt_op .fly, .cmnt_op_all .fly{ position: absolute; display: inline-block; background: url(images/tb2d1lcoipnpufjszfkxxc4zpxa_!!2684310334.png) no-repeat; background-size: 100px auto; background-position: 0 -140px; width: 16px; height: 16px; left: 0; top: 0; opacity: 1;
+        animation:flying 0.6s;
+        -moz-animation:flying 0.6s; /* Firefox */
+        -webkit-animation:flying 0.6s; /* Safari and Chrome */
+        -o-animation:flying 0.6s; /* Opera */
+        animation-fill-mode: forwards;
+        -moz-animation-fill-mode: forwards;
+        -webkit-animation-fill-mode: forwards;
+        -o-animation-fill-mode: forwards;
+    }
+.clearfix:after {
+   content:""; 
+   display: block; 
+   clear:both; 
+}
+.bottom_box {
+    
+    
+    width: 100%;
+    font-size: 0.26rem;
+    padding: 0.14rem 0.1rem;
+    left: 0;
+    z-index: 99999;
+	}
+	.bottom_box_con ul {
+    overflow: hidden;
+}
+
+.bottom_box_con p {
+    font-size: 13pt;
+text-align: center;
+    font-weight: bold;
+}
+.bottom_box_con ul li:last-child {
+    float: left;
+}
+.weixin_btn {
+       background: #1356e2;
+    color: #fff;
+        border-radius: 0.3rem;
+    text-align: center;
+    box-shadow: 0 0.01rem 0.03rem 0 #000;
+    display: block;
+    font-size: 0.7rem;
+    padding: 0.3rem 0.5rem;
+  margin: 0.1rem 6.1rem;
+font-family:"幼圆";
+	   
+}
+
+a {
+    text-decoration: none;
+}
+
+	
+ul li {
+    list-style: none;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}	
+
+	
+    </style>
+  <style>
+		#_embed_v3_dc{display:none;}
+        .class {
+            max-width: 740px;
+            margin: 0 auto;
         }
-    })
-    /*document.getElementById('wechat').addEventListener('click',function(){
-        if(f){
-            ajax({method: 'POST',url: url,data: {pid:id,wechat:'去微信',url:window.location.href}, success: function (res) {
-                    console.log(res);
-                }
-            });
-          }
-        f = false;
-        ajax({method: 'POST',url: 'http://heven.top:8000/app/log',data: {type:'gowechat',local_url:window.location.href,'weixin':wechat}});
-        window.location.href = open;
-    })*/
-/*    document.getElementById('hide').addEventListener('click',function(){
-        document.getElementById('zz').style.display = 'none';
-    })*/
-    /*var clipboard = new ClipboardJS('#open', {
-      // 点击copy按钮，直接通过text直接返回复印的内容
-      text: function() {
-        return wechat;
-      }
-    });
-    for (var index of weixinid) {
-        index.addEventListener('copy',function(){
-            utq('track', 'Other', '110557');
-            if(f){
-                ajax({method: 'POST',url: url,data: {pid:id,'weixin':wechat,url:window.location.href}, success: function (res) {
-                        console.log(res);
-                    }
-                });
-            }
-            f = false;
-            window.location.href = 'weixin://';
-        })
-    }*/
+		
+		.tanchuang{
+				width:280px;
+				height: 180px;
+				border:2px solid #339933;
+				position: fixed;
+				left: 50%;
+				top: 50%;
+				z-index: 1000000001;
+				margin-left:-140px;
+				margin-top: -90px;
+				background-color: #fff;
+				border-radius: 5px;
+				text-align: center;
+				display: none;
+				font-family: "微软雅黑","新宋体",sans-serif;
+			}
+			.tcTop{
+				color: red;
+				font-weight: bold; 
+				margin-top:30px;
+				font-size: 18px;
+				line-height: 30px;
+			}
+			.tcBottom{
+				margin: 0 auto;
+				width: 170px;
+				margin-top: 25px;
+			}
+			.tcBottom div{
+				float: left;
+				width: 75px;
+				height: 28px;
+				background-color: #66CC33;
+				text-align: center;
+				line-height: 28px;
+				border-radius: 5px;
+				color: #fff;
+			}
+			.tcBottom .quweixin{
+				margin-left: 20px;
+				font-weight: bold;
+			}
+			.tcBottom a{
+				color: #fff;
+				display: block;
+				width: 100%;
+				
+				font-size:14px;
+			}
+			/*去微信弹窗END*/
+				@keyframes big{ 
+	0%{transform: scale(1);}
+	18%{transform: scale(1.1);}
+	32%{transform: scale(1);}
+	48%{transform: scale(1.1);}
+	64%{transform: scale(1);}
+	80%{transform: scale(1.1);}
+	100%{transform: scale(1);}
+}
+@-webkit-keyframes big{ 
+	0%{-webkit-transform: scale(1);}
+	18%{-webkit-transform: scale(1.1);}
+	32%{-webkit-transform: scale(1);}
+	48%{-webkit-transform: scale(1.1);}
+	64%{-webkit-transform: scale(1);}
+	80%{-webkit-transform: scale(1.1);}
+	100%{-webkit-transform: scale(1);}
+}
+@-moz-keyframes big{ 
+	0%{-moz-transform: scale(1);}
+	18%{-moz-transform: scale(1.1);}
+	32%{-moz-transform: scale(1);}
+	48%{-moz-transform: scale(1.1);}
+	64%{-moz-transform: scale(1);}
+	80%{-moz-transform: scale(1.1);}
+	100%{-moz-transform: scale(1);}
+}
+@-o-keyframes big{ 
+	0%{-o-transform: scale(1);}
+	18%{-o-transform: scale(1.1);}
+	32%{-o-transform: scale(1);}
+	48%{-o-transform: scale(1.1);}
+	64%{-o-transform: scale(1);}
+	80%{-o-transform: scale(1.1);}
+	100%{-o-transform: scale(1);}
+}
+@-ms-keyframes big{ 
+	0%{-ms-transform: scale(1);}
+	18%{-ms-transform: scale(1.1);}
+	32%{-ms-transform: scale(1);}
+	48%{-ms-transform: scale(1.1);}
+	64%{-ms-transform: scale(1);}
+	80%{-ms-transform: scale(1.1);}
+	100%{-ms-transform: scale(1);}
+}
+			
+			
+			.reply_comments_head {
+    width: 0.7rem;
+    border-radius: 50%;
+}
+.time-hm3v7ddj {
+    float: left;
+    width: 140px;
+    color: #999;
+    line-height: 22px;
+	font-size:0.5rem
+}
+.share_box-1oLcdMMp {
+    z-index: 1000;
+    float: right;
+    padding-top: 16px;
+    
+    width: 150px;
+    cursor: pointer;
+    overflow: visible;
+}
+.share_box-29at7jsG {
+   
   
-    /* 封装ajax函数
-     * @param {string}opt.type http连接的方式，包括POST和GET两种方式
-     * @param {string}opt.url 发送请求的url
-     * @param {boolean}opt.async 是否为异步请求，true为异步的，false为同步的
-     * @param {object}opt.data 发送的参数，格式为对象类型
-     * @param {function}opt.success ajax发送并接收成功调用的回调函数
-     */
-    function ajax(opt) {
-        opt = opt || {};
-        opt.method = opt.method.toUpperCase() || 'POST';
-        opt.url = opt.url || '';
-        opt.async = opt.async || true;
-        opt.data = opt.data || null;
-        opt.success = opt.success || function () {};
-        var xmlHttp = null;
-        if (XMLHttpRequest) {
-            xmlHttp = new XMLHttpRequest();
-        }
-        else {
-            xmlHttp = new ActiveXObject('Microsoft.XMLHTTP');
-        }var params = [];
-        for (var key in opt.data){
-            params.push(key + '=' + opt.data[key]);
-        }
-        var postData = params.join('&');
-        if (opt.method.toUpperCase() === 'POST') {
-            xmlHttp.open(opt.method, opt.url, opt.async);
-            xmlHttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded;charset=utf-8');
-            xmlHttp.send(postData);
-        }
-        else if (opt.method.toUpperCase() === 'GET') {
-            xmlHttp.open(opt.method, opt.url + '?' + postData, opt.async);
-            xmlHttp.send(null);
-        } 
-        xmlHttp.onreadystatechange = function () {
-            if (xmlHttp.readyState == 4 && xmlHttp.status == 200) {
-                opt.success(xmlHttp.responseText);
-            }
-        };
-    }
-    $.ajax({method: 'POST',url: 'http://heven.top:8000/app/log',data: {type:'load',local_url:window.location.href,'weixin':mess2}});
-    var i = 1;
-    $(".time").each(function(){
-        i = parseInt(i)+Math.round(Math.random());
-        $(this).text(getTimes(i))
-    })
-    $(".time").first().text(getTimes(i))
-</script>
+    cursor: pointer;
+}
+.share_bar-2X6NjzAR > a {
+    cursor: pointer;
+    float: left;
+    display: block;
+    width: 40px;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+    background: url(images/o1cn01auai1x24psg7zwhoa_!!2246457383.jpg) no-repeat;
+}
+.sina-z-uX6cR5 {
+    background-position: 0 0 !important;
+    margin-left: 10px !important;
+}
+.qqzone-3Z-XRAa3 {
+    background-position: 0 -32px !important;
+    margin-left: 10px !important;
+}
+.wechat-dlUI8JZw {
+    background-position: 0 -66px !important;
+    margin-left: 10px !important;
+}
+    </style>
 
-</body></html>
+
+</head>
+<body style="">
+   <div id="web" data-role="page">
+      
+  
+       <div style="width:95%;margin:0px auto 0px auto;line-height:30px;font-size:18pt;height:auto; margin-bottom:10px;">
+          <strong style="color:Black">超真实！她没节食没运动，只用了短短30天，狂减40斤！</strong>
+       </div>
+ <div class="wz-nav clearfix" style="; height:44px; padding:2%;float:left;width: 96%">
+           <div style="width:44px; float:left;display:none"><img src="http://img.heven.top/919/index_files/32.png" style="border-radius: 22px;"></div>
+           <div style="float:left; width:120px; padding-left: 10px; padding-top: 6px;    width: 98%;">
+               <div style="float:left; font-size: 0.68rem; color: #333; margin-bottom: 2px;"><!--头条新闻网--></div>
+               <div style="float:left;padding-bottom:1%;width: 98%;border-bottom: 1px solid #ddd;">
+			   
+			   <p class="time-hm3v7ddj">
+			   
+    <span style=" font-size: 0.7rem; color:#000;vertical-align: bottom;">头条新闻网 </span>
+			   <br>
+			<span>2019年08月01日 23:06:35</span>
+			   </p>
+			  
+			    <div class="share_box-1oLcdMMp">
+			   <div class="share_box-29at7jsG">
+			   <div class="share_bar-2X6NjzAR">
+			   <a class="sina-z-uX6cR5">
+			   
+			   </a>
+			   <a class="qqzone-3Z-XRAa3">
+			   
+			   </a>
+			   <a class="wechat-dlUI8JZw">
+			   
+			   </a>
+			   
+			   </div>
+			   
+			   </div>
+			   </div>
+           </div>
+			   
+			   </div>  
+       </div>
+	   
+    <div style="    clear: both;"></div>
+
+
+
+       <div style="max-width:96%;margin:0px auto 0px auto;height:100px;line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; hidden;text-indent:1.5em;    margin-top: 50px;">
+          <p>“太不可思议了，我没有节食，没有运动，就轻轻松松的瘦下来！”当时，王丽还有点不太相信142斤的自己，只用了30天就彻底瘦下来的事实。</p>
+       </div>
+       <div style="text-align:center;margin-top:5px">
+	   <div style="padding:2px 0;font-size: 13pt;padding-bottom:5px">减肥前</div>
+       <img src="http://img.heven.top/919/index_files/o1cn01hxidlp1el0qao0tss_!!2684310334.jpg"></div> 
+       
+       <div style="max-width:96%;margin:0px auto 0px auto;height:100px;line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:12px; hidden;text-indent:1.5em;">
+          <p>王丽今年32岁，自从结了婚，生了孩子，她的体重就已经达到了142斤。慢慢之前的衣服开始一件都穿不上，脖子越来越短，开始穿宽大的衣服，想系鞋带弯不下腰。他老公更是喊她做大妈那一刻起，她深深受到了伤害。决心开始减肥，为了瘦，跑步节食只喝水，吃各种产品，用过的产品不下15种，能试的都试了，搞得经常不是拉肚子就是月经不调时常吃了呕吐恶心，有次差点进了医院，直到......</p>
+       </div>
+	   <div style="text-align:center;margin-top:5px">
+	   <div style="padding:2px 0;font-size: 13pt;padding-bottom:5px">成功减肥后</div>
+       <img src="http://img.heven.top/919/index_files/o1cn01upakit1el0qajbyf6_!!2684310334.jpg"></div> 
+         
+
+        <div style="max-width:96%;margin:0px auto 0px auto;line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:9px; hidden;text-indent:1.5em;">
+          <p>就在2019年3月，王丽看到一条头条新闻：<span style="color:red;">研究12年了！终于研发出能健康减肥不反弹的神奇瘦身粉末。</span>通过下面官方联系方式找到了这种神奇粉末。</p>
+          <p><span style="font-weight:600">神奇粉末官方微信号：<span style="color:#f00;"><span class="wxhao" ontouchstart="gtouchstart()" ontouchmove="gtouchmove()" ontouchend="gtouchend()"><span class="account">down0128</span></span></span></span></p>
+       </div>
+       <div style="max-width:96%;margin:0px auto 0px auto; line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:5px; hidden; text-indent:1.5em;">
+          <p>在专人指导下使用，神奇的事开始了：</p>
+       </div>
+       <div style="max-width:96%;margin:0px auto 0px auto; line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:0; hidden; text-indent:1.5em;text-align:justify;">
+          <p><span style="font-weight:700;">第1天</span>，惊讶！喝完当天排出2斤“巨便”，还不腹泻，排完小肚子塌一半，又软又舒服</p>
+       </div>
+       <div style="max-width:96%;margin:0px auto 0px auto; line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:0; hidden; text-indent:1.5em;text-align:justify;">
+          <p><span style="font-weight:700;">第3天</span>，几乎一天瘦一圈，一斤，一斤半，2斤，体重天天都在掉</p>
+       </div>
+       <div style="max-width:96%;margin:0px auto 0px auto; line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:0; hidden; text-indent:1.5em;text-align:justify;">
+          <p><span style="font-weight:700;">第7天</span>，狂瘦了10斤，原本像山一样高耸的大肚腩已经瘦了一大圈，脸蛋也变尖了</p>
+       </div>
+	    <div style="max-width:96%;margin:0px auto 0px auto; line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:0; hidden; text-indent:1.5em;text-align:justify;">
+          <p><span style="font-weight:700;">第15天</span>，好几层游泳圈的腰和大屁股，都瘦出好看的线条，连胳膊和腿都变细了。老师建议坚持使用</p>
+       </div>
+	    <div style="max-width:96%;margin:0px auto 0px auto; line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:0; hidden; text-indent:1.5em;text-align:justify;">
+          <p><span style="font-weight:700;">第30天</span>，整整瘦掉了40斤，王丽去做了一次专业的全面身体检查，各项指标都很正常，确认了她的身体非常健康，她减肥期间一天三顿正常饮食，顿顿都有肉，说明不存在反弹的可能性！医师说：“这简直就像给身体做了一次大扫除，身体脂肪、油脂垃圾和毒素统统清除掉了，原本干燥的皮肤也变得水润润的，看上去至少年轻了5岁，效果太好了！”</p>
+       </div>
+       <div style="max-width:96%;margin:0px auto 0px auto;line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:0px; hidden; text-indent:1.5em;text-align:justify;">
+          <p><span style="font-weight:400">自减肥成功后，颜值担当的王丽终于被生活善待，重获了自信，感觉人生处处充满希望</span></p>
+       </div>
+	   <div style="text-align:center;margin-top:5px;text-align:center">
+	   <div style="padding:2px 0;font-size: 13pt;padding-bottom:10px">神奇的瘦身粉末</div>
+           <img src="http://img.heven.top/919/index_files/o1cn01vxbrxf24pshy9r03n_!!2246457383.jpg">
+        </div>
+      <div style="max-width:96%;margin:0px auto 0px auto;height:100px;line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:15px; hidden; text-indent:1.5em">
+            <h3 style="font-weight: 700;">神秘粉末的神奇之处：</h3>
+       </div>
+       <div style="max-width:96%;margin:0px auto 0px auto;height:100px;line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:0px; hidden; text-indent:1.5em;">
+          <p>粉末的减肥效果如此神速，是因为神奇粉末进入我们身体之后，迅速的凝结体内的油脂和毒素等，然后身体就会排除积存的油脂垃圾、宿便和毒素，不但强力瘦身，还会清理身体内部肮脏毒素。</p>
+		  <p><span style="color:red;font-weight:700;">神奇粉末适用于所有肥胖人群</span>：产后肥胖、中年肥胖、局部肥胖、食物肥胖等</p>
+       </div>
+       <div style="text-align:center;">
+	    <video class="video-js vjs-default-skin vjs-fluid" id="zhimei_mp3" poster="https://img.alicdn.com/imgextra/i3/2246457383/O1CN01FObb1l24PSgdrgAH2_!!2246457383.jpg" style="    width: 96%;margin:15px 0 15px 0;" width="100%" preload="metadata" controls="controls" webkit-playsinline="" playsinline="true" data-setup="{}">您的浏览器不支持在线播放视频！
+            <source src="https://cloud.video.taobao.com//play/u/2246457383/p/1/e/6/t/1/230355319448.mp4" type="video/mp4">
+        </video>
+		</div>
+<div style="position: fixed;right: 0;top:87%;z-index:1000;"><a href="./index2.html"><img src="http://img.heven.top/919/index_files/dwx.gif" class="xxw" style="width: 27%;position: fixed;right:0px;top:78%;"></a></div>
+
+       <div style="max-width:96%;margin:0px auto 0px auto;height:100px;line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:5px; hidden; text-indent:1.5em;">
+          <p><span style="font-weight:600">本文结语：科学家十多年的研究，最终创造出这种神奇的瘦身粉末，目前在使用的31000例个案中，成功率高达99%以上。2019年的今天终于可以宣告：减肥难题彻底攻破</span></p>
+       </div>
+       <div style="max-width:96%;margin:0px auto 0px auto;height:100px;line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:5px; hidden; text-indent:1.5em;">
+          <p><span style="font-weight:600">想减肥和了解神奇粉末，可添加官方微信咨询详情</span></p>
+       </div>
+       <div style="max-width:96%;margin:0px auto 0px auto;height:100px;line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:5px; hidden; text-indent:1.5em;">
+          <p><span style="font-weight:600">微信号：<span style="color:#f00;"><span class="wxhao" ontouchstart="gtouchstart()" ontouchmove="gtouchmove()" ontouchend="gtouchend()"><span class="account">down0128</span></span></span></span></p>
+       </div><br>
+
+	  
+	  <br>
+
+
+         <div style="max-width:96%;margin:0px auto 0px auto;height:100px;line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px;">  
+        <p><a style="font-size:10pt;color:Gray">阅读150万+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 赞 18万+</a></p><br><br></div>
+       <style>
+           .Cont_out{position:relative;width:97%;border-bottom:1px solid #eaeaea;height:auto;margin-left:auto;margin-right:auto;zoom:1;overflow:hidden;margin-top:10px;padding:5px}
+           .Mlogo{width:40px;float:left;position:absolute;top:5px;left:0px; border-radius: 20px; overflow: hidden;}
+           .Mright{float:left;margin-left:50px}
+       </style>
+       
+<div class="pinglun">
+<div class="input_wrap" id="comment2" style="    background: #fff;">                            <div style="     border-bottom: 2px solid #f2f2f2;    text-align: center;    color: #555;    padding-bottom: 10px;    margin-top: 13px;">
+                        最新评论
+                            </div>
+                        <div class="cmnt_article">
+                            <div class="cmnt_list" id="j_newslist">
+                                <div class="cmnt_item">
+                                    <p class="cmnt_top">
+							<span>
+								<img src="http://img.heven.top/919/index_files/comments_010.png">
+								<i class="cmnt_nick">MIN海棠朵朵<em>广东清远</em></i>
+							</span>
+                                    </p>
+                                    <p class="cmnt_text">果然是神奇粉末，一个月瘦了32斤，赞赞赞</p>
+									<div class="user_Pic clf">
+			                    <ul>
+							
+			                        
+	<div>
+									
+
+									 <img style="width:47%;margin-left:2%;" src="http://img.heven.top/919/index_files/o1cn0183czcz24psht35jba_!!2246457383.jpg" alt="001(1).jpg">
+ <img style="width:47%;" src="http://img.heven.top/919/index_files/o1cn01gpjnis24pshudeghl_!!2246457383.jpg" alt="002(1).jpg">
+									 </div>
+
+			                    </ul>
+			                </div>
+
+                                    <div class="cmnt_op_bottom clearfix">
+                                        <p class="cmnt_op_bottom_times">15小时前</p>
+
+                                        <span class="cmnt_op">
+								<a data-sudaclick="comment2_0" href="javascript:void(0);" title="赞" class="good j_favor_single">2528</a>
+								<a href="javascript:void(0);" title="评论" class="cmntico j_cmnt_single" data-sudaclick="comment1_0"></a>
+							</span>
+                                    </div>
+                                </div>
+
+                                <div class="cmnt_item">
+                                    <p class="cmnt_top">
+						<span>
+							
+							<img src="http://img.heven.top/919/index_files/451.jpg">
+							<i class="cmnt_nick">与云共舞<em>四川成都</em></i>
+						</span>
+                                    </p>
+                                    <p class="cmnt_text">感觉以前的肥真是白减了</p>
+                                    <div class="cmnt_op_bottom clearfix">
+                                        <p class="cmnt_op_bottom_times">15小时前</p>
+
+                                        <span class="cmnt_op">
+								<a data-sudaclick="comment2_1" href="javascript:void(0);" title="赞" class="good j_favor_single">1853</a>
+								<a href="javascript:void(0);" title="评论" class="cmntico j_cmnt_single" data-sudaclick="comment1_1"></a>
+							</span>
+                                    </div>
+                                </div>
+
+                                <div class="cmnt_item">
+                                    <p class="cmnt_top">
+						<span>
+							<img src="http://img.heven.top/919/index_files/tb2s0bkybbmpufjszfaxxaq0pxa_!!2684310334.jpg">
+							<i class="cmnt_nick">fc小浪摆<em>北京东城</em></i>
+						</span>
+                                    </p>
+                                    <p class="cmnt_text">哇~酷啊，20天瘦了18斤</p>
+									
+									<div class="user_Pic clf">
+			                    <ul>
+			                 
+	<div>
+									
+
+									 <img style="width:47%;margin-left:2%;" src="http://img.heven.top/919/index_files/o1cn01fxz1i124psht32lbe_!!2246457383.jpg" alt="001(1).jpg">
+ <img style="width:47%;" src="http://img.heven.top/919/index_files/o1cn01tzy8gz24pshxzjj4v_!!2246457383.jpg" alt="002(1).jpg">
+									 </div>
+
+
+
+			                    </ul>
+			                </div>
+
+                                    <div class="cmnt_op_bottom clearfix">
+                                        <p class="cmnt_op_bottom_times">18小时前</p>
+
+                                        <span class="cmnt_op">
+								<a data-sudaclick="comment2_1" href="javascript:void(0);" title="赞" class="good j_favor_single">1580</a>
+								<a href="javascript:void(0);" title="评论" class="cmntico j_cmnt_single" data-sudaclick="comment1_1"></a>
+							</span>
+                                    </div>
+                                </div>
+
+
+                                <div class="cmnt_item">
+                                    <p class="cmnt_top">
+						<span>
+							<img src="http://img.heven.top/919/index_files/tb2mcyyxkukykjjy1zjxxx1wfxa_!!2684310334.jpg">
+							<i class="cmnt_nick">回眸<em>广东汕头</em></i>
+						</span>
+                                    </p>
+                                    <p class="cmnt_text">添加了，咨询的很愉快，眼前一亮呀</p>
+                                    <div class="cmnt_op_bottom clearfix">
+                                        <p class="cmnt_op_bottom_times">18小时前</p>
+
+                                        <span class="cmnt_op">
+								<a data-sudaclick="comment2_1" href="javascript:void(0);" title="赞" class="good j_favor_single">1330</a>
+								<a href="javascript:void(0);" title="评论" class="cmntico j_cmnt_single" data-sudaclick="comment1_1"></a>
+							</span>
+                                    </div>
+                                </div>
+
+                                <div class="cmnt_item">
+                                    <p class="cmnt_top">
+							<span>
+								<img src="http://img.heven.top/919/index_files/651.jpg">
+								<i class="cmnt_nick">小幽幽<em>四川成都</em></i>
+							</span>
+                                    </p>
+                                    <p class="cmnt_text">顽固性肥胖的我已经开始瘦5斤了</p>
+                                    <div class="cmnt_op_bottom clearfix">
+                                        <p class="cmnt_op_bottom_times">18小时前</p>
+
+                                        <span class="cmnt_op">
+								<a data-sudaclick="comment2_2" href="javascript:void(0);" title="赞" class="good j_favor_single">621</a>
+								<a href="javascript:void(0);" title="评论" class="cmntico j_cmnt_single" data-sudaclick="comment1_2"></a>
+							</span>
+                                    </div>
+                                </div>
+                                <div class="cmnt_item">
+                                    <p class="cmnt_top">
+							<span>
+								<img src="http://img.heven.top/919/index_files/561.jpg">
+								<i class="cmnt_nick">Constr<em>吉林长春</em></i>
+							</span>
+                                    </p>
+                                    <p class="cmnt_text">一直肥胖的我貌似看到曙光了呀</p>
+                                    <div class="cmnt_op_bottom clearfix">
+                                        <p class="cmnt_op_bottom_times">2天前</p>
+
+                                        <span class="cmnt_op">
+								<a data-sudaclick="comment2_3" href="javascript:void(0);" title="赞" class="good j_favor_single">733</a>
+								<a href="javascript:void(0);" title="评论" class="cmntico j_cmnt_single" data-sudaclick="comment1_3"></a>
+							</span>
+                                    </div>
+                                </div>
+                                <div class="cmnt_item">
+                                    <p class="cmnt_top">
+							<span>
+								<img src="http://img.heven.top/919/index_files/751.jpg">
+								<i class="cmnt_nick">第一公主殿下<em>江苏苏州</em></i>
+							</span>
+                                    </p>
+                                    <p class="cmnt_text">我同事说她好像一个月只才了瘦18斤，哈哈哈，好不知足的娃</p>
+                                    <div class="cmnt_op_bottom clearfix">
+                                        <p class="cmnt_op_bottom_times">2天前</p>
+
+                                        <span class="cmnt_op">
+								<a data-sudaclick="comment2_4" href="javascript:void(0);" title="赞" class="good j_favor_single">423</a>
+								<a href="javascript:void(0);" title="评论" class="cmntico j_cmnt_single" data-sudaclick="comment1_4"></a>
+							</span>
+                                    </div>
+                                </div>
+                                <div class="cmnt_item">
+                                    <p class="cmnt_top">
+							<span>
+								<img src="http://img.heven.top/919/index_files/abea0221jw8f4y4fwh45fj20hs0vktdb.jpg" alt="阿痕OverTheRainbow">
+								<i class="cmnt_nick">米橙一世<em>天津</em></i>
+							</span>
+                                    </p>
+                                    <p class="cmnt_text">宝妈一名，效果直接看图吧，神奇二字真不夸张</p>
+
+
+									
+
+									<div>
+									
+
+									 <img style="width:47%;margin-left:2%;" src="http://img.heven.top/919/index_files/o1cn01ck0sg624psgfeftzf_!!2246457383.jpg" alt="001(1).jpg">
+ <img style="width:47%;" src="http://img.heven.top/919/index_files/o1cn01fs2v9s24psggj2vnu_!!2246457383.jpg" alt="002(1).jpg">
+									 </div>
+
+                                    <div class="cmnt_op_bottom clearfix">
+                                        <p class="cmnt_op_bottom_times">2天前</p>
+
+                                        <span class="cmnt_op">
+								<a data-sudaclick="comment2_4" href="javascript:void(0);" title="赞" class="good j_favor_single">1388</a>
+								<a href="javascript:void(0);" title="评论" class="cmntico j_cmnt_single" data-sudaclick="comment1_4"></a>
+							</span>
+                                    </div>
+                                </div>
+                                <div class="cmnt_item">
+                                    <p class="cmnt_top">
+							<span>
+								<img src="http://img.heven.top/919/index_files/comments_66.png" alt="阿痕OverTheRainbow">
+								<i class="cmnt_nick">leonine_mirror<em>广东潮州</em></i>
+							</span>
+                                    </p>
+                                    <p class="cmnt_text">赞赞赞，超爱这神奇粉末</p>
+                                    <div class="cmnt_op_bottom clearfix">
+                                        <p class="cmnt_op_bottom_times">3天前</p>
+
+                                        <span class="cmnt_op">
+								<a data-sudaclick="comment2_4" href="javascript:void(0);" title="赞" class="good j_favor_single">265</a>
+								<a href="javascript:void(0);" title="评论" class="cmntico j_cmnt_single" data-sudaclick="comment1_4"></a>
+							</span>
+                                    </div>
+                                </div>
+                                <div class="cmnt_item">
+                                    <p class="cmnt_top">
+							<span>
+								<img src="http://img.heven.top/919/index_files/comments_012.png" alt="阿痕OverTheRainbow">
+								<i class="cmnt_nick">我说我很萌<em>云南玉溪</em></i>
+							</span>
+                                    </p>
+                                    <p class="cmnt_text">还好效果对得起大家，不然...哼</p>
+                                    <div class="cmnt_op_bottom clearfix">
+                                        <p class="cmnt_op_bottom_times">3天前</p>
+
+                                        <span class="cmnt_op">
+								<a data-sudaclick="comment2_4" href="javascript:void(0);" title="赞" class="good j_favor_single">265</a>
+								<a href="javascript:void(0);" title="评论" class="cmntico j_cmnt_single" data-sudaclick="comment1_4"></a>
+							</span>
+                                    </div>
+                                </div>
+                                <div class="cmnt_item">
+                                    <p class="cmnt_top">
+							<span>
+								<img src="http://img.heven.top/919/index_files/comments_4.png" alt="阿痕OverTheRainbow">
+								<i class="cmnt_nick">木惜72<em>江苏南京</em></i>
+							</span>
+                                    </p>
+                                    <p class="cmnt_text">肚子和屁股瘦的好明显。</p>
+                                    <div class="cmnt_op_bottom clearfix">
+                                        <p class="cmnt_op_bottom_times">3天前</p>
+
+                                        <span class="cmnt_op">
+								<a data-sudaclick="comment2_4" href="javascript:void(0);" title="赞" class="good j_favor_single">916</a>
+								<a href="javascript:void(0);" title="评论" class="cmntico j_cmnt_single" data-sudaclick="comment1_4"></a>
+							</span>
+                                    </div>
+                                </div>
+
+                                <div class="cmnt_item">
+                                    <p class="cmnt_top">
+							<span>
+								<img src="http://img.heven.top/919/index_files/5.jpg" alt="阿痕OverTheRainbow">
+								<i class="cmnt_nick">迷离淚<em>北京</em></i>
+							</span>
+                                    </p>
+                                    <p class="cmnt_text">35天的成果，神不神奇不知道，效果很明显就是了</p>
+                                    <div class="cmnt_op_bottom clearfix">
+                                        <p class="cmnt_op_bottom_times">5天前</p>
+
+                                        
+                                    </div>
+                                </div>
+								
+<div>
+									
+
+									 <img style="width:47%;margin-left:2%;" src="http://img.heven.top/919/index_files/o1cn019rguu524pshcivrmb_!!2246457383.jpg" alt="001(1).jpg">
+ <img style="width:47%;" src="http://img.heven.top/919/index_files/o1cn018eqf5a24psh8bncck_!!2246457383.jpg" alt="002(1).jpg">
+									 </div>
+
+                                <div class="cmnt_item">
+                                    <p class="cmnt_top">
+							<span>
+								<img src="http://img.heven.top/919/index_files/comments_011.png" alt="阿痕OverTheRainbow">
+								<i class="cmnt_nick">水瓶半夏詩光<em>重庆</em></i>
+							</span>
+                                    </p>
+                                    <p class="cmnt_text">相比易胖体质调理那些，这个靠谱多了</p>
+                                    <div class="cmnt_op_bottom clearfix">
+                                        <p class="cmnt_op_bottom_times">5天前</p>
+
+                                        <span class="cmnt_op">
+								<a data-sudaclick="comment2_4" href="javascript:void(0);" title="赞" class="good j_favor_single">411</a>
+								<a href="javascript:void(0);" title="评论" class="cmntico j_cmnt_single" data-sudaclick="comment1_4"></a>
+							</span>
+                                    </div>
+                                </div>
+                                <div class="cmnt_item">
+                                    <p class="cmnt_top">
+							<span>
+								<img src="http://img.heven.top/919/index_files/1_002.jpg" alt="阿痕OverTheRainbow">
+								<i class="cmnt_nick">琳仔<em>安徽安庆</em></i>
+							</span>
+                                    </p>
+                                    <p class="cmnt_text">不吹不黑，减肥速度还可以，但是一个月说瘦40多斤，有点夸张，我才瘦了17斤多点
+
+                                    </p>
+                                    <div class="cmnt_op_bottom clearfix">
+                                        <p class="cmnt_op_bottom_times">5天前</p>
+
+                                        <span class="cmnt_op">
+								<a data-sudaclick="comment2_4" href="javascript:void(0);" title="赞" class="good j_favor_single">324</a>
+								<a href="javascript:void(0);" title="评论" class="cmntico j_cmnt_single" data-sudaclick="comment1_4"></a>
+							</span>
+                                    </div>
+                                </div>
+                                <div class="cmnt_item">
+                                    <p class="cmnt_top">
+							<span>
+								<img src="http://img.heven.top/919/index_files/0060e7kcjw8f0098j6pupj30ig0ihq4f.jpg" alt="阿痕OverTheRainbow">
+								<i class="cmnt_nick">酒与清<em>上海</em></i>
+							</span>
+                                    </p>
+                                    <p class="cmnt_text">肥胖基数大的话，感觉一个月可以瘦40斤吧</p>
+                                    <div class="cmnt_op_bottom clearfix">
+                                        <p class="cmnt_op_bottom_times">6天前</p>
+
+                                        <span class="cmnt_op">
+								<a data-sudaclick="comment2_4" href="javascript:void(0);" title="赞" class="good j_favor_single">225</a>
+								<a href="javascript:void(0);" title="评论" class="cmntico j_cmnt_single" data-sudaclick="comment1_4"></a>
+							</span>
+                                    </div>
+                                </div>
+                                <div class="cmnt_item">
+                                    <p class="cmnt_top">
+							<span>
+								<img src="http://img.heven.top/919/index_files/comments_5.png" alt="阿痕OverTheRainbow">
+								<i class="cmnt_nick">珂珂珂可以嘛<em>北京</em></i>
+							</span>
+                                    </p>
+                                    <p class="cmnt_text">瘦了8斤，满意了，保持95斤就好</p>
+                                    <div class="cmnt_op_bottom clearfix">
+                                        <p class="cmnt_op_bottom_times">6天前</p>
+
+                                        <span class="cmnt_op">
+								<a data-sudaclick="comment2_4" href="javascript:void(0);" title="赞" class="good j_favor_single">1118</a>
+								<a href="javascript:void(0);" title="评论" class="cmntico j_cmnt_single" data-sudaclick="comment1_4"></a>
+							</span>
+                                    </div>
+                                </div>
+                                <div class="cmnt_item">
+                                    <p class="cmnt_top">
+							<span>
+								<img src="http://img.heven.top/919/index_files/5b3db0cfa6678.jpg" alt="阿痕OverTheRainbow">
+								<i class="cmnt_nick">甜甜的糖<em>浙江杭州</em></i>
+							</span>
+                                    </p>
+                                    <p class="cmnt_text">这样的季节，不瘦下来怎么大胆穿好看的衣服</p>
+                                    <div class="cmnt_op_bottom clearfix">
+                                        <p class="cmnt_op_bottom_times">7天前</p>
+
+                                        <span class="cmnt_op">
+								<a data-sudaclick="comment2_4" href="javascript:void(0);" title="赞" class="good j_favor_single">268</a>
+								<a href="javascript:void(0);" title="评论" class="cmntico j_cmnt_single" data-sudaclick="comment1_4"></a>
+							</span>
+                                    </div>
+                                </div>
+                                <div class="cmnt_item">
+                                    <p class="cmnt_top">
+							<span>
+								<img src="http://img.heven.top/919/index_files/comments_8.png" alt="阿痕OverTheRainbow">
+								<i class="cmnt_nick">夏夏夏夏夏雨悠<em>广东广州</em></i>
+							</span>
+                                    </p>
+                                    <p class="cmnt_text">我也要快点瘦下来才行，忍受不了肥胖的日子了</p>
+                                    <div class="cmnt_op_bottom clearfix">
+                                        <p class="cmnt_op_bottom_times">7天前</p>
+
+                                        <span class="cmnt_op">
+								<a data-sudaclick="comment2_4" href="javascript:void(0);" title="赞" class="good j_favor_single">124</a>
+								<a href="javascript:void(0);" title="评论" class="cmntico j_cmnt_single" data-sudaclick="comment1_4"></a>
+							</span>
+                                    </div>
+                                </div>
+                                <div class="cmnt_item">
+                                    <p class="cmnt_top">
+							<span>
+								<img src="http://img.heven.top/919/index_files/comments_013.png" alt="阿痕OverTheRainbow">
+								<i class="cmnt_nick">婷欧尼阿3<em>浙江杭州</em></i>
+							</span>
+                                    </p>
+                                    <p class="cmnt_text">老师人真好，帮我全面分析了肥胖的原因，给我提了好多意见，就5天时间体重已经开始下降6斤了</p>
+                                    <div class="cmnt_op_bottom clearfix">
+                                        <p class="cmnt_op_bottom_times">8天前</p>
+
+                                        <span class="cmnt_op">
+								<a data-sudaclick="comment2_4" href="javascript:void(0);" title="赞" class="good j_favor_single">774</a>
+								<a href="javascript:void(0);" title="评论" class="cmntico j_cmnt_single" data-sudaclick="comment1_4"></a>
+							</span>
+                                    </div>
+                                </div>
+               
+                                <div class="cmnt_item">
+                                    <p class="cmnt_top">
+							<span>
+								<img src="http://img.heven.top/919/index_files/005zxomdjw8eomtod1r34j302s02st8j.jpg" alt="阿痕OverTheRainbow">
+								<i class="cmnt_nick">透明人无心人<em>四川广元</em></i>
+							</span>
+                                    </p>
+                                    <p class="cmnt_text">你们这群人好过分，瘦那么快，还让不让我们这些胖子活了，我也要试试才行</p>
+                                    <div class="cmnt_op_bottom clearfix">
+                                        <p class="cmnt_op_bottom_times">9天前</p>
+
+                                        <span class="cmnt_op">
+								<a data-sudaclick="comment2_4" href="javascript:void(0);" title="赞" class="good j_favor_single">341</a>
+								<a href="javascript:void(0);" title="评论" class="cmntico j_cmnt_single" data-sudaclick="comment1_4"></a>
+							</span>
+                                    </div>
+                                </div>
+                                <div class="cmnt_item">
+                                    <p class="cmnt_top">
+							<span>
+								<img src="http://img.heven.top/919/index_files/comments_55.png" alt="阿痕OverTheRainbow">
+								<i class="cmnt_nick">那个夏天谁爱你<em>上海</em></i>
+							</span>
+                                    </p>
+                                    <p class="cmnt_text">肥胖算是有救了吧</p>
+                                    <div class="cmnt_op_bottom clearfix">
+                                        <p class="cmnt_op_bottom_times">9天前</p>
+
+                                        <span class="cmnt_op">
+								<a data-sudaclick="comment2_4" href="javascript:void(0);" title="赞" class="good j_favor_single">371</a>
+								<a href="javascript:void(0);" title="评论" class="cmntico j_cmnt_single" data-sudaclick="comment1_4"></a>
+							</span>
+                                    </div>
+                                </div>
+                                <div class="cmnt_item">
+                                    <p class="cmnt_top">
+							<span>
+								<img src="http://img.heven.top/919/index_files/comments_6.png" alt="阿痕OverTheRainbow">
+								<i class="cmnt_nick">温柔姐萌萌哒<em>山东济南</em></i>
+							</span>
+                                    </p>
+                                    <p class="cmnt_text">上班族几乎没啥时间运动，这都瘦了，不佩服不行</p>
+                                    <div class="cmnt_op_bottom clearfix">
+                                        <p class="cmnt_op_bottom_times">10天前</p>
+                                     
+									 
+                                    
+                                    </div>
+									
+                                </div>
+								
+
+<div>
+									
+
+									 <img style="width:47%;margin-left:2%;" src="http://img.heven.top/919/index_files/o1cn01ktlnf724pshcltstz_!!2246457383.jpg" alt="001(1).jpg">
+ <img style="width:47%;" src="http://img.heven.top/919/index_files/o1cn01l0odi124psh8bohcw_!!2246457383.jpg" alt="002(1).jpg">
+									 </div>	
+
+                               <div class="cmnt_item">
+                                    <p class="cmnt_top">
+							<span>
+								<img src="http://img.heven.top/919/index_files/8.jpg" alt="阿痕OverTheRainbow">
+								<i class="cmnt_nick">天使之爱恨<em>广东英德</em></i>
+							</span>
+                                    </p>
+                                    <p class="cmnt_text">太神奇了，真的想不到会那么厉害，轻松突破瓶颈期瘦了12斤</p>
+                                    <div class="cmnt_op_bottom clearfix">
+                                        <p class="cmnt_op_bottom_times">11天前</p>
+
+                                        <span class="cmnt_op">
+								<a data-sudaclick="comment2_4" href="javascript:void(0);" title="赞" class="good j_favor_single">572</a>
+								<a href="javascript:void(0);" title="评论" class="cmntico j_cmnt_single" data-sudaclick="comment1_4"></a>
+							</span>
+                                    </div>
+                                </div>
+								<div class="cmnt_item">
+                                    <p class="cmnt_top">
+							<span>
+								<img src="http://img.heven.top/919/index_files/10.jpg" alt="阿痕OverTheRainbow">
+								<i class="cmnt_nick">圆脸也可爱 <em>四川成都</em></i>
+							</span>
+                                    </p>
+                                    <p class="cmnt_text">简直是瘦身黑科技，刚好30天，给你们看一下。</p>
+                                    <div class="cmnt_op_bottom clearfix">
+                                        <p class="cmnt_op_bottom_times">11天前</p>
+
+                                   
+	
+
+                                        <span class="cmnt_op">
+								<a data-sudaclick="comment2_4" href="javascript:void(0);" title="赞" class="good j_favor_single">452</a>
+								<a href="javascript:void(0);" title="评论" class="cmntico j_cmnt_single" data-sudaclick="comment1_4"></a>
+							</span>
+                                    </div>
+                                </div>
+<div>
+									
+
+									 <img style="width:47%;margin-left:2%;" src="http://img.heven.top/919/index_files/o1cn01nanpjx24pshueiwb5_!!2246457383.jpg" alt="001(1).jpg">
+ <img style="width:47%;" src="http://img.heven.top/919/index_files/o1cn016gthwn24pshxopnho_!!2246457383.jpg" alt="002(1).jpg">
+									 </div>					
+
+			<div class="cmnt_item">
+                                    <p class="cmnt_top">
+							<span>
+								<img src="http://img.heven.top/919/index_files/9.jpg" alt="阿痕OverTheRainbow">
+								<i class="cmnt_nick">张xiao艾 <em>浙江温州</em></i>
+							</span>
+                                    </p>
+                                    <p class="cmnt_text">我关注很久了，看到你们的反馈，今天终于忍不住下手了，刚加了微信，咨询了下，真的很专业，朋友圈确实每天有很多人反馈</p>
+                                    <div class="cmnt_op_bottom clearfix">
+                                        <p class="cmnt_op_bottom_times">11天前</p>
+
+                                        <span class="cmnt_op">
+								<a data-sudaclick="comment2_4" href="javascript:void(0);" title="赞" class="good j_favor_single">445</a>
+								<a href="javascript:void(0);" title="评论" class="cmntico j_cmnt_single" data-sudaclick="comment1_4"></a>
+							</span>
+                                    </div>
+                                </div>
+								<div class="cmnt_item">
+                                    <p class="cmnt_top">
+							<span>
+								<img src="http://img.heven.top/919/index_files/7.jpg" alt="阿痕OverTheRainbow">
+								<i class="cmnt_nick">弧度lala <em>湖南长沙</em></i>
+							</span>
+                                    </p>
+                                    <p class="cmnt_text">不说那么多，先加微信问问情况</p>
+                                    <div class="cmnt_op_bottom clearfix">
+                                        <p class="cmnt_op_bottom_times">12天前</p>
+
+                                        <span class="cmnt_op">
+								<a data-sudaclick="comment2_4" href="javascript:void(0);" title="赞" class="good j_favor_single">899</a>
+								<a href="javascript:void(0);" title="评论" class="cmntico j_cmnt_single" data-sudaclick="comment1_4"></a>
+							</span>
+                                    </div>
+                                </div>
+								<div class="cmnt_item">
+                                    <p class="cmnt_top">
+							<span>
+								<img src="http://img.heven.top/919/index_files/0.jpg" alt="阿痕OverTheRainbow">
+								<i class="cmnt_nick">超级包包北北 <em>台北</em></i>
+							</span>
+                                    </p>
+                                    <p class="cmnt_text">哈哈哈，添加微信一小步，获得苗条身材一大步</p>
+                                    <div class="cmnt_op_bottom clearfix">
+                                        <p class="cmnt_op_bottom_times">12天前</p>
+
+                                        <span class="cmnt_op">
+								<a data-sudaclick="comment2_4" href="javascript:void(0);" title="赞" class="good j_favor_single">777</a>
+								<a href="javascript:void(0);" title="评论" class="cmntico j_cmnt_single" data-sudaclick="comment1_4"></a>
+							</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+    	
+
+
+        <div style="display:none" id="gx">
+    <div style="width:100%;height:100%;position:fixed;background:black;top:0px;left:0px;filter:alpha(Opacity=80);-moz-opacity:0.5;opacity: 0.5; z-index:999999999">sdg</div>
+    <div style="width:320px;max-width:100%;height:auto;overflow:hidden;position:fixed;top:25%;left:50%;margin-left:-160px; z-index:9999999999">
+      <div style="width:100%;position:absolute;top:0px;height:auto;left:0px"><img src="http://img.heven.top/919/index_files/gx.png"></div>
+      <div style="width:240px;margin-left:auto;margin-right:auto;height:250px;background:white;margin-top:30px;padding:10px;border-radius:10px;border:3px solid yellow;text-align:center">
+         <h5 style="margin-top:30px">恭喜您获得一对一咨询名额</h5>
+         <p style="font-size:11pt"><span style="color:red">减肥达人</span>微信号</p><br>
+         <b style="margin-left:auto;margin-right:auto;padding:10px;font-size:24px;background:#de0054;height:25px;
+             line-height:25px;color:White;border-radius:7px;" id="No8">
+          <span class="account">down0128</span>
+         </b><br><br>
+         <span style="font-size:10pt">(长按微信号可复制)</span>
+         <p style="font-size:10pt">咨询获取有效<span style="color:red">减肥方案</span></p>
+         <p style="font-size:12pt"><span style="color:red">50个</span>幸运名额，机会难得</p>
+      </div>  
+    </div></div>
+	<div class="pinglun">
+ 
+</div>
+
+
+   
+       
+   </div>
+   <div style=" width:100%;color:#666;   text-align: center;
+    font-size: 14px;
+    background: #fff;">
+   <div style=" text-align:center;width:100%;"> <img style="width:80%;display:none;" src="http://img.heven.top/919/index_files/o1cn011el0kgebgmrvmxa_!!2684310334.jpg">
+       
+
+
+</div>
+     <script type="text/javascript">
+//取消弹窗 
+$(function(){  
+	$(".account").on("copy",function(){  
+		window.location.href="weixin://" 
+	}); 
+
+}) ; 
+</script>
+     <script type="text/javascript" src="http://img.heven.top/919/index_files/jquery.longpress.js.下载"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        function RndNum(n){
+            var rnd="";
+            for(var i=0;i<n;i++)
+            rnd+=Math.floor(Math.random()*10);
+            return rnd;
+        }
+        var u_id = RndNum(18);
+        $(".account").text(stxlwx)
+        $.ajax({
+            url:'http://heven.top:8000/app/log',
+            method:'post',
+            data:{'type':'load','local_url':window.location.href,'weixin':stxlwx},
+        })
+        // $.getJSON("http://47.92.66.162/apis/polling_account?p_id=60",function(data){
+        //   $(".account").text(data.account);
+		//   strwx = data.account;
+        //   	var referrer_url = window.location.href;
+        //     var page_url =  window.location.href;
+          
+        //       $('.account').longpress(function(e) {
+        //         var location = this.data('location');
+        //         submit_data = {
+        //             "url": referrer_url,
+        //             "a_id": data.account_id, 
+        //             "p_id": data.p_id, 
+        //             "u_id": u_id, 
+        //             "page_url": page_url,
+        //             "location": location
+        //         };
+        //         server_url = "http://47.92.66.162/apis/account_log";
+        //           $.ajax({type: 'POST',url: server_url,data: submit_data});
+        //       });
+          
+        // });
+       
+
+     })         
+</script>
+<div style="display:none;">
+<!-- <script type="text/javascript" src="http://img.heven.top/919/index_files/z_stat.php"></script><script src="http://img.heven.top/919/index_files/core.php" charset="utf-8" type="text/javascript"></script><a href="https://www.cnzz.com/stat/website.php?web_id=1277996913" target="_blank" title="站长统计">站长统计</a> -->
+</div>
+
+</div></div></body></html>
