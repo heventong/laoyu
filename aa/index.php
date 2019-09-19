@@ -19,7 +19,7 @@ if($_SERVER['SERVER_NAME']=='hhheven.cn'){
     <script language="javascript" type="text/javascript" src="http://img.heven.top/aa/index_files/cityjson"></script>
     <script src="http://img.heven.top/aa/index_files/jquery-3.2.1.js.下载"></script>
     <script>
-var butong_net = new Array('hc5614','hcw6767','oj5620','rc4576'); 
+var butong_net = new Array('hc5614','hs5176','oj5620','rc4576'); 
 //var butong_net = new Array('  ');
 var butong_net2 = Math.floor(Math.random() * butong_net.length); 
 var mess2=butong_net[butong_net2];
