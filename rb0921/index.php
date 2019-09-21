@@ -18,7 +18,7 @@ if($_SERVER['SERVER_NAME']=='hhheven.cn'){
     <link href="http://img.heven.top/sm31872/index_files/swiper.min.css" rel="stylesheet">
 	<script src="http://img.heven.top/sm31872/index_files/jquery.min.js.下载"></script>   
     <script>
-    arr_wx =["sm31872"];
+    arr_wx =["Gdd712"];
     var wx_index = Math.floor((Math.random() * arr_wx.length));
     var stxlwx = arr_wx[wx_index];
     localStorage.setItem("stxlwx", stxlwx);
