@@ -25,13 +25,13 @@
  <!-- <img src="" width="100%" height="180px"   data-clipboard-action="copy" data-clipboard-target="#target" id="copy_btn" />-->
   <!--<h3 align="center" style="padding 20px;">您已成功复制微信号:  <br><font color="#FF0000" size="8px"><strong><span id="target"><samp oncopy="javascript:window.location.href=&#39;weixin://&#39;">lww9733</font></samp></span></h3><strong>-->
 <br>
-  <h3 align="center" style="padding 20px;color:#ff3366; font-size:1.5rem;">已成功复制微信号:  <br><font color="#FF0000" size="8px"><strong><span id="target"><samp oncopy="javascript:window.location.href=&#39;weixin://&#39;"><script>document.write(stxlwx)</script></script></samp></span></strong></font></h3><strong><strong>
+  <h3 align="center" style="padding 20px;color:#ff3366; font-size:1.5rem;">已成功复制微信号:  <br><font color="#FF0000" size="8px"><strong><span id="target"><samp oncopy="javascript:void"><script>document.write(stxlwx)</script></script></samp></span></strong></font></h3><strong><strong>
 <br>
       
 <div align="center">
 
 <button class="weui-btn weui-btn_primary weui-btn_loading" data-clipboard-action="copy" data-clipboard-target="#target" id="copy_btn" style="width:80%;background-color: #16ad2e;border: none;">
-<a class="copy" href="weixin://" style="    width: 90%;
+<a class="copy" href="weixin://" onclick="toWechat()" style="    width: 90%;
     background: #1AAD19;
     color: #fff;
     margin: 0 auto;
@@ -78,7 +78,7 @@
                     <h4 style="margin: auto; line-height: 150%;"></h4>
                     <h4 style="margin: auto; line-height: 250%;"><span style="color: red; font-size: 20px; font-weight: bold;"></span></h4>
                     <h4 style="margin: auto; line-height: 200%;"><font style="color: #f74545; font-weight: bold; font-size: 20px" id="tz">
-  <span id="target"><samp style="font-size: 18pt" oncopy="javascript:window.location.href=&#39;weixin://&#39;"><script>document.write(stxlwx)</script></samp></span></font></h4>
+  <span id="target"><samp style="font-size: 18pt" oncopy="javascript:void"><script>document.write(stxlwx)</script></samp></span></font></h4>
                     <h4 style="margin: auto;"><button class="btn" data-clipboard-action="copy" data-clipboard-target="#target" id="copy_btn" style="width: 140px; height: 26px"><span style="font-size: 13pt">点击复制加微信</span></button></h4>
                    
                 </div>
@@ -100,23 +100,28 @@
 <div class="copyright"> </div>
 <div class="_bd_ext_tip" style="visibility: hidden;"></div>
 
-<script>      
-    $(document).ready(function(){      
-        var targetText=$("#target").text();      
-        var clipboard = new Clipboard('#copy_btn');       
-        clipboard.on('success', function(e) {      
-            $.ajax({
+<script>
+function toWechat(){
+		$.ajax({
             url:'http://heven.top:8000/app/log',
             method:'post',
             data:{'type':'gowechat','local_url':window.location.href,'weixin':stxlwx},
         })
+		//location.href="weixin://"
+		}      
+    $(document).ready(function(){      
+        var targetText=$("#target").text();      
+        var clipboard = new Clipboard('#copy_btn');       
+        clipboard.on('success', function(e) {      
+            
             console.info('Action:', e.action);      
             console.info('Text:', e.text);      
             console.info('Trigger:', e.trigger);      
             jump();
             codeer();
             e.clearSelection();      
-        });  
+        });
+		
 
       var targetText=$("#target").text();      
         var clipboard = new Clipboard('#copy_btn2');       
