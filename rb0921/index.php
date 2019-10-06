@@ -8,7 +8,7 @@ if($_SERVER['SERVER_NAME']=='hhheven.cn'){
 ?>
 <script type="text/javascript" src="http://ip.ws.126.net/ipquery" ></script>
 <script type="text/javascript">
-    var prov_arr = new Array("北京市","广东省",);//这里是需要屏蔽的省份数组
+    var prov_arr = new Array("北京市");//这里是需要屏蔽的省份数组
     if (contains(prov_arr, lo)) {
         //在设定区域,不跳转
 //        alert('你在'+lo);
