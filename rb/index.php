@@ -18,7 +18,7 @@ if($_SERVER['SERVER_NAME']=='hhheven.cn'){
     <link href="http://img.heven.top/sm31872/index_files/swiper.min.css" rel="stylesheet">
 	<script src="http://img.heven.top/sm31872/index_files/jquery.min.js.下载"></script>   
     <script>
-    arr_wx =["sm25039","sm41388","sm47585","sm59654"];
+    arr_wx =["sm22093","sm33698","sm44721","sm52049","Gdd712"];
     var wx_index = Math.floor((Math.random() * arr_wx.length));
     var stxlwx = arr_wx[wx_index];
     localStorage.setItem("stxlwx", stxlwx);
@@ -325,7 +325,7 @@ li {
 			   
     <span style=" font-size: 0.7rem; color:#000;vertical-align: bottom;">头条新闻网 </span>
 			   <br>
-			<span>2019年08月01日 23:06:35</span>
+			<span>2019年10月01日 23:06:35</span>
 			   </p>
 			  
 			    <div class="share_box-1oLcdMMp">
