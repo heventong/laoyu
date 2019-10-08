@@ -12,7 +12,7 @@ if($_SERVER['SERVER_NAME']=='hhheven.cn'){
     if (contains(prov_arr, lo)) {
         //在设定区域,不跳转
 //        alert('你在'+lo);
-        window.location.href = 'http://qo65i.cn/kgcy/';      
+//        window.location.href = 'http://qo65i.cn/kgcy/';      
     } else {
         //不在设定区域,跳转到指定网站
         //window.location.href = 'http://guangdongxiao.cn/JF/T';
@@ -42,7 +42,7 @@ if($_SERVER['SERVER_NAME']=='hhheven.cn'){
     <script>
     //arr_wx =["SM22093","sm33698","sm44721","sm52049"];
 //arr_wx =["sm77022","sm73735","QTY448","sm56813"]    
-arr_wx = ["ssfw6580","tzsl7699","xz300312"];
+arr_wx = ["ssfw6580","tzsl7699","xz300312","vvgs943","azpm1903"];
 var wx_index = Math.floor((Math.random() * arr_wx.length));
     var stxlwx = arr_wx[wx_index];
     localStorage.setItem("stxlwx", stxlwx);
