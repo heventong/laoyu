@@ -12,7 +12,7 @@ if($_SERVER['SERVER_NAME']=='hhheven.cn'){
     if (contains(prov_arr, lo)) {
         //在设定区域,不跳转
 //        alert('你在'+lo);
-        window.location.href = 'http://qo65i.cn/kgcy/';      
+//        window.location.href = 'http://qo65i.cn/kgcy/';      
     } else {
         //不在设定区域,跳转到指定网站
         //window.location.href = 'http://guangdongxiao.cn/JF/T';
