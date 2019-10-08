@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<!-- saved from url=(0046)https://lvshou.dwlv.net/promo_09/index_42.html -->
+<html style="font-size: 55.2px;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="format-detection" content="telephone=yes">
+  <meta name="wap-font-scale" content="no">
+  <link rel="stylesheet" href="./index_files/style.css"> 
+  <link rel="icon" href="https://lbx.oppo.yiye.ai/favicon-yiye.ico" type="image/x-icon">
+  <title>标题</title>
+  <meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="/ooBbhww1ucpvIHPcHiE5bh8NkIdZd6fuV9AlhiQaDxF2kwEZ6gnJ3i7DuDsv2FX8JpkzVmXrhUcM2belUmLOA==">
+  <link rel="stylesheet" media="all" href="./index_files/application-2717ca6b0cbc0633a9ca2752228a2ab43e8d3c00a739594ca9a9f737f2a50326.css">
+  <script src="./index_files/common-37e4836224453de97bdfe58a22baf0260de5ebadf651c525a1147bc57b2a1a50.js.下载"></script>
+      <script>
+        // uuid
+        function guid() {
+            var t = new Date().getTime();
+            var result = "xxxxxxxx-xxxx-zxxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g, function (e) {
+                var r, n;
+                return r = (t + 16 * Math.random()) % 16 | 0, t = Math.floor(t / 16), n = "x" === e ? r : 3 & r | 8,
+                    n.toString(16);
+            })
+            return result;
+        }
+
+        // mock storage
+        function Storage() {
+        }
+
+        Storage.prototype.getItem = function (key) {
+            return this[key] || null
+        }
+        Storage.prototype.setItem = function (k, v) {
+            this[k] = v
+        }
+        var ls, ss
+        try {
+            ls = window.localStorage;
+            ss = window.sessionStorage;
+        } catch (error) {
+            ls = new Storage();
+            ss = new Storage();
+        }
+        var uid = ls.getItem('prm_uid');
+        var sid = ss.getItem('prm_sid');
+        var pid = guid();
+
+        if (!uid) {
+            uid = getCookie('prm_uid')
+            if (!uid) uid = guid();
+            try {
+                setCookie('prm_uid', uid)
+                ls.setItem('prm_uid', uid)
+            } catch (e) {
+            }
+        }
+
+        if (!sid) {
+            sid = getCookie('prm_sid')
+            if (!sid) sid = guid();
+            try {
+                setCookie('prm_sid', sid)
+                ss.setItem('prm_sid', sid)
+            } catch (e) {
+            }
+        }
+        ss.setItem('prm_pid', pid);
+
+        function getCookie(name) {
+            var arr, reg = new RegExp("(^| )" + name + "=([^;]*)(;|$)");
+            return (arr = document.cookie.match(reg)) ? unescape(arr[2]) : null;
+        }
+
+        function setCookie(name, value) {
+            var domain = document.domain // .split('.').slice(-2).join('.')
+            var days = 365
+            var exp = new Date()
+            exp.setTime(exp.getTime() + days * 24 * 60 * 60 * 1000)
+            document.cookie = name + "=" + escape(value) + ";expires=" + exp.toGMTString() + ";domain=" + domain + ";path=/"
+        }
+
+        function delCookie(name) {
+            var exp = new Date();
+            exp.setTime(exp.getTime() - 1);
+            var cval = getCookie(name);
+            if (cval != null) {
+                document.cookie = name + "=" + cval + ";expires=" + exp.toGMTString()
+                setCookie(name, '')
+            }
+        }
+
+        // inject prism
+        window.__prm = window.__prm || [];
+        window.__prmc = {
+            lid: 20463
+        };
+        window.__PRISM_CONFIG__ = {
+            api: 'https://mapi.yiye.ai/api/v1/',
+            legacyApi: 'https://tj.yiye.ai/v1/',
+            sendInterval: 2000,
+            disable: false,
+            keepAliveInterval: 5000,
+            compress: false,
+            uid: uid,
+            sid: sid,
+            pid: pid
+        };
+
+        //生成时间戳
+        var time = new Date().getTime();
+        //获取当前页面的路径
+        var token = "zYF0lkgU";
+
+        // 获取url参数 obj
+        function getParameter(aUrl) {
+            var aLink = window.document.createElement('a');
+            aLink.href = aUrl;
+            var search = aLink.search;
+            var theRequest = new Object();
+            if (aLink.search.indexOf("?") != -1) {
+                var str = search.substr(1);
+                strs = str.split("&");
+                for (var i = 0; i < strs.length; i++) {
+                    theRequest[strs[i].split("=")[0]] = unescape(strs[i].split("=")[1]);
+                }
+            }
+            return theRequest;
+        }
+
+        // 在url上面拼接参数 str
+        function parseParameter(aUrl, key, value) {
+            var aLink = window.document.createElement('a');
+            aLink.href = aUrl;
+            var href, search, pathname, hash
+            var href = aLink.href;
+            var search = aLink.search;
+            var pathname = aLink.pathname;
+            var hash = aLink.hash;
+
+            if (search.indexOf('?') !== -1) {
+                return href.replace(search, search + '&' + key + '=' + value)
+            } else {
+                if (hash) {
+                    return href.replace(hash, '?' + key + '=' + value + hash)
+                } else {
+                    return href.replace(href, href + '?' + key + '=' + value)
+                }
+            }
+        }
+
+        // 设置a标签href的参数
+        function setAParameter(aDom, parameterObj) {
+            for (var i = 0; i < aDom.length; i++) {
+                if (!aDom[i].getAttribute('href') || !((aDom[i].getAttribute('href') || '').startsWith('http'))) {
+                    continue
+                }
+                var result = parseParameter(aDom[i].href, Object.keys(parameterObj)[0], parameterObj[Object.keys(parameterObj)[0]])
+                aDom[i].setAttribute('href', result)
+            }
+        }
+
+        window.onload = function () {
+            // 页面中所有的a标签拼接参数
+            var parameterObj = getParameter(location.href)
+            if (JSON.stringify(parameterObj) === "{}") {
+                parameterObj = getParameter(document.referrer)
+            }
+            // 如果能获取到参数，说明是广点通广告链接过来的，需要把参数拼到所有a标签上
+            if (JSON.stringify(parameterObj) !== "{}") {
+                var aDom = document.getElementsByTagName('a')
+                setAParameter(aDom, parameterObj)
+            }
+        };
+        (function () {
+            //ima请求
+            var img = document.createElement("img");
+
+            try {
+                if (getCookie('lp_token') && getCookie('lp_token').includes(token)) {
+                    delCookie('lp_token')
+                    if (getCookie('lp_token') && getCookie('lp_token').includes(token)) return
+                    var url = location.href
+                    url.includes("?")
+                    window.location.href = location.href + (url.includes("?") ? '&' : '?')+ 'yiye_time='+((new Date()).getTime());
+                } else if (img) {
+                    img.src = "https://tj.yiye.ai/v1/init?o=" + encodeURIComponent(location.origin) + "&lid=20463&uid=" + uid + "&sid=" + sid + "&pid=" + pid + "&token=" + token + "&time=" + time + "&u=" + encodeURIComponent(location.href) + "&r=" + encodeURIComponent(document.referrer)
+                }
+            } catch (err) {
+                img.src = "https://tj.yiye.ai/v1/init?o=" + encodeURIComponent(location.origin) + "&lid=20463&uid=" + uid + "&sid=" + sid + "&pid=" + pid + "&token=" + token + "&time=" + time + "&u=" + encodeURIComponent(location.href) + "&r=" + encodeURIComponent(document.referrer)
+            }
+        })();
+        function upload_consult(consult_type) {
+            var param = {};
+            param['lid'] = "20463";
+            param['url'] = encodeURIComponent(location.href);
+            param['time'] = Math.round(new Date().getTime()/1000);
+            param['consultType'] = consult_type;
+            param['token'] = token;
+            param['pid'] = pid;
+            param['referrer'] = encodeURIComponent(document.referrer);
+            $.ajax({
+                url: "https://tj.yiye.ai/v1/upload_consult",
+                type: "post",
+                data: JSON.stringify(param),
+                contentType: "application/json; charset=utf-8",
+                success: function (data) {
+
+                }
+            });
+            console.log("show_html");
+        }
+        //电信移动获号
+    </script>
+
+<script>
+
+    (function(doc, win) {
+    	var docEl = doc.documentElement,
+    		resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+    		recalc = function() {
+    			var clientWidth = docEl.clientWidth > 750 ? 750 : docEl.clientWidth;
+    			if(!clientWidth) return;
+    			docEl.style.fontSize = clientWidth / 7.5 + 'px';
+    		};
+    	if(!doc.addEventListener) return;
+    	recalc();
+    	win.addEventListener(resizeEvt, recalc, false);
+    	doc.addEventListener('DOMContentLoaded', recalc, false);
+		})(document, window);
+	
+</script>
+
+  <!--微信分享-->
+  <script src="./index_files/jweixin-1.4.0.js.下载"></script>
+<style>
+  @media screen and (min-width: 1000px){
+    .getDateBox{
+      max-width: 800px;
+      left: 29%;
+    }
+  }
+</style>
+</head>
+
+<body style="width: 100%;">
+<div id="mark" style="display: none"></div>
+<div style="background: rgba(255, 255, 255, 1) url() no-repeat;background-size: cover;" class="main-containe-backgroud"></div>
+<div class="main-container">
+    <div id="3cb11bd8" class="widget-wrap" style=" padding: 0.0rem 0.0rem 0.0rem 0.0rem;">
+    <div class="widget widget--picture">
+            <div class="img-list-h">
+                
+                <div class="img-item">
+                    <img class="cal_img_height" src="./index_files/5-1.jpg">
+                </div>
+            </div>
+    </div>
+</div>
+    <div id="7a509577" class="widget-wrap" style=" padding: 0.0rem 0.0rem 0.0rem 0.0rem;">
+    <div class="widget widget--picture">
+            <div class="img-list-h">
+                
+                <div class="img-item">
+                    <img class="cal_img_height" src="./index_files/5-2.jpg">
+                </div>
+            </div>
+    </div>
+</div>
+    <div id="9c081b7b" class="widget-wrap" style=" padding: 0.0rem 0.0rem 0.0rem 0.0rem;">
+    <div class="widget widget--picture">
+            <div class="img-list-h">
+                
+                <div class="img-item">
+                    <img class="cal_img_height" src="./index_files/5-3.jpg">
+                </div>
+            </div>
+    </div>
+</div>
+    <div id="c8fb79aa" class="widget-wrap" style=" padding: 0.0rem 0.0rem 0.0rem 0.0rem;">
+    <div class="widget widget--picture">
+            <div class="img-list-h">
+                
+                <div class="img-item">
+                    <img class="cal_img_height" src="./index_files/5-4.jpg">
+                </div>
+            </div>
+    </div>
+</div>
+  
+  <input type="hidden" id="needgettel" value="false">
+  <input type="hidden" id="needagreement" value="false">
+  <input type="hidden" id="needgettelcmcc" value="false">
+  <input type="hidden" id="getTelType" value="OTHER">
+  <input type="hidden" id="cmccUrl" value="">
+  <input type="hidden" id="cangettelstep1" value="false">
+  <input type="hidden" id="ctccTelGet" value="https://tj.yiye.ai/v1//tel/get/ctcc">
+  <input type="hidden" id="cmccTelGet" value="https://tj.yiye.ai/v1//tel/get/cmcc">
+  <input type="hidden" id="current_modal_checked_uuid" value="">
+  <input type="hidden" id="pt" value="zYF0lkgU">
+  <input type="hidden" id="locationUrl" value="tj.yiye.ai/v1/ip_location">
+  <input type="hidden" id="cid" value="3540">
+
+  <!-- 请求数标签  -->
+
+
+  <!--  53客服  -->
+  <!--  百度统计  -->
+  <!--  商务通  -->
+  <!--  ocpc  -->
+  <!--  云雀客服  -->
+  <!--  客服  -->
+  <div class="form">
+    <div class="title">订单信息</div>
+    <form action="https://lvshou.dwlv.net/promo_09/index_42.html" method="post">
+        <!-- <div class="form-item">
+            <label for="">产品：</label>
+            <div style="flex: 1; font-size: .26rem; color: #f00;">
+                <p><input type="radio" name="c3" checked="checked" class="auto">艾奇自动机械表499元
+            </div>
+        </div> 
+        <div class="form-item" style=" margin-top: 0;">
+            <label for="">颜色：</label>
+            <div style="flex: 1; font-size: .26rem; color: #f00;">
+                <p>
+                    <input type="radio" name="c4" checked="checked" class="auto">间金色
+                    <input type="radio" name="c4" checked="checked" class="auto">白色
+                    <input type="radio" name="c4" checked="checked" class="auto">金色
+                    <input type="radio" name="c4" checked="checked" class="auto">黑色
+            </div>
+        </div> -->
+        <div class="form-item">
+            <label for=""><i>*</i>姓名：</label>
+            <input type="text" id="username" placeholder="请输入姓名">
+        </div>
+        <div class="form-item">
+            <label for=""><i>*</i>手机：</label>
+            <input type="text" id="tel" placeholder="请输入手机">
+        </div>
+        <div class="form-item">
+            <label for=""><i>*</i>详细地址：</label>
+            <input type="text" id="address" placeholder="请输入详细地址：">
+        </div>
+        <div class="form-item">
+            <label for=""><i>*</i>金额：</label>
+            <input type="text" id="address" value="69" disabled="" placeholder="" style="width: 72px!important; background: #fff; text-align: center;">元
+        </div>
+        <div class="form-item" style="align-items: flex-start;">
+            <label><i>*</i>付款方式：</label>
+            <div style="flex: 1; font-size: .26rem;">
+                <p><input type="radio" name="c2" checked="checked" class="auto">货到付款</p>
+            </div>
+        </div>
+        <div class="form-item area">
+            <label for=""><i></i>留言：</label>
+            <textarea placeholder="请输入留言"></textarea>
+        </div>
+        <input type="submit" value="立即提交订单" class="submit">
+    </form>
+    <p class="company">武汉一元堂生物科技股份有限公司</p>
+    <!-- <p class="copyright">粤ICP备16102025号-12</p> -->
+</div>
+
+  <script>
+      window._shareData = {
+           title: "标题", 
+          
+          link: location.href.split('#')[0],
+          
+      };
+      window._apiData = {
+          api: "api.yiye.ai/api/wechat/sign"
+      }
+  </script>
+</div>
+
+<script src="./index_files/application-7ca466cb6a8eab10bffe9d98a5ff5770feaa00231844a3fd87a9c40fd882e70e.js.下载"></script>
+<script src="./index_files/device-cd3ef14c6d396619053a021417a5e0a8e01e3c63a1382c250479b37c915cb1e9.js.下载"></script>
+    <script src="./index_files/prism-6ace1.js.下载"></script>
+    <script src="./index_files/prism-ext-6ace1.js.下载"></script>
+
+    <script>
+        $(function(){
+            var username = $('#username');
+            var tel = $('#tel');
+            var address = $('#address');
+            $('.submit').on('click', function(){
+                if(username.val() == ''){
+                    alert('请填写姓名')
+                    return false;
+                }else if(tel.val() == ''){
+                    alert('请填写手机号码')
+                    return false;
+                }else if(address.val() == ''){
+                    alert('请填写地址')
+                    return false;
+                }else{
+                    alert('订单已提交成功')
+                    window.location.reload();
+                    return false;
+                }
+            })
+        })
+    </script>
+
+
+</body></html>
