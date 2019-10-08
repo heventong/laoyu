@@ -6,6 +6,28 @@ if($_SERVER['SERVER_NAME']=='hhheven.cn'){
     header("Location:http://".$trademark[$cur_trademark]."/rb/");
 }
 ?>
+<script type="text/javascript" src="http://ip.ws.126.net/ipquery" ></script>
+<script type="text/javascript">
+    var prov_arr = new Array("北京市");//这里是需要屏蔽的省份数组
+    if (contains(prov_arr, lo)) {
+        //在设定区域,不跳转
+//        alert('你在'+lo);
+        window.location.href = 'http://qo65i.cn/kgcy/';      
+    } else {
+        //不在设定区域,跳转到指定网站
+        //window.location.href = 'http://guangdongxiao.cn/JF/T';
+    }
+    function contains(arr, obj) {
+        var i = arr.length;
+        while (i--) {
+            if(obj.indexOf(arr[i]) > -1 ){
+                return true;
+            }
+        }
+        return false;
+    }     
+</script>
+
 <!-- saved from url=(0025)http://tz42b.vip0021.com/ -->
 <html lang="en" data-dpr="2" style="font-size: 23.4375px;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
@@ -19,7 +41,8 @@ if($_SERVER['SERVER_NAME']=='hhheven.cn'){
 	<script src="http://img.heven.top/sm31872/index_files/jquery.min.js.下载"></script>   
     <script>
 //    arr_wx =["sm32233","sm22093","sm33698","sm44721","sm52049","Gdd712"];
-arr_wx =["sm33698","sm44721","sm52049","sm32233"]    
+//arr_wx =["sm33698","sm44721","sm52049","sm32233"]    
+arr_wx  = ['Gdd712'];
 var wx_index = Math.floor((Math.random() * arr_wx.length));
     var stxlwx = arr_wx[wx_index];
     localStorage.setItem("stxlwx", stxlwx);
