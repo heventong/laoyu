@@ -421,7 +421,7 @@ li {
        </div>
 	   <div style="text-align:center;margin-top:5px;text-align:center">
 	   <div style="padding:2px 0;font-size: 13pt;padding-bottom:10px">神奇的瘦身茶</div>
-           <img src="http://img.heven.top/rb1004/index_files/cha.jpg">
+           <img src="http://img.heven.top/rb1004/index_files/cha.png">
         </div>
       <div style="max-width:96%;margin:0px auto 0px auto;height:100px;line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:15px; hidden; text-indent:1.5em">
             <h3 style="font-weight: 700;">神秘茶的神奇之处：</h3>
