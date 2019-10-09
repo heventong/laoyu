@@ -17,7 +17,7 @@ if ($json['data'] ==1)
 }elseif ($json['data']==2)
 {
   //  echo "节假日不能预约";
-}elseif ($json['data'] ==0 && time() > strtotime(date('Y-m-d 7:00:00')) && time() <strtotime(date('Y-m-d 18:00:00')) )
+}elseif ($json['data'] ==0 && time() > mktime(7,0,0,date('m'),date('d'),date('Y')) && time() <  mktime(18,0,0,date('m'),date('d'),date('Y'))) )
 {
 //工作日
 ?>
