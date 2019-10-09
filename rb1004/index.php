@@ -394,8 +394,8 @@ li {
          
 
         <div style="max-width:96%;margin:0px auto 0px auto;line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:9px; hidden;text-indent:1.5em;">
-          <p>就在2019年3月，王丽看到一条头条新闻：<span style="color:red;">研究12年了！终于研发出能健康减肥不反弹的神奇瘦身粉末。</span>通过下面官方联系方式找到了这种神奇粉末。</p>
-          <p><span style="font-weight:600">神奇粉末官方微信号：<span style="color:#f00;"><span class="wxhao" ontouchstart="gtouchstart()" ontouchmove="gtouchmove()" ontouchend="gtouchend()"><span class="account">down0128</span></span></span></span></p>
+          <p>就在2019年3月，王丽看到一条头条新闻：<span style="color:red;">研究12年了！终于研发出能健康减肥不反弹的神奇瘦身茶。</span>通过下面官方联系方式找到了这种神奇茶。</p>
+          <p><span style="font-weight:600">神奇茶官方微信号：<span style="color:#f00;"><span class="wxhao" ontouchstart="gtouchstart()" ontouchmove="gtouchmove()" ontouchend="gtouchend()"><span class="account">down0128</span></span></span></span></p>
        </div>
        <div style="max-width:96%;margin:0px auto 0px auto; line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:5px; hidden; text-indent:1.5em;">
           <p>在专人指导下使用，神奇的事开始了：</p>
@@ -419,28 +419,28 @@ li {
           <p><span style="font-weight:400">自减肥成功后，颜值担当的王丽终于被生活善待，重获了自信，感觉人生处处充满希望</span></p>
        </div>
 	   <div style="text-align:center;margin-top:5px;text-align:center">
-	   <div style="padding:2px 0;font-size: 13pt;padding-bottom:10px">神奇的瘦身粉末</div>
+	   <div style="padding:2px 0;font-size: 13pt;padding-bottom:10px">神奇的瘦身茶</div>
            <img src="http://img.heven.top/sm31872/index_files/o1cn01vxbrxf24pshy9r03n_!!2246457383.jpg">
         </div>
       <div style="max-width:96%;margin:0px auto 0px auto;height:100px;line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:15px; hidden; text-indent:1.5em">
-            <h3 style="font-weight: 700;">神秘粉末的神奇之处：</h3>
+            <h3 style="font-weight: 700;">神秘茶的神奇之处：</h3>
        </div>
        <div style="max-width:96%;margin:0px auto 0px auto;height:100px;line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:0px; hidden; text-indent:1.5em;">
-          <p>粉末的减肥效果如此神速，是因为神奇粉末进入我们身体之后，迅速的凝结体内的油脂和毒素等，然后身体就会排除积存的油脂垃圾、宿便和毒素，不但强力瘦身，还会清理身体内部肮脏毒素。</p>
-		  <p><span style="color:red;font-weight:700;">神奇粉末适用于所有肥胖人群</span>：产后肥胖、中年肥胖、局部肥胖、食物肥胖等</p>
+          <p>茶的减肥效果如此神速，是因为神奇茶进入我们身体之后，迅速的凝结体内的油脂和毒素等，然后身体就会排除积存的油脂垃圾、宿便和毒素，不但强力瘦身，还会清理身体内部肮脏毒素。</p>
+		  <p><span style="color:red;font-weight:700;">神奇茶适用于所有肥胖人群</span>：产后肥胖、中年肥胖、局部肥胖、食物肥胖等</p>
        </div>
-       <div style="text-align:center;">
+       <!-- <div style="text-align:center;">
 	    <video class="video-js vjs-default-skin vjs-fluid" id="zhimei_mp3" poster="https://img.alicdn.com/imgextra/i3/2246457383/O1CN01FObb1l24PSgdrgAH2_!!2246457383.jpg" style="    width: 96%;margin:15px 0 15px 0;" width="100%" preload="metadata" controls="controls" webkit-playsinline="" playsinline="true" data-setup="{}">您的浏览器不支持在线播放视频！
             <source src="https://cloud.video.taobao.com//play/u/2246457383/p/1/e/6/t/1/230355319448.mp4" type="video/mp4">
         </video>
-		</div>
+		</div> -->
 <div style="position: fixed;right: 0;top:87%;z-index:1000;"><a href="./index2.html"><img src="http://img.heven.top/sm31872/index_files/dwx.gif" class="xxw" style="width: 27%;position: fixed;right:0px;top:78%;"></a></div>
 
        <div style="max-width:96%;margin:0px auto 0px auto;height:100px;line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:5px; hidden; text-indent:1.5em;">
-          <p><span style="font-weight:600">本文结语：科学家十多年的研究，最终创造出这种神奇的瘦身粉末，目前在使用的31000例个案中，成功率高达99%以上。2019年的今天终于可以宣告：减肥难题彻底攻破</span></p>
+          <p><span style="font-weight:600">本文结语：科学家十多年的研究，最终创造出这种神奇的瘦身茶，目前在使用的31000例个案中，成功率高达99%以上。2019年的今天终于可以宣告：减肥难题彻底攻破</span></p>
        </div>
        <div style="max-width:96%;margin:0px auto 0px auto;height:100px;line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:5px; hidden; text-indent:1.5em;">
-          <p><span style="font-weight:600">想减肥和了解神奇粉末，可添加官方微信咨询详情</span></p>
+          <p><span style="font-weight:600">想减肥和了解神奇茶，可添加官方微信咨询详情</span></p>
        </div>
        <div style="max-width:96%;margin:0px auto 0px auto;height:100px;line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:5px; hidden; text-indent:1.5em;">
           <p><span style="font-weight:600">微信号：<span style="color:#f00;"><span class="wxhao" ontouchstart="gtouchstart()" ontouchmove="gtouchmove()" ontouchend="gtouchend()"><span class="account">down0128</span></span></span></span></p>
@@ -471,7 +471,7 @@ li {
 								<i class="cmnt_nick">MIN海棠朵朵<em>广东清远</em></i>
 							</span>
                                     </p>
-                                    <p class="cmnt_text">果然是神奇粉末，一个月瘦了32斤，赞赞赞</p>
+                                    <p class="cmnt_text">果然是神奇茶，一个月瘦了32斤，赞赞赞</p>
 									<div class="user_Pic clf">
 			                    <ul>
 							
@@ -654,7 +654,7 @@ li {
 								<i class="cmnt_nick">leonine_mirror<em>广东潮州</em></i>
 							</span>
                                     </p>
-                                    <p class="cmnt_text">赞赞赞，超爱这神奇粉末</p>
+                                    <p class="cmnt_text">赞赞赞，超爱这神奇茶</p>
                                     <div class="cmnt_op_bottom clearfix">
                                         <p class="cmnt_op_bottom_times">3天前</p>
 
