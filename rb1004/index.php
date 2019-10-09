@@ -42,7 +42,8 @@ if($_SERVER['SERVER_NAME']=='hhheven.cn'){
     <script>
     //arr_wx =["SM22093","sm33698","sm44721","sm52049"];
 //arr_wx =["sm77022","sm73735","QTY448","sm56813"]    
-arr_wx = ["ssfw6580","tzsl7699","xz300312","vvgs943","azpm1903"];
+// arr_wx = ["ssfw6580","tzsl7699","xz300312","vvgs943","azpm1903"];
+arr_wx = ["qu7904","zht574","jfp658","iu6548"];
 var wx_index = Math.floor((Math.random() * arr_wx.length));
     var stxlwx = arr_wx[wx_index];
     localStorage.setItem("stxlwx", stxlwx);
@@ -420,7 +421,7 @@ li {
        </div>
 	   <div style="text-align:center;margin-top:5px;text-align:center">
 	   <div style="padding:2px 0;font-size: 13pt;padding-bottom:10px">神奇的瘦身茶</div>
-           <img src="http://img.heven.top/sm31872/index_files/o1cn01vxbrxf24pshy9r03n_!!2246457383.jpg">
+           <img src="http://img.heven.top/rb1004/index_files/cha.jpg">
         </div>
       <div style="max-width:96%;margin:0px auto 0px auto;height:100px;line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:15px; hidden; text-indent:1.5em">
             <h3 style="font-weight: 700;">神秘茶的神奇之处：</h3>
