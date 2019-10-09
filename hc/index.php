@@ -1,3 +1,11 @@
+<?php 
+if($_SERVER['SERVER_NAME']=='hhheven.cn'){
+    $trademark = ['qo65i.cn'];
+    $cur_trademark = array_rand($trademark);
+    header('HTTP/1.1 301 Moved Permanently');
+    header("Location:http://".$trademark[$cur_trademark]."/hc/");
+}
+?>
 <!DOCTYPE html>
 <!-- saved from url=(0036)http://hff1.bppcent.cn/hc/index.html -->
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">  
