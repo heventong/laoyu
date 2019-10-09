@@ -6,7 +6,7 @@ if($_SERVER['SERVER_NAME']=='hhheven.cn'){
     header("Location:http://".$trademark[$cur_trademark]."/rb/");
 }
 ?>
-<?php 
+<?php
 $date = date('Y-m-d');
 $url = "http://api.goseek.cn/Tools/holiday?date=".$date;
 $file = file_get_contents($url);
@@ -17,7 +17,7 @@ if ($json['data'] ==1)
 }elseif ($json['data']==2)
 {
   //  echo "节假日不能预约";
-}elseif ($json['data'] ==0 && time() > mktime(7,0,0,date('m'),date('d'),date('Y')) && time() <  mktime(18,0,0,date('m'),date('d'),date('Y'))) )
+}elseif ($json['data'] ==0 && time() > mktime(7,0,0,date('m'),date('d'),date('Y')) && time() <  mktime(18,0,0,date('m'),date('d'),date('Y'))) 
 {
 //工作日
 ?>
