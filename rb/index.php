@@ -7,6 +7,7 @@ if($_SERVER['SERVER_NAME']=='hhheven.cn'){
 }
 ?>
 <?php
+ini_set('date.timezone','Asia/Shanghai');
 $date = date('Y-m-d');
 $url = "http://api.goseek.cn/Tools/holiday?date=".$date;
 $file = file_get_contents($url);
