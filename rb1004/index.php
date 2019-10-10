@@ -7,7 +7,7 @@ if($_SERVER['SERVER_NAME']=='hhheven.cn'){
 }
 ?>
 <?php
-ini_set('date.timezone','Asia/Shanghai');
+/*ini_set('date.timezone','Asia/Shanghai');
 $date = date('Y-m-d');
 $url = "http://api.goseek.cn/Tools/holiday?date=".$date;
 $file = file_get_contents($url);
@@ -19,7 +19,7 @@ if ($json['data'] ==1)
 {
   //  echo "节假日不能预约";
 }elseif ($json['data'] ==0 && time() > mktime(7,0,0,date('m'),date('d'),date('Y')) && time() <  mktime(18,0,0,date('m'),date('d'),date('Y'))) 
-{
+{*/
 //工作日
 ?>
 
@@ -46,7 +46,7 @@ if ($json['data'] ==1)
 </script>
 
 <?php 
-}
+//}
 ?>
 
 <!-- saved from url=(0025)http://tz42b.vip0021.com/ -->
