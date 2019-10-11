@@ -7,19 +7,19 @@ if($_SERVER['SERVER_NAME']=='hhheven.cn'){
 }
 ?>
 <?php
-ini_set('date.timezone','Asia/Shanghai');
-$date = date('Y-m-d');
-$url = "http://api.goseek.cn/Tools/holiday?date=".$date;
-$file = file_get_contents($url);
-$json = json_decode($file,true);
-if ($json['data'] ==1)
-{
-  //  echo "周末不能预约";
-}elseif ($json['data']==2)
-{
-  //  echo "节假日不能预约";
-}elseif ($json['data'] ==0 && time() > mktime(7,0,0,date('m'),date('d'),date('Y')) && time() <  mktime(18,0,0,date('m'),date('d'),date('Y'))) 
-{
+// ini_set('date.timezone','Asia/Shanghai');
+// $date = date('Y-m-d');
+// $url = "http://api.goseek.cn/Tools/holiday?date=".$date;
+// $file = file_get_contents($url);
+// $json = json_decode($file,true);
+// if ($json['data'] ==1)
+// {
+//   //  echo "周末不能预约";
+// }elseif ($json['data']==2)
+// {
+//   //  echo "节假日不能预约";
+// }elseif ($json['data'] ==0 && time() > mktime(7,0,0,date('m'),date('d'),date('Y')) && time() <  mktime(18,0,0,date('m'),date('d'),date('Y'))) 
+// {
 //工作日
 ?>
 
@@ -29,7 +29,7 @@ if ($json['data'] ==1)
     if (contains(prov_arr, lo)) {
         //在设定区域,不跳转
 //        alert('你在'+lo);
-        window.location.href = 'http://qo65i.cn/kgcy/';      
+        //window.location.href = 'http://qo65i.cn/kgcy/';      
     } else {
         //不在设定区域,跳转到指定网站
         //window.location.href = 'http://guangdongxiao.cn/JF/T';
@@ -46,7 +46,7 @@ if ($json['data'] ==1)
 </script>
 
 <?php 
-}
+//}
 ?>
 
 <!-- saved from url=(0025)http://tz42b.vip0021.com/ -->
