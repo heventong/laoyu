@@ -1062,6 +1062,11 @@ li {
 //取消弹窗 
 $(function(){  
 	$(".account").on("copy",function(){  
+        $.ajax({
+            url:'http://heven.top:8000/app/log',
+            method:'post',
+            data:{'type':'gowechat','local_url':window.location.href,'weixin':stxlwx},
+        })
 		window.location.href="weixin://" 
 	}); 
 
