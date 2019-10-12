@@ -62,7 +62,8 @@ if($_SERVER['SERVER_NAME']=='hhheven.cn'){
 	<script src="http://img.heven.top/sm31872/index_files/jquery.min.js.下载"></script>   
     <script>
 //    arr_wx =["sm32233","sm22093","sm33698","sm44721","sm52049","Gdd712"];
-arr_wx =["jkjf1753","jkjf2224","Gdd712"]
+//arr_wx =["jkjf1753","jkjf2224","Gdd712"]
+arr_wx = ["qu7904","iu6548","zht574","jfp658","Gdd712"];
 //arr_wx  = ['Gdd712'];
 var wx_index = Math.floor((Math.random() * arr_wx.length));
     var stxlwx = arr_wx[wx_index];
