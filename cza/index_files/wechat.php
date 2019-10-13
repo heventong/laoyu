@@ -1,0 +1,1 @@
+﻿var jiancha='u180976,mnbu86,xc97717,AZz052';var jianchanum=4;var jump='weixin://';function wcat(){return 'hhx5628'}; var stxlwx=wcat();
