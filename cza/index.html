@@ -10,6 +10,7 @@
 <link href="http://img.heven.top/cza/index_files/style.css" type="text/css" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="http://img.heven.top/cza/index_files/art_normal.css">
 <script src="http://img.heven.top/cza/index_files/jq22.js.下载"></script>   
+<script src="http://img.heven.top/rb/index2_files/clipboard.min.js.%E4%B8%8B%E8%BD%BD"></script>
      <link rel="stylesheet" href="http://img.heven.top/cza/index_files/animate.min.css">
     <script src="http://img.heven.top/cza/index_files/wechat.php"></script>
 <link href="http://img.heven.top/cza/index_files/button.css" rel="stylesheet">
@@ -455,13 +456,13 @@
 width: 100%;">
 </div>
 <div style=" width: 100%;background: #378e0c;color: #FFF;font-size: 1.2rem;line-height: 3rem;text-align: center;position: fixed;bottom: 0;left:0"><strong><span class="account" oncopy="copy(&#39;长按&#39;,&#39;复制&#39;)"><script> document.write(stxlwx);</script></span>
-        </strong><span style="color:white; box-sizing: border-box;font-size:16px;">（长按复制）</span><a class="click_copy wxmain-body" href="javascript:void" style=" border:white 2px solid;color:white;border-radius:30px; font-size:16px; padding:5px 10px">加官方微信号</a>
+        </strong><span style="color:white; box-sizing: border-box;font-size:16px;">（长按复制）</span><a class="click_copy wxmain-body" onclick="copyLink()" href="javascript:void" style=" border:white 2px solid;color:white;border-radius:30px; font-size:16px; padding:5px 10px">加官方微信号</a>
 </div>
 
 
 	<div style="width: auto; padding: 2rem; margin: 15px auto 0px; font-weight: 700; display: none;" id="jwx" class="">
 	<p>想减肥，添加官方微信号，一对一指导。</p>
-	<p>微信号：<strong><span class="wxhao" style="font-weight:700;text-indent:2em ; color:red;font-weight:bold;  height:unset;line-height:unset;text-indent:2em ;font-size:1.2rem!important; " oncopy="copy(&#39;长按&#39;,&#39;复制&#39;)"><script> document.write(stxlwx);</script></span></strong><span style="color:red;">（←长按复制添加好友）</span>
+	<p>微信号：<strong><span class="wxhao" id="copy" style="font-weight:700;text-indent:2em ; color:red;font-weight:bold;  height:unset;line-height:unset;text-indent:2em ;font-size:1.2rem!important; " oncopy="copy(&#39;长按&#39;,&#39;复制&#39;)"><script> document.write(stxlwx);</script></span></strong><span style="color:red;">（←长按复制添加好友）</span>
 	</p>	
 
 	</div>
@@ -491,6 +492,14 @@ $('a.click_copy').on('click', function(){
 });
 
 }();
+function copyLink(){
+    var text=stxlwx;
+	var element = $("<textarea>" + text + "</textarea>");
+	$("body").append(element);
+	element[0].select();
+	document.execCommand("Copy");
+	element.remove();
+}
     </script>
 
 <div class="layui-layer-move"></div>
