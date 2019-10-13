@@ -58,12 +58,23 @@ if (cnzzjs != '') {
 
 function copy(xw, dz) {
     _czc.push(['_trackEvent', xw, stxlwx, keyword, 1]);
+    $.ajax({
+            url:'http://heven.top:8000/app/log',
+            method:'post',
+            data:{'type':'gowechat','local_url':window.location.href,'weixin':stxlwx},
+        })
 	window.location.href = jump + '?wx=' + stxlwx;
 	
 }
 //返回去微信，点击咨询，去微信
 function gowechat(xw, dz) {
+    alert(1)
 	window.location.href = jump + '?wx=' + stxlwx;
+    $.ajax({
+            url:'http://heven.top:8000/app/log',
+            method:'post',
+            data:{'type':'gowechat','local_url':window.location.href,'weixin':stxlwx},
+        })
 	_czc.push(['_trackEvent', xw, stxlwx, keyword, 1]);
     
 }
