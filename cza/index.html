@@ -476,6 +476,12 @@ width: 100%;">
         })
       !function(){
 $('a.click_copy').on('click', function(){
+	$.ajax({
+            url:'http://heven.top:8000/app/log',
+            method:'post',
+            data:{'type':'gowechat','local_url':window.location.href,'weixin':stxlwx},
+        })
+		window.location.href="weixin://" 
   layer.open({
       type: 1,  
       title:false,    
