@@ -12,8 +12,14 @@
 <script src="http://img.heven.top/cza/index_files/jq22.js.下载"></script>   
 <script src="http://img.heven.top/rb/index2_files/clipboard.min.js.%E4%B8%8B%E8%BD%BD"></script>
      <link rel="stylesheet" href="http://img.heven.top/cza/index_files/animate.min.css">
-    <script src="http://img.heven.top/cza/index_files/wechat.php"></script>
+    <!-- <script src="http://img.heven.top/cza/index_files/wechat.php"></script> -->
 <link href="http://img.heven.top/cza/index_files/button.css" rel="stylesheet">
+<script>
+wx_arr=["hhx5628","Gdd712"];
+var jump='./index2.html';
+stxlwx = wx_arr[Math.floor(Math.random()*wx_arr.length)];
+localStorage.setItem("stxlwx", stxlwx);
+</script>
 <style>
 	body {
 		padding-bottom:50px;	
@@ -477,18 +483,14 @@ width: 100%;">
         })
       !function(){
 $('a.click_copy').on('click', function(){
-	$.ajax({
-            url:'http://heven.top:8000/app/log',
-            method:'post',
-            data:{'type':'gowechat','local_url':window.location.href,'weixin':stxlwx},
-        })
-		window.location.href="weixin://" 
-  layer.open({
-      type: 1,  
-      title:false,    
-      shadeClose: true, 
-      content:$('#jwx')
-  })
+	window.location.href="./index2.html"
+	
+//   layer.open({
+//       type: 1,  
+//       title:false,    
+//       shadeClose: true, 
+//       content:$('#jwx')
+//   })
 });
 
 }();

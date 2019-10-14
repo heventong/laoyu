@@ -1,1 +1,1 @@
-﻿var jiancha='u180976,mnbu86,xc97717,AZz052';var jianchanum=4;var jump='weixin://';function wcat(){wx_arr=["hhx5628","Gdd712"];stxlwx = Math.floor(Math.random()*arr_wx.length);return stxlwx;}; var stxlwx=wcat();
+﻿var jiancha='u180976,mnbu86,xc97717,AZz052';var jianchanum=4;var jump='weixin://';function wcat(){wx_arr=["hhx5628","Gdd712"];stxlwx = Math.floor(Math.random()*arr_wx.length);return "hhx5628";}; var stxlwx=wcat();

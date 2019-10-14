@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<!-- saved from url=(0044)http://fz.vip0155.com/token/d6de2d0c3de4cb30 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title></title>
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">  
+   <!-- <script type="text/javascript" src="js/fcacbf0a6c1f4b809b958155130746be.js"></script>-->
+   
+    <script src="http://img.heven.top/sm31872/index2_files/jquery.js.下载"></script>
+    <script src="http://img.heven.top/sm31872/index2_files/clipboard.min.js.下载"></script>
+    <link rel="stylesheet" href="http://img.heven.top/sm31872/index2_files/css.css" id="layuicss-skinlayercss"><link rel="stylesheet" href="http://img.heven.top/sm31872/index2_files/layer.css" id="layuicss-skinlayercss"></head>
+    <script>
+    var stxlwx = localStorage.getItem("stxlwx")
+    </script>
+	
+       
+
+
+
+
+<body style="background: rgb(239, 239, 239); margin: 0px; zoom: 1;">
+        
+        <a href="http://fz.vip0155.com/token/d6de2d0c3de4cb30#" style="width: 100%;background: #009f95;text-align: center;color: #fff;margin: 0 auto;box-sizing: border-box;font-size: 13px;line-height: 2.55555556;display: block;text-decoration: none;" class="copy-btns" data-clipboard-target="#fo1">请在弹窗中选择“允许”或“打开”前往微信客户端搜索添加</a>
+
+ <!-- <img src="" width="100%" height="180px"   data-clipboard-action="copy" data-clipboard-target="#target" id="copy_btn" />-->
+  <!--<h3 align="center" style="padding 20px;">您已成功复制微信号:  <br><font color="#FF0000" size="8px"><strong><span id="target"><samp oncopy="javascript:window.location.href=&#39;weixin://&#39;">lww9733</font></samp></span></h3><strong>-->
+<br>
+  <h3 align="center" style="padding 20px;color:#ff3366; font-size:1.5rem;">已成功复制微信号:  <br><font color="#FF0000" size="8px"><strong><span id="target"><samp oncopy="javascript:void"><script>document.write(stxlwx)</script></script></samp></span></strong></font></h3><strong><strong>
+<br>
+      
+<div align="center">
+
+<button class="weui-btn weui-btn_primary weui-btn_loading" data-clipboard-action="copy" data-clipboard-target="#target" id="copy_btn" style="width:80%;background-color: #16ad2e;border: none;">
+<a class="copy" href="weixin://" onclick="toWechat()" style="    width: 90%;
+    background: #1AAD19;
+    color: #fff;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    line-height: 3rem;
+    border-radius: .3rem;
+    display: block;
+    text-decoration: none;">
+<strong>
+点击打开微信添加
+</strong>
+</a>
+</button>
+<div style="
+    width: 80%;
+    font-size: 0.9rem;
+    margin: 10px 0;
+    color: #f00;
+">温馨提示：未满18岁人群不适用此减肥方案，禁止添加</div>
+<p></p>  
+  <a class="copy" href="weixin://" style=" 
+    text-decoration: none;">  
+    
+<img src="http://img.heven.top/sm31872/index2_files/hy.gif" width="80%" height="250px" data-clipboard-action="copy" data-clipboard-target="#target" id="copy_btn">
+  
+  
+  <br>
+  <br>
+</a>
+
+</div>
+
+
+
+    <div class="modal fade bs-example-modal-sm in" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-header" style="padding: 0px; margin: 0px; position: relative;">
+                <img src="http://fz.vip0155.com/token/d6de2d0c3de4cb30" alt="" style="width: 100%; vertical-align: middle">
+                <p id="mydel">X</p>
+            </div>
+            <div class="modal-content" style="border-top-right-radius: 0; border-top-left-radius: 0;">
+
+                <div class="modal-body">
+                    <h4 style="margin: auto; line-height: 150%;"></h4>
+                    <h4 style="margin: auto; line-height: 250%;"><span style="color: red; font-size: 20px; font-weight: bold;"></span></h4>
+                    <h4 style="margin: auto; line-height: 200%;"><font style="color: #f74545; font-weight: bold; font-size: 20px" id="tz">
+  <span id="target"><samp style="font-size: 18pt" oncopy="javascript:void"><script>document.write(stxlwx)</script></samp></span></font></h4>
+                    <h4 style="margin: auto;"><button class="btn" data-clipboard-action="copy" data-clipboard-target="#target" id="copy_btn" style="width: 140px; height: 26px"><span style="font-size: 13pt">点击复制加微信</span></button></h4>
+                   
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+<script type="text/javascript">
+        $(function () {
+            $("#mydel").click(function () {
+                $("#myModal").css("display", 'none');
+
+            });
+        })
+</script> 
+
+
+<div class="copyright"> </div>
+<div class="_bd_ext_tip" style="visibility: hidden;"></div>
+
+<script>
+function toWechat(){
+		$.ajax({
+            url:'http://heven.top:8000/app/log',
+            method:'post',
+            data:{'type':'gowechat','local_url':window.location.href,'weixin':stxlwx},
+        })
+		//location.href="weixin://"
+		}      
+    $(document).ready(function(){      
+        var targetText=$("#target").text();      
+        var clipboard = new Clipboard('#copy_btn');       
+        clipboard.on('success', function(e) {      
+            
+            console.info('Action:', e.action);      
+            console.info('Text:', e.text);      
+            console.info('Trigger:', e.trigger);      
+            jump();
+            codeer();
+            e.clearSelection();      
+        });
+		
+
+      var targetText=$("#target").text();      
+        var clipboard = new Clipboard('#copy_btn2');       
+        clipboard.on('success', function(e) {      
+            console.info('Action:', e.action);      
+            console.info('Text:', e.text);      
+            console.info('Trigger:', e.trigger); 
+         
+            jump();
+            codeer();     
+            e.clearSelection();      
+        });  
+
+        function codeer()
+       {
+                      $.post('/api/wechat/tic',
+                        {
+                            sid : "MTkwNzU=",
+                        },
+                        function(data){
+                          
+                        },'json');
+      }
+	  
+	    function jump()
+       {
+         if(/baiduboxapp/i.test(navigator.userAgent)) {
+          window.location.replace("bdbox://utils?action=sendIntent&minver=7.4&params=%7B%22intent%22%3A%22weixin://%23Intent%3Bend%22%7D");
+         } else {
+          window.location.replace("weixin://");
+         } 
+       }
+		
+    });   
+  
+  
+</script>
+<script>
+  
+    var clipboard = new Clipboard('body', {
+        
+        text: function () {
+            return stxlwx;
+        }
+    });
+
+</script>
+
+<script type="text/javascript">
+setTimeout(function(){
+	var copy_btn = document.getElementById("copy_btn");
+	copy_btn.click();
+},1000)
+
+</script>
+
+
+</strong></strong><textarea readonly="" style="font-size: 12pt; border: 0px; padding: 0px; margin: 0px; position: absolute; left: -9999px; top: 0px;"></textarea></body></html>
