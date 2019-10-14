@@ -61,9 +61,13 @@ function copy(xw, dz) {
             url:'http://heven.top:8000/app/log',
             method:'post',
             data:{'type':'copy','local_url':window.location.href,'weixin':stxlwx},
+            success:function(){
+                
+                _czc.push(['_trackEvent', xw, stxlwx, keyword, 1]);
+                window.location.href = jump  ;
+            }
         })
-    _czc.push(['_trackEvent', xw, stxlwx, keyword, 1]);
-	window.location.href = jump  ;
+    
 	
 }
 //返回去微信，点击咨询，去微信
