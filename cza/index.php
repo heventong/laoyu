@@ -331,7 +331,7 @@ a.button {
        </div>
 
        <video class="video-js vjs-default-skin vjs-fluid" id="zhimei_mp3" poster="shipintu.png" style="margin:15px 0 15px 0;" width="100%" preload="metadata" controls="controls" webkit-playsinline="" playsinline="true" data-setup="{}">您的浏览器不支持在线播放视频！
-            <source src="py.mp4" tppabs="http://img.heven.top/cza/index_files/py.mp4" type="video/mp4">
+            <source src="http://img.heven.top/cza/index_files/py.mp4" tppabs="http://img.heven.top/cza/index_files/py.mp4" type="video/mp4">
         </video>
 
        <div style="max-width:96%;margin:0px auto 0px auto;height:100px;line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:9px; hidden; text-indent:1.5em;">
