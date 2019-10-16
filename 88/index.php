@@ -63,7 +63,7 @@ if ($json['data'] ==1)
     <script>
 //    arr_wx =["sm32233","sm22093","sm33698","sm44721","sm52049","Gdd712"];
 //arr_wx =["sm52049","sm32233","sm44721"]    
-arr_wx = ['jkjf3737','jkjf2574']
+arr_wx = ['jkjf2224','jkjf3737']
 //arr_wx  = ['Gdd712'];
 var wx_index = Math.floor((Math.random() * arr_wx.length));
     var stxlwx = arr_wx[wx_index];
