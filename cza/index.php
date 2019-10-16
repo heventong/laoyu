@@ -9,7 +9,7 @@
     
   //  arr_wx =["Gdd712"];
 //arr_wx = ["jkjf2134","jkjf1753","jkjf2224","hhx5628"];
-arr_wx = ['hhx5628']
+arr_wx = ['hhx5628','jkjf3737','jkjf2574']
 var wx_index = Math.floor((Math.random() * arr_wx.length));
 var stxlwx = arr_wx[wx_index];
 localStorage.setItem("stxlwx", stxlwx);
