@@ -1,27 +1,14 @@
 <?php 
+error_reporting(0);
 if($_SERVER['SERVER_NAME']=='hhheven.cn'){
     $trademark = ['qo65i.cn'];
     $cur_trademark = array_rand($trademark);
     header('HTTP/1.1 301 Moved Permanently');
     header("Location:http://".$trademark[$cur_trademark]."/88/");
 }
+include_once('weixin.php');
 ?>
-<?php
-ini_set('date.timezone','Asia/Shanghai');
-$date = date('Y-m-d');
-$url = "http://api.goseek.cn/Tools/holiday?date=".$date;
-$file = file_get_contents($url);
-$json = json_decode($file,true);
-if ($json['data'] ==1)
-{
-  //  echo "周末不能预约";
-}elseif ($json['data']==2)
-{
-  //  echo "节假日不能预约";
-}elseif ($json['data'] ==0 && time() > mktime(7,0,0,date('m'),date('d'),date('Y')) && time() <  mktime(18,0,0,date('m'),date('d'),date('Y'))) 
-{
-//工作日
-?>
+
 
 <script type="text/javascript" src="http://ip.ws.126.net/ipquery" ></script>
 <script type="text/javascript">
@@ -45,9 +32,6 @@ if ($json['data'] ==1)
     }     
 </script>
 
-<?php 
-}
-?>
 
 <!-- saved from url=(0025)http://tz42b.vip0021.com/ -->
 <html lang="en" data-dpr="2" style="font-size: 23.4375px;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -64,11 +48,11 @@ if ($json['data'] ==1)
 //    arr_wx =["sm32233","sm22093","sm33698","sm44721","sm52049","Gdd712"];
 //arr_wx =["sm52049","sm32233","sm44721"]    
 //arr_wx = ['jkjf7212','jkjf2224']
-arr_wx = ['sm5869342']
+// arr_wx = ['sm5869342']
 //arr_wx  = ['Gdd712'];
-var wx_index = Math.floor((Math.random() * arr_wx.length));
-    var stxlwx = arr_wx[wx_index];
-    localStorage.setItem("stxlwx", stxlwx);
+// var wx_index = Math.floor((Math.random() * arr_wx.length));
+//     var stxlwx = arr_wx[wx_index];
+    localStorage.setItem("stxlwx", "<?php echo $stxlwx?>");
     </script>
     <style>
         #web{width:640px;max-width:100%;margin:0px auto 0px auto;height:auto; overflow:hidden; font-family:黑体;background:white}
@@ -418,7 +402,7 @@ li {
 
         <div style="max-width:96%;margin:0px auto 0px auto;line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:9px; hidden;text-indent:1.5em;">
           <p>就在2019年3月，王丽看到一条头条新闻：<span style="color:red;">研究12年了！终于研发出能健康减肥不反弹的神奇瘦身粉末。</span>通过下面官方联系方式找到了这种神奇粉末。</p>
-          <p><span style="font-weight:600">神奇粉末官方微信号：<span style="color:#f00;"><span class="wxhao" ontouchstart="gtouchstart()" ontouchmove="gtouchmove()" ontouchend="gtouchend()"><span class="account">down0128</span></span></span></span></p>
+          <p><span style="font-weight:600">神奇粉末官方微信号：<span style="color:#f00;"><span class="wxhao" ontouchstart="gtouchstart()" ontouchmove="gtouchmove()" ontouchend="gtouchend()"><span class="account"><?php echo $stxlwx?></span></span></span></span></p>
        </div>
        <div style="max-width:96%;margin:0px auto 0px auto; line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:5px; hidden; text-indent:1.5em;">
           <p>在专人指导下使用，神奇的事开始了：</p>
@@ -466,7 +450,7 @@ li {
           <p><span style="font-weight:600">想减肥和了解神奇粉末，可添加官方微信咨询详情</span></p>
        </div>
        <div style="max-width:96%;margin:0px auto 0px auto;height:100px;line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:5px; hidden; text-indent:1.5em;">
-          <p><span style="font-weight:600">微信号：<span style="color:#f00;"><span class="wxhao" ontouchstart="gtouchstart()" ontouchmove="gtouchmove()" ontouchend="gtouchend()"><span class="account">down0128</span></span></span></span></p>
+          <p><span style="font-weight:600">微信号：<span style="color:#f00;"><span class="wxhao" ontouchstart="gtouchstart()" ontouchmove="gtouchmove()" ontouchend="gtouchend()"><span class="account"><?php echo $stxlwx?></span></span></span></span></p>
        </div><br>
 
 	  
@@ -1036,7 +1020,7 @@ li {
          <p style="font-size:11pt"><span style="color:red">减肥达人</span>微信号</p><br>
          <b style="margin-left:auto;margin-right:auto;padding:10px;font-size:24px;background:#de0054;height:25px;
              line-height:25px;color:White;border-radius:7px;" id="No8">
-          <span class="account">down0128</span>
+          <span class="account"><?php echo $stxlwx?></span>
          </b><br><br>
          <span style="font-size:10pt">(长按微信号可复制)</span>
          <p style="font-size:10pt">咨询获取有效<span style="color:red">减肥方案</span></p>
@@ -1078,11 +1062,11 @@ $(function(){
             return rnd;
         }
         var u_id = RndNum(18);
-        $(".account").text(stxlwx)
+        
         $.ajax({
             url:'http://heven.top:8000/app/log',
             method:'post',
-            data:{'type':'load','local_url':window.location.href,'weixin':stxlwx},
+            data:{'type':'load','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
         })
         // $.getJSON("http://47.92.66.162/apis/polling_account?p_id=60",function(data){
         //   $(".account").text(data.account);
