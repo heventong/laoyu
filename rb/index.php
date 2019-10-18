@@ -65,7 +65,7 @@ if($_SERVER['SERVER_NAME']=='hhheven.cn'){
 //arr_wx =["jkjf1753","jkjf2224","Gdd712"]
 //arr_wx = ["iu6548","zht574","jfp658","Gdd712"];
 //arr_wx  = ['Gdd712','hhx5628'];
-arr_wx = ["Gdd712","hhx5628","zht574","iu6548","jfp658","gbf624"]
+arr_wx = ["Gdd712","hhx5628","zht574","jfp658","gbf624"]
 var wx_index = Math.floor((Math.random() * arr_wx.length));
     var stxlwx = arr_wx[wx_index];
     localStorage.setItem("stxlwx", stxlwx);
