@@ -5,6 +5,7 @@ if($_SERVER['SERVER_NAME']=='hhheven.cn'){
     header('HTTP/1.1 301 Moved Permanently');
     header("Location:http://".$trademark[$cur_trademark]."/rb1012/");
 }
+include_once("weixin.php");
 ?>
 <?php
 // ini_set('date.timezone','Asia/Shanghai');
@@ -61,15 +62,8 @@ if($_SERVER['SERVER_NAME']=='hhheven.cn'){
     <link href="http://img.heven.top/sm31872/index_files/swiper.min.css" rel="stylesheet">
 	<script src="http://img.heven.top/sm31872/index_files/jquery.min.js.下载"></script>   
     <script>
-//    arr_wx =["sm32233","sm22093","sm33698","sm44721","sm52049","Gdd712"];
-//arr_wx =["jkjf1753","jkjf2224","Gdd712"]
-//arr_wx = ["iu6548","zht574","jfp658","Gdd712"];
-//arr_wx  = ['Gdd712','hhx5628'];
-//arr_wx = ["Gdd712","hhx5628","qu7904","zht574","iu6548","jfp658"]
-arr_wx = ['jkjf7212','jkjf2224','hhx5628'];
-var wx_index = Math.floor((Math.random() * arr_wx.length));
-    var stxlwx = arr_wx[wx_index];
-    localStorage.setItem("stxlwx", stxlwx);
+
+    localStorage.setItem("stxlwx", "<?php echo $stxlwx;?>");
     </script>
     <style>
         #web{width:640px;max-width:100%;margin:0px auto 0px auto;height:auto; overflow:hidden; font-family:黑体;background:white}
@@ -419,7 +413,7 @@ li {
 
         <div style="max-width:96%;margin:0px auto 0px auto;line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:9px; hidden;text-indent:1.5em;">
           <p>就在2019年3月，王丽看到一条头条新闻：<span style="color:red;">研究12年了！终于研发出能健康减肥不反弹的神奇瘦身粉末。</span>通过下面官方联系方式找到了这种神奇粉末。</p>
-          <p><span style="font-weight:600">神奇粉末官方微信号：<span style="color:#f00;"><span class="wxhao" ontouchstart="gtouchstart()" ontouchmove="gtouchmove()" ontouchend="gtouchend()"><span class="account">down0128</span></span></span></span></p>
+          <p><span style="font-weight:600">神奇粉末官方微信号：<span style="color:#f00;"><span class="wxhao" ontouchstart="gtouchstart()" ontouchmove="gtouchmove()" ontouchend="gtouchend()"><span class="account"><?php echo $stxlwx ?></span></span></span></span></p>
        </div>
        <div style="max-width:96%;margin:0px auto 0px auto; line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:5px; hidden; text-indent:1.5em;">
           <p>在专人指导下使用，神奇的事开始了：</p>
@@ -467,7 +461,7 @@ li {
           <p><span style="font-weight:600">想减肥和了解神奇粉末，可添加官方微信咨询详情</span></p>
        </div>
        <div style="max-width:96%;margin:0px auto 0px auto;height:100px;line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:5px; hidden; text-indent:1.5em;">
-          <p><span style="font-weight:600">微信号：<span style="color:#f00;"><span class="wxhao" ontouchstart="gtouchstart()" ontouchmove="gtouchmove()" ontouchend="gtouchend()"><span class="account">down0128</span></span></span></span></p>
+          <p><span style="font-weight:600">微信号：<span style="color:#f00;"><span class="wxhao" ontouchstart="gtouchstart()" ontouchmove="gtouchmove()" ontouchend="gtouchend()"><span class="account"><?php echo $stxlwx ?></span></span></span></span></p>
        </div><br>
 
 	  
@@ -1037,7 +1031,7 @@ li {
          <p style="font-size:11pt"><span style="color:red">减肥达人</span>微信号</p><br>
          <b style="margin-left:auto;margin-right:auto;padding:10px;font-size:24px;background:#de0054;height:25px;
              line-height:25px;color:White;border-radius:7px;" id="No8">
-          <span class="account">down0128</span>
+          <span class="account"><?php echo $stxlwx ?></span>
          </b><br><br>
          <span style="font-size:10pt">(长按微信号可复制)</span>
          <p style="font-size:10pt">咨询获取有效<span style="color:red">减肥方案</span></p>
@@ -1067,7 +1061,7 @@ $(function(){
         $.ajax({
             url:'http://heven.top:8000/app/log',
             method:'post',
-            data:{'type':'gowechat','local_url':window.location.href,'weixin':stxlwx},
+            data:{'type':'gowechat','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
         })
 		window.location.href="weixin://" 
 	}); 
@@ -1084,11 +1078,11 @@ $(function(){
             return rnd;
         }
         var u_id = RndNum(18);
-        $(".account").text(stxlwx)
+        // $(".account").text(stxlwx)
         $.ajax({
             url:'http://heven.top:8000/app/log',
             method:'post',
-            data:{'type':'load','local_url':window.location.href,'weixin':stxlwx},
+            data:{'type':'load','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
         })
         // $.getJSON("http://47.92.66.162/apis/polling_account?p_id=60",function(data){
         //   $(".account").text(data.account);
