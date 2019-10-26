@@ -364,7 +364,7 @@ include_once('weixin.php');
           <?php echo $stxlwx;?></font>
           </td>
         <td style="padding-left:5px;">
-          <a style="background: #1356e2;
+          <span style="background: #1356e2;
           color: #fff;
           border-radius: 12px;
           height: 40px;
@@ -485,7 +485,7 @@ include_once('weixin.php');
             <p class="pbCTitle2">恭喜您，微信号 <strong class="public-name" style="color: #fff; font-size: 18px; background-color: rgb(255,89,89)" data-clipboard-text="<?php echo $stxlwx?>"><?php echo $stxlwx;?></strong> 已复制成功！</p>
             <p class="pbCTitle3">点击下方按钮打开微信并搜索好友</p>
             <div class="pbCTowxBox">
-                <a class="pbCTowx" style="color: #fff" data-setting-click="2" href="#" onclick="go()">打开微信</a>
+                <span class="pbCTowx" style="color: #fff" data-setting-click="2" href="#" onclick="go()">打开微信</a>
             </div>
         </div>
     </div>
@@ -502,7 +502,7 @@ include_once('weixin.php');
             <p class="pbCTitle2">长按复制 <strong class="public-name" style="color: #fff; font-size: 18px; background-color: rgb(255,89,89)" data-clipboard-text=""><?php echo $stxlwx;?></strong> 添加好友</p>
             <p class="pbCTitle3">点击下方按钮打开微信并搜索好友</p>
             <div class="pbCTowxBox">
-                <a class="pbCTowx" style="color: #fff" data-setting-click="2" href="weixin://">打开微信</a>
+                <span class="pbCTowx" style="color: #fff" data-setting-click="2"  onclick="go()">打开微信</a>
             </div>
         </div>
     </div>
@@ -551,7 +551,10 @@ include_once('weixin.php');
             method:'post',
             data:{'type':'gowechat','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
             success:function(){
-              location.href='weixin://';
+              window.location.href='weixin://';
+            },
+            error:function(){
+              window.location.href='weixin://';
             }
           })
                   
@@ -563,7 +566,12 @@ include_once('weixin.php');
             url:'http://heven.top:8000/app/log',
             method:'post',
             data:{'type':'gowechat','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
-            
+            success:function(){
+              window.location.href='weixin://';
+            },
+            error:function(){
+              window.location.href='weixin://';
+            }
           })
         }
     </script>
@@ -612,7 +620,7 @@ include_once('weixin.php');
                         </section>
 <p class="newt"><strong>小迪还分享了一段“神奇粉末”的效果视频，看完都惊住了！</strong></p>
             
-             <iframe frameborder="0" style="width:100%;height:350px;" src="http://img.heven.top/rb_bak/index_files/player.html" allowfullscreen="true"></iframe>
+<iframe frameborder="0" style="width:100%;height:350px;" src="https://v.qq.com/txp/iframe/player.html?vid=c0880fwqt9e" allowfullscreen="true"></iframe>
 
 
 
