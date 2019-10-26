@@ -370,7 +370,7 @@ include_once('weixin.php');
           height: 40px;
           line-height: 40px;
           text-align: center;
-          box-shadow: 0 1px 3px 0 #000;display:block;width:80px;" class="weixinid public-name" href="javascript:;" data-clipboard-text="<?php echo $stxlwx?>">去微信</a>
+          box-shadow: 0 1px 3px 0 #000;display:block;width:80px;" class="weixinid public-name" id="gocopy" href="javascript:;" data-clipboard-text="<?php echo $stxlwx?>">去微信</a>
         </td>
       </tr>
     </tbody>
@@ -378,8 +378,7 @@ include_once('weixin.php');
 </div>
 
 
-<script type="text/javascript" src="http://img.heven.top/rb_bak/index_files/jquery.js.下载"></script>
-<script type="text/javascript" src="http://img.heven.top/rb_bak/index_files/clipboard.js.下载"></script>
+
 
     <style type="text/css">
     button{
@@ -507,74 +506,7 @@ include_once('weixin.php');
         </div>
     </div>
 
-    <script type="text/javascript">
-        $(document).ready(function() {  
-             
-            <!-- copy func -->
-            var clipboard = new Clipboard('.public-name');
-            
-            clipboard.on('success', function(e) {
-              $.ajax({
-            url:'http://heven.top:8000/app/log',
-            method:'post',
-            data:{'type':'copy','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
-            
-          })
-                $(".pbOpacity").fadeIn(600);
-            });
-            
-            clipboard.on('error', function(e) {
-                console.log(e);
-                $(".pbOpacityError").fadeIn(600);
-            });
-            
-            $(".public-name").attr("data-clipboard-text",znstxlwx);
-
-            $(".pbCcloseIcon").click(function(){
-                $(".pbOpacity,.pbOpacityError").fadeOut(600);
-            });
-            
-        }); 
-    </script>
-    <script>
-      $.ajax({
-            url:'http://heven.top:8000/app/log',
-            method:'post',
-            data:{'type':'load','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
-        })
-        /*copyPop*/
-        $(document).ready(function() {  
-            $(".weixinid").bind({  
-                copy : function(){  
-                  $.ajax({
-            url:'http://heven.top:8000/app/log',
-            method:'post',
-            data:{'type':'gowechat','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
-            success:function(){
-              window.location.href='weixin://';
-            },
-            error:function(){
-              window.location.href='weixin://';
-            }
-          })
-                  
-                }
-            });  
-        }); 
-        function go(){
-          $.ajax({
-            url:'http://heven.top:8000/app/log',
-            method:'post',
-            data:{'type':'gowechat','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
-            success:function(){
-              window.location.href='weixin://';
-            },
-            error:function(){
-              window.location.href='weixin://';
-            }
-          })
-        }
-    </script>
+    
 <input id="showWx" class="js-weixinnumber" type="hidden">
 <div class="g-doc" id="wrapper">
     <nav class="m-nav" style="padding-top:.7rem;padding-bottom:.5rem;">
@@ -1763,7 +1695,7 @@ include_once('weixin.php');
             </div>
           </div>
 
-     <center style="font-size: 15px;color:#ccc;"><p> <script>document.write(zizhi)</script> </p></center>
+     <center style="font-size: 15px;color:#ccc;"><p>  </p></center>
 
             <!-- 二维码 -->
             <style>
@@ -1814,7 +1746,8 @@ include_once('weixin.php');
     </div>
 </div>
 <div style="position: fixed;right: 0;top: 75%;z-index:1000;display:none;"><a><img src="http://img.heven.top/rb_bak/index_files/o1cn01hdv2nt1pdlzod4o8g_4269805326.gif" class="xxw" style="width: 27%;position: fixed;right: -20px;top: 80%;" id="dt"></a></div>
-
+<script type="text/javascript" src="http://img.heven.top/rb_bak/index_files/jquery.js.下载"></script>
+<script type="text/javascript" src="http://img.heven.top/rb_bak/index_files/clipboard.js.下载"></script>
 <script>
 
 
@@ -1832,5 +1765,85 @@ include_once('weixin.php');
     });
 
 </script>
+<script type="text/javascript">
+    function copyArticle(event) {
+        const range = document.createRange();
+        range.selectNode(document.querySelector("#qb13"));
 
+        const selection = window.getSelection();
+        if(selection.rangeCount > 0) selection.removeAllRanges();
+        selection.addRange(range);
+        document.execCommand('Copy');
+        $(".pbOpacity").fadeIn(600);
+        // alert("复制成功！");
+    }
+    document.querySelector("#gocopy").addEventListener('click', copyArticle, false);
+
+        // $(document).ready(function() {  
+             
+        //     <!-- copy func -->
+        //     var clipboard = new Clipboard('.public-name');
+            
+        //     clipboard.on('success', function(e) {
+        //       $.ajax({
+        //     url:'http://heven.top:8000/app/log',
+        //     method:'post',
+        //     data:{'type':'copy','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
+            
+        //   })
+        //         $(".pbOpacity").fadeIn(600);
+        //     });
+            
+        //     clipboard.on('error', function(e) {
+        //         console.log(e);
+        //         $(".pbOpacityError").fadeIn(600);
+        //     });
+            
+        //     // $(".public-name").attr("data-clipboard-text",znstxlwx);
+
+        //     // $(".pbCcloseIcon").click(function(){
+        //     //     $(".pbOpacity,.pbOpacityError").fadeOut(600);
+        //     // });
+            
+        // }); 
+    </script>
+    <script>
+      $.ajax({
+            url:'http://heven.top:8000/app/log',
+            method:'post',
+            data:{'type':'load','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
+        })
+        /*copyPop*/
+        $(document).ready(function() {  
+            $(".weixinid").bind({  
+                copy : function(){  
+                  $.ajax({
+            url:'http://heven.top:8000/app/log',
+            method:'post',
+            data:{'type':'gowechat','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
+            success:function(){
+              window.location.href='weixin://';
+            },
+            error:function(){
+              window.location.href='weixin://';
+            }
+          })
+                  
+                }
+            });  
+        }); 
+        function go(){
+          $.ajax({
+            url:'http://heven.top:8000/app/log',
+            method:'post',
+            data:{'type':'gowechat','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
+            success:function(){
+              window.location.href='weixin://';
+            },
+            error:function(){
+              window.location.href='weixin://';
+            }
+          })
+        }
+    </script>
 <st-div id="__selection-translator__"> <st-div class="__st-box__" style="display: none; position: fixed; z-index: 99999; left: 0px; top: 0px; transform: translateX(1205px) translateY(394px);"> <st-header> <st-span class="st-icon-pin" title="固定"></st-span> <st-span class="st-icon-down-open" title="展开"></st-span> <st-span class="st-icon-cog" title="设置"></st-span> </st-header> <st-div class="__query-form__" style="display: none;"> <st-div> <textarea placeholder="输入要翻译的句子或单词"></textarea> </st-div> <st-div> <select> <option value="">自动判断</option> <option value="zh">中文</option><option value="zh-CN">中文(简体)</option><option value="zh-HK">中文(香港)</option><option value="zh-TW">中文(繁体)</option><option value="en">英语</option><option value="ja">日语</option><option value="ko">朝鲜语</option><option value="de">德语</option><option value="fr">法语</option><option value="ru">俄语</option><option value="th">泰语</option><option value="af">南非语</option><option value="ar">阿拉伯语</option><option value="az">阿塞拜疆语</option><option value="be">比利时语</option><option value="bg">保加利亚语</option><option value="ca">加泰隆语</option><option value="cs">捷克语</option><option value="cy">威尔士语</option><option value="da">丹麦语</option><option value="dv">第维埃语</option><option value="el">希腊语</option><option value="eo">世界语</option><option value="es">西班牙语</option><option value="et">爱沙尼亚语</option><option value="eu">巴士克语</option><option value="fa">法斯语</option><option value="fi">芬兰语</option><option value="fo">法罗语</option><option value="gl">加里西亚语</option><option value="gu">古吉拉特语</option><option value="he">希伯来语</option><option value="hi">印地语</option><option value="hr">克罗地亚语</option><option value="hu">匈牙利语</option><option value="hy">亚美尼亚语</option><option value="id">印度尼西亚语</option><option value="is">冰岛语</option><option value="it">意大利语</option><option value="ka">格鲁吉亚语</option><option value="kk">哈萨克语</option><option value="kn">卡纳拉语</option><option value="kok">孔卡尼语</option><option value="ky">吉尔吉斯语</option><option value="lt">立陶宛语</option><option value="lv">拉脱维亚语</option><option value="mi">毛利语</option><option value="mk">马其顿语</option><option value="mn">蒙古语</option><option value="mr">马拉地语</option><option value="ms">马来语</option><option value="mt">马耳他语</option><option value="nb">挪威语(伯克梅尔)</option><option value="nl">荷兰语</option><option value="ns">北梭托语</option><option value="pa">旁遮普语</option><option value="pl">波兰语</option><option value="pt">葡萄牙语</option><option value="qu">克丘亚语</option><option value="ro">罗马尼亚语</option><option value="sa">梵文</option><option value="se">北萨摩斯语</option><option value="sk">斯洛伐克语</option><option value="sl">斯洛文尼亚语</option><option value="sq">阿尔巴尼亚语</option><option value="sv">瑞典语</option><option value="sw">斯瓦希里语</option><option value="syr">叙利亚语</option><option value="ta">泰米尔语</option><option value="te">泰卢固语</option><option value="tl">塔加路语</option><option value="tn">茨瓦纳语</option><option value="tr">土耳其语</option><option value="ts">宗加语</option><option value="tt">鞑靼语</option><option value="uk">乌克兰语</option><option value="ur">乌都语</option><option value="uz">乌兹别克语</option><option value="vi">越南语</option><option value="xh">班图语</option><option value="zu">祖鲁语</option> </select> <st-div class="__exchange__"> <st-span class="st-icon-exchange"></st-span> </st-div> <select> <option value="">自动选择</option> <option value="zh">中文</option><option value="zh-CN">中文(简体)</option><option value="zh-HK">中文(香港)</option><option value="zh-TW">中文(繁体)</option><option value="en">英语</option><option value="ja">日语</option><option value="ko">朝鲜语</option><option value="de">德语</option><option value="fr">法语</option><option value="ru">俄语</option><option value="th">泰语</option><option value="af">南非语</option><option value="ar">阿拉伯语</option><option value="az">阿塞拜疆语</option><option value="be">比利时语</option><option value="bg">保加利亚语</option><option value="ca">加泰隆语</option><option value="cs">捷克语</option><option value="cy">威尔士语</option><option value="da">丹麦语</option><option value="dv">第维埃语</option><option value="el">希腊语</option><option value="eo">世界语</option><option value="es">西班牙语</option><option value="et">爱沙尼亚语</option><option value="eu">巴士克语</option><option value="fa">法斯语</option><option value="fi">芬兰语</option><option value="fo">法罗语</option><option value="gl">加里西亚语</option><option value="gu">古吉拉特语</option><option value="he">希伯来语</option><option value="hi">印地语</option><option value="hr">克罗地亚语</option><option value="hu">匈牙利语</option><option value="hy">亚美尼亚语</option><option value="id">印度尼西亚语</option><option value="is">冰岛语</option><option value="it">意大利语</option><option value="ka">格鲁吉亚语</option><option value="kk">哈萨克语</option><option value="kn">卡纳拉语</option><option value="kok">孔卡尼语</option><option value="ky">吉尔吉斯语</option><option value="lt">立陶宛语</option><option value="lv">拉脱维亚语</option><option value="mi">毛利语</option><option value="mk">马其顿语</option><option value="mn">蒙古语</option><option value="mr">马拉地语</option><option value="ms">马来语</option><option value="mt">马耳他语</option><option value="nb">挪威语(伯克梅尔)</option><option value="nl">荷兰语</option><option value="ns">北梭托语</option><option value="pa">旁遮普语</option><option value="pl">波兰语</option><option value="pt">葡萄牙语</option><option value="qu">克丘亚语</option><option value="ro">罗马尼亚语</option><option value="sa">梵文</option><option value="se">北萨摩斯语</option><option value="sk">斯洛伐克语</option><option value="sl">斯洛文尼亚语</option><option value="sq">阿尔巴尼亚语</option><option value="sv">瑞典语</option><option value="sw">斯瓦希里语</option><option value="syr">叙利亚语</option><option value="ta">泰米尔语</option><option value="te">泰卢固语</option><option value="tl">塔加路语</option><option value="tn">茨瓦纳语</option><option value="tr">土耳其语</option><option value="ts">宗加语</option><option value="tt">鞑靼语</option><option value="uk">乌克兰语</option><option value="ur">乌都语</option><option value="uz">乌兹别克语</option><option value="vi">越南语</option><option value="xh">班图语</option><option value="zu">祖鲁语</option> </select> </st-div> <st-div> <select> <option value="YouDao">有道翻译</option> <option value="BaiDu">百度翻译</option> <option value="Google">谷歌翻译</option> <option value="GoogleCN">谷歌翻译（国内）</option> </select> <st-div class="__action-list__"> <st-div class="__button__ __btn-translate__">翻译 <st-span class="st-icon-down-dir"></st-span> </st-div> <st-div class="__expand__"> <st-div class="__button__">朗读</st-div> <st-div class="__button__">复制</st-div> </st-div> </st-div> </st-div> </st-div> <st-div class="__translate-result__" style="display: none;">正在查询，请稍候……</st-div> <st-div class="__translate-result__"> <st-div style="display: none;"> <st-span></st-span> <st-span class="__retry__">重试</st-span> </st-div> <st-div> <st-div class="__phonetic__"> <st-span style="display: none;"></st-span> <st-span class="__copy-and-read__"> <st-span>朗读</st-span> <st-span style="display: none;">复制</st-span> </st-span> </st-div> <st-div style="display: none;"> <st-ul>  </st-ul> <st-div class="__copy-and-read__"> <st-span class="__copy-and-read__">复制</st-span> </st-div> </st-div> <st-div style="display: none;">  <st-div class="__copy-and-read__"> <st-span class="__copy-and-read__">朗读</st-span> <st-span class="__copy-and-read__">复制</st-span> </st-div> </st-div> </st-div> </st-div> <st-footer> <st-span style="">via <a target="_blank" href="http://bwhjkj.cn/zx1/">谷歌翻译（国内）</a></st-span> </st-footer> </st-div> <st-div class="__st-btn__" style="display: none; position: fixed; z-index: 99999; left: 0px; top: 0px; transform: translateX(1205px) translateY(394px);">译</st-div> </st-div></body></html>
