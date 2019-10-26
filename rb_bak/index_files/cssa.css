@@ -1,0 +1,88 @@
+
+/*评论*/
+
+.pinglun li {
+
+    border-bottom: 1px solid #cfcfcf;
+
+    padding:10px 0 10px 10px;
+
+    overflow: hidden;
+
+}
+
+.pinglun dl {
+
+    width: 100%;
+
+    overflow: hidden;
+
+}
+
+.pinglun dt {
+
+    width: 50px;
+
+    float: left;
+
+}
+
+.pinglun dd {
+
+    margin-left: 60px;
+
+    font-size: 16px;
+
+}
+
+.pinglun dd p {
+
+    color: #999;
+
+    margin-top: 1%;
+
+}
+
+.pinglun .pl {
+
+    margin-left: 60px;
+
+	font-size:16px;
+
+    line-height:1.5;
+
+	padding-right:10px;
+
+	text-align:justify;
+
+}
+
+.zan{background: #eee;
+
+    color: #999;
+
+    font-size:16px;
+
+    line-height:30px;
+
+    padding: 0 .5rem;
+
+    border-top: 1px solid #cfcfcf;
+
+    border-bottom: 1px solid #cfcfcf;}
+
+.add-wechat {
+    position:fixed;
+    bottom:0;
+    display:block;
+    z-index:999;
+    max-width:640px;
+    margin:0 auto;
+    width:90%;
+    text-align:center;
+}
+
+
+
+
+
