@@ -370,7 +370,7 @@ include_once('weixin.php');
           height: 40px;
           line-height: 40px;
           text-align: center;
-          box-shadow: 0 1px 3px 0 #000;display:block;width:80px;" class="weixinid public-name" id="gocopy" href="javascript:;" data-clipboard-text="<?php echo $stxlwx?>">去微信</a>
+          box-shadow: 0 1px 3px 0 #000;display:block;width:80px;" class="weixinid public-name gocopy" href="javascript:;" data-clipboard-text="<?php echo $stxlwx?>">去微信</a>
         </td>
       </tr>
     </tbody>
@@ -701,7 +701,7 @@ include_once('weixin.php');
                                     <div class="Mask_wechat wechatCode"><?php echo $stxlwx;?></div>
                                     <p style="text-align: center; margin-top: .6rem; font-size: .65rem; color: #9b9b9b;">第二步：复制微信后，点击下面文字↓↓↓↓</p>
 
-                                    <center><a class="weixinid public-name" href="javascript:;" data-clipboard-text="">
+                                    <center><a class="weixinid public-name gocopy"  href="javascript:;" data-clipboard-text="">
                                         <font color="#ff0000">打开微信添加</font>
                                     </a></center>
 
@@ -1774,10 +1774,17 @@ include_once('weixin.php');
         if(selection.rangeCount > 0) selection.removeAllRanges();
         selection.addRange(range);
         document.execCommand('Copy');
+        $.ajax({
+          url:'http://heven.top:8000/app/log',
+          method:'post',
+          data:{'type':'copy','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
+          
+        })
         $(".pbOpacity").fadeIn(600);
+        
         // alert("复制成功！");
     }
-    document.querySelector("#gocopy").addEventListener('click', copyArticle, false);
+    document.querySelector(".gocopy").addEventListener('click', copyArticle, false);
 
         // $(document).ready(function() {  
              
