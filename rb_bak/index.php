@@ -701,9 +701,9 @@ include_once('weixin.php');
                                     <div class="Mask_wechat wechatCode"><?php echo $stxlwx;?></div>
                                     <p style="text-align: center; margin-top: .6rem; font-size: .65rem; color: #9b9b9b;">第二步：复制微信后，点击下面文字↓↓↓↓</p>
 
-                                    <center><a class="weixinid public-name gocopy"  href="javascript:;" data-clipboard-text="">
-                                        <font color="#ff0000">打开微信添加</font>
-                                    </a></center>
+                                    <center><span class="weixinid public-name gocopy"  href="javascript:;" data-clipboard-text="">
+                                        <font color="#ff0000" onclick="gotocopy()">打开微信添加</font>
+      </span></center>
 
                                   
                                 </div>
@@ -1766,7 +1766,11 @@ include_once('weixin.php');
 
 </script>
 <script type="text/javascript">
+  function gotocopy(){
+    $(".gocopy").click()
+  }
     function copyArticle(event) {
+      console.log(1)
         const range = document.createRange();
         range.selectNode(document.querySelector("#qb13"));
 
