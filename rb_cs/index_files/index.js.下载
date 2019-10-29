@@ -1,0 +1,31 @@
+$(function() {
+	
+	
+	$(".vid iframe").css({width:"100%",height:"10rem"});
+	
+	$.ajax({
+		url:"https://lvshouad.com/project/tp_2019/index.php/Home/Index/wx_chat_api/id/258.html",
+		type:'post',
+		async:false,
+		success:function(result){
+			var arrResult = JSON.parse(result);
+			$(".wx-name").html(arrResult[0].wx_name_two);
+			$(".copywx").html(arrResult[0].wx_name);
+			$(".copy-button button").attr("data-clipboard-text",arrResult[0].wx_name);
+			$("#showWx").attr("value",arrResult[0].wx_name);
+			$(".wx-img").attr("src",arrResult[0].wx_head_img);
+			$(".wx-qr").attr("src",arrResult[0].wx_img);
+		},
+		error:function(result){
+			console.log(result);
+		}
+	});
+	
+	
+	var _czc = _czc || [];
+	_czc.push(["_setAccount", "1275874791"]);
+	var _hmt = _hmt || [];
+	
+	shouWxVal = $("#showWx").val();
+	
+});
