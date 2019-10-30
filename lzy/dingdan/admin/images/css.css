@@ -1,0 +1,124 @@
+body,td,th {
+	font-family: Verdana;
+	font-size: 12px;
+}
+.hongzi {color: #FF0000}
+body {
+	margin: 0px;
+}
+a{behavior:url(../inc/gy.htc)}
+a:link {
+	color: #323232;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #323232;
+}
+a:hover {
+	text-decoration: none;
+	color: #323232;
+}
+a:active {
+	text-decoration: none;
+	color: #323232;
+}
+#guangyu {
+	position: absolute;
+	width:362px;
+	height:242px;
+	left:50%;
+	top:50%;
+	margin-left:-181px;
+	margin-top:-121px;
+	background-color: #FFFFFF;
+}
+.ziduan {
+	font-family: Verdana;
+	font-size: 12px;
+	height: 16px;
+	width: 130px;
+	border: 1px solid #7F9DB9;
+}
+.ziduan2 {
+	font-family: Verdana;
+	font-size: 12px;
+	height: 16px;
+	width: 50px;
+	border: 1px solid #7F9DB9;
+}
+.zd {
+	font-family: Verdana;
+	font-size: 12px;
+	height: 16px;
+	width: 250px;
+	border: 1px solid #7F9DB9;
+}
+.wenbenkuang {
+	font-family: Verdana;
+	font-size: 12px;
+	height: 100px;
+	width: 350px;
+	border: 1px solid #7F9DB9;
+}
+.wenbenkuang1 {
+	font-family: Verdana;
+	font-size: 12px;
+	height: 50px;
+	width: 420px;
+	border: 1px solid #7F9DB9;
+}
+.sjk {
+	font-family: Verdana;
+	font-size: 12px;
+	height: 16px;
+	width: 200px;
+	border: 1px solid #7F9DB9;
+}
+.hg {
+	line-height:22px;
+}
+.key {
+	color: #FF0000;
+	font-size: 14px;
+	font-weight: bold;
+}
+.left {
+	cursor:hand;
+	color: #FF0000;
+	font-weight: bold;
+}
+.biaoti {
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.an {
+	background-color: #127ACF;
+	height: 20px;
+	width: 40px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	color: #FFFFFF;
+}
+
+#dhtmltooltip {
+	position: absolute;
+	border: 1px solid #CCCCCC;
+	padding: 8px;
+	background-color: #EFEFEF;
+	visibility: hidden;
+	z-index: 100;
+	line-height:22px;
+	font-size:12px;
+	font-family:Verdana;
+}
+.liebiao {
+	font-family: tahoma;
+	font-size: 12px;
+	height: 22px;
+}
+.hongzi2 {color: #FF0000;
+font-weight:bold;}
+.atd{height:35px; line-height:35px}
