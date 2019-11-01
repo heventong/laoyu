@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">  
    <!-- <script type="text/javascript" src="js/fcacbf0a6c1f4b809b958155130746be.js"></script>-->
    
-    <script src="./index2_files/jquery.js.下载"></script>
-    <script src="./index2_files/clipboard.min.js.下载"></script>
+    <script src="http://img.heven.top/rb/index2_files/jquery.js.下载"></script>
+    <script src="http://img.heven.top/rb/index2_files/clipboard.min.js.下载"></script>
     <link rel="stylesheet" href="http://img.heven.top/rb/index2_files/css.css" id="layuicss-skinlayercss"><link rel="stylesheet" href="http://img.heven.top/rb/index2_files/layer.css" id="layuicss-skinlayercss"></head>
     <script>
     var stxlwx = localStorage.getItem("stxlwx")
@@ -103,7 +103,7 @@
 <script>
 function toWechat(){
 		$.ajax({
-            url:'./post.php',
+            url:'http://heven.top:8000/app/log',
             method:'post',
             data:{'type':'gowechat','local_url':window.location.href,'weixin':stxlwx},
         })
@@ -137,7 +137,13 @@ function toWechat(){
 
         function codeer()
        {
-                      
+                      $.post('/api/wechat/tic',
+                        {
+                            sid : "MTkwNzU=",
+                        },
+                        function(data){
+                          
+                        },'json');
       }
 	  
 	    function jump()

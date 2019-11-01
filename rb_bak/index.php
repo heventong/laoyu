@@ -23,8 +23,6 @@ include_once('weixin.php');
 // {
 //工作日
 ?>
-<!--<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">-->
-
 
 <!--<script type="text/javascript" src="http://ip.ws.126.net/ipquery" ></script>-->
 <script type="text/javascript">
@@ -62,7 +60,7 @@ include_once('weixin.php');
     <meta name="MobileOptimized" content="100%">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <link href="http://img.heven.top/sm31872/index_files/swiper.min.css" rel="stylesheet">
-	<script src="./index_files/jquery.min.js.下载"></script>   
+	<script src="http://img.heven.top/sm31872/index_files/jquery.min.js.下载"></script>   
     <script>
 
     localStorage.setItem("stxlwx", "<?php echo $stxlwx?>");
@@ -1061,7 +1059,7 @@ li {
 $(function(){  
 	$(".account").on("copy",function(){  
         $.ajax({
-            url:'./post.php',
+            url:'http://heven.top:8000/app/log',
             method:'post',
             data:{'type':'gowechat','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
         })
@@ -1070,7 +1068,7 @@ $(function(){
 
 }) ; 
 </script>
-     <script type="text/javascript" src="./index_files/jquery.longpress.js.下载"></script>
+     <script type="text/javascript" src="http://img.heven.top/sm31872/index_files/jquery.longpress.js.下载"></script>
 <script type="text/javascript">
     $(document).ready(function(){
         function RndNum(n){
@@ -1082,7 +1080,7 @@ $(function(){
         var u_id = RndNum(18);
         
         $.ajax({
-            url:'./post.php',
+            url:'http://heven.top:8000/app/log',
             method:'post',
             data:{'type':'load','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
         })
