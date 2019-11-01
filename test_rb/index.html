@@ -1,0 +1,28 @@
+<html><head>
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<meta id="mymeta">
+<script type="text/javascript">
+  var mobileAgent = new Array("iphone", "ipod", "ipad", "android", "mobile", "blackberry", "webos", "incognito", "webmate", "bada", "nokia", "lg", "ucweb", "skyfire");
+  var browser = navigator.userAgent.toLowerCase();
+  var isMobile = false;
+  for (var i=0; i<mobileAgent.length; i++)
+  {
+      if (browser.indexOf(mobileAgent[i])!=-1)
+      {
+          isMobile = true;
+          mymeta.name = "viewport";
+          mymeta.content = "width=device-width, initial-scale=1, maximum-scale=1";
+          break;
+      }
+  }
+</script></head>
+
+<frameset rows="0,*" frameborder="NO" border="0" framespacing="0"> 
+  <frame name="topFrame" scrolling="NO" noresize="" src="about:blank">
+  <frame name="mainFrame" src="http://testhh.heven.top/laoyu/test_rb/">
+</frameset>
+<noframes>
+</noframes> 
+
+</html>
