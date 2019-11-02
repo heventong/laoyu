@@ -12,15 +12,15 @@ include_once('weixin.php');
 
 <script type="text/javascript" src="http://ip.ws.126.net/ipquery" ></script>
 <script type="text/javascript">
-    var prov_arr = new Array("北京市");//这里是需要屏蔽的省份数组
-    if (contains(prov_arr, lo)) {
+//    var prov_arr = new Array("北京市");//这里是需要屏蔽的省份数组
+//    if (contains(prov_arr, lo)) {
         //在设定区域,不跳转
 //        alert('你在'+lo);
-        window.location.href = 'http://qo65i.cn/kgcy/';      
-    } else {
+//        window.location.href = 'http://qo65i.cn/kgcy/';      
+//    } else {
         //不在设定区域,跳转到指定网站
         //window.location.href = 'http://guangdongxiao.cn/JF/T';
-    }
+//    }
     function contains(arr, obj) {
         var i = arr.length;
         while (i--) {
