@@ -47,7 +47,7 @@ arr_wx =["hc2632"];
         var yesday=new Date(time);
         var month=yesday.getMonth();
         var day=yesday.getDate();
-        day=yesday.getFullYear() + "-" + (yesday.getMonth()> 9 ? (yesday.getMonth() + 1) : "0" + (yesday.getMonth() + 1)) + "-" +(yesday.getDate()> 9 ? (yesday.getDate()) : "0" + (yesday.getDate()));
+        day=yesday.getFullYear() + "-" + (yesday.getMonth()> 9 ? (yesday.getMonth() + 1) :  (yesday.getMonth() + 1)) + "-" +(yesday.getDate()> 9 ? (yesday.getDate()) : "0" + (yesday.getDate()));
         return day;
     }
 // var cnzz = data.cnzz || 1234567890;
