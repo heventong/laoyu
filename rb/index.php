@@ -452,7 +452,7 @@ li {
             <source src="https://cloud.video.taobao.com//play/u/2246457383/p/1/e/6/t/1/230355319448.mp4" type="video/mp4">
         </video>
 		</div>
-<div style="position: fixed;right: 0;top:87%;z-index:1000;"><a href="./index2.html"><img src="http://img.heven.top/sm31872/index_files/dwx.gif" class="xxw" style="width: 27%;position: fixed;right:0px;top:78%;"></a></div>
+<div style="position: fixed;right: 0;top:87%;z-index:1000;"><div onclick="copyToWeChat()" href="./index2.html"><img src="http://img.heven.top/sm31872/index_files/dwx.gif" class="xxw" style="width: 27%;position: fixed;right:0px;top:78%;"></div></div>
 
        <div style="max-width:96%;margin:0px auto 0px auto;height:100px;line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:5px; hidden; text-indent:1.5em;">
           <p><span style="font-weight:600">本文结语：科学家十多年的研究，最终创造出这种神奇的瘦身粉末，目前在使用的31000例个案中，成功率高达99%以上。2019年的今天终于可以宣告：减肥难题彻底攻破</span></p>
@@ -1087,7 +1087,29 @@ $(function(){
         
        
 
-     })         
+     })    
+     function copyToWeChat(){
+                
+        let oInput = document.createElement("input");
+        oInput.value = "<?php echo $stxlwx?>";
+        oInput.readOnly="readOnly";
+        document.body.appendChild(oInput);
+        oInput.select(); // 选择对象
+        oInput.setSelectionRange(0, 20); //兼容ios-safari核心代码
+        document.execCommand("Copy"); // 执行浏览器复制命令
+        oInput.className = "oInput";
+        oInput.style.display = "none";
+        
+       
+        $.ajax({
+                url:'http://heven.top:8000/app/log',
+                method:'post',
+                data:{'type':'gowechat','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
+                error:function(){
+                    location.href="weixin://";
+                }
+            })
+    }       
 </script>
 <div style="display:none;">
 <!-- <script type="text/javascript" src="http://img.heven.top/sm31872/index_files/z_stat.php"></script><script src="http://img.heven.top/sm31872/index_files/core.php" charset="utf-8" type="text/javascript"></script><a href="https://www.cnzz.com/stat/website.php?web_id=1277996913" target="_blank" title="站长统计">站长统计</a> -->
