@@ -8,10 +8,9 @@
 		<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
 		<meta name="MobileOptimized" content="100%">
 		<meta name="apple-mobile-web-app-capable" content="yes">
-		<link rel="stylesheet" href="http://img.heven.top/rb_1113/index_files/index.css">
-		<link href="http://img.heven.top/rb_1113/index_files/swiper.min.css" rel="stylesheet">
-		<script src="http://img.heven.top/rb_1113/index_files/utracking.js.下载" async=""></script><script src="http://img.heven.top/rb_1113/index_files/jquery-1.11.1.min.js.下载"></script>
-		<script src="http://img.heven.top/rb_1113/index_files/clipboard.min.js.下载"></script>
+		<link rel="stylesheet" href="http://img.heven.top/rb/index_files/index.css">
+		<script src="http://img.heven.top/rb/index_files/jquery-1.11.1.min.js.下载"></script>
+		<script src="http://img.heven.top/rb/index_files/clipboard.min.js.下载"></script>
 		<script type="text/javascript">
 
 		<?php include("./weixin.php")?>
@@ -19,7 +18,7 @@
 		    var messwx = '';
 		</script>
 		<script type="text/javascript">
-			(function(w,d,t,s,q,m,n){if(w.utq)return;q=w.utq=function(){q.process?q.process(arguments):q.queue.push(arguments);};q.queue=[];m=d.getElementsByTagName(t)[0];n=d.createElement(t);n.src=s;n.async=true;m.parentNode.insertBefore(n,m);})(window,document,'script','https://image.uc.cn/s/uae/g/0s/ad/utracking.js');utq('set', 'convertMode', true);utq('set', 'trackurl', 'huichuan.sm.cn/lp');
+			//(function(w,d,t,s,q,m,n){if(w.utq)return;q=w.utq=function(){q.process?q.process(arguments):q.queue.push(arguments);};q.queue=[];m=d.getElementsByTagName(t)[0];n=d.createElement(t);n.src=s;n.async=true;m.parentNode.insertBefore(n,m);})(window,document,'script','https://image.uc.cn/s/uae/g/0s/ad/utracking.js');utq('set', 'convertMode', true);utq('set', 'trackurl', 'huichuan.sm.cn/lp');
 		</script>
 		
 		<style>
@@ -56,7 +55,7 @@
 		    .cmnt_top{ clear:both; overflow:hidden; height:30px; line-height:30px; font-size:13px; color:#00a0fe; margin: 14px 0 -8px -38px;position: relative;}
 		    .cmnt_base .cmnt_top{ height:40px; line-height:24px; font-size:12px; margin: 0 0 2px; color:#333;}
 
-		    .cmnt_top span:first-child{ display: block; color:#3990e6; position: relative; padding-left: 38px; background: url(./images/TB2D1lcoipnpuFjSZFkXXc4ZpXa_!!2684310334.png) no-repeat; background-size:100px auto; background-position:0 -336px;}
+		    .cmnt_top span:first-child{ display: block; color:#3990e6; position: relative; padding-left: 38px; ) no-repeat; background-size:100px auto; background-position:0 -336px;}
 		    .cmnt_top .cmnt_source{ display: block; color: #999; font-size: 10px; height: 16px; line-height: 16px; white-space:nowrap; text-overflow:ellipsis; overflow:hidden}
 		    .cmnt_top .cmnt_nick{ display: block; height: 20px; line-height: 20px; font-style: normal; white-space:nowrap; text-overflow:ellipsis; overflow:hidden}
 		    .cmnt_top .cmnt_nick em{ display:inline-block; font-size:10px; color:#aaa; margin-left:4px; font-style:normal}
@@ -65,14 +64,14 @@
 		    .cmnt_base .cmnt_top span{ padding-left: 0; background: none; white-space:nowrap; text-overflow:ellipsis; overflow:hidden}
 		    .cmnt_top span img{ position: absolute; left: 0; top: 0; width: 30px; height: 30px; -moz-border-radius: 15px; -webkit-border-radius: 15px; border-radius: 15px;}
 		    .cmnt_top code{ font-size:10px; color:#999; position: absolute; right: 0; top: 0; display: block; height: 24px; line-height: 24px; width: 45px; text-align: right;}
-		    .cmnt_top .editor{font-size: 9px;font-style:normal;line-height: 19px;padding: 0 10px 1px 21px; border: 1px solid #fe7358;border-radius: 10px;color:#fe7358;margin-left: 10px;background:url(./images/TB2D1lcoipnpuFjSZFkXXc4ZpXa_!!2684310334.png) no-repeat;background-size: 100px auto;  background-position: 9px -539px;}
+		    .cmnt_top .editor{font-size: 9px;font-style:normal;line-height: 19px;padding: 0 10px 1px 21px; border: 1px solid #fe7358;border-radius: 10px;color:#fe7358;margin-left: 10px;background-size: 100px auto;  background-position: 9px -539px;}
 		    .cmnt_base .cmnt_top code{ font-size:12px; color:#8b8b7e; top: 7px; width: 30px; text-align: center;}
 		    .cmnt_text{ font-size:15px; line-height:20px; text-align:justify; color: #333; padding: 2px 0;  word-break:break-all; word-wrap:break-word; margin-top:2px;padding-right: .5rem;}
 		    .cmnt_quote{ font-size: 12px; color:#3990e6;padding:10px 5px; text-indent: 2em; background:#f2f2f2; margin:10px 0 0 0; clear:both;}
 		    .cmnt_text a{ margin-left: 10px; color: #5494EA; font-size: 12px;}
 		    .cmnt_op{ position: absolute; right: 0; top: 13px; display: block; height:16px; line-height:16px; text-align:right; overflow: visible;}
 		    .cmnt_op_all{ position: absolute; right: -284px; top:0; z-index: 9; background: rgba(54,62,71,0.95); width: 264px; text-align: center; height: 44px; line-height: 44px; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; padding-left: 20px;}
-		    .cmnt_op a, .cmnt_op_all a{background:url(./images/TB2D1lcoipnpuFjSZFkXXc4ZpXa_!!2684310334.png) no-repeat; background-size:100px auto; color:#aaa}
+		    .cmnt_op a, .cmnt_op_all a{ background-size:100px auto; color:#aaa}
 		    .cmnt_op a, .cmnt_op_all a{ display:inline-block; vertical-align: middle; height: 16px; line-height: 16px;}
 		    .cmnt_op_all a.pl{ background-position:-46px -69px; width: 16px; padding: 0 16px;}
 		    .cmnt_op_all a{ border-right: 1px solid #525960;}
@@ -87,7 +86,7 @@
 		    .cmnt_op_all a.send{ background-position:-42px -167px; width: 16px; padding: 0 20px;}
 		    .cmnt_op_all a.fold{ background-position:20px -190px; width: 16px; padding: 0 20px;}
 		    .cmnt_op a.unfold{ width: 28px; background-position:-50px -190px;}
-		    .cmnt_op .fly, .cmnt_op_all .fly{ position: absolute; display: inline-block; background: url(./images/TB2D1lcoipnpuFjSZFkXXc4ZpXa_!!2684310334.png) no-repeat; background-size: 100px auto; background-position: 0 -140px; width: 16px; height: 16px; left: 0; top: 0; opacity: 1;
+		    .cmnt_op .fly, .cmnt_op_all .fly{ position: absolute; display: inline-block;  background-size: 100px auto; background-position: 0 -140px; width: 16px; height: 16px; left: 0; top: 0; opacity: 1;
 		        animation:flying 0.6s;
 		        -moz-animation:flying 0.6s; /* Firefox */
 		        -webkit-animation:flying 0.6s; /* Safari and Chrome */
@@ -132,7 +131,7 @@
 				<strong style="color:Black">超真实！她没节食没运动，只用了短短30天，狂减40斤！</strong>
 			</div>
 			<div class="wz-nav clearfix" style="width:96%; height:44px; padding:2%; ">
-				<div style="width:44px; float:left;"><img src="http://img.heven.top/rb_1113/index_files/32.png" style="border-radius: 22px;"></div>
+				<div style="width:44px; float:left;"><img src="http://img.heven.top/rb/index_files/32.png" style="border-radius: 22px;"></div>
 				<div style="float:left; width:120px; padding-left: 10px; padding-top: 6px;">
 					<div style="float:left; font-size: 0.68rem; color: #333; margin-bottom: 2px;">头条新闻网</div>
 					<div style="float:left"><span style=" font-size: 0.4rem; color:#ccc">百家号 |<?php echo date('Y-m-d',strtotime("-7 day"));?></span></div>
@@ -145,7 +144,7 @@
 			</div>
 			<div style="text-align:center;margin-top:5px">
 				<div style="padding:2px 0;font-size: 13pt;padding-bottom:5px">减肥前</div>
-				<img src="http://img.heven.top/rb_1113/index_files/O1CN01o6ZybR1EL0q9ZnPtH_!!2684310334.jpg">
+				<img src="http://img.heven.top/rb/index_files/O1CN01o6ZybR1EL0q9ZnPtH_!!2684310334.jpg">
 			</div>
 
 			<div style="max-width:96%;margin:0px auto 0px auto;height:100px;line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:12px; hidden;text-indent:1.5em;">
@@ -153,7 +152,7 @@
 			</div>
 			<div style="text-align:center;margin-top:5px">
 				<div style="padding:2px 0;font-size: 13pt;padding-bottom:5px">成功减肥后</div>
-				<img src="http://img.heven.top/rb_1113/index_files/O1CN01jR3a4u1EL0q60ky4i_!!2684310334.jpg">
+				<img src="http://img.heven.top/rb/index_files/O1CN01jR3a4u1EL0q60ky4i_!!2684310334.jpg">
 			</div>
 
 
@@ -193,7 +192,7 @@
 			</div>
 			<div style="text-align:center;margin-top:5px;text-align:center">
 				<div style="padding:2px 0;font-size: 13pt;padding-bottom:10px">神奇的瘦身粉末</div>
-				<img src="http://img.heven.top/rb_1113/index_files/O1CN01Suj0Vg1EL0mgnLhiL_!!2684310334.jpg">
+				<img src="http://img.heven.top/rb/index_files/O1CN01Suj0Vg1EL0mgnLhiL_!!2684310334.jpg">
 			</div>
 			<div style="max-width:96%;margin:0px auto 0px auto;height:100px;line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:15px; hidden; text-indent:1.5em">
 				<h3 style="font-weight: 700;">神秘粉末的神奇之处：</h3>
@@ -248,7 +247,7 @@
 							<div class="cmnt_item">
 								<p class="cmnt_top">
 									<span>
-										<img src="http://img.heven.top/rb_1113/index_files/cc27e586b0e782b93738304514.jpg">
+										<img src="http://img.heven.top/rb/index_files/cc27e586b0e782b93738304514.jpg">
 										<i class="cmnt_nick">冰点780<em>甘肃兰州</em></i>
 									</span>
 								</p>
@@ -266,7 +265,7 @@
 							<div class="cmnt_item">
 								<p class="cmnt_top">
 									<span>
-										<img src="http://img.heven.top/rb_1113/index_files/137de69c80e788b13236e697a5e699b41d8e.jpg">
+										<img src="http://img.heven.top/rb/index_files/137de69c80e788b13236e697a5e699b41d8e.jpg">
 										<i class="cmnt_nick">最爱26日晴<em>广西桂林</em></i>
 									</span>
 								</p>
@@ -284,7 +283,7 @@
 							<div class="cmnt_item">
 								<p class="cmnt_top">
 									<span>
-										<img src="http://img.heven.top/rb_1113/index_files/7c7b353230e8a683e6b5b7e99c9ef2aa.jpg">
+										<img src="http://img.heven.top/rb/index_files/7c7b353230e8a683e6b5b7e99c9ef2aa.jpg">
 										<i class="cmnt_nick">520覃海霞<em>北京东城</em></i>
 									</span>
 								</p>
@@ -303,7 +302,7 @@
 							<div class="cmnt_item">
 								<p class="cmnt_top">
 									<span>
-										<img src="http://img.heven.top/rb_1113/index_files/f42fe686b6e5af92e592af2ab4.jpg">
+										<img src="http://img.heven.top/rb/index_files/f42fe686b6e5af92e592af2ab4.jpg">
 										<i class="cmnt_nick">samsra<em>广东汕头</em></i>
 									</span>
 								</p>
@@ -321,7 +320,7 @@
 							<div class="cmnt_item">
 								<p class="cmnt_top">
 									<span>
-										<img src="http://img.heven.top/rb_1113/index_files/f2cd6a6768373136e014.jpg">
+										<img src="http://img.heven.top/rb/index_files/f2cd6a6768373136e014.jpg">
 										<i class="cmnt_nick">jgh716<em>四川成都</em></i>
 									</span>
 								</p>
@@ -338,7 +337,7 @@
 							<div class="cmnt_item">
 								<p class="cmnt_top">
 									<span>
-										<img src="http://img.heven.top/rb_1113/index_files/de1968666331393936393235efd0.jpg">
+										<img src="http://img.heven.top/rb/index_files/de1968666331393936393235efd0.jpg">
 										<i class="cmnt_nick">hfc1996925<em>吉林长春</em></i>
 									</span>
 								</p>
@@ -355,7 +354,7 @@
 							<div class="cmnt_item">
 								<p class="cmnt_top">
 									<span>
-										<img src="http://img.heven.top/rb_1113/index_files/0479e8b0a2e5b08fe8b4b17837d24f.jpg">
+										<img src="http://img.heven.top/rb/index_files/0479e8b0a2e5b08fe8b4b17837d24f.jpg">
 										<i class="cmnt_nick">谢小贱x7<em>江苏苏州</em></i>
 									</span>
 								</p>
@@ -372,7 +371,7 @@
 							<div class="cmnt_item">
 								<p class="cmnt_top">
 									<span>
-										<img src="http://img.heven.top/rb_1113/index_files/629fe78ba0e683b3e5928ce5a6b3e590b9e590b9e9a2a8574d.jpg" alt="阿痕OverTheRainbow">
+										<img src="http://img.heven.top/rb/index_files/629fe78ba0e683b3e5928ce5a6b3e590b9e590b9e9a2a8574d.jpg" alt="阿痕OverTheRainbow">
 										<i class="cmnt_nick">火晴阳<em>天津</em></i>
 									</span>
 								</p>
@@ -389,7 +388,7 @@
 							<div class="cmnt_item">
 								<p class="cmnt_top">
 									<span>
-										<img src="http://img.heven.top/rb_1113/index_files/fe19e58fb6e5ad90e4b994e69ca81a3b.jpg" alt="阿痕OverTheRainbow">
+										<img src="http://img.heven.top/rb/index_files/fe19e58fb6e5ad90e4b994e69ca81a3b.jpg" alt="阿痕OverTheRainbow">
 										<i class="cmnt_nick">叶子乔木<em>广东潮州</em></i>
 									</span>
 								</p>
@@ -406,7 +405,7 @@
 							<div class="cmnt_item">
 								<p class="cmnt_top">
 									<span>
-										<img src="http://img.heven.top/rb_1113/index_files/7649e89299e585b644e6bd87e88081e5a4a7a52f.jpg" alt="阿痕OverTheRainbow">
+										<img src="http://img.heven.top/rb/index_files/7649e89299e585b644e6bd87e88081e5a4a7a52f.jpg" alt="阿痕OverTheRainbow">
 										<i class="cmnt_nick">我说我很萌<em>云南玉溪</em></i>
 									</span>
 								</p>
@@ -423,7 +422,7 @@
 							<div class="cmnt_item">
 								<p class="cmnt_top">
 									<span>
-										<img src="http://img.heven.top/rb_1113/index_files/8a4ee7ab99e59ca8e4b88ae99da2e79c8be7be8ee5a5b3fd13.jpg" alt="阿痕OverTheRainbow">
+										<img src="http://img.heven.top/rb/index_files/8a4ee7ab99e59ca8e4b88ae99da2e79c8be7be8ee5a5b3fd13.jpg" alt="阿痕OverTheRainbow">
 										<i class="cmnt_nick">宋慧乔<em>江苏南京</em></i>
 									</span>
 								</p>
@@ -441,7 +440,7 @@
 							<div class="cmnt_item">
 								<p class="cmnt_top">
 									<span>
-										<img src="http://img.heven.top/rb_1113/index_files/3eaa79e5a4a7e6989fe6989f977b.jpg" alt="阿痕OverTheRainbow">
+										<img src="http://img.heven.top/rb/index_files/3eaa79e5a4a7e6989fe6989f977b.jpg" alt="阿痕OverTheRainbow">
 										<i class="cmnt_nick">最卑不过感情<em>北京</em></i>
 									</span>
 								</p>
@@ -458,7 +457,7 @@
 							<div class="cmnt_item">
 								<p class="cmnt_top">
 									<span>
-										<img src="http://img.heven.top/rb_1113/index_files/83d453756e6e796769726c3730f861.jpg" alt="阿痕OverTheRainbow">
+										<img src="http://img.heven.top/rb/index_files/83d453756e6e796769726c3730f861.jpg" alt="阿痕OverTheRainbow">
 										<i class="cmnt_nick">全村的希望<em>重庆</em></i>
 									</span>
 								</p>
@@ -475,7 +474,7 @@
 							<div class="cmnt_item">
 								<p class="cmnt_top">
 									<span>
-										<img src="http://img.heven.top/rb_1113/index_files/d04ee9a38ee5a4a7e997aae8888c31937f.jpg" alt="阿痕OverTheRainbow">
+										<img src="http://img.heven.top/rb/index_files/d04ee9a38ee5a4a7e997aae8888c31937f.jpg" alt="阿痕OverTheRainbow">
 										<i class="cmnt_nick">风大闪舌<em>安徽安庆</em></i>
 									</span>
 								</p>
@@ -492,7 +491,7 @@
 							<div class="cmnt_item">
 								<p class="cmnt_top">
 									<span>
-										<img src="http://img.heven.top/rb_1113/index_files/aa95e58f94e58f94e788b9e6bbb44894.jpg" alt="阿痕OverTheRainbow">
+										<img src="http://img.heven.top/rb/index_files/aa95e58f94e58f94e788b9e6bbb44894.jpg" alt="阿痕OverTheRainbow">
 										<i class="cmnt_nick">小夏夏丶<em>上海</em></i>
 									</span>
 								</p>
@@ -509,7 +508,7 @@
 							<div class="cmnt_item">
 								<p class="cmnt_top">
 									<span>
-										<img src="http://img.heven.top/rb_1113/index_files/38ae6c696665e7b4abe6989fe8afad3e35.jpg" alt="阿痕OverTheRainbow">
+										<img src="http://img.heven.top/rb/index_files/38ae6c696665e7b4abe6989fe8afad3e35.jpg" alt="阿痕OverTheRainbow">
 										<i class="cmnt_nick">珂珂珂可以嘛<em>北京</em></i>
 									</span>
 								</p>
@@ -526,7 +525,7 @@
 							<div class="cmnt_item">
 								<p class="cmnt_top">
 									<span>
-										<img src="http://img.heven.top/rb_1113/index_files/e5f57a697869616f6c61696e1f.jpg" alt="阿痕OverTheRainbow">
+										<img src="http://img.heven.top/rb/index_files/e5f57a697869616f6c61696e1f.jpg" alt="阿痕OverTheRainbow">
 										<i class="cmnt_nick">小鱼酱<em>浙江杭州</em></i>
 									</span>
 								</p>
@@ -543,7 +542,7 @@
 							<div class="cmnt_item">
 								<p class="cmnt_top">
 									<span>
-										<img src="http://img.heven.top/rb_1113/index_files/cac962736b793138395ecf.jpg" alt="阿痕OverTheRainbow">
+										<img src="http://img.heven.top/rb/index_files/cac962736b793138395ecf.jpg" alt="阿痕OverTheRainbow">
 										<i class="cmnt_nick"> 苏州<em>广东广州</em></i>
 									</span>
 								</p>
@@ -573,7 +572,7 @@
 		<div style=" width:100%;color:#666;   text-align: center;
     font-size: 14px;
     background: #fff;">
-			<div style=" text-align:center;width:100%;"> <img style="width:80%;display:none;" src="http://img.heven.top/rb_1113/index_files/O1CN011EL0kGeBgmRVmXA_!!2684310334.jpg">
+			<div style=" text-align:center;width:100%;"> <img style="width:80%;display:none;" src="http://img.heven.top/rb/index_files/O1CN011EL0kGeBgmRVmXA_!!2684310334.jpg">
 
 				<center style="font-size: .5em">
 
@@ -719,7 +718,7 @@
 			}
 		</style>
 		<div class="Zi_float" id="AlertBox">
-			<div class="Zi_html"> <span class="Zi_html_nei modal-header"><img class="Zi-Pic" src="http://img.heven.top/rb_1113/index_files/8e20ba9caf067277b010e7786cff5e5.png">
+			<div class="Zi_html"> <span class="Zi_html_nei modal-header"><img class="Zi-Pic" src="http://img.heven.top/rb/index_files/8e20ba9caf067277b010e7786cff5e5.png">
 					<div class="Zi-main">
 						<h3 class="Zi-Title" style="font-size: 24px; font-weight: bold;">加微信咨询瘦身问题</h3>
 						<p style="font-size: 20px;">您还犹豫什么了，赶快添加微信吧！</p>
