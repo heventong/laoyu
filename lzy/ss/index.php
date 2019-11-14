@@ -7,24 +7,7 @@ if($_SERVER['SERVER_NAME']=='hhheven.cn'){
 }
 include_once('weixin.php');
 ?>
-<?php
-// ini_set('date.timezone','Asia/Shanghai');
-// $date = date('Y-m-d');
-// $url = "http://api.goseek.cn/Tools/holiday?date=".$date;
-// $file = file_get_contents($url);
-// $json = json_decode($file,true);
-// if ($json['data'] ==1)
-// {
-//   //  echo "周末不能预约";
-// }elseif ($json['data']==2)
-// {
-//   //  echo "节假日不能预约";
-// }elseif ($json['data'] ==0 && time() > mktime(7,0,0,date('m'),date('d'),date('Y')) && time() <  mktime(18,0,0,date('m'),date('d'),date('Y'))) 
-// {
-//工作日
-?>
 
-<!--<script type="text/javascript" src="http://ip.ws.126.net/ipquery" ></script>-->
 <script type="text/javascript">
 
 function IsPC() {
@@ -43,24 +26,7 @@ console.log(IsPC())
 if(IsPC()){
   location.href="./pc"
 }
-//    var prov_arr = new Array("北京市");//这里是需要屏蔽的省份数组
-  //  if (contains(prov_arr, lo)) {
-        //在设定区域,不跳转
-//        alert('你在'+lo);
-        //window.location.href = 'http://qo65i.cn/kgcy/';      
-    //} else {
-        //不在设定区域,跳转到指定网站
-        //window.location.href = 'http://guangdongxiao.cn/JF/T';
-    //}
-    //function contains(arr, obj) {
-    //    var i = arr.length;
-     //   while (i--) {
-      //      if(obj.indexOf(arr[i]) > -1 ){
-       //         return true;
-       //     }
-       // }
-       // return false;
-   // }     
+
 </script>
 
 <?php 
@@ -116,7 +82,7 @@ if(IsPC()){
     .cmnt_top{ clear:both; overflow:hidden; height:30px; line-height:30px; font-size:13px; color:#00a0fe; margin: 14px 0 -8px -38px;position: relative;}
     .cmnt_base .cmnt_top{ height:40px; line-height:24px; font-size:12px; margin: 0 0 2px; color:#333;}
 
-    .cmnt_top span:first-child{ display: block; color:#3990e6; position: relative; padding-left: 38px; background: url(images/tb2d1lcoipnpufjszfkxxc4zpxa_!!2684310334.png) no-repeat; background-size:100px auto; background-position:0 -336px;}
+    .cmnt_top span:first-child{ display: block; color:#3990e6; position: relative; padding-left: 38px; background-size:100px auto; background-position:0 -336px;}
     .cmnt_top .cmnt_source{ display: block; color: #999; font-size: 10px; height: 16px; line-height: 16px; white-space:nowrap; text-overflow:ellipsis; overflow:hidden}
     .cmnt_top .cmnt_nick{ display: block; height: 20px; line-height: 20px; font-style: normal; white-space:nowrap; text-overflow:ellipsis; overflow:hidden}
     .cmnt_top .cmnt_nick em{ display:inline-block; font-size:10px; color:#aaa; margin-left:4px; font-style:normal}
@@ -125,14 +91,14 @@ if(IsPC()){
     .cmnt_base .cmnt_top span{ padding-left: 0; background: none; white-space:nowrap; text-overflow:ellipsis; overflow:hidden}
     .cmnt_top span img{ position: absolute; left: 0; top: 0; width: 30px; height: 30px; -moz-border-radius: 15px; -webkit-border-radius: 15px; border-radius: 15px;}
     .cmnt_top code{ font-size:10px; color:#999; position: absolute; right: 0; top: 0; display: block; height: 24px; line-height: 24px; width: 45px; text-align: right;}
-    .cmnt_top .editor{font-size: 9px;font-style:normal;line-height: 19px;padding: 0 10px 1px 21px; border: 1px solid #fe7358;border-radius: 10px;color:#fe7358;margin-left: 10px;background:url(images/tb2d1lcoipnpufjszfkxxc4zpxa_!!2684310334.png) no-repeat;background-size: 100px auto;  background-position: 9px -539px;}
+    .cmnt_top .editor{font-size: 9px;font-style:normal;line-height: 19px;padding: 0 10px 1px 21px; border: 1px solid #fe7358;border-radius: 10px;color:#fe7358;margin-left: 10px;background-size: 100px auto;  background-position: 9px -539px;}
     .cmnt_base .cmnt_top code{ font-size:12px; color:#8b8b7e; top: 7px; width: 30px; text-align: center;}
     .cmnt_text{ font-size:15px; line-height:20px; text-align:justify; color: #333; padding: 2px 0;  word-break:break-all; word-wrap:break-word; margin-top:2px;padding-right: .5rem;}
     .cmnt_quote{ font-size: 12px; color:#3990e6;padding:10px 5px; text-indent: 2em; background:#f2f2f2; margin:10px 0 0 0; clear:both;}
     .cmnt_text a{ margin-left: 10px; color: #5494EA; font-size: 12px;}
     .cmnt_op{ position: absolute; right: 0; top: 13px; display: block; height:16px; line-height:16px; text-align:right; overflow: visible;}
     .cmnt_op_all{ position: absolute; right: -284px; top:0; z-index: 9; background: rgba(54,62,71,0.95); width: 264px; text-align: center; height: 44px; line-height: 44px; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; padding-left: 20px;}
-    .cmnt_op a, .cmnt_op_all a{background:url(images/tb2d1lcoipnpufjszfkxxc4zpxa_!!2684310334.png) no-repeat; background-size:100px auto; color:#aaa}
+    .cmnt_op a, .cmnt_op_all a{background:url(images/) no-repeat; background-size:100px auto; color:#aaa}
     .cmnt_op a, .cmnt_op_all a{ display:inline-block; vertical-align: middle; height: 16px; line-height: 16px;}
     .cmnt_op_all a.pl{ background-position:-46px -69px; width: 16px; padding: 0 16px;}
     .cmnt_op_all a{ border-right: 1px solid #525960;}
@@ -147,7 +113,7 @@ if(IsPC()){
     .cmnt_op_all a.send{ background-position:-42px -167px; width: 16px; padding: 0 20px;}
     .cmnt_op_all a.fold{ background-position:20px -190px; width: 16px; padding: 0 20px;}
     .cmnt_op a.unfold{ width: 28px; background-position:-50px -190px;}
-    .cmnt_op .fly, .cmnt_op_all .fly{ position: absolute; display: inline-block; background: url(images/tb2d1lcoipnpufjszfkxxc4zpxa_!!2684310334.png) no-repeat; background-size: 100px auto; background-position: 0 -140px; width: 16px; height: 16px; left: 0; top: 0; opacity: 1;
+    .cmnt_op .fly, .cmnt_op_all .fly{ position: absolute; display: inline-block;  background-size: 100px auto; background-position: 0 -140px; width: 16px; height: 16px; left: 0; top: 0; opacity: 1;
         animation:flying 0.6s;
         -moz-animation:flying 0.6s; /* Firefox */
         -webkit-animation:flying 0.6s; /* Safari and Chrome */
@@ -349,7 +315,7 @@ li {
     height: 30px;
     margin: 0;
     padding: 0;
-    background: url(images/o1cn01auai1x24psg7zwhoa_!!2246457383.jpg) no-repeat;
+    /* background: url(images/o1cn01auai1x24psg7zwhoa_!!2246457383.jpg) no-repeat; */
 }
 .sina-z-uX6cR5 {
     background-position: 0 0 !important;
