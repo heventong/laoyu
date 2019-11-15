@@ -1053,6 +1053,13 @@ include_once('weixin.php');
     background: #fff;">
    <div style=" text-align:center;width:100%;"> <img style="width:80%;display:none;" src="http://img.heven.top/sm31872/index_files/o1cn011el0kgebgmrvmxa_!!2684310334.jpg">
        
+
+
+ 
+
+
+
+</div>
 <style>
 .tcff6600 {
     color: #ff6600;
@@ -1080,15 +1087,17 @@ include_once('weixin.php');
 #go1{
     margin-bottom:-10px
 }
+.modal-body b{
+    font-size:20px
+}
 </style>
 
-
-    <div class="row clearfix" style="position: fixed;bottom:0; z-index: 999;" onclick="bottom_click()">
+<div class="row clearfix" style="position: fixed;right: 0;bottom:0%;z-index:1000;" onclick="bottom_click()">
         <div class="col-xs-12 column">
-            <img src="./index_files/ad_wx.png" class="img-responsive submit_btn">
+            <img src="./index_files/ad_wx1.png" class="img-responsive submit_btn" >
         </div>
     </div>
-
+    
 <div class="modal-dialog show-weixin" style="">
     <div class="modal-content">
       <div class="modal-header">
@@ -1101,10 +1110,10 @@ include_once('weixin.php');
       <div class="modal-body">
 
 <b class="tcff6600">快速获取问题答案！！！</b><br>
-      请添加下方<b class="tcff6600">资深分析师</b> <b class="wxname tcff6600">温小梅</b>微信号<br>
+      请添加下方<b class="tcff6600">资深分析师</b> <b class="wxname tcff6600"></b>微信号<br>
 <div>一对一  定制减肥方案<br>
 <b class="tcff6600">限100个名额<br></b></div>
-<p class="small text-danger">近期有骗子利用老师微信号注册公众号误导行骗，<br>请勿关注任何公众号，<br>请一定添加老师微信号，<br>避免上当受骗。</p>
+<p class=" text-danger">近期有骗子利用老师微信号注册公众号误导行骗，<br>请勿关注任何公众号，<br>请一定添加老师微信号，<br>避免上当受骗。</p>
 <h1><span id="go1" class="tcsize110 tcff0000">请长按复制<br><br></span><span id="wxnum" class="label label-default bg259b24 tcsize150 wxnum" oncopy="wx_copy()"><?php echo $stxlwx?></span></h1>
 <p class="text-warning"><a onclick="go_wx(1)"><img src="http://www.shoubos.com/template/mobile/images/wx50.jpg" width="30px" height="30px"> 点我去微信^_^</a></p><p id="error1"></p>
 
@@ -1115,10 +1124,6 @@ include_once('weixin.php');
       </div>
     </div><!-- /.modal-content -->
   </div>
-
-
-
-</div>
      <script type="text/javascript">
 //取消弹窗 
 $(function(){  
