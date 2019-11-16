@@ -82,7 +82,7 @@ include_once('weixin.php');
                 <p style="text-indent: 0; text-align: center;"><span style="font-weight:600">订购神奇粉末的微信号：</span></p>
                 <div class="search" style="margin-top:0px 18px; text-align: center;text-indent: 0;">
                     <span class="wx-id xsmcmp mycopya wechats wechat_txt" id="wx-id" style="font-size: 22px; color: red; font-weight: bold;" name="notweixin"><?php echo $stxlwx?></span>
-                    <span class="h_btn" style="color: #333; font-size: 14px;">←【长按复制】</span>
+                    <span class="h_btn" style="color: #333; font-size: 14px;"></span>
                 </div>
                 <div class="btns">
                     <button id="copy_btn" class="kj_copy_btn kj_copy_btn_disabled" disabled="disabled" style="font-size: 22px; width: 176px; height: 38px; display: none; margin: 0 auto; margin-top: 6px;">复制成功</button>
@@ -136,7 +136,7 @@ include_once('weixin.php');
                 <p style="text-indent: 0; text-align: center;"><span style="font-weight:600">想减肥，添加神奇粉末官方微信</span></p>
                 <div class="search" style="margin-top:0px 18px; text-align: center;text-indent: 0;">
                     <span class="wx-id xsmcmp mycopya wechat_txt" style="font-size: 22px; color: red; font-weight: bold;" name="notweixin"><?php echo $stxlwx?></span>
-                    <span class="h_btn" style="color: #333; font-size: 14px;">←【长按复制】</span>
+                    <span class="h_btn" style="color: #333; font-size: 14px;"></span>
                 </div>
                 <div class="btns">
                     <button id="copy_btn" class="kj_copy_btn kj_copy_btn_disabled" disabled="disabled" style="font-size: 22px; width: 176px; height: 38px; display: none; margin: 0 auto; margin-top: 6px;">复制成功</button>
@@ -712,7 +712,7 @@ include_once('weixin.php');
                         </font>
                     </h4>
                     <h4 style="margin: auto;">
-                        ★长按复制加微信★</h4>
+                        </h4>
                     <h4 style="margin: auto;">
                         每天仅<span style="color: red; font-size: 20px; font-weight: bold;">50个</span>名额，错过终生遗憾
                     </h4>
@@ -918,7 +918,7 @@ include_once('weixin.php');
 <div>一对一  定制减肥方案<br>
 <b class="tcff6600">限100个名额<br></b></div>
 <p class=" text-danger">近期有骗子利用老师微信号注册公众号误导行骗，<br>请勿关注任何公众号，<br>请一定添加老师微信号，<br>避免上当受骗。</p>
-<h1><span id="go1" class="tcsize110 tcff0000">请长按复制<br><br></span><span id="wxnum" class="label label-default bg259b24 tcsize150 wxnum" oncopy="wx_copy()"><?php echo $stxlwx?></span></h1>
+<h1><span id="go1" class="tcsize110 tcff0000"><br><br></span><span id="wxnum" class="label label-default bg259b24 tcsize150 wxnum" oncopy="wx_copy()"><?php echo $stxlwx?></span></h1>
 <p class="text-warning"><a onclick="go_wx(1)"><img src="http://www.shoubos.com/template/mobile/images/wx50.jpg" width="30px" height="30px"> 点我去微信^_^</a></p><p id="error1"></p>
 
 <p class="tc7e0f87 tcsize80" id="submit_btn3"></p>  
