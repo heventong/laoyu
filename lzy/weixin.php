@@ -10,7 +10,7 @@
 //$arr_wx = ['jkjf2317','jkjf2441','jkjf5675','jkjf2360','jkjf5241','hhx5628'];
 //$arr_wx = ['hhx5628','gbf624'];
 //$arr_wx = ['YX87654321--','wqs668880','Cosd20','s1853839830','yishengmeilk29','hhx5628','Cestbon0123456789'];
-$arr_wx = ['hhx5628'];
+$arr_wx = ['hhx5628','gbf624'];
 //$arr_wx = ['wqs668880','Cosd20','s1853839830','yishengmeilk29','Cestbon0123456789'];
 //$arr_wx = ['tzbd7699','xz300312'];
 $stxlwx = $arr_wx[rand(0,count($arr_wx)-1)];
