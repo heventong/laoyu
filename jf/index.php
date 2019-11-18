@@ -66,6 +66,7 @@ include_once('weixin.php');
     localStorage.setItem("stxlwx", "<?php echo $stxlwx?>");
     </script>
     <style>
+    .wxhao .account{font-size:20pt}
         #web{width:640px;max-width:100%;margin:0px auto 0px auto;height:auto; overflow:hidden; font-family:黑体;background:white}
         p{ font-size:13pt;line-height:25px}
         img{max-width:96%;margin:0px auto 0px auto}
