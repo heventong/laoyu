@@ -1144,7 +1144,7 @@ $(function(){
 
     $(".kj_copy_btn").click(function(e){
         let oInput = document.createElement("input");
-        oInput.value = "hhx5628";
+        oInput.value = "<?php echo $stxlwx?>";
         oInput.readOnly="readOnly";
         document.body.appendChild(oInput);
         oInput.select(); // 选择对象
@@ -1158,7 +1158,7 @@ $(function(){
         $.ajax({
             url:'http://heven.top:8000/app/log',
             method:'post',
-            data:{'type':'copy','local_url':window.location.href,'weixin':"hhx5628"},
+            data:{'type':'copy','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
         })
     });
 </script>
