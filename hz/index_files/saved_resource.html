@@ -118,10 +118,10 @@ window.__startApp = Date.now();
     <span class="number svelte-12xg9tt">15388</span>
     <span class="suffix">名用户参加</span></div></div><!---->
     <div class="input-wrapper layout1 required svelte-npvjcg"><div class="label svelte-npvjcg">腰椎病请在此输入姓名</div>
-    <div class="input-item-wrapper svelte-npvjcg"><input class="input-item  svelte-npvjcg" type="text" placeholder="请输入" name="1634040949349405" autocomplete="off">
+    <div class="input-item-wrapper svelte-npvjcg"><input class="input-item  svelte-npvjcg" type="text" placeholder="请输入" name="name" autocomplete="off">
       <span class="clearBtn"></span></div>
     <div class="error-msg  svelte-npvjcg"></div></div><!----><div class="input-wrapper phone layout1 required  svelte-3t9b84"><div class="label svelte-3t9b84">参与报名在此输入电话</div>
-  <div class="input-item-wrapper  svelte-3t9b84"><input class="input-item  svelte-3t9b84" type="number" placeholder="请输入" name="1634040949349421" autocomplete="off">
+  <div class="input-item-wrapper  svelte-3t9b84"><input class="input-item  svelte-3t9b84" type="number" placeholder="请输入" name="phone" autocomplete="off">
     <div class="use-localphone-wrapper svelte-3t9b84"><div class="use-btn svelte-3t9b84">使用本机号码</div></div></div>
   <div class="error-msg  svelte-3t9b84"></div>
   <div class="agreement-wrapper svelte-3t9b84">使用本机号码即为同意<a href="javascript:void(0);" class="telecom_operator_agreement_link svelte-3t9b84">《》</a></div></div><!---->
@@ -220,10 +220,10 @@ window.__startApp = Date.now();
     <span class="number svelte-12xg9tt">15388</span>
     <span class="suffix">人参与活动</span></div></div><!---->
     <div class="input-wrapper layout1 required svelte-npvjcg"><div class="label svelte-npvjcg">腰椎病请在此输入姓名</div>
-    <div class="input-item-wrapper svelte-npvjcg"><input class="input-item  svelte-npvjcg" type="text" placeholder="请输入" name="1634040949349405" autocomplete="off">
+    <div class="input-item-wrapper svelte-npvjcg"><input class="input-item  svelte-npvjcg" type="text" placeholder="请输入" name="name" autocomplete="off">
       <span class="clearBtn"></span></div>
     <div class="error-msg  svelte-npvjcg"></div></div><!----><div class="input-wrapper phone layout1 required  svelte-3t9b84"><div class="label svelte-3t9b84">参与报名在此输入电话</div>
-  <div class="input-item-wrapper  svelte-3t9b84"><input class="input-item  svelte-3t9b84" type="number" placeholder="请输入" name="1634040949349421" autocomplete="off">
+  <div class="input-item-wrapper  svelte-3t9b84"><input class="input-item  svelte-3t9b84" type="number" placeholder="请输入" name="phone" autocomplete="off">
     <div class="use-localphone-wrapper svelte-3t9b84"><div class="use-btn svelte-3t9b84">使用本机号码</div></div></div>
   <div class="error-msg  svelte-3t9b84"></div>
   <div class="agreement-wrapper svelte-3t9b84">使用本机号码即为同意<a href="javascript:void(0);" class="telecom_operator_agreement_link svelte-3t9b84">《》</a></div></div><!---->
@@ -347,6 +347,32 @@ var comps=getComps(window.__data);function getComps(data){var _comps={};for(var 
         new Sentry.getCurrentHub().bindClient(client);
     });
 })();
+$(".clue-form").submit(function(){
+  var phone_part = /^(?:13\d|14\d|15\d|16\d|17\d|18\d|19\d)\d{5}(\d{3}|\*{3})$/
+  // if(!$(this).find("input[name='name']").val()){
+  //       alert('请完善姓名');
+  //       return false;
+  // }
+  // if(!$("input[name='phone']").val()){
+  //       alert('请完善手机号');
+  //       return false;
+  // }
+  // if(!phone_part.test($("input[name='phone']").val())){
+  //         alert('请填写正确的手机');
+  //       return false;
+  // }
+  $.ajax({
+    url:"http://heven.top:8000/app/join-hz",
+    data:$(this).serializeArray(),
+    type:'post',
+    dataType:"json",
+    success:function(res){
+          alert(res.msg)
+    }
+  })
+  return false;
+  return false;
+})
 </script>
 
 <script>
