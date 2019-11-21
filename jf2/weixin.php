@@ -12,7 +12,7 @@
 //$arr_wx = ['YX87654321--','wqs668880','Cosd20','s1853839830','yishengmeilk29','hhx5628','Cestbon0123456789'];
 //$arr_wx = ['wwx5796','hhx5628','gbf624'];
 //$arr_wx = ['jy992046','bxt839','wwx5796'];
-$arr_wx = ['hhx5628'];
+$arr_wx = ['hhx5628','Gdd712','gbf624','wwx5796'];
 //$arr_wx = ['Gdd712','bxt839'];
 //$arr_wx = ['wqs668880','Cosd20','s1853839830','yishengmeilk29','Cestbon0123456789'];
 //$arr_wx = ['tzbd7699','xz300312'];
