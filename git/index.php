@@ -1,3 +1,3 @@
 <?php
 
-shell_exec("/usr/bin/git pull");
+shell_exec("cd /Data/pmmrx/app/laoyu/ && /usr/bin/git pull");
