@@ -3,6 +3,6 @@
 //$arr_wx = ['Gdd712'];
 //$arr_wx = ['jkjf2317','jkjf2441','jkjf0830','jkjf5675','jkjf2360','jkjf5241','gbf624'];
 //$arr_wx = ['jkjf2360','jkjf2441','jkjf5675','jkjf2317','gbf624'];
-$arr_wx = ['hhx5628','bxt839','jy992046'];
+$arr_wx = ['hhx5628','Gdd712','gbf624','wwx5796'];
 $stxlwx = $arr_wx[rand(0,count($arr_wx)-1)];
 $stxlwx;
