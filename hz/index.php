@@ -340,7 +340,7 @@ var stxlwx = "<?php echo $stxlwx?>";
       <div class="_135editor" style="position: relative; border: 0px none; padding: 0px;"> 
        <div class="" style="position: static;"> 
         <div class="" style="text-align: justify; line-height: 1.5; font-size: 16px; padding-right: 5px; padding-left: 5px;margin-top: 10px;"> 
-         <p style="text-align: center;"> <span style=";;background-color: #FEFFFF;;font-weight: 700;;color: #312A2A; font-size: 22px; background-color: #FFFFFF;">一贴一按一吃，内外同治，60天祛除风湿疾病！</span> </p> 
+         <p style="text-align: center;"> <span style=";;background-color: #FEFFFF;;font-weight: 700;;color: #312A2A; font-size: 22px; background-color: #FFFFFF;">一喷一按一吃，内外同治，60天祛除风湿疾病！</span> </p> 
          <p style="text-align: justify; white-space: normal;"> &nbsp; &nbsp; &nbsp;我叫张秀俪，汉族人，68岁，患风湿痛12年，手指和脚关节、手指整个都弯曲了，已经没法日常的生活了，严重处手指拿筷子都拿不了了，子女也看着干着急。这些年啥办法都试过，白扔钱。上个月同村的一个村友她也是风湿病治疗好了让我加史立强老中医的微信，当时我不信呀，连面都没见就给人看病？这不是空手套白狼嘛！但是做梦都没想到，用了史立强老中医给我配的方子，太厉害了，10几年的风湿病风湿手指弯曲，硬是两月给矫正了，最重要的是疼痛祛除了，也能自己拿筷子吃饭了！ </p> 
         </div> 
        </div> 
@@ -559,7 +559,7 @@ var stxlwx = "<?php echo $stxlwx?>";
           <div class="" style="position: static;"> 
            <div class="" style="text-align: center; color: rgb(179, 20, 20);"> 
             <p> <span style=";font-weight: 700;;font-size: 28px;">祖传秘方，分湿分治</span> </p> 
-            <p> <span style=";font-weight: 700;;font-size: 28px;">一贴，一吃，内外同治，祛湿正骨</span> </p> 
+            <p> <span style=";font-weight: 700;;font-size: 28px;">一喷，一吃，内外同治，祛湿正骨</span> </p> 
             <p> <span style="font-size: 21px; background-color: #F4F318;">当天止痛，7天除湿，60天正骨</span> </p> 
             <p> ☆ &nbsp;各类风湿骨头、关节疼痛、肩周炎、骨质增生等； </p> 
             <p> ☆ &nbsp;膝盖疼痛、骨性关节疼痛、肢体麻木； </p> 
@@ -596,7 +596,7 @@ var stxlwx = "<?php echo $stxlwx?>";
        <div class="" style="position: static;"> 
         <div class="" style="text-align: justify; line-height: 1.5; font-size: 16px; padding-right: 5px; padding-left: 5px;margin-top: 10px;"> 
          <p style="text-align: center;"> <span style="font-size: 48px; color: #B31414;">快！准！狠！</span> </p> 
-         <p style="text-align: center;"> <span style=";font-weight: 700;;font-size: 18px;">吃一吃，贴一贴，按一按，风湿全消</span> </p> 
+         <p style="text-align: center;"> <span style=";font-weight: 700;;font-size: 18px;">吃一吃，贴一喷，按一按，风湿全消</span> </p> 
          <p style="text-align: justify; white-space: normal;"> <span style=";color: #B31414;;font-weight: 700;">★使用当天：</span><span style="letter-spacing: 0px; line-height: 1.6;">，感觉温热的状态，特别舒服，当时就不疼了，刺痒刺痛的感觉没有了，搭配内服史立强老中医的祛湿秘方之后，骨子里的刺痛消失了，舒服！</span><br> </p> 
          <p style="text-align: justify; white-space: normal;"> <span style="color: #B31414;">★使用3天：</span>手指胀痛祛除了，手指可以慢慢的灵活起来，简直不敢相信自己眼睛，厉害！ </p> 
          <p style="text-align: justify; white-space: normal;"> <span style="color: #B31414;">★使用14天：</span>手指关节弯曲处慢慢的灵活起来，慢慢的可以伸直了，惊喜！ </p> 
