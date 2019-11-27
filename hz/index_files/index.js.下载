@@ -1,0 +1,60 @@
+﻿var timeOutEvent = 0;
+function gtouchstart() {
+        timeOutEvent = setTimeout("longPress()", 400);
+        return false;
+};
+function gtouchend() {
+        clearTimeout(timeOutEvent);
+        if (timeOutEvent != 0) {
+
+}
+        return false;
+};
+
+function gtouchmove() {
+        clearTimeout(timeOutEvent);
+        timeOutEvent = 0;
+};
+
+function longPress() {
+        timeOutEvent = 0;
+
+        copy();
+}
+
+//先获取元素
+var anone = document.getElementById('footTool');
+var bnone = document.getElementById('b-none');
+// 2.实现定时事件
+bnone.onclick = function() {
+        anone.style.display = 'none';
+}
+//2.2判断 当内容为0 时 
+        if(anone.style.display = 'none'){
+            setTimeout(function(){
+                anone.style.display = 'none'; 
+            },6000);
+        }else{
+            anone.style.display = 'none';
+        }
+		
+$(function() {
+        $("img.lazy").lazyload({
+                effect: "fadeIn",
+                threshold: 200
+
+        });
+
+});
+$(function() {
+        $('#mydel').click(function(event) {
+                $('#myModal').css('display', 'none');
+        });
+        $('.btn-img1').click(function() {
+                $('.wc-copy-pop1').fadeOut();
+        });
+});
+
+$('.btn-img').click(function() {
+        $(".wc-copy-pop").fadeOut();
+});
