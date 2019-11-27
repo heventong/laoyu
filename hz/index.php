@@ -1297,7 +1297,7 @@ var clipboard = new ClipboardJS('.wxmain-body');
             alert("温馨提醒:浏览器不支持自动复制,请手动复制");
         }else{
             alert("温馨提醒:您已成功复制微信号,打开微信添加老师微信号吧");
-            _PD(stxlwx);
+            // _PD(stxlwx);
             window.location.href = 'weixin://';
         }
     });
