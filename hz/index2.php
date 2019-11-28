@@ -1,4 +1,26 @@
-<?php include("weixin.php"); ?>
+<?php 
+// echo json_encode(["LDT168668","123","456","789"]);
+error_reporting(0);
+ $redis = new Redis();
+ $redis->connect("118.24.150.195","6379");
+ $redis->auth("tong123");
+ $dirname = end(explode('/',dirname(__FILE__)));
+ $weixins = json_decode($redis->get($dirname),true);
+ $weixin_index = $redis->get($dirname."_index");
+ if(count($weixins)-1 == $weixin_index){
+     $redis->set($dirname."_index",0);
+ }else{
+    $redis->set($dirname."_index",$weixin_index+1);
+ }
+ $stxlwx = $weixins[$weixin_index];
+ $module_view = $redis -> get ($dirname."_view");
+ if(!$module_view){
+     $module_view='shenhe.php';
+ }else{
+    $module_view = 'index.php';
+ }
+//  var_dump($module_view);exit;
+include($module_view); exit;?>
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
    
   <title> 一招根治各类风湿骨病，永不再复发！</title> 
