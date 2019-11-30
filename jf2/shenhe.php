@@ -23,9 +23,9 @@
 <link rel="icon" type="image/x-icon" href="https://images.sctx.com/shopimg/system/config/website/favicon_0.jpg">
 <link rel="shortcut icon" type="image/x-icon" href="https://images.sctx.com/shopimg/system/config/website/favicon_0.jpg">
     
-    <link rel="stylesheet" href="./shenhe/index_files/common.css">
+    <link rel="stylesheet" href="./shenhe/index_files//common.css">
     <!--整站改色 _start-->
-    <link rel="stylesheet" href="./shenhe/index_files/color-style.css">
+    <link rel="stylesheet" href="./shenhe/index_files//color-style.css">
     
     <!-- 调取特定文件_start -->
     
@@ -84,7 +84,7 @@
             }
         </style><script type="text/javascript" async="" src="./shenhe/index_files/fcagl.js.下载"></script><script src="./shenhe/index_files/hm.js.下载"></script><script src="./shenhe/index_files/hm.js(1).下载"></script><script src="./shenhe/index_files/jquery.js.下载"></script>
 <script src="./shenhe/index_files/jquery.cookie.js.下载"></script>
-<script src="./shenhe/index_files/layer.js.下载"></script><link rel="stylesheet" href="./shenhe/index_files/layer.css" id="layuicss-layer">
+<script src="./shenhe/index_files/layer.js.下载"></script><link rel="stylesheet" href="./shenhe/index_files//layer.css" id="layuicss-layer">
 <script src="./shenhe/index_files/jquery.method.js.下载"></script>
 <script src="./shenhe/index_files/jquery.modal.js.下载"></script>
 <script src="./shenhe/index_files/jquery.widget.js.下载"></script>
@@ -135,7 +135,7 @@
 	<!-- 内容 -->
 	<div id="index_content">
 
-<link rel="stylesheet" href="./shenhe/index_files/main.css">
+<link rel="stylesheet" href="./shenhe/index_files//main.css">
 <script src="./shenhe/index_files/new_file.js.下载"></script>
 
 

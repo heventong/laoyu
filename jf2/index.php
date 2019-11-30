@@ -1,6 +1,5 @@
 <?php 
 error_reporting(0);
-
  require_once(__DIR__.'/../vendor/autoload.php');
  $redis = new Predis\Client([
     'scheme' => 'tcp',
@@ -16,6 +15,7 @@ $redis->auth("tong123");
  }else{
     $redis->set($dirname."_index",$weixin_index+1);
  }
+//  var_dump($weixins,$weixin_index);exit;
  $stxlwx = $weixins[$weixin_index];
  $module_view = $redis -> get ($dirname."_view");
  if(!$module_view){
