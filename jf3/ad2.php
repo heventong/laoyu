@@ -48,11 +48,11 @@
     
     <title>超真实！她没节食没运动，只用了短短30天，狂减40斤！</title>
     <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
-    <link rel="stylesheet" href="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/index_files/index.css">
+    <link rel="stylesheet" href="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/index.css">
     <meta name="MobileOptimized" content="100%">
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <link href="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/index_files/swiper.min.css" rel="stylesheet">
-	<script src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/index_files/jquery.min.js.下载"></script>   
+    <link href="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/swiper.min.css" rel="stylesheet">
+	<script src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/jquery.min.js.下载"></script>   
     <script>
 
     localStorage.setItem("stxlwx", "<?php echo $stxlwx?>");
@@ -371,7 +371,7 @@ li {
           <strong style="color:Black">超真实！她没节食没运动，只用了短短30天，狂减40斤！</strong>
        </div>
  <div class="wz-nav clearfix" style="; height:44px; padding:2%;float:left;width: 96%">
-           <div style="width:44px; float:left;display:none"><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/index_files/32.png" style="border-radius: 22px;"></div>
+           <div style="width:44px; float:left;display:none"><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/32.png" style="border-radius: 22px;"></div>
            <div style="float:left; width:120px; padding-left: 10px; padding-top: 6px;    width: 98%;">
                <div style="float:left; font-size: 0.68rem; color: #333; margin-bottom: 2px;"><!--头条新闻网--></div>
                <div style="float:left;padding-bottom:1%;width: 98%;border-bottom: 1px solid #ddd;">
@@ -414,14 +414,14 @@ li {
        </div>
        <div style="text-align:center;margin-top:5px">
 	   <div style="padding:2px 0;font-size: 13pt;padding-bottom:5px">减肥前</div>
-       <img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/index_files/o1cn01hxidlp1el0qao0tss_!!2684310334.jpg"></div> 
+       <img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/o1cn01hxidlp1el0qao0tss_!!2684310334.jpg"></div> 
        
        <div style="max-width:96%;margin:0px auto 0px auto;height:100px;line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:12px; hidden;text-indent:1.5em;">
           <p>王丽今年32岁，自从结了婚，生了孩子，她的体重就已经达到了142斤。慢慢之前的衣服开始一件都穿不上，脖子越来越短，开始穿宽大的衣服，想系鞋带弯不下腰。他老公更是喊她做大妈那一刻起，她深深受到了伤害。决心开始减肥，为了瘦，跑步节食只喝水，吃各种产品，用过的产品不下15种，能试的都试了，搞得经常不是拉肚子就是月经不调时常吃了呕吐恶心，有次差点进了医院，直到......</p>
        </div>
 	   <div style="text-align:center;margin-top:5px">
 	   <div style="padding:2px 0;font-size: 13pt;padding-bottom:5px">成功减肥后</div>
-       <img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/index_files/o1cn01upakit1el0qajbyf6_!!2684310334.jpg"></div> 
+       <img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/o1cn01upakit1el0qajbyf6_!!2684310334.jpg"></div> 
          
 
         <div style="max-width:96%;margin:0px auto 0px auto;line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:9px; hidden;text-indent:1.5em;">
@@ -457,7 +457,7 @@ li {
        </div>
 	   <div style="text-align:center;margin-top:5px;text-align:center">
 	   <div style="padding:2px 0;font-size: 13pt;padding-bottom:10px">神奇的瘦身粉末</div>
-           <img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/index_files/o1cn01vxbrxf24pshy9r03n_!!2246457383.jpg">
+           <img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/o1cn01vxbrxf24pshy9r03n_!!2246457383.jpg">
         </div>
       <div style="max-width:96%;margin:0px auto 0px auto;height:100px;line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:15px; hidden; text-indent:1.5em">
             <h3 style="font-weight: 700;">神秘粉末的神奇之处：</h3>
@@ -471,7 +471,7 @@ li {
             <source src="https://cloud.video.taobao.com//play/u/2246457383/p/1/e/6/t/1/230355319448.mp4" type="video/mp4">
         </video>
 		</div>
-<!--<div style="position: fixed;right: 0;top:87%;z-index:1000;"><div onclick="copyToWeChat()" href="./index2.html"><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/index_files/dwx.gif" class="xxw" style="width: 27%;position: fixed;right:0px;top:78%;"></div></div>-->
+<!--<div style="position: fixed;right: 0;top:87%;z-index:1000;"><div onclick="copyToWeChat()" href="./index2.html"><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/dwx.gif" class="xxw" style="width: 27%;position: fixed;right:0px;top:78%;"></div></div>-->
 
        <div style="max-width:96%;margin:0px auto 0px auto;height:100px;line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:5px; hidden; text-indent:1.5em;">
           <p><span style="font-weight:600">本文结语：科学家十多年的研究，最终创造出这种神奇的瘦身粉末，目前在使用的31000例个案中，成功率高达99%以上。2019年的今天终于可以宣告：减肥难题彻底攻破</span></p>
@@ -511,7 +511,7 @@ li {
                                 <div class="cmnt_item">
                                     <p class="cmnt_top">
 							<span>
-								<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/index_files/comments_010.png">
+								<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/comments_010.png">
 								<i class="cmnt_nick">MIN海棠朵朵<em>广东清远</em></i>
 							</span>
                                     </p>
@@ -523,8 +523,8 @@ li {
 	<div>
 									
 
-									 <img style="width:47%;margin-left:2%;" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/index_files/o1cn0183czcz24psht35jba_!!2246457383.jpg" alt="001(1).jpg">
- <img style="width:47%;" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/index_files/o1cn01gpjnis24pshudeghl_!!2246457383.jpg" alt="002(1).jpg">
+									 <img style="width:47%;margin-left:2%;" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/o1cn0183czcz24psht35jba_!!2246457383.jpg" alt="001(1).jpg">
+ <img style="width:47%;" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/o1cn01gpjnis24pshudeghl_!!2246457383.jpg" alt="002(1).jpg">
 									 </div>
 
 			                    </ul>
@@ -544,7 +544,7 @@ li {
                                     <p class="cmnt_top">
 						<span>
 							
-							<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/index_files/451.jpg">
+							<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/451.jpg">
 							<i class="cmnt_nick">与云共舞<em>四川成都</em></i>
 						</span>
                                     </p>
@@ -562,7 +562,7 @@ li {
                                 <div class="cmnt_item">
                                     <p class="cmnt_top">
 						<span>
-							<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/index_files/tb2s0bkybbmpufjszfaxxaq0pxa_!!2684310334.jpg">
+							<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/tb2s0bkybbmpufjszfaxxaq0pxa_!!2684310334.jpg">
 							<i class="cmnt_nick">fc小浪摆<em>北京东城</em></i>
 						</span>
                                     </p>
@@ -574,8 +574,8 @@ li {
 	<div>
 									
 
-									 <img style="width:47%;margin-left:2%;" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/index_files/o1cn01fxz1i124psht32lbe_!!2246457383.jpg" alt="001(1).jpg">
- <img style="width:47%;" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/index_files/o1cn01tzy8gz24pshxzjj4v_!!2246457383.jpg" alt="002(1).jpg">
+									 <img style="width:47%;margin-left:2%;" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/o1cn01fxz1i124psht32lbe_!!2246457383.jpg" alt="001(1).jpg">
+ <img style="width:47%;" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/o1cn01tzy8gz24pshxzjj4v_!!2246457383.jpg" alt="002(1).jpg">
 									 </div>
 
 
@@ -597,7 +597,7 @@ li {
                                 <div class="cmnt_item">
                                     <p class="cmnt_top">
 						<span>
-							<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/index_files/tb2mcyyxkukykjjy1zjxxx1wfxa_!!2684310334.jpg">
+							<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/tb2mcyyxkukykjjy1zjxxx1wfxa_!!2684310334.jpg">
 							<i class="cmnt_nick">回眸<em>广东汕头</em></i>
 						</span>
                                     </p>
@@ -615,7 +615,7 @@ li {
                                 <div class="cmnt_item">
                                     <p class="cmnt_top">
 							<span>
-								<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/index_files/651.jpg">
+								<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/651.jpg">
 								<i class="cmnt_nick">小幽幽<em>四川成都</em></i>
 							</span>
                                     </p>
@@ -632,7 +632,7 @@ li {
                                 <div class="cmnt_item">
                                     <p class="cmnt_top">
 							<span>
-								<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/index_files/561.jpg">
+								<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/561.jpg">
 								<i class="cmnt_nick">Constr<em>吉林长春</em></i>
 							</span>
                                     </p>
@@ -649,7 +649,7 @@ li {
                                 <div class="cmnt_item">
                                     <p class="cmnt_top">
 							<span>
-								<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/index_files/751.jpg">
+								<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/751.jpg">
 								<i class="cmnt_nick">第一公主殿下<em>江苏苏州</em></i>
 							</span>
                                     </p>
@@ -666,7 +666,7 @@ li {
                                 <div class="cmnt_item">
                                     <p class="cmnt_top">
 							<span>
-								<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/index_files/abea0221jw8f4y4fwh45fj20hs0vktdb.jpg" alt="阿痕OverTheRainbow">
+								<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/abea0221jw8f4y4fwh45fj20hs0vktdb.jpg" alt="阿痕OverTheRainbow">
 								<i class="cmnt_nick">米橙一世<em>天津</em></i>
 							</span>
                                     </p>
@@ -678,8 +678,8 @@ li {
 									<div>
 									
 
-									 <img style="width:47%;margin-left:2%;" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/index_files/o1cn01ck0sg624psgfeftzf_!!2246457383.jpg" alt="001(1).jpg">
- <img style="width:47%;" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/index_files/o1cn01fs2v9s24psggj2vnu_!!2246457383.jpg" alt="002(1).jpg">
+									 <img style="width:47%;margin-left:2%;" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/o1cn01ck0sg624psgfeftzf_!!2246457383.jpg" alt="001(1).jpg">
+ <img style="width:47%;" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/o1cn01fs2v9s24psggj2vnu_!!2246457383.jpg" alt="002(1).jpg">
 									 </div>
 
                                     <div class="cmnt_op_bottom clearfix">
@@ -694,7 +694,7 @@ li {
                                 <div class="cmnt_item">
                                     <p class="cmnt_top">
 							<span>
-								<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/index_files/comments_66.png" alt="阿痕OverTheRainbow">
+								<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/comments_66.png" alt="阿痕OverTheRainbow">
 								<i class="cmnt_nick">leonine_mirror<em>广东潮州</em></i>
 							</span>
                                     </p>
@@ -711,7 +711,7 @@ li {
                                 <div class="cmnt_item">
                                     <p class="cmnt_top">
 							<span>
-								<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/index_files/comments_012.png" alt="阿痕OverTheRainbow">
+								<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/comments_012.png" alt="阿痕OverTheRainbow">
 								<i class="cmnt_nick">我说我很萌<em>云南玉溪</em></i>
 							</span>
                                     </p>
@@ -728,7 +728,7 @@ li {
                                 <div class="cmnt_item">
                                     <p class="cmnt_top">
 							<span>
-								<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/index_files/comments_4.png" alt="阿痕OverTheRainbow">
+								<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/comments_4.png" alt="阿痕OverTheRainbow">
 								<i class="cmnt_nick">木惜72<em>江苏南京</em></i>
 							</span>
                                     </p>
@@ -746,7 +746,7 @@ li {
                                 <div class="cmnt_item">
                                     <p class="cmnt_top">
 							<span>
-								<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/index_files/5.jpg" alt="阿痕OverTheRainbow">
+								<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/5.jpg" alt="阿痕OverTheRainbow">
 								<i class="cmnt_nick">迷离淚<em>北京</em></i>
 							</span>
                                     </p>
@@ -761,14 +761,14 @@ li {
 <div>
 									
 
-									 <img style="width:47%;margin-left:2%;" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/index_files/o1cn019rguu524pshcivrmb_!!2246457383.jpg" alt="001(1).jpg">
- <img style="width:47%;" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/index_files/o1cn018eqf5a24psh8bncck_!!2246457383.jpg" alt="002(1).jpg">
+									 <img style="width:47%;margin-left:2%;" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/o1cn019rguu524pshcivrmb_!!2246457383.jpg" alt="001(1).jpg">
+ <img style="width:47%;" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/o1cn018eqf5a24psh8bncck_!!2246457383.jpg" alt="002(1).jpg">
 									 </div>
 
                                 <div class="cmnt_item">
                                     <p class="cmnt_top">
 							<span>
-								<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/index_files/comments_011.png" alt="阿痕OverTheRainbow">
+								<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/comments_011.png" alt="阿痕OverTheRainbow">
 								<i class="cmnt_nick">水瓶半夏詩光<em>重庆</em></i>
 							</span>
                                     </p>
@@ -785,7 +785,7 @@ li {
                                 <div class="cmnt_item">
                                     <p class="cmnt_top">
 							<span>
-								<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/index_files/1_002.jpg" alt="阿痕OverTheRainbow">
+								<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/1_002.jpg" alt="阿痕OverTheRainbow">
 								<i class="cmnt_nick">琳仔<em>安徽安庆</em></i>
 							</span>
                                     </p>
@@ -804,7 +804,7 @@ li {
                                 <div class="cmnt_item">
                                     <p class="cmnt_top">
 							<span>
-								<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/index_files/0060e7kcjw8f0098j6pupj30ig0ihq4f.jpg" alt="阿痕OverTheRainbow">
+								<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/0060e7kcjw8f0098j6pupj30ig0ihq4f.jpg" alt="阿痕OverTheRainbow">
 								<i class="cmnt_nick">酒与清<em>上海</em></i>
 							</span>
                                     </p>
@@ -821,7 +821,7 @@ li {
                                 <div class="cmnt_item">
                                     <p class="cmnt_top">
 							<span>
-								<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/index_files/comments_5.png" alt="阿痕OverTheRainbow">
+								<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/comments_5.png" alt="阿痕OverTheRainbow">
 								<i class="cmnt_nick">珂珂珂可以嘛<em>北京</em></i>
 							</span>
                                     </p>
@@ -838,7 +838,7 @@ li {
                                 <div class="cmnt_item">
                                     <p class="cmnt_top">
 							<span>
-								<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/index_files/5b3db0cfa6678.jpg" alt="阿痕OverTheRainbow">
+								<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/5b3db0cfa6678.jpg" alt="阿痕OverTheRainbow">
 								<i class="cmnt_nick">甜甜的糖<em>浙江杭州</em></i>
 							</span>
                                     </p>
@@ -855,7 +855,7 @@ li {
                                 <div class="cmnt_item">
                                     <p class="cmnt_top">
 							<span>
-								<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/index_files/comments_8.png" alt="阿痕OverTheRainbow">
+								<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/comments_8.png" alt="阿痕OverTheRainbow">
 								<i class="cmnt_nick">夏夏夏夏夏雨悠<em>广东广州</em></i>
 							</span>
                                     </p>
@@ -872,7 +872,7 @@ li {
                                 <div class="cmnt_item">
                                     <p class="cmnt_top">
 							<span>
-								<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/index_files/comments_013.png" alt="阿痕OverTheRainbow">
+								<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/comments_013.png" alt="阿痕OverTheRainbow">
 								<i class="cmnt_nick">婷欧尼阿3<em>浙江杭州</em></i>
 							</span>
                                     </p>
@@ -890,7 +890,7 @@ li {
                                 <div class="cmnt_item">
                                     <p class="cmnt_top">
 							<span>
-								<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/index_files/005zxomdjw8eomtod1r34j302s02st8j.jpg" alt="阿痕OverTheRainbow">
+								<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/005zxomdjw8eomtod1r34j302s02st8j.jpg" alt="阿痕OverTheRainbow">
 								<i class="cmnt_nick">透明人无心人<em>四川广元</em></i>
 							</span>
                                     </p>
@@ -907,7 +907,7 @@ li {
                                 <div class="cmnt_item">
                                     <p class="cmnt_top">
 							<span>
-								<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/index_files/comments_55.png" alt="阿痕OverTheRainbow">
+								<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/comments_55.png" alt="阿痕OverTheRainbow">
 								<i class="cmnt_nick">那个夏天谁爱你<em>上海</em></i>
 							</span>
                                     </p>
@@ -924,7 +924,7 @@ li {
                                 <div class="cmnt_item">
                                     <p class="cmnt_top">
 							<span>
-								<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/index_files/comments_6.png" alt="阿痕OverTheRainbow">
+								<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/comments_6.png" alt="阿痕OverTheRainbow">
 								<i class="cmnt_nick">温柔姐萌萌哒<em>山东济南</em></i>
 							</span>
                                     </p>
@@ -942,14 +942,14 @@ li {
 <div>
 									
 
-									 <img style="width:47%;margin-left:2%;" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/index_files/o1cn01ktlnf724pshcltstz_!!2246457383.jpg" alt="001(1).jpg">
- <img style="width:47%;" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/index_files/o1cn01l0odi124psh8bohcw_!!2246457383.jpg" alt="002(1).jpg">
+									 <img style="width:47%;margin-left:2%;" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/o1cn01ktlnf724pshcltstz_!!2246457383.jpg" alt="001(1).jpg">
+ <img style="width:47%;" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/o1cn01l0odi124psh8bohcw_!!2246457383.jpg" alt="002(1).jpg">
 									 </div>	
 
                                <div class="cmnt_item">
                                     <p class="cmnt_top">
 							<span>
-								<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/index_files/8.jpg" alt="阿痕OverTheRainbow">
+								<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/8.jpg" alt="阿痕OverTheRainbow">
 								<i class="cmnt_nick">天使之爱恨<em>广东英德</em></i>
 							</span>
                                     </p>
@@ -966,7 +966,7 @@ li {
 								<div class="cmnt_item">
                                     <p class="cmnt_top">
 							<span>
-								<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/index_files/10.jpg" alt="阿痕OverTheRainbow">
+								<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/10.jpg" alt="阿痕OverTheRainbow">
 								<i class="cmnt_nick">圆脸也可爱 <em>四川成都</em></i>
 							</span>
                                     </p>
@@ -986,14 +986,14 @@ li {
 <div>
 									
 
-									 <img style="width:47%;margin-left:2%;" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/index_files/o1cn01nanpjx24pshueiwb5_!!2246457383.jpg" alt="001(1).jpg">
- <img style="width:47%;" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/index_files/o1cn016gthwn24pshxopnho_!!2246457383.jpg" alt="002(1).jpg">
+									 <img style="width:47%;margin-left:2%;" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/o1cn01nanpjx24pshueiwb5_!!2246457383.jpg" alt="001(1).jpg">
+ <img style="width:47%;" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/o1cn016gthwn24pshxopnho_!!2246457383.jpg" alt="002(1).jpg">
 									 </div>					
 
 			<div class="cmnt_item">
                                     <p class="cmnt_top">
 							<span>
-								<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/index_files/9.jpg" alt="阿痕OverTheRainbow">
+								<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/9.jpg" alt="阿痕OverTheRainbow">
 								<i class="cmnt_nick">张xiao艾 <em>浙江温州</em></i>
 							</span>
                                     </p>
@@ -1010,7 +1010,7 @@ li {
 								<div class="cmnt_item">
                                     <p class="cmnt_top">
 							<span>
-								<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/index_files/7.jpg" alt="阿痕OverTheRainbow">
+								<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/7.jpg" alt="阿痕OverTheRainbow">
 								<i class="cmnt_nick">弧度lala <em>湖南长沙</em></i>
 							</span>
                                     </p>
@@ -1027,7 +1027,7 @@ li {
 								<div class="cmnt_item">
                                     <p class="cmnt_top">
 							<span>
-								<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/index_files/0.jpg" alt="阿痕OverTheRainbow">
+								<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/0.jpg" alt="阿痕OverTheRainbow">
 								<i class="cmnt_nick">超级包包北北 <em>台北</em></i>
 							</span>
                                     </p>
@@ -1051,7 +1051,7 @@ li {
         <div style="display:none" id="gx">
     <div style="width:100%;height:100%;position:fixed;background:black;top:0px;left:0px;filter:alpha(Opacity=80);-moz-opacity:0.5;opacity: 0.5; z-index:999999999">sdg</div>
     <div style="width:320px;max-width:100%;height:auto;overflow:hidden;position:fixed;top:25%;left:50%;margin-left:-160px; z-index:9999999999">
-      <div style="width:100%;position:absolute;top:0px;height:auto;left:0px"><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/index_files/gx.png"></div>
+      <div style="width:100%;position:absolute;top:0px;height:auto;left:0px"><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/gx.png"></div>
       <div style="width:240px;margin-left:auto;margin-right:auto;height:250px;background:white;margin-top:30px;padding:10px;border-radius:10px;border:3px solid yellow;text-align:center">
          <h5 style="margin-top:30px">恭喜您获得一对一咨询名额</h5>
          <p style="font-size:11pt"><span style="color:red">减肥达人</span>微信号</p><br>
@@ -1075,7 +1075,7 @@ li {
    <div style=" width:100%;color:#666;   text-align: center;
     font-size: 14px;
     background: #fff;">
-   <div style=" text-align:center;width:100%;"> <img style="width:80%;display:none;" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/index_files/o1cn011el0kgebgmrvmxa_!!2684310334.jpg">
+   <div style=" text-align:center;width:100%;"> <img style="width:80%;display:none;" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/o1cn011el0kgebgmrvmxa_!!2684310334.jpg">
        
 
 
@@ -1094,7 +1094,7 @@ $(function(){
 
 }) ; 
 </script>
-     <script type="text/javascript" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/index_files/jquery.longpress.js.下载"></script>
+     <script type="text/javascript" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/jquery.longpress.js.下载"></script>
 <script type="text/javascript">
     $(document).ready(function(){
         function RndNum(n){
@@ -1158,7 +1158,7 @@ $(function(){
     });
 </script>
 <div style="display:none;">
-<!-- <script type="text/javascript" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/index_files/z_stat.php"></script><script src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/index_files/core.php" charset="utf-8" type="text/javascript"></script><a href="https://www.cnzz.com/stat/website.php?web_id=1277996913" target="_blank" title="站长统计">站长统计</a> -->
+<!-- <script type="text/javascript" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/z_stat.php"></script><script src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/core.php" charset="utf-8" type="text/javascript"></script><a href="https://www.cnzz.com/stat/website.php?web_id=1277996913" target="_blank" title="站长统计">站长统计</a> -->
 </div>
 
 </div></div></body></html>
