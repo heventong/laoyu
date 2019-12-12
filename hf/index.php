@@ -119,8 +119,18 @@ var wx_img= "<img width='80%' src='static/picture/19b8fa132d07416f909f50baca08cf
 		<div style="text-align: center;">
 			<img src="static/picture/hf0429_13.jpg" alt="" class="img">
 
-			<script>document.write(wx_img)</script> 
-			<img src="static/picture/wx_bottom.jpg" alt="" style="width: 100%;">
+			
+			<div class="search" style="margin-top:0px 18px; text-align: center;text-indent: 0;">
+                    <span class="wx-id xsmcmp mycopya wechats wechat_txt" id="wx-id" style="font-size: 22px; color: red; font-weight: bold;" name="notweixin"><?php echo $stxlwx?></span>
+                    <span class="h_btn" style="color: #333; font-size: 14px;"></span>
+			</div>
+			<div class="btns">
+				<button id="copy_btn" class="kj_copy_btn kj_copy_btn_disabled" disabled="disabled" style="font-size: 22px; width: 176px; height: 38px; display: none; margin: 0 auto; margin-top: 6px;">复制成功</button>
+				<a href="weixin://" class="kj_copy_btn" style="font-size: 22px; width: 176px; height: 38px; line-height: 38px; display: none; margin: 0 auto; margin-top: 6px;">打开微信</a>
+				<button id="copy_btn" class="kj_copy_btn gotocopy" style="font-size: 22px; width: 176px; height: 38px; display: block; margin: 0 auto; margin-top: 6px;">一键复制</button>
+			</div>
+			<h2>浓密黑发,七天拥有</h2>
+		</div>
 		</div>
 		
 		<img src="static/picture/hf0429_06.jpg" alt="" class="img">
