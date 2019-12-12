@@ -134,7 +134,7 @@
 				
 				
 					
-					<span style=" font-size: 0.5rem; color:#ccc"><?php echo date('Y-m-d 13:51:11',strtotime("-7 day"));?></span>
+					<span style=" font-size: 0.7rem; color:#ccc"><?php echo date('Y-m-d 13:51:11',strtotime("-7 day"));?></span>
 				
 				
 			</div>
@@ -748,7 +748,7 @@
 				<!--<span class="ZiBox-popup-button R" index="1">取消</span>-->
 			</div>
 		</div>
-
+			<center>浙江恩泽医药有限公司</center>
 		<script type="text/javascript">
 				  	
 
