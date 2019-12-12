@@ -130,10 +130,13 @@
 			<div style="width:95%;margin:0px auto 0px auto;line-height:30px;font-size:18pt;height:auto; margin-bottom:10px;">
 				<strong style="color:Black">超真实！她没节食没运动，只用了短短30天，狂减40斤！</strong>
 			</div>
-			<div class="wz-nav clearfix" style="width:96%; height:44px; padding:2%; ">
+			<div class="wz-nav clearfix" style="width:96%;  padding:2%; ">
 				
 				
-				<div style="float:right; padding-top:12px;"><a onclick="javascript:viod(0)" style=" color: #fff; background: #0383f4;     font-size: 14px;  padding: 4px 12px; border-radius:2px; cursor:pointer;">关注</a></div>
+					
+					<span style=" font-size: 0.5rem; color:#ccc"><?php echo date('Y-m-d 13:51:11',strtotime("-7 day"));?></span>
+				
+				
 			</div>
 
 			<div style="max-width:96%;margin:0px auto 0px auto;height:100px;line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; hidden;text-indent:1.5em;">
@@ -745,7 +748,6 @@
 				<!--<span class="ZiBox-popup-button R" index="1">取消</span>-->
 			</div>
 		</div>
-		<center>浙江恩泽医药有限公司</center>
 
 		<script type="text/javascript">
 				  	
