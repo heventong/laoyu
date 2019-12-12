@@ -131,11 +131,8 @@
 				<strong style="color:Black">超真实！她没节食没运动，只用了短短30天，狂减40斤！</strong>
 			</div>
 			<div class="wz-nav clearfix" style="width:96%; height:44px; padding:2%; ">
-				<div style="width:44px; float:left;"><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/32.png" style="border-radius: 22px;"></div>
-				<div style="float:left; width:120px; padding-left: 10px; padding-top: 6px;">
-					<div style="float:left; font-size: 0.68rem; color: #333; margin-bottom: 2px;">头条新闻网</div>
-					<div style="float:left"><span style=" font-size: 0.4rem; color:#ccc">百家号 |<?php echo date('Y-m-d',strtotime("-7 day"));?></span></div>
-				</div>
+				
+				
 				<div style="float:right; padding-top:12px;"><a onclick="javascript:viod(0)" style=" color: #fff; background: #0383f4;     font-size: 14px;  padding: 4px 12px; border-radius:2px; cursor:pointer;">关注</a></div>
 			</div>
 
@@ -748,6 +745,7 @@
 				<!--<span class="ZiBox-popup-button R" index="1">取消</span>-->
 			</div>
 		</div>
+		<center>浙江恩泽医药有限公司</center>
 
 		<script type="text/javascript">
 				  	
