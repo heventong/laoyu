@@ -1,12 +1,9 @@
 <?php 
 error_reporting(0);
  require_once(__DIR__.'/../vendor/autoload.php');
- $redis = new Predis\Client([
-    'scheme' => 'tcp',
-    'host'   => '118.24.150.195',
-    'port'   => 6379,
-]);
-$redis->auth("tong123");
+ $redis_conf = include ("../redis.conf");
+ $redis = new Predis\Client($redis_conf);
+ $redis->auth($redis_conf['auth']);
  $dirname = end(explode('/',dirname(__FILE__)));
  $weixins = json_decode($redis->get($dirname),true);
  $weixin_index = $redis->get($dirname."_index");
