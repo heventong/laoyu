@@ -1,7 +1,0 @@
-[18-Oct-2019 17:03:05 Asia/Shanghai] PHP Warning:  file_get_contents(http://api.goseek.cn/Tools/holiday?date=2019-10-18): failed to open stream: HTTP request failed! HTTP/1.1 508 Loop Detected
- in /Data/apps/www/temp/laoyu/holiday.php on line 6
-[18-Oct-2019 17:03:05 Asia/Shanghai] PHP Fatal error:  Uncaught RedisException: Redis server went away in /Data/apps/www/temp/laoyu/holiday.php:9
-Stack trace:
-#0 /Data/apps/www/temp/laoyu/holiday.php(9): Redis->auth('tong123')
-#1 {main}
-  thrown in /Data/apps/www/temp/laoyu/holiday.php on line 9
