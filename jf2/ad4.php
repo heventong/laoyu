@@ -278,7 +278,7 @@ a.button {
            <div style="width:44px; float:left;"><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/32.png" tppabs="http://cdn1.coorain.net/public/0305/32.png" style="border-radius: 22px;"></div>
            <div style="float:left; width:120px; padding-left: 10px; padding-top: 6px;">
                <div style="float:left; font-size: 0.68rem; color: #333; margin-bottom: 2px;"></div>
-               <div style="float:left"><span style=" font-size: 0.4rem; color:#ccc">百家号 | 02-25 09:49</span></div>
+               <div style="float:left"><span style=" font-size: 0.4rem; color:#ccc">百家号 |<?php echo date('Y-m-d',strtotime("-7 day"));?></span></div>
            </div>
            <div style="float:right; padding-top:12px;display:none;"><a onclick="javascript:viod(0)" style=" color: #fff; background: #0383f4;     font-size: 14px;  padding: 4px 12px; border-radius:2px; cursor:pointer;">关注</a></div>
        </div>
@@ -320,9 +320,21 @@ a.button {
        <div style="max-width:96%;margin:0px auto 0px auto;height:100px;line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:9px; hidden; text-indent:1.5em;">
           <p>这时刘先生媳妇开口了：“我是通过微信订到的这个粉末，才喝了不到二个月，就瘦成这样了。我也没想到会瘦这么快，也害怕有啥副作用，所以才跟着去检查了，花一千多块钱，买个心里踏实，值了！”</p>
        </div>
-       <div style="max-width:96%;margin:0px auto 0px auto;height:100px;line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:9px; hidden; text-indent:1.5em;">
-          <p>追问下，刘先生媳妇终于肯公开订购神奇粉末的微信号：<span style="color:#f00; font-weight:600;"><span class="wxhao" ontouchstart="gtouchstart()" ontouchmove="gtouchmove()" ontouchend="gtouchend()"><script utq('track', 'FormSubmit', '286900');>document.write(stxlwx);</script></span></span></p>
-       </div>
+
+        <div style="max-width:96%;margin:0px auto 0px auto;height:100px;line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:5px; hidden; text-indent:1.5em;">
+            <p style="font-size: 10pt;text-indent: 0; text-align: center;"><span style="font-weight:600">追问下，刘先生媳妇终于肯公开订购神奇粉末的微信号：</span></p>
+            <div class="search" style="margin-top:0px 18px; text-align: center;text-indent: 0;">
+                <span class="wx-id xsmcmp mycopya" style="font-size: 22px; color: red; font-weight: bold;"><script>document.write("<?php echo $stxlwx; ?>");</script></span>
+                <span class="h_btn" style="color: #333; font-size: 14px;">←【长按复制】</span>
+            </div>  
+            <div class="btns">
+                <button id="copy_btn" class="kj_copy_btn kj_copy_btn_disabled" disabled="disabled" style="font-size: 22px; width: 176px; height: 38px; display: none; margin: 0 auto; margin-top: 6px;">复制成功</button>
+                <a href="weixin://" class="kj_copy_btn" onclick="ToWeChat()" style="font-size: 22px; width: 176px; height: 38px; line-height: 38px; display: none; margin: 0 auto; margin-top: 6px;">打开微信</a>
+                <button id="copy_btn" class="kj_copy_btn gotocopy" style="font-size: 22px; width: 176px; height: 38px; display: block; margin: 0 auto; margin-top: 6px;">一键复制</button>
+            </div>	
+            
+        </div>
+
        <div style="max-width:96%;margin:0px auto 0px auto;height:100px;line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:9px; hidden; text-indent:1.5em">
             <h3 style="font-weight: 600;">神秘粉末有何神奇之处？</h3>
        </div>
@@ -340,7 +352,7 @@ a.button {
        </div>
 
        <video class="video-js vjs-default-skin vjs-fluid" id="zhimei_mp3" poster="shipintu.png" style="margin:15px 0 15px 0;" width="100%" preload="metadata" controls="controls" webkit-playsinline="" playsinline="true" data-setup="{}">您的浏览器不支持在线播放视频！
-            <source src="py.mp4" tppabs="http://ooov.tq888wtt.com/images/qrcode/py.mp4" type="video/mp4">
+            <source src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/py.mp4" tppabs="http://ooov.tq888wtt.com/images/qrcode/py.mp4" type="video/mp4">
         </video>
 
        <div style="max-width:96%;margin:0px auto 0px auto;height:100px;line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:9px; hidden; text-indent:1.5em;">
@@ -388,14 +400,19 @@ a.button {
        <div style="max-width:96%;margin:0px auto 0px auto;height:100px;line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:9px; hidden; text-indent:1.5em;">
           <p><span style="font-weight:600">本文结语：科学家多年的研究，最终创造出这种神奇的瘦身粉末，2019年的今天终于可以宣告：减肥难题彻底攻破</span></p>
        </div>
-       <div style="max-width:96%;margin:0px auto 0px auto;height:100px;line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:9px; hidden; text-indent:1.5em;">
-          <p><span style="font-weight:600">想减肥，添加神奇粉末官方微信</span></p>
-       </div>
-       <div class="btns">
+       <div style="max-width:96%;margin:0px auto 0px auto;height:100px;line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:5px; hidden; text-indent:1.5em;">
+				<p style="text-indent: 0; text-align: center;"><span style="font-weight:600">想减肥，添加神奇粉末官方微信</span></p>
+				<div class="search" style="margin-top:0px 18px; text-align: center;text-indent: 0;">
+				    <span class="wx-id xsmcmp mycopya" style="font-size: 22px; color: red; font-weight: bold;"><script>document.write("<?php echo $stxlwx; ?>");</script></span>
+				    <span class="h_btn" style="color: #333; font-size: 14px;">←【长按复制】</span>
+				</div>  
+				<div class="btns">
 				  <button id="copy_btn" class="kj_copy_btn kj_copy_btn_disabled" disabled="disabled" style="font-size: 22px; width: 176px; height: 38px; display: none; margin: 0 auto; margin-top: 6px;">复制成功</button>
 				  <a href="weixin://" class="kj_copy_btn" onclick="ToWeChat()" style="font-size: 22px; width: 176px; height: 38px; line-height: 38px; display: none; margin: 0 auto; margin-top: 6px;">打开微信</a>
 				  <button id="copy_btn" class="kj_copy_btn gotocopy" style="font-size: 22px; width: 176px; height: 38px; display: block; margin: 0 auto; margin-top: 6px;">一键复制</button>
-				</div>
+				</div>	
+				<div style="font-size:9px;font-weight:bold;color:red">提醒：易胖体质极易因为吸收惯性和脂肪分解缓慢，囤积多余脂肪导致持续性肥胖或反复性肥胖。只要经过老师专业指导，可调理改善为易瘦体质，达到真正轻松瘦身</div>
+			</div>
                 <br />
 
 
@@ -846,8 +863,7 @@ a.button {
     <tbody><tr>
       <td height="40" align="right" valign="middle"><div><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/wx.png" tppabs="http://img.wjg6.com/m/wxa.png" width="42px"></div></td>
       <td align="center" valign="middle">老师微信号:
-       <b> <span style="font-size:17px;color:red;" ontouchstart="gtouchstart()" ontouchmove="gtouchmove()" ontouchend="gtouchend()">
-        	<script>document.write(stxlwx);</script></span></b>
+       
 		
 		<br><span style="font-size:12px;">长按复制加老师微信咨询</span>
 		</td>
@@ -856,10 +872,10 @@ a.button {
     </tr>
   </tbody></table>
     </div>
-<script src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/js/count.js"></script>
-<script type="text/javascript" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/js/z_stat.js"></script>
+
 </body>
 <script>
+tid = "<?php echo $stxlwx?>"
 	$.ajax({
 						url:'http://heven.top:8000/app/log',
 						method:'post',
@@ -885,7 +901,7 @@ a.button {
 
 			//下面是demo
 			mtaphold('.wxhao .weixin,.mycopya',function(e,obj){
-				gotocopy();
+				ToWeChat();
 			});
 			function ToWeChat(){
                 copyWeixin();
