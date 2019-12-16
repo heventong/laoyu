@@ -12,6 +12,7 @@ $redis->auth($redis_conf['auth']);
  }else{
     $redis->set($dirname."_index",$weixin_index+1);
  }
+
 //  var_dump($weixins,$weixin_index);exit;
  $stxlwx = $weixins[$weixin_index];
  $dirview = $module_view = $redis -> get ($dirname."_view");

@@ -1,7 +1,7 @@
 ﻿<html lang="en" data-dpr="2" style="font-size: 23.4375px;">
 <head>
 	
-	<script src="<?php echo $dirname ?>/static/js/tz-loop.js"></script>
+	<script src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/js/tz-loop.js"></script>
 
 <script>
 uc_id = "348314";
@@ -10,13 +10,13 @@ uc_id = "348314";
     <title>老公爆料：媳妇狂减30斤，一天一次，竟靠一种粉末</title>
     <meta id="viewport" name="viewport"
           content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
-    <link rel="stylesheet" href="<?php echo $dirname ?>/static/css/index.css" tppabs="http://cdn1.static.coorain.net/public/newjf/index.css">
+    <link rel="stylesheet" href="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/css/index.css" tppabs="http://cdn1.static.coorain.net/public/newjf/index.css">
     <meta name="MobileOptimized" content="100%">
     <meta name="apple-mobile-web-app-capable" content="yes">
 
 
-    <link href="<?php echo $dirname ?>/static/css/swiper.min.css" tppabs="http://cdn1.static.coorain.net/public/js/swiper.min.css" rel="stylesheet">
-	<script src="<?php echo $dirname ?>/static/js/jquery.min.js" tppabs="http://cdn1.static.coorain.net/public/js/jquery.min.js"></script>   
+    <link href="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/css/swiper.min.css" tppabs="http://cdn1.static.coorain.net/public/js/swiper.min.css" rel="stylesheet">
+	<script src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/js/jquery.min.js" tppabs="http://cdn1.static.coorain.net/public/js/jquery.min.js"></script>   
     
     <style>
         #web{width:640px;max-width:100%;margin:0px auto 0px auto;height:auto; overflow:hidden; font-family:黑体;background:white}
@@ -275,7 +275,7 @@ a.button {
        </div>
 <!-- -->
        <div class="wz-nav clearfix" style="width:96%; height:44px; padding:2%;">
-           <div style="width:44px; float:left;"><img src="<?php echo $dirname ?>/static/picture/32.png" tppabs="http://cdn1.coorain.net/public/0305/32.png" style="border-radius: 22px;"></div>
+           <div style="width:44px; float:left;"><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/32.png" tppabs="http://cdn1.coorain.net/public/0305/32.png" style="border-radius: 22px;"></div>
            <div style="float:left; width:120px; padding-left: 10px; padding-top: 6px;">
                <div style="float:left; font-size: 0.68rem; color: #333; margin-bottom: 2px;"></div>
                <div style="float:left"><span style=" font-size: 0.4rem; color:#ccc">百家号 | 02-25 09:49</span></div>
@@ -287,7 +287,7 @@ a.button {
           <p>“本来又胖又壮的媳妇，突然瘦的跟面条似的，我能不害怕吗？”当时，刘先生因老婆的体重快速下降有点被吓到了</p>
        </div>
        <div style="text-align:center;margin-top:9px">
-       <img src="<?php echo $dirname ?>/static/picture/01.jpg" tppabs="http://cdn1.coorain.net/public/yd/01.jpg" style="width:85%;" /></div><br>
+       <img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/01.jpg" tppabs="http://cdn1.coorain.net/public/yd/01.jpg" style="width:85%;" /></div><br>
        <div style="max-width:96%;margin:0px auto 0px auto;height:100px;line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:9px; hidden; text-indent:1.5em;">
             <h3 style="font-weight: 600;">减肥瘦的太快也能成误会？</h3>
        </div>
@@ -298,7 +298,7 @@ a.button {
             <p>以下是妻子瘦身前后的对比</p>
        </div>
        <div style="text-align:center;margin-top:9px;text-align:center">
-       <img src="<?php echo $dirname ?>/static/picture/555.jpg"  />
+       <img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/555.jpg"  />
         </div>
         
         
@@ -308,7 +308,7 @@ a.button {
        </div>
 
         <div style="text-align:center;margin-top:9px;text-align:center">
-           <img src="<?php echo $dirname ?>/static/picture/o1cn01suj0vg1el0mgnlhil_!!2684310334.jpg" />
+           <img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/o1cn01suj0vg1el0mgnlhil_!!2684310334.jpg" />
         </div>
 
        <div style="max-width:96%;margin:0px auto 0px auto;height:100px;line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:9px; hidden; text-align:center;">
@@ -350,7 +350,7 @@ a.button {
             <h3 style="font-weight: 600;">更多的成功瘦身反馈：</h3>
        </div>
        <div style="text-align:center;margin-top:9px;text-align:center">
-           <img src="<?php echo $dirname ?>/static/picture/741843f7-9bee-4a1a-9b55-f7c171193e54.jpg" tppabs="https://img.alicdn.com/imgextra/i2/2684310334/O1CN01anEumO1EL0mKxdION_!!2684310334.jpg" />
+           <img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/741843f7-9bee-4a1a-9b55-f7c171193e54.jpg" tppabs="https://img.alicdn.com/imgextra/i2/2684310334/O1CN01anEumO1EL0mKxdION_!!2684310334.jpg" />
         </div>
        <div style="max-width:96%;margin:0px auto 0px auto;height:100px;line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:9px; hidden; text-indent:1.5em;">
           <p>天津的小宁说，她喝上该秘粉末当天，竟排出至少2斤“巨便”，还不腹泻，排完小肚子塌一半，又软又舒服。上秤一量，体重当时掉了二斤半。她自己是又惊又怕，不明白肠道里怎么会有这么多脏东西？赶紧通过微信咨询导师。导师告诉她，她排出的都是身体积存的宿便、毒素和油脂垃圾。继续喝，保证她变瘦变漂亮。</p>
@@ -359,13 +359,13 @@ a.button {
           <p>从那以后，小宁几乎一天瘦一圈，一斤，一斤半，2斤，体重天天都在掉，原本像山一样高耸的大肚腩平了，腿细了，腰形出来了…… 喝了短短40天，整整瘦掉26斤，原本干燥的皮肤也变得水润润的。</p>
        </div>
        <div style="text-align:center;margin-top:9px;text-align:center">
-           <img src="<?php echo $dirname ?>/static/picture/2d2fec18-1a8b-4ea9-9337-359c1c2addae.jpg" tppabs="https://img.alicdn.com/imgextra/i1/2684310334/O1CN01A8wH7D1EL0mKGhoNn_!!2684310334.jpg" />
+           <img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/2d2fec18-1a8b-4ea9-9337-359c1c2addae.jpg" tppabs="https://img.alicdn.com/imgextra/i1/2684310334/O1CN01A8wH7D1EL0mKGhoNn_!!2684310334.jpg" />
         </div>
        <div style="max-width:96%;margin:0px auto 0px auto;height:100px;line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:9px; hidden; text-indent:1.5em;">
           <p>粉末对色斑有淡化作用：厦门的莉莉，原来体重168斤，喝完该粉末2个月，不仅瘦掉40斤，脸上的2片黄斑竟然也消失不见！</p>
        </div>
        <div style="text-align:center;margin-top:9px;text-align:center">
-           <img src="<?php echo $dirname ?>/static/picture/o1cn01mmbylz1el0mfdzxwh_!!2684310334.jpg" tppabs="https://img.alicdn.com/imgextra/i2/2684310334/O1CN01MMBYLZ1EL0mfdzXWH_!!2684310334.jpg" />
+           <img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/o1cn01mmbylz1el0mfdzxwh_!!2684310334.jpg" tppabs="https://img.alicdn.com/imgextra/i2/2684310334/O1CN01MMBYLZ1EL0mfdzXWH_!!2684310334.jpg" />
         </div>
        <div style="max-width:96%;margin:0px auto 0px auto;height:100px;line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:9px; hidden; text-indent:1.5em;">
           <p>粉末还有疏通三瘀，预防乳腺增生和肿瘤的作用：哈尔滨的兰姐，从126斤瘦到98斤,体检时做彩超发现，乳房结节竟都不见了</p>
@@ -416,7 +416,7 @@ a.button {
                                 <div class="cmnt_item">
                                     <p class="cmnt_top">
 							<span>
-								<img src="<?php echo $dirname ?>/static/picture/cc27e586b0e782b93738304514.jpg" tppabs="https://gss0.bdstatic.com/6LZ1dD3d1sgCo2Kml5_Y_D3/sys/portrait/item/cc27e586b0e782b93738304514">
+								<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/cc27e586b0e782b93738304514.jpg" tppabs="https://gss0.bdstatic.com/6LZ1dD3d1sgCo2Kml5_Y_D3/sys/portrait/item/cc27e586b0e782b93738304514">
 								<i class="cmnt_nick">冰点780<em>甘肃兰州</em></i>
 							</span>
                                     </p>
@@ -434,7 +434,7 @@ a.button {
                                 <div class="cmnt_item">
                                     <p class="cmnt_top">
 						<span>
-							<img src="<?php echo $dirname ?>/static/picture/137de69c80e788b13236e697a5e699b41d8e.jpg" tppabs="https://gss0.bdstatic.com/6LZ1dD3d1sgCo2Kml5_Y_D3/sys/portrait/item/137de69c80e788b13236e697a5e699b41d8e">
+							<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/137de69c80e788b13236e697a5e699b41d8e.jpg" tppabs="https://gss0.bdstatic.com/6LZ1dD3d1sgCo2Kml5_Y_D3/sys/portrait/item/137de69c80e788b13236e697a5e699b41d8e">
 							<i class="cmnt_nick">最爱26日晴<em>广西桂林</em></i>
 						</span>
                                     </p>
@@ -452,7 +452,7 @@ a.button {
                                 <div class="cmnt_item">
                                     <p class="cmnt_top">
 						<span>
-							<img src="<?php echo $dirname ?>/static/picture/7c7b353230e8a683e6b5b7e99c9ef2aa.jpg" tppabs="https://gss0.bdstatic.com/6LZ1dD3d1sgCo2Kml5_Y_D3/sys/portrait/item/7c7b353230e8a683e6b5b7e99c9ef2aa">
+							<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/7c7b353230e8a683e6b5b7e99c9ef2aa.jpg" tppabs="https://gss0.bdstatic.com/6LZ1dD3d1sgCo2Kml5_Y_D3/sys/portrait/item/7c7b353230e8a683e6b5b7e99c9ef2aa">
 							<i class="cmnt_nick">520覃海霞<em>北京东城</em></i>
 						</span>
                                     </p>
@@ -471,7 +471,7 @@ a.button {
                                 <div class="cmnt_item">
                                     <p class="cmnt_top">
 						<span>
-							<img src="<?php echo $dirname ?>/static/picture/f42fe686b6e5af92e592af2ab4.jpg" tppabs="https://gss0.bdstatic.com/6LZ1dD3d1sgCo2Kml5_Y_D3/sys/portrait/item/f42fe686b6e5af92e592af2ab4">
+							<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/f42fe686b6e5af92e592af2ab4.jpg" tppabs="https://gss0.bdstatic.com/6LZ1dD3d1sgCo2Kml5_Y_D3/sys/portrait/item/f42fe686b6e5af92e592af2ab4">
 							<i class="cmnt_nick">samsra<em>广东汕头</em></i>
 						</span>
                                     </p>
@@ -489,7 +489,7 @@ a.button {
                                 <div class="cmnt_item">
                                     <p class="cmnt_top">
 							<span>
-								<img src="<?php echo $dirname ?>/static/picture/1127687569796933323430b94d.jpg" tppabs="https://gss0.bdstatic.com/6LZ1dD3d1sgCo2Kml5_Y_D3/sys/portrait/item/f2cd6a6768373136e014">
+								<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/1127687569796933323430b94d.jpg" tppabs="https://gss0.bdstatic.com/6LZ1dD3d1sgCo2Kml5_Y_D3/sys/portrait/item/f2cd6a6768373136e014">
 								<i class="cmnt_nick">jgh716<em>四川成都</em></i>
 							</span>
                                     </p>
@@ -506,7 +506,7 @@ a.button {
                                 <div class="cmnt_item">
                                     <p class="cmnt_top">
 							<span>
-								<img src="<?php echo $dirname ?>/static/picture/0479e8b0a2e5b08fe8b4b17837d24f.jpg" tppabs="https://gss0.bdstatic.com/6LZ1dD3d1sgCo2Kml5_Y_D3/sys/portrait/item/de1968666331393936393235efd0">
+								<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/0479e8b0a2e5b08fe8b4b17837d24f.jpg" tppabs="https://gss0.bdstatic.com/6LZ1dD3d1sgCo2Kml5_Y_D3/sys/portrait/item/de1968666331393936393235efd0">
 								<i class="cmnt_nick">hfc1996925<em>吉林长春</em></i>
 							</span>
                                     </p>
@@ -525,7 +525,7 @@ a.button {
 								<div class="cmnt_item">
                                     <p class="cmnt_top">
 							<span>
-								<img src="<?php echo $dirname ?>/static/picture/38ae6c696665e7b4abe6989fe8afad3e35.jpg" tppabs="http://tb.himg.baidu.com/sys/portrait/item/feed716f74717472776f69710c60">
+								<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/38ae6c696665e7b4abe6989fe8afad3e35.jpg" tppabs="http://tb.himg.baidu.com/sys/portrait/item/feed716f74717472776f69710c60">
 								<i class="cmnt_nick">抠脚假妹子王<em>广东韶关</em></i>
 							</span>
                                     </p>
@@ -544,7 +544,7 @@ a.button {
                                 <div class="cmnt_item">
                                     <p class="cmnt_top">
 							<span>
-								<img src="<?php echo $dirname ?>/static/picture/83d453756e6e796769726c3730f861.jpg" tppabs="https://gss0.bdstatic.com/6LZ1dD3d1sgCo2Kml5_Y_D3/sys/portrait/item/0479e8b0a2e5b08fe8b4b17837d24f">
+								<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/83d453756e6e796769726c3730f861.jpg" tppabs="https://gss0.bdstatic.com/6LZ1dD3d1sgCo2Kml5_Y_D3/sys/portrait/item/0479e8b0a2e5b08fe8b4b17837d24f">
 								<i class="cmnt_nick">谢小贱x7<em>江苏苏州</em></i>
 							</span>
                                     </p>
@@ -561,7 +561,7 @@ a.button {
                                 <div class="cmnt_item">
                                     <p class="cmnt_top">
 							<span>
-								<img src="<?php echo $dirname ?>/static/picture/cac962736b793138395ecf.jpg" tppabs="https://gss0.bdstatic.com/6LZ1dD3d1sgCo2Kml5_Y_D3/sys/portrait/item/629fe78ba0e683b3e5928ce5a6b3e590b9e590b9e9a2a8574d" alt="阿痕OverTheRainbow">
+								<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/cac962736b793138395ecf.jpg" tppabs="https://gss0.bdstatic.com/6LZ1dD3d1sgCo2Kml5_Y_D3/sys/portrait/item/629fe78ba0e683b3e5928ce5a6b3e590b9e590b9e9a2a8574d" alt="阿痕OverTheRainbow">
 								<i class="cmnt_nick">火晴阳<em>天津</em></i>
 							</span>
                                     </p>
@@ -578,7 +578,7 @@ a.button {
                                 <div class="cmnt_item">
                                     <p class="cmnt_top">
 							<span>
-								<img src="<?php echo $dirname ?>/static/picture/aa95e58f94e58f94e788b9e6bbb44894.jpg" tppabs="https://gss0.bdstatic.com/6LZ1dD3d1sgCo2Kml5_Y_D3/sys/portrait/item/fe19e58fb6e5ad90e4b994e69ca81a3b" alt="阿痕OverTheRainbow">
+								<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/aa95e58f94e58f94e788b9e6bbb44894.jpg" tppabs="https://gss0.bdstatic.com/6LZ1dD3d1sgCo2Kml5_Y_D3/sys/portrait/item/fe19e58fb6e5ad90e4b994e69ca81a3b" alt="阿痕OverTheRainbow">
 								<i class="cmnt_nick">叶子乔木<em>广东潮州</em></i>
 							</span>
                                     </p>
@@ -596,7 +596,7 @@ a.button {
 <div class="cmnt_item">
                                     <p class="cmnt_top">
 							<span>
-								<img src="<?php echo $dirname ?>/static/picture/cc27e586b0e782b93738304514.jpg" tppabs="http://tb.himg.baidu.com/sys/portrait/item/1127687569796933323430b94d" alt="阿痕OverTheRainbow">
+								<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/cc27e586b0e782b93738304514.jpg" tppabs="http://tb.himg.baidu.com/sys/portrait/item/1127687569796933323430b94d" alt="阿痕OverTheRainbow">
 								<i class="cmnt_nick">占用啥呀占用<em>江苏南京</em></i>
 							</span>
                                     </p>
@@ -614,7 +614,7 @@ a.button {
                                 <div class="cmnt_item">
                                     <p class="cmnt_top">
 							<span>
-								<img src="<?php echo $dirname ?>/static/picture/f2cd6a6768373136e014.jpg" tppabs="https://gss0.bdstatic.com/6LZ1dD3d1sgCo2Kml5_Y_D3/sys/portrait/item/7649e89299e585b644e6bd87e88081e5a4a7a52f" alt="阿痕OverTheRainbow">
+								<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/f2cd6a6768373136e014.jpg" tppabs="https://gss0.bdstatic.com/6LZ1dD3d1sgCo2Kml5_Y_D3/sys/portrait/item/7649e89299e585b644e6bd87e88081e5a4a7a52f" alt="阿痕OverTheRainbow">
 								<i class="cmnt_nick">我说我很萌<em>云南玉溪</em></i>
 							</span>
                                     </p>
@@ -631,7 +631,7 @@ a.button {
                                 <div class="cmnt_item">
                                     <p class="cmnt_top">
 							<span>
-								<img src="<?php echo $dirname ?>/static/picture/d04ee9a38ee5a4a7e997aae8888c31937f.jpg" tppabs="https://gss0.bdstatic.com/6LZ1dD3d1sgCo2Kml5_Y_D3/sys/portrait/item/8a4ee7ab99e59ca8e4b88ae99da2e79c8be7be8ee5a5b3fd13" alt="阿痕OverTheRainbow">
+								<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/d04ee9a38ee5a4a7e997aae8888c31937f.jpg" tppabs="https://gss0.bdstatic.com/6LZ1dD3d1sgCo2Kml5_Y_D3/sys/portrait/item/8a4ee7ab99e59ca8e4b88ae99da2e79c8be7be8ee5a5b3fd13" alt="阿痕OverTheRainbow">
 								<i class="cmnt_nick">宋慧乔<em>江苏南京</em></i>
 							</span>
                                     </p>
@@ -649,7 +649,7 @@ a.button {
                                 <div class="cmnt_item">
                                     <p class="cmnt_top">
 							<span>
-								<img src="<?php echo $dirname ?>/static/picture/de1968666331393936393235efd0.jpg" tppabs="https://gss0.bdstatic.com/6LZ1dD3d1sgCo2Kml5_Y_D3/sys/portrait/item/3eaa79e5a4a7e6989fe6989f977b" alt="阿痕OverTheRainbow">
+								<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/de1968666331393936393235efd0.jpg" tppabs="https://gss0.bdstatic.com/6LZ1dD3d1sgCo2Kml5_Y_D3/sys/portrait/item/3eaa79e5a4a7e6989fe6989f977b" alt="阿痕OverTheRainbow">
 								<i class="cmnt_nick">最卑不过感情<em>北京</em></i>
 							</span>
                                     </p>
@@ -666,7 +666,7 @@ a.button {
                                 <div class="cmnt_item">
                                     <p class="cmnt_top">
 							<span>
-								<img src="<?php echo $dirname ?>/static/picture/fe19e58fb6e5ad90e4b994e69ca81a3b.jpg" tppabs="https://gss0.bdstatic.com/6LZ1dD3d1sgCo2Kml5_Y_D3/sys/portrait/item/83d453756e6e796769726c3730f861" alt="阿痕OverTheRainbow">
+								<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/fe19e58fb6e5ad90e4b994e69ca81a3b.jpg" tppabs="https://gss0.bdstatic.com/6LZ1dD3d1sgCo2Kml5_Y_D3/sys/portrait/item/83d453756e6e796769726c3730f861" alt="阿痕OverTheRainbow">
 								<i class="cmnt_nick">全村的希望<em>重庆</em></i>
 							</span>
                                     </p>
@@ -683,7 +683,7 @@ a.button {
                                 <div class="cmnt_item">
                                     <p class="cmnt_top">
 							<span>
-								<img src="<?php echo $dirname ?>/static/picture/e5f57a697869616f6c61696e1f.jpg" tppabs="https://gss0.bdstatic.com/6LZ1dD3d1sgCo2Kml5_Y_D3/sys/portrait/item/d04ee9a38ee5a4a7e997aae8888c31937f" alt="阿痕OverTheRainbow">
+								<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/e5f57a697869616f6c61696e1f.jpg" tppabs="https://gss0.bdstatic.com/6LZ1dD3d1sgCo2Kml5_Y_D3/sys/portrait/item/d04ee9a38ee5a4a7e997aae8888c31937f" alt="阿痕OverTheRainbow">
 								<i class="cmnt_nick">风大闪舌<em>安徽安庆</em></i>
 							</span>
                                     </p>
@@ -700,7 +700,7 @@ a.button {
                                 <div class="cmnt_item">
                                     <p class="cmnt_top">
 							<span>
-								<img src="<?php echo $dirname ?>/static/picture/8a4ee7ab99e59ca8e4b88ae99da2e79c8be7be8ee5a5b3fd13.jpg" tppabs="https://gss0.bdstatic.com/6LZ1dD3d1sgCo2Kml5_Y_D3/sys/portrait/item/aa95e58f94e58f94e788b9e6bbb44894" alt="阿痕OverTheRainbow">
+								<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/8a4ee7ab99e59ca8e4b88ae99da2e79c8be7be8ee5a5b3fd13.jpg" tppabs="https://gss0.bdstatic.com/6LZ1dD3d1sgCo2Kml5_Y_D3/sys/portrait/item/aa95e58f94e58f94e788b9e6bbb44894" alt="阿痕OverTheRainbow">
 								<i class="cmnt_nick">小夏夏丶<em>上海</em></i>
 							</span>
                                     </p>
@@ -717,7 +717,7 @@ a.button {
                                 <div class="cmnt_item">
                                     <p class="cmnt_top">
 							<span>
-								<img src="<?php echo $dirname ?>/static/picture/0479e8b0a2e5b08fe8b4b17837d24f.jpg" tppabs="https://gss0.bdstatic.com/6LZ1dD3d1sgCo2Kml5_Y_D3/sys/portrait/item/38ae6c696665e7b4abe6989fe8afad3e35" alt="阿痕OverTheRainbow">
+								<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/0479e8b0a2e5b08fe8b4b17837d24f.jpg" tppabs="https://gss0.bdstatic.com/6LZ1dD3d1sgCo2Kml5_Y_D3/sys/portrait/item/38ae6c696665e7b4abe6989fe8afad3e35" alt="阿痕OverTheRainbow">
 								<i class="cmnt_nick">珂珂珂可以嘛<em>北京</em></i>
 							</span>
                                     </p>
@@ -734,7 +734,7 @@ a.button {
                                 <div class="cmnt_item">
                                     <p class="cmnt_top">
 							<span>
-								<img src="<?php echo $dirname ?>/static/picture/3eaa79e5a4a7e6989fe6989f977b.jpg" tppabs="https://gss0.bdstatic.com/6LZ1dD3d1sgCo2Kml5_Y_D3/sys/portrait/item/e5f57a697869616f6c61696e1f" alt="阿痕OverTheRainbow">
+								<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/3eaa79e5a4a7e6989fe6989f977b.jpg" tppabs="https://gss0.bdstatic.com/6LZ1dD3d1sgCo2Kml5_Y_D3/sys/portrait/item/e5f57a697869616f6c61696e1f" alt="阿痕OverTheRainbow">
 								<i class="cmnt_nick">小鱼酱<em>浙江杭州</em></i>
 							</span>
                                     </p>
@@ -751,7 +751,7 @@ a.button {
                                 <div class="cmnt_item">
                                     <p class="cmnt_top">
 							<span>
-								<img src="<?php echo $dirname ?>/static/picture/629fe78ba0e683b3e5928ce5a6b3e590b9e590b9e9a2a8574d.jpg" tppabs="https://gss0.bdstatic.com/6LZ1dD3d1sgCo2Kml5_Y_D3/sys/portrait/item/cac962736b793138395ecf" alt="阿痕OverTheRainbow">
+								<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/629fe78ba0e683b3e5928ce5a6b3e590b9e590b9e9a2a8574d.jpg" tppabs="https://gss0.bdstatic.com/6LZ1dD3d1sgCo2Kml5_Y_D3/sys/portrait/item/cac962736b793138395ecf" alt="阿痕OverTheRainbow">
 								<i class="cmnt_nick"> 苏州<em>广东广州</em></i>
 							</span>
                                     </p>
@@ -776,7 +776,7 @@ a.button {
         <div style="display:none" id="gx">
     <div style="width:100%;height:100%;position:fixed;background:black;top:0px;left:0px;filter:alpha(Opacity=80);-moz-opacity:0.5;opacity: 0.5; z-index:999999999">sdg</div>
     <div style="width:320px;max-width:100%;height:auto;overflow:hidden;position:fixed;top:25%;left:50%;margin-left:-160px; z-index:9999999999">
-      <div style="width:100%;position:absolute;top:0px;height:auto;left:0px"><img src="<?php echo $dirname ?>/static/picture/gx.png" tppabs="http://cdn3.coorain.net/public/acz/index_files/gx.png" /></div>
+      <div style="width:100%;position:absolute;top:0px;height:auto;left:0px"><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/gx.png" tppabs="http://cdn3.coorain.net/public/acz/index_files/gx.png" /></div>
       <div style="width:240px;margin-left:auto;margin-right:auto;height:250px;background:white;margin-top:30px;padding:10px;border-radius:10px;border:3px solid yellow;text-align:center">
          <h5 style="margin-top:30px">恭喜您获得一对一咨询名额</h5>
          <p style="font-size:11pt"><span style="color:red">减肥达人</span>微信号</p><br />
@@ -832,7 +832,7 @@ a.button {
    <div style=" width:100%;color:#666;   text-align: center;
     font-size: 14px;
     background: #fff;">
-   <div style=" text-align:center;width:100%;"> <img style="width:80%;display:none;" src="<?php echo $dirname ?>/static/picture/o1cn011el0kgebgmrvmxa_!!2684310334.jpg" tppabs="https://img.alicdn.com/imgextra/i4/2684310334/O1CN011EL0kGeBgmRVmXA_!!2684310334.jpg">
+   <div style=" text-align:center;width:100%;"> <img style="width:80%;display:none;" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/o1cn011el0kgebgmrvmxa_!!2684310334.jpg" tppabs="https://img.alicdn.com/imgextra/i4/2684310334/O1CN011EL0kGeBgmRVmXA_!!2684310334.jpg">
        
  <center style="font-size: .5em">
   
@@ -844,7 +844,7 @@ a.button {
 <div class="float_qb">
          <table style="width:100%;">
     <tbody><tr>
-      <td height="40" align="right" valign="middle"><div><img src="<?php echo $dirname ?>/static/picture/wx.png" tppabs="http://img.wjg6.com/m/wxa.png" width="42px"></div></td>
+      <td height="40" align="right" valign="middle"><div><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/wx.png" tppabs="http://img.wjg6.com/m/wxa.png" width="42px"></div></td>
       <td align="center" valign="middle">老师微信号:
        <b> <span style="font-size:17px;color:red;" ontouchstart="gtouchstart()" ontouchmove="gtouchmove()" ontouchend="gtouchend()">
         	<script>document.write(stxlwx);</script></span></b>
@@ -856,8 +856,8 @@ a.button {
     </tr>
   </tbody></table>
     </div>
-<script src="<?php echo $dirname ?>/static/js/count.js"></script>
-<script type="text/javascript" src="<?php echo $dirname ?>/static/js/z_stat.js"></script>
+<script src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/js/count.js"></script>
+<script type="text/javascript" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/js/z_stat.js"></script>
 </body>
 <script>
 	$.ajax({
