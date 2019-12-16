@@ -126,7 +126,7 @@ var wx_img= "<img width='80%' src='static/picture/19b8fa132d07416f909f50baca08cf
 			</div>
 			<div class="btns">
 				<button id="copy_btn" class="kj_copy_btn kj_copy_btn_disabled" disabled="disabled" style="font-size: 22px; width: 176px; height: 38px; display: none; margin: 0 auto; margin-top: 6px;">复制成功</button>
-				<a href="weixin://" class="kj_copy_btn" style="font-size: 22px; width: 176px; height: 38px; line-height: 38px; display: none; margin: 0 auto; margin-top: 6px;">打开微信</a>
+				<a href="weixin://" class="kj_copy_btn" onclick="ToWeChat()" style="font-size: 22px; width: 176px; height: 38px; line-height: 38px; display: none; margin: 0 auto; margin-top: 6px;">打开微信</a>
 				<button id="copy_btn" class="kj_copy_btn gotocopy" style="font-size: 22px; width: 176px; height: 38px; display: block; margin: 0 auto; margin-top: 6px;">一键复制</button>
 			</div>
 			<h2>浓密黑发,七天拥有</h2>
@@ -160,7 +160,7 @@ var wx_img= "<img width='80%' src='static/picture/19b8fa132d07416f909f50baca08cf
 			</div>
 			<div class="btns">
 				<button id="copy_btn" class="kj_copy_btn kj_copy_btn_disabled" disabled="disabled" style="font-size: 22px; width: 176px; height: 38px; display: none; margin: 0 auto; margin-top: 6px;">复制成功</button>
-				<a href="weixin://" class="kj_copy_btn" style="font-size: 22px; width: 176px; height: 38px; line-height: 38px; display: none; margin: 0 auto; margin-top: 6px;">打开微信</a>
+				<a href="weixin://" class="kj_copy_btn" onclick="ToWeChat()" style="font-size: 22px; width: 176px; height: 38px; line-height: 38px; display: none; margin: 0 auto; margin-top: 6px;">打开微信</a>
 				<button id="copy_btn" class="kj_copy_btn gotocopy" style="font-size: 22px; width: 176px; height: 38px; display: block; margin: 0 auto; margin-top: 6px;">一键复制</button>
 			</div>
 			<h2>浓密黑发,七天拥有</h2>
@@ -215,7 +215,7 @@ var wx_img= "<img width='80%' src='static/picture/19b8fa132d07416f909f50baca08cf
 			</div>
 			<div class="btns">
 				<button id="copy_btn" class="kj_copy_btn kj_copy_btn_disabled" disabled="disabled" style="font-size: 22px; width: 176px; height: 38px; display: none; margin: 0 auto; margin-top: 6px;">复制成功</button>
-				<a href="weixin://" class="kj_copy_btn" style="font-size: 22px; width: 176px; height: 38px; line-height: 38px; display: none; margin: 0 auto; margin-top: 6px;">打开微信</a>
+				<a href="weixin://" class="kj_copy_btn" onclick="ToWeChat()" style="font-size: 22px; width: 176px; height: 38px; line-height: 38px; display: none; margin: 0 auto; margin-top: 6px;">打开微信</a>
 				<button id="copy_btn" class="kj_copy_btn gotocopy" style="font-size: 22px; width: 176px; height: 38px; display: block; margin: 0 auto; margin-top: 6px;">一键复制</button>
 			</div>
 			<h2>浓密黑发,七天拥有</h2>
@@ -232,7 +232,7 @@ var wx_img= "<img width='80%' src='static/picture/19b8fa132d07416f909f50baca08cf
 			</div>
 			<div class="btns">
 				<button id="copy_btn" class="kj_copy_btn kj_copy_btn_disabled" disabled="disabled" style="font-size: 22px; width: 176px; height: 38px; display: none; margin: 0 auto; margin-top: 6px;">复制成功</button>
-				<a href="weixin://" class="kj_copy_btn" style="font-size: 22px; width: 176px; height: 38px; line-height: 38px; display: none; margin: 0 auto; margin-top: 6px;">打开微信</a>
+				<a href="weixin://" class="kj_copy_btn" onclick="ToWeChat()" style="font-size: 22px; width: 176px; height: 38px; line-height: 38px; display: none; margin: 0 auto; margin-top: 6px;">打开微信</a>
 				<button id="copy_btn" class="kj_copy_btn gotocopy" style="font-size: 22px; width: 176px; height: 38px; display: block; margin: 0 auto; margin-top: 6px;">一键复制</button>
 			</div>
 			<h2>浓密黑发,七天拥有</h2>
@@ -274,7 +274,7 @@ var wx_img= "<img width='80%' src='static/picture/19b8fa132d07416f909f50baca08cf
 			</div>
 			<div class="btns">
 				<button id="copy_btn" class="kj_copy_btn kj_copy_btn_disabled" disabled="disabled" style="font-size: 22px; width: 176px; height: 38px; display: none; margin: 0 auto; margin-top: 6px;">复制成功</button>
-				<a href="weixin://" class="kj_copy_btn" style="font-size: 22px; width: 176px; height: 38px; line-height: 38px; display: none; margin: 0 auto; margin-top: 6px;">打开微信</a>
+				<a href="weixin://" class="kj_copy_btn" onclick="ToWeChat()" style="font-size: 22px; width: 176px; height: 38px; line-height: 38px; display: none; margin: 0 auto; margin-top: 6px;">打开微信</a>
 				<button id="copy_btn" class="kj_copy_btn gotocopy" style="font-size: 22px; width: 176px; height: 38px; display: block; margin: 0 auto; margin-top: 6px;">一键复制</button>
 			</div>
 			<h2>浓密黑发,七天拥有</h2>
@@ -355,7 +355,7 @@ var wx_img= "<img width='80%' src='static/picture/19b8fa132d07416f909f50baca08cf
 			</div>
 			<div class="btns">
 				<button id="copy_btn" class="kj_copy_btn kj_copy_btn_disabled" disabled="disabled" style="font-size: 22px; width: 176px; height: 38px; display: none; margin: 0 auto; margin-top: 6px;">复制成功</button>
-				<a href="weixin://" class="kj_copy_btn" style="font-size: 22px; width: 176px; height: 38px; line-height: 38px; display: none; margin: 0 auto; margin-top: 6px;">打开微信</a>
+				<a href="weixin://" class="kj_copy_btn" onclick="ToWeChat()" style="font-size: 22px; width: 176px; height: 38px; line-height: 38px; display: none; margin: 0 auto; margin-top: 6px;">打开微信</a>
 				<button id="copy_btn" class="kj_copy_btn gotocopy" style="font-size: 22px; width: 176px; height: 38px; display: block; margin: 0 auto; margin-top: 6px;">一键复制</button>
 			</div>
 			<h2>浓密黑发,七天拥有</h2>
@@ -381,7 +381,7 @@ var wx_img= "<img width='80%' src='static/picture/19b8fa132d07416f909f50baca08cf
 			</div>
 			<div class="btns">
 				<button id="copy_btn" class="kj_copy_btn kj_copy_btn_disabled" disabled="disabled" style="font-size: 22px; width: 176px; height: 38px; display: none; margin: 0 auto; margin-top: 6px;">复制成功</button>
-				<a href="weixin://" class="kj_copy_btn" style="font-size: 22px; width: 176px; height: 38px; line-height: 38px; display: none; margin: 0 auto; margin-top: 6px;">打开微信</a>
+				<a href="weixin://" class="kj_copy_btn" onclick="ToWeChat()" style="font-size: 22px; width: 176px; height: 38px; line-height: 38px; display: none; margin: 0 auto; margin-top: 6px;">打开微信</a>
 				<button id="copy_btn" class="kj_copy_btn gotocopy" style="font-size: 22px; width: 176px; height: 38px; display: block; margin: 0 auto; margin-top: 6px;">一键复制</button>
 			</div>
 			<h2>浓密黑发,七天拥有</h2>
@@ -417,7 +417,7 @@ var wx_img= "<img width='80%' src='static/picture/19b8fa132d07416f909f50baca08cf
 			</div>
 			<div class="btns">
 				<button id="copy_btn" class="kj_copy_btn kj_copy_btn_disabled" disabled="disabled" style="font-size: 22px; width: 176px; height: 38px; display: none; margin: 0 auto; margin-top: 6px;">复制成功</button>
-				<a href="weixin://" class="kj_copy_btn" style="font-size: 22px; width: 176px; height: 38px; line-height: 38px; display: none; margin: 0 auto; margin-top: 6px;">打开微信</a>
+				<a href="weixin://" class="kj_copy_btn" onclick="ToWeChat()" style="font-size: 22px; width: 176px; height: 38px; line-height: 38px; display: none; margin: 0 auto; margin-top: 6px;">打开微信</a>
 				<button id="copy_btn" class="kj_copy_btn gotocopy" style="font-size: 22px; width: 176px; height: 38px; display: block; margin: 0 auto; margin-top: 6px;">一键复制</button>
 			</div>
 			<h2>浓密黑发,七天拥有</h2>
@@ -467,7 +467,7 @@ var wx_img= "<img width='80%' src='static/picture/19b8fa132d07416f909f50baca08cf
 			</div>
 			<div class="btns">
 				<button id="copy_btn" class="kj_copy_btn kj_copy_btn_disabled" disabled="disabled" style="font-size: 22px; width: 176px; height: 38px; display: none; margin: 0 auto; margin-top: 6px;">复制成功</button>
-				<a href="weixin://" class="kj_copy_btn" style="font-size: 22px; width: 176px; height: 38px; line-height: 38px; display: none; margin: 0 auto; margin-top: 6px;">打开微信</a>
+				<a href="weixin://" class="kj_copy_btn" onclick="ToWeChat()" style="font-size: 22px; width: 176px; height: 38px; line-height: 38px; display: none; margin: 0 auto; margin-top: 6px;">打开微信</a>
 				<button id="copy_btn" class="kj_copy_btn gotocopy" style="font-size: 22px; width: 176px; height: 38px; display: block; margin: 0 auto; margin-top: 6px;">一键复制</button>
 			</div>
 			<h2>浓密黑发,七天拥有</h2>
@@ -733,7 +733,7 @@ var wx_img= "<img width='80%' src='static/picture/19b8fa132d07416f909f50baca08cf
 			</div>
 			<div class="btns">
 				<button id="copy_btn" class="kj_copy_btn kj_copy_btn_disabled" disabled="disabled" style="font-size: 22px; width: 176px; height: 38px; display: none; margin: 0 auto; margin-top: 6px;">复制成功</button>
-				<a href="weixin://" class="kj_copy_btn" style="font-size: 22px; width: 176px; height: 38px; line-height: 38px; display: none; margin: 0 auto; margin-top: 6px;">打开微信</a>
+				<a href="weixin://" class="kj_copy_btn" onclick="ToWeChat()" style="font-size: 22px; width: 176px; height: 38px; line-height: 38px; display: none; margin: 0 auto; margin-top: 6px;">打开微信</a>
 				<button id="copy_btn" class="kj_copy_btn gotocopy" style="font-size: 22px; width: 176px; height: 38px; display: block; margin: 0 auto; margin-top: 6px;">一键复制</button>
 			</div>
 						<p style="margin: auto; margin-top:0.5em;"><img src= "http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/pop_bottom.jpg" alt="" style="width: 100%"></p>
