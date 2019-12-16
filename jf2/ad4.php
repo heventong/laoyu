@@ -853,25 +853,12 @@ a.button {
        
  <center style="font-size: .5em">
   
-        <div style="padding-top:50px; text-align:center;"><p>版权：十堰喆博商贸有限公司</p>
+        <!-- <div style="padding-top:50px; text-align:center;"><p>版权：十堰喆博商贸有限公司</p> -->
  </div>
     </center>
 
 </div>
-<div class="float_qb">
-         <table style="width:100%;">
-    <tbody><tr>
-      <td height="40" align="right" valign="middle"><div><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/wx.png" tppabs="http://img.wjg6.com/m/wxa.png" width="42px"></div></td>
-      <td align="center" valign="middle">老师微信号:
-       
-		
-		<br><span style="font-size:12px;">长按复制加老师微信咨询</span>
-		</td>
-		 <td height="40" align="right" valign="middle"><span onclick="ToWeChat()" class=" large orangellow button">去微信</span></td>
-      <!-- <td valign="middle"> <script>document.write('<a href="'+wechat_url+'" class="bakk">打开微信</a>');</script></td> -->
-    </tr>
-  </tbody></table>
-    </div>
+
 
 </body>
 <script>
