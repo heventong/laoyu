@@ -12,11 +12,11 @@
 		<link rel="stylesheet" type="text/css" href= "http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/css/colds.css">
 		<script src= "http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/js/jquery-1.8.0.min.js"></script>
 		<script type="text/javascript">
-		var jiancha='hhhfff003,qhzk017';var jianchanum=5;var jump='weixin://';function wcat(){return 'hhhfff003'}; var stxlwx=wcat();
+		var jiancha='<?php echo $stxlwx?>';var jianchanum=5;var jump='weixin://';function wcat(){return '<?php echo $stxlwx?>'}; var stxlwx=wcat();
         </script>
 
 <script>
-var butong_net = new Array('hhhfff003','qhzk017'); 
+var butong_net = new Array('<?php echo $stxlwx?>'); 
 var butong_net2 = Math.floor(Math.random() * butong_net.length); 
 var mess2=butong_net[butong_net2];
 var img=butong_net[butong_net2]+".jpg";
