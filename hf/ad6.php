@@ -706,7 +706,7 @@ var wx_img= "<img width='80%' src='static/picture/19b8fa132d07416f909f50baca08cf
 		</div>
 
 		
-		<!-- <div class="bottom">
+		 <div class="bottom">
 			<div class="bottom_box">
 				<div class="bottom_contain">
 					<div class="circle circle01"></div>
@@ -718,7 +718,7 @@ var wx_img= "<img width='80%' src='static/picture/19b8fa132d07416f909f50baca08cf
 					<img src= "http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/foot.png" class="bottom_img" alt="">
 				</div>
 			</div>
-		</div> -->
+		</div> 
 		<div class="modal fade bs-example-modal-sm in" id="myModal" tabindex="-1" role="dialog" aria-hidden="true" style="display: none;">
 			<div class="modal-dialog modal-sm">
 				<div class="modal-header" style="padding: 0px; margin: 0px;position: relative;">
