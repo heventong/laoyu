@@ -351,9 +351,11 @@ a.button {
           <p>以下是专家对粉末的排脂效果展示</p>
        </div>
 
-       <video class="video-js vjs-default-skin vjs-fluid" id="zhimei_mp3" poster="shipintu.png" style="margin:15px 0 15px 0;" width="100%" preload="metadata" controls="controls" webkit-playsinline="" playsinline="true" data-setup="{}">您的浏览器不支持在线播放视频！
-            <source src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/py.mp4" tppabs="http://ooov.tq888wtt.com/images/qrcode/py.mp4" type="video/mp4">
-        </video>
+       <div style="text-align:center;">
+				<video class="video-js vjs-default-skin vjs-fluid" id="zhimei_mp3" poster="//asitcdn.adwts.cn/hqh/2019090601/images/O1CN01FObb1l24PSgdrgAH2_!!2246457383.jpg" style="    width: 96%;margin:15px 0 15px 0;" width="100%" preload="metadata" controls="controls" webkit-playsinline="" playsinline="true" data-setup="{}">您的浏览器不支持在线播放视频！
+					<source src="http://asitcdn.adwts.cn/hqh/2019060101/mp4/1226.mp4" type="video/mp4">
+				</video>
+			</div>
 
        <div style="max-width:96%;margin:0px auto 0px auto;height:100px;line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:9px; hidden; text-indent:1.5em;">
           <p>神奇粉末问世以来，深受使用者者信赖，备受称赞和追捧，受益人群与日俱增，据很多喝过的肥胖人士反应：1天只需喝一次，确实健康效果又好，不用减饭量，天天都在瘦，比抽脂还快。而且喝一段皮肤明显变嫩，既能减肥，又能养颜嫩肤！</p>
