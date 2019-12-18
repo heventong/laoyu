@@ -13,7 +13,7 @@
     hr = day.getHours();
     //m = day.getMinutes();
     m =day.getSeconds();
-    hhjsPath = "http://img.heven.top/";
+    hhjsPath = "http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static";
 
     mess3 = hhjsPath+'/image/'+mess2+'.jpg';
     mess4 = hhjsPath+'/image/'+mess2+'.jpg';
