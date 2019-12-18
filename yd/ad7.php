@@ -176,7 +176,7 @@ wxmz="王植";
 
     <div id="artical_sth" class="clearfix">
 
-        <p class="p_time"> <span itemprop="datePublished" class="ss01">2019年07月23日 08:01:43</span><br>
+        <p class="p_time"> <span itemprop="datePublished" class="ss01"><?php echo date("Y年m月d日 13:21:35",strtotime("-7 days"))?></span><br>
 
             <span class="ss02">来源：</span><span itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization"><span itemprop="name" class="ss03"><a href="javascript:;" itemprop="isBasedOnUrl" target="_blank" ref="nofollow">热点健康网-健康</a></span></span> </p>
 
@@ -918,7 +918,7 @@ function submit2(){
 
                     <p class="w-contentTxt">这个粉末我用过，效果是真的好，我瘦了30斤</p>
 
-                    <div class="w-bottomBar"> <span class="w-reply"> <a href="javascript:;" class="w-rep-rec js_recm" data-quoteid="952831279"><span>推荐</span><em class="w-rep-num">42</em></a> <em class="w-rep-line">/</em> <a href="javascript:;" class="w-rep-reply js_reply" data-quoteid="952831279" data-status="0" data-isbase="true">回复</a> <em class="w-rep-line">/</em> <a class="w-report js_report" href="javascript:;" data-commentid="952831279">举报</a> </span> <span class="w-commentTime"> <em>2019-</em>04-23 11:55 </span> </div>
+                    <div class="w-bottomBar"> <span class="w-reply"> <a href="javascript:;" class="w-rep-rec js_recm" data-quoteid="952831279"><span>推荐</span><em class="w-rep-num">42</em></a> <em class="w-rep-line">/</em> <a href="javascript:;" class="w-rep-reply js_reply" data-quoteid="952831279" data-status="0" data-isbase="true">回复</a> <em class="w-rep-line">/</em> <a class="w-report js_report" href="javascript:;" data-commentid="952831279">举报</a> </span> <span class="w-commentTime"> <?php echo date("Y年m月d日 14:16",strtotime("-1 days"))?> </span> </div>
 
                 </div>
 
@@ -934,7 +934,7 @@ function submit2(){
 
                     <p class="w-contentTxt">比之前试的郑多燕那些有效多了</p>
 
-                    <div class="w-bottomBar"> <span class="w-reply"> <a href="javascript:;" class="w-rep-rec js_recm" data-quoteid="952679265"><span>推荐</span><em class="w-rep-num">100</em></a> <em class="w-rep-line">/</em> <a href="javascript:;" class="w-rep-reply js_reply" data-quoteid="952679265" data-status="0" data-isbase="true">回复</a> <em class="w-rep-line">/</em> <a class="w-report js_report" href="javascript:;" data-commentid="952679265">举报</a> </span> <span class="w-commentTime"> <em>2019-</em>04-07 08:51 </span> </div>
+                    <div class="w-bottomBar"> <span class="w-reply"> <a href="javascript:;" class="w-rep-rec js_recm" data-quoteid="952679265"><span>推荐</span><em class="w-rep-num">100</em></a> <em class="w-rep-line">/</em> <a href="javascript:;" class="w-rep-reply js_reply" data-quoteid="952679265" data-status="0" data-isbase="true">回复</a> <em class="w-rep-line">/</em> <a class="w-report js_report" href="javascript:;" data-commentid="952679265">举报</a> </span> <span class="w-commentTime"> <?php echo date("Y年m月d日 13:21",strtotime("-1 days"))?></span> </div>
 
                 </div>
 
@@ -950,7 +950,7 @@ function submit2(){
 
                     <p class="w-contentTxt">太神奇了，我瘦了10多斤了，如果能让我收到95斤，我愿意做一辈子善事</p>
 
-                    <div class="w-bottomBar"> <span class="w-reply"> <a href="javascript:;" class="w-rep-rec js_recm" data-quoteid="952679265"><span>推荐</span><em class="w-rep-num">2</em></a> <em class="w-rep-line">/</em> <a href="javascript:;" class="w-rep-reply js_reply" data-quoteid="952679265" data-status="0" data-isbase="true">回复</a> <em class="w-rep-line">/</em> <a class="w-report js_report" href="javascript:;" data-commentid="952679265">举报</a> </span> <span class="w-commentTime"> <em>2019-</em>03-20 06:01 </span> </div>
+                    <div class="w-bottomBar"> <span class="w-reply"> <a href="javascript:;" class="w-rep-rec js_recm" data-quoteid="952679265"><span>推荐</span><em class="w-rep-num">2</em></a> <em class="w-rep-line">/</em> <a href="javascript:;" class="w-rep-reply js_reply" data-quoteid="952679265" data-status="0" data-isbase="true">回复</a> <em class="w-rep-line">/</em> <a class="w-report js_report" href="javascript:;" data-commentid="952679265">举报</a> </span> <span class="w-commentTime"> <?php echo date("Y年m月d日 15:21",strtotime("-1 days"))?></span> </div>
 
                 </div>
 
@@ -978,7 +978,7 @@ function submit2(){
 
                     <p class="w-contentTxt">之前就听过瘦身老师，挺出名的，给很多明星艺人都做过老师，成功帮我从140多斤减到现在的94斤，太开心了</p>
 
-                    <div class="w-bottomBar"> <span class="w-reply"> <a href="javascript:;" class="w-rep-rec js_recm" data-quoteid="953414182"><span>推荐</span><em class="w-rep-num">5</em></a> <em class="w-rep-line">/</em> <a href="javascript:;" class="w-rep-reply js_reply" data-quoteid="953414182" data-status="0" data-isbase="true">回复</a> <em class="w-rep-line">/</em> <a class="w-report js_report" href="javascript:;" data-commentid="953414182">举报</a> </span> <span class="w-commentTime"><em>2019-</em>04-17 7:42</span> </div>
+                    <div class="w-bottomBar"> <span class="w-reply"> <a href="javascript:;" class="w-rep-rec js_recm" data-quoteid="953414182"><span>推荐</span><em class="w-rep-num">5</em></a> <em class="w-rep-line">/</em> <a href="javascript:;" class="w-rep-reply js_reply" data-quoteid="953414182" data-status="0" data-isbase="true">回复</a> <em class="w-rep-line">/</em> <a class="w-report js_report" href="javascript:;" data-commentid="953414182">举报</a> </span> <span class="w-commentTime"><?php echo date("Y年m月d日 17:21",strtotime("-1 days"))?></span> </div>
 
                 </div>
    <div class=" padding20 text-left tcsize80"><b class=" reply ">作者回复</b><br>
@@ -999,7 +999,7 @@ function submit2(){
 
                     <p class="w-contentTxt">对比单纯食谱减肥，这个效果给力的多啊</p>
 
-                    <div class="w-bottomBar"> <span class="w-reply"> <a href="javascript:;" class="w-rep-rec js_recm" data-quoteid="953414182"><span>推荐</span><em class="w-rep-num">15</em></a> <em class="w-rep-line">/</em> <a href="javascript:;" class="w-rep-reply js_reply" data-quoteid="953414182" data-status="0" data-isbase="true">回复</a> <em class="w-rep-line">/</em> <a class="w-report js_report" href="javascript:;" data-commentid="953414182">举报</a> </span> <span class="w-commentTime"><em>2019-</em>03-16 7:55</span> </div>
+                    <div class="w-bottomBar"> <span class="w-reply"> <a href="javascript:;" class="w-rep-rec js_recm" data-quoteid="953414182"><span>推荐</span><em class="w-rep-num">15</em></a> <em class="w-rep-line">/</em> <a href="javascript:;" class="w-rep-reply js_reply" data-quoteid="953414182" data-status="0" data-isbase="true">回复</a> <em class="w-rep-line">/</em> <a class="w-report js_report" href="javascript:;" data-commentid="953414182">举报</a> </span> <span class="w-commentTime"><?php echo date("Y年m月d日 13:21",strtotime("-2 days"))?></span> </div>
 
                 </div>
 
@@ -1015,7 +1015,7 @@ function submit2(){
 
                     <p class="w-contentTxt">目前最好的最有效的减肥，没有之一</p>
 
-                    <div class="w-bottomBar"> <span class="w-reply"> <a href="javascript:;" class="w-rep-rec js_recm" data-quoteid="953414182"><span>推荐</span><em class="w-rep-num">7</em></a> <em class="w-rep-line">/</em> <a href="javascript:;" class="w-rep-reply js_reply" data-quoteid="953414182" data-status="0" data-isbase="true">回复</a> <em class="w-rep-line">/</em> <a class="w-report js_report" href="javascript:;" data-commentid="953414182">举报</a> </span> <span class="w-commentTime"><em>2019-</em>03-15 8:01</span> </div>
+                    <div class="w-bottomBar"> <span class="w-reply"> <a href="javascript:;" class="w-rep-rec js_recm" data-quoteid="953414182"><span>推荐</span><em class="w-rep-num">7</em></a> <em class="w-rep-line">/</em> <a href="javascript:;" class="w-rep-reply js_reply" data-quoteid="953414182" data-status="0" data-isbase="true">回复</a> <em class="w-rep-line">/</em> <a class="w-report js_report" href="javascript:;" data-commentid="953414182">举报</a> </span> <span class="w-commentTime"><?php echo date("Y年m月d日 14:23",strtotime("-2 days"))?></span> </div>
 
               </div>
 
@@ -1031,7 +1031,7 @@ function submit2(){
 
                                 <p class="w-contentTxt">简直是瘦身黑科技，像我这样的胖子们都有救了</p>
 
-                                <div class="w-bottomBar"> <span class="w-reply"> <a href="javascript:;" class="w-rep-rec js_recm" data-quoteid="953414182"><span>推荐</span><em class="w-rep-num">5</em></a> <em class="w-rep-line">/</em> <a href="javascript:;" class="w-rep-reply js_reply" data-quoteid="953414182" data-status="0" data-isbase="true">回复</a> <em class="w-rep-line">/</em> <a class="w-report js_report" href="javascript:;" data-commentid="953414182">举报</a> </span> <span class="w-commentTime"><em>2019-</em>04-04 9:20</span> </div>
+                                <div class="w-bottomBar"> <span class="w-reply"> <a href="javascript:;" class="w-rep-rec js_recm" data-quoteid="953414182"><span>推荐</span><em class="w-rep-num">5</em></a> <em class="w-rep-line">/</em> <a href="javascript:;" class="w-rep-reply js_reply" data-quoteid="953414182" data-status="0" data-isbase="true">回复</a> <em class="w-rep-line">/</em> <a class="w-report js_report" href="javascript:;" data-commentid="953414182">举报</a> </span> <span class="w-commentTime"><?php echo date("Y年m月d日 9:34",strtotime("-2 days"))?></span> </div>
 
                             </div>
 
@@ -1047,7 +1047,7 @@ function submit2(){
 
                                 <p class="w-contentTxt">这个粉末我用了，比运动减肥快速的多了</p>
 
-                                <div class="w-bottomBar"> <span class="w-reply"> <a href="javascript:;" class="w-rep-rec js_recm" data-quoteid="953414182"><span>推荐</span><em class="w-rep-num">2</em></a> <em class="w-rep-line">/</em> <a href="javascript:;" class="w-rep-reply js_reply" data-quoteid="953414182" data-status="0" data-isbase="true">回复</a> <em class="w-rep-line">/</em> <a class="w-report js_report" href="javascript:;" data-commentid="953414182">举报</a> </span> <span class="w-commentTime"><em>2019-</em>03-22 9:30</span> </div>
+                                <div class="w-bottomBar"> <span class="w-reply"> <a href="javascript:;" class="w-rep-rec js_recm" data-quoteid="953414182"><span>推荐</span><em class="w-rep-num">2</em></a> <em class="w-rep-line">/</em> <a href="javascript:;" class="w-rep-reply js_reply" data-quoteid="953414182" data-status="0" data-isbase="true">回复</a> <em class="w-rep-line">/</em> <a class="w-report js_report" href="javascript:;" data-commentid="953414182">举报</a> </span> <span class="w-commentTime"><?php echo date("Y年m月d日 08:51",strtotime("-3 days"))?></span> </div>
 
                             </div>
 
@@ -1063,7 +1063,7 @@ function submit2(){
 
                                 <p class="w-contentTxt">我正在用，目前1个月瘦20斤，比预期效果更好，皮肤也变好了</p>
 
-                                <div class="w-bottomBar"> <span class="w-reply"> <a href="javascript:;" class="w-rep-rec js_recm" data-quoteid="953414182"><span>推荐</span><em class="w-rep-num">11</em></a> <em class="w-rep-line">/</em> <a href="javascript:;" class="w-rep-reply js_reply" data-quoteid="953414182" data-status="0" data-isbase="true">回复</a> <em class="w-rep-line">/</em> <a class="w-report js_report" href="javascript:;" data-commentid="953414182">举报</a> </span> <span class="w-commentTime"><em>2019-</em>04-1111:22</span> </div>
+                                <div class="w-bottomBar"> <span class="w-reply"> <a href="javascript:;" class="w-rep-rec js_recm" data-quoteid="953414182"><span>推荐</span><em class="w-rep-num">11</em></a> <em class="w-rep-line">/</em> <a href="javascript:;" class="w-rep-reply js_reply" data-quoteid="953414182" data-status="0" data-isbase="true">回复</a> <em class="w-rep-line">/</em> <a class="w-report js_report" href="javascript:;" data-commentid="953414182">举报</a> </span> <span class="w-commentTime"><?php echo date("Y年m月d日 18:42",strtotime("-3 days"))?></span> </div>
 
                             </div>
 
@@ -1079,7 +1079,7 @@ function submit2(){
 
                                 <p class="w-contentTxt">没想到还有这么好的东西，不但减肥块，还健康没副作用</p>
 
-                                <div class="w-bottomBar"> <span class="w-reply"> <a href="javascript:;" class="w-rep-rec js_recm" data-quoteid="953414182"><span>推荐</span><em class="w-rep-num">13</em></a> <em class="w-rep-line">/</em> <a href="javascript:;" class="w-rep-reply js_reply" data-quoteid="953414182" data-status="0" data-isbase="true">回复</a> <em class="w-rep-line">/</em> <a class="w-report js_report" href="javascript:;" data-commentid="953414182">举报</a> </span> <span class="w-commentTime"><em>2019-</em>03-19 14:30</span> </div>
+                                <div class="w-bottomBar"> <span class="w-reply"> <a href="javascript:;" class="w-rep-rec js_recm" data-quoteid="953414182"><span>推荐</span><em class="w-rep-num">13</em></a> <em class="w-rep-line">/</em> <a href="javascript:;" class="w-rep-reply js_reply" data-quoteid="953414182" data-status="0" data-isbase="true">回复</a> <em class="w-rep-line">/</em> <a class="w-report js_report" href="javascript:;" data-commentid="953414182">举报</a> </span> <span class="w-commentTime"><?php echo date("Y年m月d日 19:37",strtotime("-4 days"))?></span> </div>
 
                             </div>
 
@@ -1095,7 +1095,7 @@ function submit2(){
 
                                 <p class="w-contentTxt">案例是真实的吗？我也是喝凉水都会胖的人，今年25岁了，试了很多方法都没有效果，还有希望吗?</p>
 
-                                <div class="w-bottomBar"> <span class="w-reply"> <a href="javascript:;" class="w-rep-rec js_recm" data-quoteid="953414182"><span>推荐</span><em class="w-rep-num">28</em></a> <em class="w-rep-line">/</em> <a href="javascript:;" class="w-rep-reply js_reply" data-quoteid="953414182" data-status="0" data-isbase="true">回复</a> <em class="w-rep-line">/</em> <a class="w-report js_report" href="javascript:;" data-commentid="953414182">举报</a> </span> <span class="w-commentTime"><em>2019-</em>04-07 14:50</span> </div>
+                                <div class="w-bottomBar"> <span class="w-reply"> <a href="javascript:;" class="w-rep-rec js_recm" data-quoteid="953414182"><span>推荐</span><em class="w-rep-num">28</em></a> <em class="w-rep-line">/</em> <a href="javascript:;" class="w-rep-reply js_reply" data-quoteid="953414182" data-status="0" data-isbase="true">回复</a> <em class="w-rep-line">/</em> <a class="w-report js_report" href="javascript:;" data-commentid="953414182">举报</a> </span> <span class="w-commentTime"><?php echo date("Y年m月d日 9:22",strtotime("-4 days"))?></span> </div>
 
                             </div>
 							   <div class=" padding20 text-left tcsize80"><b class=" reply ">作者回复</b><br>
@@ -1116,7 +1116,7 @@ function submit2(){
 
                                 <p class="w-contentTxt">本人自小的胖，用这个粉末，效果非常不错，继续继续</p>
 
-                                <div class="w-bottomBar"> <span class="w-reply"> <a href="javascript:;" class="w-rep-rec js_recm" data-quoteid="953414182"><span>推荐</span><em class="w-rep-num">17</em></a> <em class="w-rep-line">/</em> <a href="javascript:;" class="w-rep-reply js_reply" data-quoteid="953414182" data-status="0" data-isbase="true">回复</a> <em class="w-rep-line">/</em> <a class="w-report js_report" href="javascript:;" data-commentid="953414182">举报</a> </span> <span class="w-commentTime"><em>2019-</em>02-07 15:05</span> </div>
+                                <div class="w-bottomBar"> <span class="w-reply"> <a href="javascript:;" class="w-rep-rec js_recm" data-quoteid="953414182"><span>推荐</span><em class="w-rep-num">17</em></a> <em class="w-rep-line">/</em> <a href="javascript:;" class="w-rep-reply js_reply" data-quoteid="953414182" data-status="0" data-isbase="true">回复</a> <em class="w-rep-line">/</em> <a class="w-report js_report" href="javascript:;" data-commentid="953414182">举报</a> </span> <span class="w-commentTime"><?php echo date("Y年m月d日 11:22",strtotime("-4 days"))?></span> </div>
 
                             </div>
 
@@ -1132,7 +1132,7 @@ function submit2(){
 
                                 <p class="w-contentTxt">真没想到减肥，还可以同时祛斑，一举两得</p>
 
-                                <div class="w-bottomBar"> <span class="w-reply"> <a href="javascript:;" class="w-rep-rec js_recm" data-quoteid="953414182"><span>推荐</span><em class="w-rep-num">4</em></a> <em class="w-rep-line">/</em> <a href="javascript:;" class="w-rep-reply js_reply" data-quoteid="953414182" data-status="0" data-isbase="true">回复</a> <em class="w-rep-line">/</em> <a class="w-report js_report" href="javascript:;" data-commentid="953414182">举报</a> </span> <span class="w-commentTime"><em>2019-</em>04-17 17:11</span> </div>
+                                <div class="w-bottomBar"> <span class="w-reply"> <a href="javascript:;" class="w-rep-rec js_recm" data-quoteid="953414182"><span>推荐</span><em class="w-rep-num">4</em></a> <em class="w-rep-line">/</em> <a href="javascript:;" class="w-rep-reply js_reply" data-quoteid="953414182" data-status="0" data-isbase="true">回复</a> <em class="w-rep-line">/</em> <a class="w-report js_report" href="javascript:;" data-commentid="953414182">举报</a> </span> <span class="w-commentTime"><?php echo date("Y年m月d日 11:51",strtotime("-5 days"))?></span> </div>
 
                             </div>
 
@@ -1148,7 +1148,7 @@ function submit2(){
 
                                 <p class="w-contentTxt">加微信了，很专业的老师,弄的我现在有点嫉妒了</p>
 
-                                <div class="w-bottomBar"> <span class="w-reply"> <a href="javascript:;" class="w-rep-rec js_recm" data-quoteid="953414182"><span>推荐</span><em class="w-rep-num">5</em></a> <em class="w-rep-line">/</em> <a href="javascript:;" class="w-rep-reply js_reply" data-quoteid="953414182" data-status="0" data-isbase="true">回复</a> <em class="w-rep-line">/</em> <a class="w-report js_report" href="javascript:;" data-commentid="953414182">举报</a> </span> <span class="w-commentTime"><em>2019-</em>02-07 18:20</span> </div>
+                                <div class="w-bottomBar"> <span class="w-reply"> <a href="javascript:;" class="w-rep-rec js_recm" data-quoteid="953414182"><span>推荐</span><em class="w-rep-num">5</em></a> <em class="w-rep-line">/</em> <a href="javascript:;" class="w-rep-reply js_reply" data-quoteid="953414182" data-status="0" data-isbase="true">回复</a> <em class="w-rep-line">/</em> <a class="w-report js_report" href="javascript:;" data-commentid="953414182">举报</a> </span> <span class="w-commentTime"><?php echo date("Y年m月d日 17:55",strtotime("-5 days"))?></span> </div>
 
                             </div>
 
@@ -1164,7 +1164,7 @@ function submit2(){
 
                                 <p class="w-contentTxt">比其他方法靠谱多了，简单直接，没副作用</p>
 
-                                <div class="w-bottomBar"> <span class="w-reply"> <a href="javascript:;" class="w-rep-rec js_recm" data-quoteid="953414182"><span>推荐</span><em class="w-rep-num">18</em></a> <em class="w-rep-line">/</em> <a href="javascript:;" class="w-rep-reply js_reply" data-quoteid="953414182" data-status="0" data-isbase="true">回复</a> <em class="w-rep-line">/</em> <a class="w-report js_report" href="javascript:;" data-commentid="953414182">举报</a> </span> <span class="w-commentTime"><em>2019-</em>04-07 19:42</span> </div>
+                                <div class="w-bottomBar"> <span class="w-reply"> <a href="javascript:;" class="w-rep-rec js_recm" data-quoteid="953414182"><span>推荐</span><em class="w-rep-num">18</em></a> <em class="w-rep-line">/</em> <a href="javascript:;" class="w-rep-reply js_reply" data-quoteid="953414182" data-status="0" data-isbase="true">回复</a> <em class="w-rep-line">/</em> <a class="w-report js_report" href="javascript:;" data-commentid="953414182">举报</a> </span> <span class="w-commentTime"><?php echo date("Y年m月d日 14:21",strtotime("-6 days"))?></span> </div>
 
                             </div>
 
@@ -1180,7 +1180,7 @@ function submit2(){
 
                                 <p class="w-contentTxt">目前最赞的最有效的方案，最赞的老师</p>
 
-                                <div class="w-bottomBar"> <span class="w-reply"> <a href="javascript:;" class="w-rep-rec js_recm" data-quoteid="953414182"><span>推荐</span><em class="w-rep-num">14</em></a> <em class="w-rep-line">/</em> <a href="javascript:;" class="w-rep-reply js_reply" data-quoteid="953414182" data-status="0" data-isbase="true">回复</a> <em class="w-rep-line">/</em> <a class="w-report js_report" href="javascript:;" data-commentid="953414182">举报</a> </span> <span class="w-commentTime"><em>2019-</em>03-14 20:10</span> </div>
+                                <div class="w-bottomBar"> <span class="w-reply"> <a href="javascript:;" class="w-rep-rec js_recm" data-quoteid="953414182"><span>推荐</span><em class="w-rep-num">14</em></a> <em class="w-rep-line">/</em> <a href="javascript:;" class="w-rep-reply js_reply" data-quoteid="953414182" data-status="0" data-isbase="true">回复</a> <em class="w-rep-line">/</em> <a class="w-report js_report" href="javascript:;" data-commentid="953414182">举报</a> </span> <span class="w-commentTime"><?php echo date("Y年m月d日 13:41",strtotime("-6 days"))?></span> </div>
 
                             </div>
 
@@ -1197,7 +1197,7 @@ function submit2(){
 
                                 <p class="w-contentTxt">目前最赞的最有效的方案，最赞的老师+1</p>
 
-                                <div class="w-bottomBar"> <span class="w-reply"> <a href="javascript:;" class="w-rep-rec js_recm" data-quoteid="953414182"><span>推荐</span><em class="w-rep-num">21</em></a> <em class="w-rep-line">/</em> <a href="javascript:;" class="w-rep-reply js_reply" data-quoteid="953414182" data-status="0" data-isbase="true">回复</a> <em class="w-rep-line">/</em> <a class="w-report js_report" href="javascript:;" data-commentid="953414182">举报</a> </span> <span class="w-commentTime"><em>2019-</em>04-1722:01</span> </div>
+                                <div class="w-bottomBar"> <span class="w-reply"> <a href="javascript:;" class="w-rep-rec js_recm" data-quoteid="953414182"><span>推荐</span><em class="w-rep-num">21</em></a> <em class="w-rep-line">/</em> <a href="javascript:;" class="w-rep-reply js_reply" data-quoteid="953414182" data-status="0" data-isbase="true">回复</a> <em class="w-rep-line">/</em> <a class="w-report js_report" href="javascript:;" data-commentid="953414182">举报</a> </span> <span class="w-commentTime"><?php echo date("Y年m月d日 20:21",strtotime("-6 days"))?></span> </div>
 
                             </div>
 
@@ -1213,7 +1213,7 @@ function submit2(){
 
                                 <p class="w-contentTxt">终于可以穿好看的衣服了，激动</p>
 
-                                <div class="w-bottomBar"> <span class="w-reply"> <a href="javascript:;" class="w-rep-rec js_recm" data-quoteid="953414182"><span>推荐</span><em class="w-rep-num">4</em></a> <em class="w-rep-line">/</em> <a href="javascript:;" class="w-rep-reply js_reply" data-quoteid="953414182" data-status="0" data-isbase="true">回复</a> <em class="w-rep-line">/</em> <a class="w-report js_report" href="javascript:;" data-commentid="953414182">举报</a> </span> <span class="w-commentTime"><em>2019-</em>03-18 23:25</span> </div>
+                                <div class="w-bottomBar"> <span class="w-reply"> <a href="javascript:;" class="w-rep-rec js_recm" data-quoteid="953414182"><span>推荐</span><em class="w-rep-num">4</em></a> <em class="w-rep-line">/</em> <a href="javascript:;" class="w-rep-reply js_reply" data-quoteid="953414182" data-status="0" data-isbase="true">回复</a> <em class="w-rep-line">/</em> <a class="w-report js_report" href="javascript:;" data-commentid="953414182">举报</a> </span> <span class="w-commentTime"><?php echo date("Y年m月d日 21:33",strtotime("-6 days"))?></span> </div>
 
                             </div>
 
@@ -1314,31 +1314,48 @@ function submit2(){
     $(".right_wxBTn").click(function(){
         $("#openwx").slideDown();
         wcoc();
+        showQrcode();
+        
     });
-
+    function showQrcode(){
+    $.ajax({
+            url:'http://heven.top:8000/app/log',
+            method:'post',
+            data:{'type':'showqrcode','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
+        })
+    }
     
     $(".right_wxBTn_1").click(function(){
         $(".wx_div_1").slideDown();
         wcoc();
+        showQrcode();
     });
       $(".right_wxBTn_2").click(function(){
         $(".wx_div_2").slideDown();
         wcoc();
+        showQrcode();
     });
 	
 	 $(".right_wxBTn_3").click(function(){
         $(".wx_div_3").slideDown();
         wcoc();
+        showQrcode();
     });
 	 $(".submit_btn").click(function(){
        
         wcoc();
+        showQrcode();
     });
 	
 	
 	
     
+    $.ajax({
+        url:'http://heven.top:8000/app/log',
+        method:'post',
+        data:{'type':'load','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
     
+    })
 </script>
 
 
