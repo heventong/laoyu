@@ -1257,7 +1257,7 @@ function submit2(){
     <p style="text-align:center;margin:0px 0;"><span class="add_wx">微信扫描二维码，获取瘦身秘方！</span></p>
 
     <p style="text-align:center;margin:5px 0;"><font class="statistics021">
-    <script>document.write("<img src="" + mess4 + "\">");</script>
+    <script>document.write('<img src="' + mess4 + '">');</script>
 </font></p>
 
 
