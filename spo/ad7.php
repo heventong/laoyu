@@ -15,8 +15,8 @@
     m =day.getSeconds();
     hhjsPath = "http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static";
 
-    mess3 = hhjsPath+'/image/'+mess2+'.jpg';
-    mess4 = hhjsPath+'/image/'+mess2+'.jpg';
+    mess3 = hhjsPath+'/images/'+mess2+'.jpg';
+    mess4 = hhjsPath+'/images/'+mess2+'.jpg';
 </script>
 <meta http-equiv="Content-Type" content="text/; charset=utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
