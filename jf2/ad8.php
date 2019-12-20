@@ -274,7 +274,7 @@ wxmz="王植";
 
 <p id="error1"></p>
 
- <p style="text-align:center;margin:0px 0;color:red"><span>微信扫描二维码，获取瘦身秘方！</span></p>
+ <p style="text-align:center;margin:0px 0;color:red"><span>添加老师微信，获取瘦身秘方！</span></p>
                                 
 <div style="height:10px;"></div>
  <div style="text-align:center;" class="wx_div_3">
@@ -282,8 +282,19 @@ wxmz="王植";
  <font class="statistics02">
 
 
-            <script>document.write("<img src='"+mess4+"' width=\'240px\' class='weixinpic tt'/>");
-            </script>
+ <div style="max-width:96%;margin:0px auto 0px auto;height:100px;line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:5px; hidden; text-indent:1.5em;">
+            <p style="font-size: 10pt;text-indent: 0; text-align: center;"><span style="font-weight:600"></span></p>
+            <div class="search" style="margin-top:0px 18px; text-align: center;text-indent: 0;">
+                <span class="wx-id xsmcmp mycopya" style="font-size: 22px; color: red; font-weight: bold;"><script>document.write("<?php echo $stxlwx?>");</script></span>
+                <span class="h_btn" style="color: #333; font-size: 14px;">←【长按复制】</span>
+            </div>  
+            <div class="btns">
+                <button id="copy_btn" class="kj_copy_btn kj_copy_btn_disabled" disabled="disabled" style="font-size: 22px; width: 176px; height: 38px; display: none; margin: 0 auto; margin-top: 6px;">复制成功</button>
+                <a href="weixin://" class="kj_copy_btn" onclick="ToWeChat()" style="font-size: 22px; width: 176px; height: 38px; line-height: 38px; display: none; margin: 0 auto; margin-top: 6px;">打开微信</a>
+                <button id="copy_btn" class="kj_copy_btn gotocopy" style="font-size: 22px; width: 176px; height: 38px; display: block; margin: 0 auto; margin-top: 6px;">一键复制</button>
+            </div>	
+            
+        </div>
 
             </font></div>
 
@@ -723,7 +734,7 @@ function submit2(){
         <div style="max-width:96%;margin:0px auto 0px auto;height:100px;line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:5px; hidden; text-indent:1.5em;">
             <p style="font-size: 10pt;text-indent: 0; text-align: center;"><span style="font-weight:600"></span></p>
             <div class="search" style="margin-top:0px 18px; text-align: center;text-indent: 0;">
-                <span class="wx-id xsmcmp mycopya" style="font-size: 22px; color: red; font-weight: bold;"><script>document.write("ccqq15a");</script></span>
+                <span class="wx-id xsmcmp mycopya" style="font-size: 22px; color: red; font-weight: bold;"><script>document.write("<?php echo $stxlwx?>");</script></span>
                 <span class="h_btn" style="color: #333; font-size: 14px;">←【长按复制】</span>
             </div>  
             <div class="btns">
@@ -734,19 +745,7 @@ function submit2(){
             
         </div>
      
-<div style="height:10px;"></div>
- <div style="text-align:center;display:none;" class="wx_div_1">
-    <p style="line-height:25px;margin:0 0; text-indent:0em;">
-    微信号：<span class="wxhao button button-action button-rounded button-large" style="font-weight:700;text-indent:2em ; color:red;font-weight:bold;  height:unset;line-height:unset;text-indent:2em ;font-size:19px;"
-    ontouchstart="gtouchstart()" ontouchmove="gtouchmove()" ontouchend="gtouchend()" oncopy="posttj()"><script>document.write(mess2);</script></span>
-    </p>
- <font class="statistics02">
 
-
-            <script>document.write("<img src='"+mess4+"' width=\'240px\' class='weixinpic tt'/>");
-            </script>
-
-            </font></div>
 
 <div style="height:10px;"></div>
   
@@ -1274,19 +1273,29 @@ function submit2(){
     <p style="margin:0"><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/picture/o1cn01jam7tl1el0rixxb37_!!2684310334.jpg" tppabs="http://yj6.jinanbuyun.com/picture/735.jpg" width="100%"></p>
 
     <p style="margin:5px 0;"><b>减肥，用对方法，少走弯路，月瘦30斤并不难<font class="statistics02">添加微信号：<script>document.write(mess2);</script></font></span></br>
+	<div style="max-width:96%;margin:0px auto 0px auto;height:100px;line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:5px; hidden; text-indent:1.5em;">
+            <p style="font-size: 10pt;text-indent: 0; text-align: center;"><span style="font-weight:600"></span></p>
+            <div class="search" style="margin-top:0px 18px; text-align: center;text-indent: 0;">
+                <span class="wx-id xsmcmp mycopya" style="font-size: 22px; color: red; font-weight: bold;"><script>document.write("<?php echo $stxlwx?>");</script></span>
+                <span class="h_btn" style="color: #333; font-size: 14px;">←【长按复制】</span>
+            </div>  
+            <div class="btns">
+                <button id="copy_btn" class="kj_copy_btn kj_copy_btn_disabled" disabled="disabled" style="font-size: 22px; width: 176px; height: 38px; display: none; margin: 0 auto; margin-top: 6px;">复制成功</button>
+                <a href="weixin://" class="kj_copy_btn" onclick="ToWeChat()" style="font-size: 22px; width: 176px; height: 38px; line-height: 38px; display: none; margin: 0 auto; margin-top: 6px;">打开微信</a>
+                <button id="copy_btn" class="kj_copy_btn gotocopy" style="font-size: 22px; width: 176px; height: 38px; display: block; margin: 0 auto; margin-top: 6px;">一键复制</button>
+            </div>	
+            
+        </div>
 	
-	<span>点击下方↓按钮扫码二维码</span>
-	</br><span class="add_wx add_wx_go right_wxBTn">点击扫码</span>，教你如何针对性调补，再试试老师亲手炮制的秘方，一定有意想不到的惊喜哦。</b></p>
+	</br>教你如何针对性调补，再试试老师亲手炮制的秘方，一定有意想不到的惊喜哦。</b></p>
 
     <div id="openwx" style="display:none;">
-    <p style="text-align:center;margin:0px 0;"><span class="add_wx">微信扫描二维码，获取瘦身秘方！</span></p>
+    
 
-    <p style="text-align:center;margin:5px 0;"><font class="statistics021">
-    <script>document.write('<img src="' + mess4 + '">');</script>
-</font></p>
+    
 
 
-    <p style="text-align:center;margin:0px 0;"><span class="add_wx" style="color: #fff;"><font class="statistics02">微信号：<script>document.write(mess2);</script></font></span></p>
+    
 </div>
 </section>
 
