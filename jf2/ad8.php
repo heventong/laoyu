@@ -45,6 +45,11 @@
 <link rel="stylesheet" type="text/css" href="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/static/css/infor.css">
 
 <style>
+.main{
+    width: 96%;
+    /* padding-left: 2%; */
+    /* margin: 0px!important;  */
+}
 .btns .kj_copy_btn {
 				border:none;
 				color:white;
