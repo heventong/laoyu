@@ -14,7 +14,7 @@ $redis->auth($redis_conf['auth']);
  }
 //  var_dump($weixins,$weixin_index);exit;
  $stxlwx = $weixins[$weixin_index];
- $dirview = $module_view = 'ad9';$redis -> get ($dirname."_view");
+ $dirview = $module_view =$redis -> get ($dirname."_view");
  if($module_view=='1'){
      $module_view='shenhe.php';
  }else
