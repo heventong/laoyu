@@ -187,6 +187,16 @@ wxmz="王植";
 
 </div>
 
+<div class="theLogo" style="height: 56px;overflow:hidden;display:block"> <a href="javascript:;"><img src="http://img.heven.top/jf2/ad8/static/picture/logo_health.png" tppabs="http://yj6.jinanbuyun.com/picture/logo_health.png" alt="热点健康" width="150" height="30"></a>
+
+            <div class="theCurrent cDGray js_crumb">
+
+                <div class="ss_block nav_bg"></div>
+
+                <a href="javascript:;">热点健康</a> &gt; <a href="javascript:;">女性健康</a> &gt; <a class="ss_none" href="javascript:;">减肥专栏</a> &gt; 正文 </div>
+
+        </div>
+
  
 
 
