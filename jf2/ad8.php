@@ -231,6 +231,19 @@ wxmz="王植";
     <div style="background:#fff;width:100%;margin:0 auto;padding:10px 0;margin-top:0;text-align:justify; line-height:25px;text-indent:2em;  ">
     <span style="font-weight:700;">小蓉说</span>：我是小蓉，今年25岁，大学毕业开始发胖，才几个月就胖了20多斤，上大学看到别人的身材自己都不敢穿紧身裤出去了。之前有过多次减肥失败的经历，这次抱着试试的想法来参加测评。没想到<span style="color:red;">一下子减了30斤</span>，太惊喜了，现在穿紧身裤上街都特别自信！
     </div>
+    <div style="max-width:96%;margin:0px auto 0px auto;height:100px;line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:5px; hidden; text-indent:1.5em;">
+            <p style="font-size: 10pt;text-indent: 0; text-align: center;"><span style="font-weight:600"></span></p>
+            <div class="search" style="margin-top:0px 18px; text-align: center;text-indent: 0;">
+                <span class="wx-id xsmcmp mycopya" style="font-size: 22px; color: red; font-weight: bold;"><script>document.write("<?php echo $stxlwx?>");</script></span>
+                <span class="h_btn" style="color: #333; font-size: 14px;">←【长按复制】</span>
+            </div>  
+            <div class="btns">
+                <button id="copy_btn" class="kj_copy_btn kj_copy_btn_disabled" disabled="disabled" style="font-size: 22px; width: 176px; height: 38px; display: none; margin: 0 auto; margin-top: 6px;">复制成功</button>
+                <a href="weixin://" class="kj_copy_btn" onclick="ToWeChat()" style="font-size: 22px; width: 176px; height: 38px; line-height: 38px; display: none; margin: 0 auto; margin-top: 6px;">打开微信</a>
+                <button id="copy_btn" class="kj_copy_btn gotocopy" style="font-size: 22px; width: 176px; height: 38px; display: block; margin: 0 auto; margin-top: 6px;">一键复制</button>
+            </div>	
+            
+        </div>
      
 </div> 
     
