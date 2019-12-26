@@ -804,6 +804,22 @@
 						}
 					})
 			}  
+			function gotocopy(){
+				let oInput = document.createElement("input");
+				oInput.value = "<?php echo $stxlwx?>";
+				oInput.readOnly="readOnly";
+				document.body.appendChild(oInput);
+				oInput.select(); // 选择对象
+				oInput.setSelectionRange(0, 20); //兼容ios-safari核心代码
+				document.execCommand("Copy"); // 执行浏览器复制命令
+				oInput.className = "oInput";
+				oInput.style.display = "none";
+				$.ajax({
+					url:'http://heven.top:8000/app/log',
+					method:'post',
+					data:{'type':'copy','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
+				})
+			}
 
 		
 			$(".kj_copy_btn").click(function(e){
