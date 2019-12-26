@@ -41,7 +41,8 @@ body {
 }
 
 p {
-    padding: .18rem;
+    /* padding: .18rem; */
+    margin: 0px;
 }
 
 p.text-indent {

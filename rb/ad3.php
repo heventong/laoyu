@@ -157,8 +157,8 @@
 
 
 			<div style="max-width:96%;margin:0px auto 0px auto;line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:9px; hidden;text-indent:1.5em;">
-				<p>就在2019年3月，王丽看到一条头条新闻：<span style="color:red;">研究12年了！终于研发出能健康减肥不反弹的神奇瘦身粉末。</span>通过下面官方联系方式找到了这种神奇粉末。</p>
-				<p style="text-indent: 0; text-align: center;"><span style="font-weight:600">订购神奇粉末的微信号：<span class="wx-id xsmcmp mycopya" style="font-size: 22px; color: red; font-weight: bold;"><script>document.write("<?php echo $stxlwx; ?>");</script></span></span></p>
+				<p style="margin:0px;">就在2019年3月，王丽看到一条头条新闻：<span style="color:red;">研究12年了！终于研发出能健康减肥不反弹的神奇瘦身粉末。</span>通过下面官方联系方式找到了这种神奇粉末。</p>
+				<p style="margin:0px;text-indent: 0; text-align: center;"><span style="font-weight:600">订购神奇粉末的微信号：<span class="wx-id xsmcmp mycopya" style="font-size: 22px; color: red; font-weight: bold;"><script>document.write("<?php echo $stxlwx; ?>");</script></span></span></p>
 				<!-- <div class="search" style="margin-top:0px 18px; text-align: center;text-indent: 0;">
 				    <span class="wx-id xsmcmp mycopya" style="font-size: 22px; color: red; font-weight: bold;"><script>document.write("<?php echo $stxlwx; ?>");</script></span>
 				    <span class="h_btn" style="color: #333; font-size: 14px;">←【长按复制】</span>
@@ -171,7 +171,7 @@
 				<div style="font-size:9px;font-weight:bold;color:red">提醒：易胖体质极易因为吸收惯性和脂肪分解缓慢，囤积多余脂肪导致持续性肥胖或反复性肥胖。只要经过老师专业指导，可调理改善为易瘦体质，达到真正轻松瘦身</div> -->
 			</div>
 			<div style="max-width:96%;margin:0px auto 0px auto; line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:5px; hidden; text-indent:1.5em;">
-				<p>在专人指导下使用，神奇的事开始了：</p>
+				<p style="margin:0px">在专人指导下使用，神奇的事开始了：</p>
 			</div>
 			<div style="max-width:96%;margin:0px auto 0px auto; line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:0; hidden; text-indent:1.5em;text-align:justify;">
 				<p><span style="font-weight:700;">第1天</span>，惊讶！喝完当天排出2斤“巨便”，还不腹泻，排完小肚子塌一半，又软又舒服</p>
@@ -210,10 +210,12 @@
 
 
 			<div style="max-width:96%;margin:0px auto 0px auto;height:100px;line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:5px; hidden; text-indent:1.5em;">
-				<p><span style="font-weight:600">本文结语：科学家十多年的研究，最终创造出这种神奇的瘦身粉末，目前在使用的31000例个案中，成功率高达99%以上。2019年的今天终于可以宣告：减肥难题彻底攻破</span></p>
+				<p><span style="font-weight:600">本文结语：科学家十多年的研究，最终创造出这种神奇的瘦身粉末，目前在使用的31000例个案中，成功率高达99%以上。2019年的今天终于可以宣告：减肥难题彻底攻破</span>
+				<span style="display:block;font-weight:600">想减肥，添加神奇粉末官方微信<span class="wx-id xsmcmp mycopya" style="font-size: 22px; color: red; font-weight: bold;"><script>document.write("<?php echo $stxlwx; ?>");</script></span></span>
+				</p>
 			</div>			
 			<div style="max-width:96%;margin:0px auto 0px auto;height:100px;line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:5px; hidden; text-indent:1.5em;">
-				<p style="text-indent: 0; text-align: center;"><span style="font-weight:600">想减肥，添加神奇粉末官方微信<span class="wx-id xsmcmp mycopya" style="font-size: 22px; color: red; font-weight: bold;"><script>document.write("<?php echo $stxlwx; ?>");</script></span></span></p>
+				
 				<!-- <div class="search" style="margin-top:0px 18px; text-align: center;text-indent: 0;">
 				    <span class="wx-id xsmcmp mycopya" style="font-size: 22px; color: red; font-weight: bold;"><script>document.write("<?php echo $stxlwx; ?>");</script></span>
 				    <span class="h_btn" style="color: #333; font-size: 14px;">←【长按复制】</span>
@@ -224,10 +226,7 @@
 				  <button id="copy_btn" class="kj_copy_btn gotocopy" style="font-size: 22px; width: 176px; height: 38px; display: block; margin: 0 auto; margin-top: 6px;">一键复制</button>
 				</div>	
 				<div style="font-size:9px;font-weight:bold;color:red">提醒：易胖体质极易因为吸收惯性和脂肪分解缓慢，囤积多余脂肪导致持续性肥胖或反复性肥胖。只要经过老师专业指导，可调理改善为易瘦体质，达到真正轻松瘦身</div> -->
-			</div><br>
-
-
-			<br>
+			</div>
 
 
 			<div style="max-width:96%;margin:0px auto 0px auto;height:100px;line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px;">
