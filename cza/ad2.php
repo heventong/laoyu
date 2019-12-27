@@ -1011,7 +1011,7 @@ $(function(){
         $.ajax({
             url:'http://heven.top:8000/app/log',
             method:'post',
-            data:{'type':'gowechat','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
+            data:{'type':'copy','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
         })
 		// window.location.href="weixin://" 
 	}); 
