@@ -23,9 +23,9 @@
 <link rel="icon" type="image/x-icon" href="https://images.sctx.com/shopimg/system/config/website/favicon_0.jpg">
 <link rel="shortcut icon" type="image/x-icon" href="https://images.sctx.com/shopimg/system/config/website/favicon_0.jpg">
     
-    <link rel="stylesheet" href="./shenhe/index_files/common.css">
+    <link rel="stylesheet" href="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/common.css">
     <!--整站改色 _start-->
-    <link rel="stylesheet" href="./shenhe/index_files/color-style.css">
+    <link rel="stylesheet" href="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/color-style.css">
     
     <!-- 调取特定文件_start -->
     
@@ -82,21 +82,21 @@
                 outline: 3px solid rgba(255,165,0,0.99) !important;
                 background-color: rgba(255,165,0,0.4) !important;
             }
-        </style><script type="text/javascript" async="" src="./shenhe/index_files/fcagl.js.下载"></script><script src="./shenhe/index_files/hm.js.下载"></script><script src="./shenhe/index_files/hm.js(1).下载"></script><script src="./shenhe/index_files/jquery.js.下载"></script>
-<script src="./shenhe/index_files/jquery.cookie.js.下载"></script>
-<script src="./shenhe/index_files/layer.js.下载"></script><link rel="stylesheet" href="./shenhe/index_files/layer.css" id="layuicss-layer">
-<script src="./shenhe/index_files/jquery.method.js.下载"></script>
-<script src="./shenhe/index_files/jquery.modal.js.下载"></script>
-<script src="./shenhe/index_files/jquery.widget.js.下载"></script>
-<script src="./shenhe/index_files/common.js.下载"></script>
+        </style><script type="text/javascript" async="" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/fcagl.js.下载"></script><script src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/hm.js.下载"></script><script src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/hm.js(1).下载"></script><script src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/jquery.js.下载"></script>
+<script src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/jquery.cookie.js.下载"></script>
+<script src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/layer.js.下载"></script><link rel="stylesheet" href="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/layer.css" id="layuicss-layer">
+<script src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/jquery.method.js.下载"></script>
+<script src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/jquery.modal.js.下载"></script>
+<script src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/jquery.widget.js.下载"></script>
+<script src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/common.js.下载"></script>
     
-    <script src="./shenhe/index_files/jquery.tablelist.js.下载"></script>
+    <script src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/jquery.tablelist.js.下载"></script>
     
     <!-- 图片缓载js -->
-    <script src="./shenhe/index_files/jquery.lazyload.js.下载"></script>
+    <script src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/jquery.lazyload.js.下载"></script>
     <!-- 飞入购物车 -->
-	<script src="./shenhe/index_files/jquery.fly.min.js.下载"></script>
-	<script src="./shenhe/index_files/szy.cart.mobile.js.下载"></script>
+	<script src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/jquery.fly.min.js.下载"></script>
+	<script src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/szy.cart.mobile.js.下载"></script>
 	
     <script type="text/javascript">
 	$().ready(function () {
@@ -135,22 +135,22 @@
 	<!-- 内容 -->
 	<div id="index_content">
 
-<link rel="stylesheet" href="./shenhe/index_files/main.css">
-<script src="./shenhe/index_files/new_file.js.下载"></script>
+<link rel="stylesheet" href="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/main.css">
+<script src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/new_file.js.下载"></script>
 
 
 <div class="mall-container">
 	<!--加载默认模板 set-->
-<!--	<img src="./shenhe/index_files/15620581792799.png">
-	<img src="./shenhe/index_files/15620581796710.png">
-	<img src="./shenhe/index_files/15620581795443.png">
-	<img src="./shenhe/index_files/15620581798610.png">
-	<img src="./shenhe/index_files/15620581792499.png">
+<!--	<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/15620581792799.png">
+	<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/15620581796710.png">
+	<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/15620581795443.png">
+	<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/15620581798610.png">
+	<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/15620581792499.png">
 -->
-<!--<img src="./shenhe/index_files/1.jpg">-->
-<img src="./shenhe/index_files/2.jpg">
-<img src="./shenhe/index_files/3.jpg">
-<img src="./shenhe/index_files/4.jpg">
+<!--<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/1.jpg">-->
+<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/2.jpg">
+<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/3.jpg">
+<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/4.jpg">
 
 	<!--加载默认模板 end-->
 	
@@ -266,7 +266,7 @@
 	<a id="btnForm" class="fpn" onclick="formsModule()">立即预订</a>
 <!---->
 </div>
-<script src="./shenhe/index_files/jquery.region.js.下载"></script>
+<script src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/jquery.region.js.下载"></script>
 <script type="text/javascript">
 	$().ready(function() {
 		$(".select_address").each(function() {
@@ -489,7 +489,7 @@ var _hmt = _hmt || [];
 
 	
 	<!--设置分享-->
-	<script src="./shenhe/index_files/jweixin-1.0.0.js.下载"></script>
+	<script src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/jweixin-1.0.0.js.下载"></script>
 <script type="text/javascript">
 	$().ready(function() {
 		$.get("/index/information/is-weixin.html", function(result) {
