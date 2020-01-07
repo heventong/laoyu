@@ -48,12 +48,12 @@
 			#headerBoxBanner{clear:both;text-align:center;}
 			#headerBoxBanner img{max-width:100%;max-height:320px;display:block;margin:0 auto;}
 		</style>
-		<div id="headerBoxTop">涟源市昌意电子商务中心</div>
-		<ul id="headerBoxNav">
+		<!-- <div id="headerBoxTop">涟源市昌意电子商务中心</div> -->
+		<!-- <ul id="headerBoxNav">
 			<li><a href="#">网站首页</a></li>
 			<li><a href="/m/gs.html">公司简介</a></li>
 			<li><a href="/m/lx.html">联系我们</a></li> 
-		</ul>	
+		</ul>	 -->
 		<!-- <div id="headerBoxBanner"><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/picture/1111111.png"></div>	 -->
 	</header>
 	<nav class="m-nav" style="padding-top:.7rem;padding-bottom:.5rem;"> <img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/picture/tb2hycui6qhskjjsspnxxc79xxa_!!2684310334.jpg"> </nav>
