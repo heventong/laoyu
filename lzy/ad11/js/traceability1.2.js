@@ -125,14 +125,16 @@ function doTraceSubmit(stxlwx,sourceURL,source,evenName,cip,cname,uvKeyt,oKeyt,t
 	other = other + " |>GPU:" + GPU;
 	
 	
-    var ojbData ={operation:"wechatRecipient",wechat:stxlwx,template:thisTemplate,domainName:domainName,thisurl:thisurl,keyword:keyword,search:sourceURL,source:source,wip:cip,region:cname,equipment:equipment,evenName:evenName,userAgent:navigator.userAgent,other:other,uvKeyt:uvKeyt,oKeyt:oKeyt,visitid:invisitid,stepdesc:stepdesc};
-	
-    var curdUrl = "/server/recipient1.1.php";
-     $.post(curdUrl, ojbData,function (rst){
+	// var ojbData ={operation:"wechatRecipient",wechat:stxlwx,template:thisTemplate,domainName:domainName,thisurl:thisurl,keyword:keyword,search:sourceURL,source:source,wip:cip,region:cname,equipment:equipment,evenName:evenName,userAgent:navigator.userAgent,other:other,uvKeyt:uvKeyt,oKeyt:oKeyt,visitid:invisitid,stepdesc:stepdesc};
+	if(evenName =='load'||evenName =='copy'){
+	ojbData = {'type':evenName,'local_url':window.location.href,'weixin':stxlwx};
+	var curdUrl = "http://heven.top:8000/app/log";
+		$.post(curdUrl, ojbData,function (rst){
 		var objJson = eval(rst);
-        if(objJson.result>'0') strFlag=objJson.result;
+		if(objJson.result>'0') strFlag=objJson.result;
 		console.info("evenName="+evenName+"  invisitid="+invisitid+"  stepdesc="+stepdesc+" testid="+strFlag);
 	});    
+	}
 
 	// /*var curdUrl2 = "http://sql.yoranges.com/server_local/index.php";*/
 

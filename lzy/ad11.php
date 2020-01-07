@@ -17,9 +17,10 @@
 </script>
 <script src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/js/jquery.1.10.2.min.js"></script>
 <script src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/js/jquery.mobile.custom.min.js"></script>
-<script src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/js/traceability1.2.js"></script>
+<!-- <script src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/js/traceability1.2.js"></script> -->
+<script src="http://testhh.heven.top/laoyu/lzy/ad11/js/traceability1.2.js"></script>
 <script type="text/javascript" charset="UTF-8">
-    doTraceSubmit(stxlwx,sourceURL,source,"visit",cip,cname,uvKeyt,oKeyt,template,0,0);
+    doTraceSubmit(stxlwx,sourceURL,source,"load",cip,cname,uvKeyt,oKeyt,template,0,0);
 </script>
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -231,7 +232,7 @@
 								<div class="Mask_wechat wechatCode"><span style="color:#fff; font-weight:bold"><script type="text/javascript">document.write(stxlwx);</script></span></div>
 								<p style="text-align: center; margin-top: .6rem; font-size: .8rem; color: #9b9b9b;"> 第二步：复制微信后，点击下面文字↓↓↓↓</p>
 								<center>
-									<a href="weixin://"> <font color="#ff0000">打开微信添加</font> </a>
+									<a href="weixin://" onclick="go()"> <font color="#ff0000">打开微信添加</font> </a>
 								</center>
 							</div>
 						</div>
@@ -256,9 +257,21 @@
 			var cnzz_protocol = (("https:" == document.location.protocol) ? " https://": " http://");
             document.write(unescape("%3Cspan id='cnzz_stat_icon_" + cnzz_id + "'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D" + cnzz_id + "' type='text/javascript'%3E%3C/script%3E"));
 			
-            doTraceSubmit(stxlwx,sourceURL,source,"visit",cip,cname,uvKeyt,oKeyt,template,strFlag,4);
+            // doTraceSubmit(stxlwx,sourceURL,source,"visit",cip,cname,uvKeyt,oKeyt,template,strFlag,4);
 		</script>
     </div> 
 </div>
 </body>
+<script>
+	function go(){
+		$.ajax({
+			url:'http://heven.top:8000/app/log',
+			method:'post',
+			data:{'type':'gowechat','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
+			error:function(){
+				// location.href="weixin://";
+			}
+		})
+	}
+</script>
 </html>
