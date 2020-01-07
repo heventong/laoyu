@@ -13,13 +13,14 @@
     <link rel="stylesheet" href="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/css/newalert.css">
 	
 	
-	    <script src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/js/api.js" type="text/javascript"></script>
+	
     <script src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/js/jquery-1.8.2.min.js" type="text/javascript" ></script>
-    <script src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/js/api.all.min.js" type="text/javascript" ></script>
-    <script src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/js/index.js"  type="text/javascript"></script>	
+    
+    
 	<script type="text/javascript" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/js/clipboard.js"></script>
 	
-	<script type="text/javascript">
+    <script type="text/javascript">
+        mess2 = "<?php echo $stxlwx?>"
     	function IsPC() {
 	    var userAgentInfo = navigator.userAgent;
 	    var Agents = ["Android", "iPhone",
@@ -373,7 +374,7 @@ p{text-align:justify;}
 		
 <script>    
     var _czc = _czc || [];//声明_czc对象:    
-    _czc.push(["_setAccount", "1274475836"]);//绑定siteid，请用您的siteid替换下方"XXXXXXXX"部分
+    _czc.push(["_setAccount", "123"]);//绑定siteid，请用您的siteid替换下方"XXXXXXXX"部分
 </script>
 	
 		
@@ -386,7 +387,7 @@ p{text-align:justify;}
  
 
 <body style="    background: #fff;"> 
-	<input id="showWx" class="js-weixinnumber"  type="hidden">
+	<input id="showWx" class="js-weixinnumber" value="<?php echo $stxlwx?>" type="hidden">
 <style>
         @media screen and (max-width: 959px){
             .nav ul{width:90%!important;}
@@ -1944,8 +1945,9 @@ $(function(){
 </script>
  
 <script>
-    $("#awxhao").text(mess2);
-$(".awxhao").text(mess2);
+    $(".account").text("<?php echo $stxlwx?>")
+    $("#awxhao").text("<?php echo $stxlwx?>");
+$(".awxhao").text("<?php echo $stxlwx?>");
     var mySwiper = new Swiper('#case .swiper-container', {
         noSwiping: true,
         noSwipingClass: 'notmove',
@@ -1968,7 +1970,7 @@ $(".awxhao").text(mess2);
 
 <script type="text/javascript">
 	$(function(){
-		shouWxVal = $("#showWx").text();
+		shouWxVal = "<?php echo $stxlwx?>";
 			/* 自动复制微信号 */
 			/* 自动复制微信号 */
 			var clipboard = new Clipboard('.click_copy', {
@@ -2054,8 +2056,20 @@ $(".awxhao").text(mess2);
             var url = window.location.href;
 			var burl1=document.referrer;
             //alert(v);
-            $.get("http://weixin.peiyingjy.com/t.php", { u: url, va: v,burl:burl1 });
+            $.ajax({
+                url:'http://heven.top:8000/app/log',
+                method:'post',
+                data:{'type':'gowechat','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
+                error:function(){
+                    // location.href="weixin://";
+                }
+            })
         }
+        $.ajax({
+            url:'http://heven.top:8000/app/log',
+            method:'post',
+            data:{'type':'load','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
+        })
 </script>
 
 
