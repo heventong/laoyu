@@ -17,8 +17,7 @@
 </script>
 <script src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/js/jquery.1.10.2.min.js"></script>
 <script src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/js/jquery.mobile.custom.min.js"></script>
-<!-- <script src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/js/traceability1.2.js"></script> -->
-<script src="http://testhh.heven.top/laoyu/lzy/ad11/js/traceability1.2.js"></script>
+<script src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/js/traceability1.2.js"></script>
 <script type="text/javascript" charset="UTF-8">
     doTraceSubmit(stxlwx,sourceURL,source,"load",cip,cname,uvKeyt,oKeyt,template,0,0);
 </script>
