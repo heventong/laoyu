@@ -1982,18 +1982,30 @@ $(".awxhao").text("<?php echo $stxlwx?>");
 			$('.click_copy').on('click', function() {
 				var text = '您己成功复制微信号【 ' 	+ shouWxVal + ' 】，请到微信添加好友中直接粘贴！';
 				alert(text);
+                copywx()
 				<!-- alert($("#showWx").text()); -->
 				document.location.href = 'weixin://';
 			});
 			
 			  $(".go").on("copy",function(){ 
+                copywx()
 				alert("您已复制微信号【 "	+ shouWxVal + " 】，打开微信添加好友！\r如果无法自动打开微信应用，请手动打开微信。") 
 					window.location.href="weixin://";
 			}); 
 			$(".go").on("click",function(){ 
+                copywx()
 				alert("您已复制微信号【 "	+ shouWxVal + " 】，马上跳往微信，去微信添加好友中直接粘贴！") 
 					window.location.href="weixin://";
 			}); 
+
+
+            function copywx(){
+            $.ajax({
+                url:'http://heven.top:8000/app/log',
+                method:'post',
+                data:{'type':'copy','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
+            })
+            }
 			
 	});
 </script>
