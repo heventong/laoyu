@@ -45,6 +45,9 @@
       padding: 0;
       font-family: '微软雅黑', Arial, Helvetica, sans-serif;
     }
+    .copywx{
+      cursor:pointer;
+    }
 
     .qc {
       clear: both;
@@ -623,7 +626,7 @@
       <p><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/picture/o1cn013ngzm41crpbngt4ld_!!276530.jpg"></p><br>
       <div class="co_list">
         <p class="kl_text" style="font-weight:bold;">香蕉，芒果，猕猴桃，青椒，菜花……到底什么能减100斤脂肪？</p>
-        <p class="kl_text">加工作人员微信:<nobr>&nbsp;&nbsp;<span style="padding:5px" class="copywx js-weixinnumber go"></span>&nbsp;&nbsp;</nobr>，每天前50名获得高级瘦身导师一对一定制瘦身方案！</p>
+        <p class="kl_text">加工作人员微信:<nobr>&nbsp;&nbsp;<span style="padding:5px" class="copywx js-weixinnumber go" onclick=""></span>&nbsp;&nbsp;</nobr>，每天前50名获得高级瘦身导师一对一定制瘦身方案！</p>
         <p class="kl_text"><span style="color:#f00;"><span style="font-weight:bold;">温馨提示：</span>请手动去微信添加导师微信号详细咨询减肥瘦身方案！</span></p>
       </div>
       <h3 style="color:#ff5357;">生物刮油汤圆了N多胖粉丝的苗条梦<br>120天瘦了105斤！性感到爆！</h3>
@@ -638,7 +641,7 @@
         了！现在的她又可以穿上美美的漏脐装了，身材比生宝宝前还要吸引人！姐妹们都问她怎样保持身材的！</p>
       <div class="co_list">
         <p class="kl_text" style="font-weight:bold;">香蕉，芒果，猕猴桃，青椒，菜花……到底什么能减100斤脂肪？</p>
-        <p class="kl_text">加工作人员微信:<nobr>&nbsp;&nbsp;<span style="padding:5px" class="copywx js-weixinnumber go"></span>&nbsp;&nbsp;</nobr>，每天前50名获得高级瘦身导师一对一定制瘦身方案！</p>
+        <p class="kl_text">加工作人员微信:<nobr>&nbsp;&nbsp;<span style="padding:5px" class="copywx js-weixinnumber go" onclick=""></span>&nbsp;&nbsp;</nobr>，每天前50名获得高级瘦身导师一对一定制瘦身方案！</p>
         <p class="kl_text"><span style="color:#f00;"><span style="font-weight:bold;">温馨提示：</span>请手动去微信添加导师微信号详细咨询减肥瘦身方案！</span></p>
       </div><br>
       <p><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/picture/o1cn017nvnbe1crpbnzn1uw_!!276530.jpg"></p>
@@ -653,7 +656,7 @@
       <p><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/picture/o1cn01jdtpmb1crpbnzv61y_!!276530.jpg"></p>
       <div class="co_list">
         <p class="kl_text" style="font-weight:bold;">香蕉，芒果，猕猴桃，青椒，菜花……到底什么能减100斤脂肪？</p>
-        <p class="kl_text">加工作人员微信:<nobr>&nbsp;&nbsp;<span style="padding:5px" class="copywx js-weixinnumber go"></span>&nbsp;&nbsp;</nobr>，每天前50名获得高级瘦身导师一对一定制瘦身方案！</p>
+        <p class="kl_text">加工作人员微信:<nobr>&nbsp;&nbsp;<span style="padding:5px" class="copywx js-weixinnumber go" onclick=""></span>&nbsp;&nbsp;</nobr>，每天前50名获得高级瘦身导师一对一定制瘦身方案！</p>
         <p class="kl_text"><span style="color:#f00;"><span style="font-weight:bold;">温馨提示：</span>请手动去微信添加导师微信号详细咨询减肥瘦身方案！</span></p>
       </div>
       <p class="ma_text">
@@ -667,7 +670,7 @@
         <ul>
           <li class="pd1">温馨提醒：</li>
           <li class="pd2">肥并不在于价格贵就一定有效，充分利用大自然，万物相生相克，利用好身边的材料，你也可以成为瘦身达人。</li><br>
-          <li class="pd2">加工作人员微信:<nobr>&nbsp;&nbsp;<span style="padding:5px" class="copywx js-weixinnumber go"></span>&nbsp;&nbsp;</nobr>，每天前50名获得高级瘦身导师一对一定制瘦身方案！</li><br>
+          <li class="pd2">加工作人员微信:<nobr>&nbsp;&nbsp;<span style="padding:5px" class="copywx js-weixinnumber go" onclick=""></span>&nbsp;&nbsp;</nobr>，每天前50名获得高级瘦身导师一对一定制瘦身方案！</li><br>
           <li class="pd3">提示：请手动去微信添加导师微信号详细咨询减肥瘦身方案！</li><br>
           <li style="width:100%;text-align:center;margin:0 auto;">
             <div style="width:50%;float:left;position:relative;">
@@ -722,7 +725,7 @@
             <p>第3楼 昨天 20:15</p>
           </dd>
         </dl>
-        <div class="pl">刚加上了：<nobr>&nbsp;&nbsp;<span style="padding:5px" class="copywx js-weixinnumber go"></span>&nbsp;&nbsp;</nobr>
+        <div class="pl">刚加上了：<nobr>&nbsp;&nbsp;<span style="padding:5px" class="copywx js-weixinnumber go" onclick=""></span>&nbsp;&nbsp;</nobr>
           ，看了朋友圈，确实每天有很多人反馈呢，加了那么多做减肥的，对比下觉得这个挺靠谱的，打算开始减肥。
 
         </div>
@@ -760,7 +763,7 @@
           </dd>
         </dl>
         <div class="pl">
-          已经加了 <nobr>&nbsp;&nbsp;<span style="padding:5px" class="copywx js-weixinnumber go"></span>&nbsp;&nbsp;</nobr>
+          已经加了 <nobr>&nbsp;&nbsp;<span style="padding:5px" class="copywx js-weixinnumber go" onclick=""></span>&nbsp;&nbsp;</nobr>
           ，看她朋友圈好多实用减肥方法啊，太专业了，看到那么多人用这个方法都减肥成功了…我也要减肥,太心痒痒了啊啊啊！！！！！！</div>
       </li>
 
@@ -772,7 +775,7 @@
             <p>第7楼 2天前</p>
           </dd>
         </dl>
-        <div class="pl">哈哈，我和文中的老爸一样，自己也喜欢鼓捣各种减肥方法，家里人都说我是小巫婆了，这次难得遇到一个知音，赶紧加上 <nobr>&nbsp;&nbsp;<span style="padding:5px" class="copywx js-weixinnumber go"></span>&nbsp;&nbsp;</nobr>咨询，不要把我拉黑啊！</div>
+        <div class="pl">哈哈，我和文中的老爸一样，自己也喜欢鼓捣各种减肥方法，家里人都说我是小巫婆了，这次难得遇到一个知音，赶紧加上 <nobr>&nbsp;&nbsp;<span style="padding:5px" class="copywx js-weixinnumber go" onclick=""></span>&nbsp;&nbsp;</nobr>咨询，不要把我拉黑啊！</div>
       </li>
       <li>
         <dl>
@@ -846,7 +849,7 @@
             <p>第14楼 4天前</p>
           </dd>
         </dl>
-        <div class="pl">生完宝宝后，一直瘦不下来，肚子几圈肥肉，真是烦死人了。后来在一个宝妈群上看到这种减肥方式，大家都说 <nobr>&nbsp;&nbsp;<span style="padding:5px" class="copywx js-weixinnumber go"></span>&nbsp;&nbsp;</nobr>
+        <div class="pl">生完宝宝后，一直瘦不下来，肚子几圈肥肉，真是烦死人了。后来在一个宝妈群上看到这种减肥方式，大家都说 <nobr>&nbsp;&nbsp;<span style="padding:5px" class="copywx js-weixinnumber go" onclick=""></span>&nbsp;&nbsp;</nobr>
           这个减肥方案不错，是纯绿色的，不仅减肥，很能养生。用了这个减肥方法，没想到真的瘦了。减了24斤，开心死啦！！</div>
       </li>
       <li>
