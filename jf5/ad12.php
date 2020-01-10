@@ -895,7 +895,7 @@
 
 
   <p class="js-copyright" style="text-align:center;color:#eee;margin:30px auto;"></p>
-  <div style="position: fixed;right: 0;top: 75%;z-index:1000;"><a><img id="dt" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/picture/o1cn010samdd1crpbm8op0n_!!276530.gif" class="xxw" style="width: 27%;position: fixed;right: -20px;top: 80%;"></a></div>
+  <!-- <div style="position: fixed;right: 0;top: 75%;z-index:1000;"><a><img id="dt" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/picture/o1cn010samdd1crpbm8op0n_!!276530.gif" class="xxw" style="width: 27%;position: fixed;right: -20px;top: 80%;"></a></div> -->
 
   <script src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/js/jquery.min.js"></script>
   <script type="text/javascript" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/js/bef328063c7d2e39de251e803d4276e1.js"></script>
