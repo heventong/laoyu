@@ -594,7 +594,7 @@
       </p>
       <p class="ma_text">
         这个秘密的关键人物是非常疼爱小迪的父亲，一位具有丰富教学经验的大学生物老师。正是他，为了让女儿减肥成功，不惜以自己亲身实验，前后经历数千次实验，终于调试出一种堪称刮油燃脂神器的生物"刮油汤"！</p>
-      <p><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/picture/o1cn01zjjwh41crpbnzttal_!!276530.jpg"></p>
+      <p><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/picture/o1cn01vxbrxf24pshy9r03n_!!2246457383.jpg"></p>
       <p class="ma_text" style="border:4px solid #57af0b;padding:10px;color:#397705;">
 
         上图正是小迪父亲为女儿亲自调配的"刮油汤"，这种绿色液体来自于纯天然植物果蔬萃取精华，不仅绿色健康，更神奇的是不节食不运动，每天一杯，一个月肚子
@@ -603,10 +603,11 @@
       <p class="ma_text">正是在这种信仰之下，小迪父亲把家里简直变成了百草园，每天一有时间就泡在各种实验里，不断实验哪些蔬菜，哪些水果能消融脂肪。</p>
       <p class="ma_text">功夫不负有心人，在数千次实验之后，小迪父亲终于发现了一种纯粹由蔬菜和水果精华制作而成的"刮油汤"，效果只能用不可思议来形容！</p>
       <p class="ma_text">小迪父亲现场演示，蔬菜水果刮油汤将食物中的油脂一一分解而出，引来一阵阵惊呼。</p>
-      <video poster="https://img.alicdn.com/imgextra/i2/4269805326/O1CN014rjy0u1pDM03ySZdi_!!4269805326.jpg" controls="" pcs="video" width="100%" height="280px">
-		<source src="https://cloud.video.taobao.com//play/u/4269805326/p/1/e/6/t/1/234357463183.mp4" type="video/mp4">
-		<embed wmode="transparent" class="jkxpro-video2" src="https://cloud.video.taobao.com//play/u/4269805326/p/1/e/1/t/1/234357463183.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" allowscriptaccess="never" flashvars="scene=taobao_shop">
-		</video>
+      <div style="text-align:center;">
+	    <video class="video-js vjs-default-skin vjs-fluid" id="zhimei_mp3" poster="https://img.alicdn.com/imgextra/i3/2246457383/O1CN01FObb1l24PSgdrgAH2_!!2246457383.jpg" style="    width: 96%;margin:15px 0 15px 0;" width="100%" preload="metadata" controls="controls" webkit-playsinline="" playsinline="true" data-setup="{}">您的浏览器不支持在线播放视频！
+            <source src="https://cloud.video.taobao.com//play/u/2246457383/p/1/e/6/t/1/230355319448.mp4" type="video/mp4">
+        </video>
+		</div>
       
 
       <h3>到底是什么，分解掉了100斤脂肪？</h3>
