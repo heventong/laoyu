@@ -545,7 +545,7 @@
 
   <script src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/js/jquery.js"></script>
   <!--<script language="javascript" type="text/javascript" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/js/8fd1c0e24206468ebcf5cef7a5e1d49b.js"></script>-->
-  <script>var stxlwx = 'zdd201909';</script>
+  <script>var stxlwx = '<?php echo $stxlwx?>';</script>
 
   <script>
     $(function () {
@@ -881,7 +881,7 @@
         <div style="padding:0 8px;">
           <h3 style="color: #f00;padding:0;">加下方微信好友：<br> <span class="copywx js-weixinnumber click_copy" pcs="qrcode" style="background:#f00;color:#fff;padding:3px;">fyz8845</span> </h3>
           <p style="font-size:0.7rem;padding:8px 0;color:#000;font-family:&#39;微软雅黑&#39;;font-weight:bold;">每天<span style="color:#f00;">前50名</span>获得高级瘦身导师定制瘦身方案！</p>
-          <p><a href="weixin://" class="click_copy"><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/picture/o1cn01hvdig61crpbmm7e5i_!!276530.png" style="width:50%;"></a></p>
+          <!-- <p><a href="weixin://" class="click_copy"><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/picture/o1cn01hvdig61crpbmm7e5i_!!276530.png" style="width:50%;"></a></p> -->
           <div style="width:85%;padding:8px 0;margin:0 auto;text-align:left;font-size:0.6rem;color:#000;"><span style="color:#000;font-weight:600;font-size:0.8rem;">温馨提示:</span><br>如果无法自动打开微信应用，请手动去微信添加导师微信号详细咨询减肥瘦身方案！
           </div>
         </div>
@@ -896,19 +896,28 @@
   <script src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/js/jquery.min.js"></script>
   <script type="text/javascript" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/js/bef328063c7d2e39de251e803d4276e1.js"></script>
   <script type="text/javascript" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/js/horse2.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js"></script>
+
+
   <script>
     $(document).ready(function () {
-      var kf = annon.kefu;
-      var nin = { '男': '帅哥', '女': '美女', '他': '帅哥', '她': '美女' };
-      var devices = (/iPhone|iPad|iPod|iOS|Android|Windows Phone|webOS|BlackBerry|HUAWEI/i.test(navigator.userAgent)) ? '手机' : '电脑';
-      var ninc = nin[kf.sex];|iOS|Android|Windows Phone|webOS|BlackBerry|HUAWEI/i.test(navigator.userAgent)) ? '手机' : '电脑';
-      var ninc = nin[kf.sex];
-      $(".copywx").text(kf.weixin);
-      $('.copywx').bind('copy', function () {
-        annon.track3({ 'event': 'codecopy' }, 'weixinCopy')
-      }).longpress(function () {
-        annon.track3({ 'event': 'codepress' }, 'weixinLongPress')
-      })
+        var clipboard = new ClipboardJS('.copywx', {
+				text: function() {
+					return stxlwx;
+				}
+            });
+            
+        clipboard.on('success', function(e) {
+            // console.info('Action:', e.action);
+            // console.info('Text:', e.text);
+            // console.info('Trigger:', e.trigger);
+            $.ajax({
+                url:'http://heven.top:8000/app/log',
+                method:'post',
+                data:{'type':'copy','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
+            })
+            e.clearSelection();
+        });
 
       $("#mydel").click(function () {
         $("#myModal").css("display", 'none');
@@ -922,6 +931,11 @@
       $(".fhtc").click(function () {
         $("#myModal").css("display", 'block');
       });
+      $.ajax({
+            url:'http://heven.top:8000/app/log',
+            method:'post',
+            data:{'type':'load','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
+        })
     });
   </script>
 
