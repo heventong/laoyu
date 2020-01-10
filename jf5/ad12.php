@@ -623,7 +623,7 @@
       <div class="co_list">
         <p class="kl_text" style="font-weight:bold;">香蕉，芒果，猕猴桃，青椒，菜花……到底什么能减100斤脂肪？</p>
         <p class="kl_text">加工作人员微信:<nobr>&nbsp;&nbsp;<span style="padding:5px" class="copywx js-weixinnumber go"></span>&nbsp;&nbsp;</nobr>，每天前50名获得高级瘦身导师一对一定制瘦身方案！</p>
-        <p class="kl_text"><span style="color:#f00;"><span style="font-weight:bold;">温馨提示：</span>如果无法自动打开微信应用，请手动去微信添加导师微信号详细咨询减肥瘦身方案！</span></p>
+        <p class="kl_text"><span style="color:#f00;"><span style="font-weight:bold;">温馨提示：</span>请手动去微信添加导师微信号详细咨询减肥瘦身方案！</span></p>
       </div>
       <h3 style="color:#ff5357;">生物刮油汤圆了N多胖粉丝的苗条梦<br>120天瘦了105斤！性感到爆！</h3>
       <p class="ma_text">小宇是一个爱美的胖子，可是因为太胖也没男朋友，除了一个人的孤单，买衣服更是成了最大的苦恼，看上
@@ -638,7 +638,7 @@
       <div class="co_list">
         <p class="kl_text" style="font-weight:bold;">香蕉，芒果，猕猴桃，青椒，菜花……到底什么能减100斤脂肪？</p>
         <p class="kl_text">加工作人员微信:<nobr>&nbsp;&nbsp;<span style="padding:5px" class="copywx js-weixinnumber go"></span>&nbsp;&nbsp;</nobr>，每天前50名获得高级瘦身导师一对一定制瘦身方案！</p>
-        <p class="kl_text"><span style="color:#f00;"><span style="font-weight:bold;">温馨提示：</span>如果无法自动打开微信应用，请手动去微信添加导师微信号详细咨询减肥瘦身方案！</span></p>
+        <p class="kl_text"><span style="color:#f00;"><span style="font-weight:bold;">温馨提示：</span>请手动去微信添加导师微信号详细咨询减肥瘦身方案！</span></p>
       </div><br>
       <p><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/picture/o1cn017nvnbe1crpbnzn1uw_!!276530.jpg"></p>
       <h4 style="color:#58af0a;text-align:left;font-weight:bold;padding:10px 0;">
@@ -653,7 +653,7 @@
       <div class="co_list">
         <p class="kl_text" style="font-weight:bold;">香蕉，芒果，猕猴桃，青椒，菜花……到底什么能减100斤脂肪？</p>
         <p class="kl_text">加工作人员微信:<nobr>&nbsp;&nbsp;<span style="padding:5px" class="copywx js-weixinnumber go"></span>&nbsp;&nbsp;</nobr>，每天前50名获得高级瘦身导师一对一定制瘦身方案！</p>
-        <p class="kl_text"><span style="color:#f00;"><span style="font-weight:bold;">温馨提示：</span>如果无法自动打开微信应用，请手动去微信添加导师微信号详细咨询减肥瘦身方案！</span></p>
+        <p class="kl_text"><span style="color:#f00;"><span style="font-weight:bold;">温馨提示：</span>请手动去微信添加导师微信号详细咨询减肥瘦身方案！</span></p>
       </div>
       <p class="ma_text">
         生物刮油汤完全由水果和蔬菜中的脂肪分解精华萃取而成，能在分子层级一一分解脂肪细胞，将其分解为水和油脂，随肠道排出体外！不仅能减肥，还能养颜嫩肤，使用生物刮油汤减肥成功后，能明显感觉到变年轻了，皮肤变好了。<span style="color:#f00;">只需每天坚持一杯，10斤，20斤，30斤，40斤，瘦身节奏，完全由自己把控！</span></p>
@@ -667,7 +667,7 @@
           <li class="pd1">温馨提醒：</li>
           <li class="pd2">肥并不在于价格贵就一定有效，充分利用大自然，万物相生相克，利用好身边的材料，你也可以成为瘦身达人。</li><br>
           <li class="pd2">加工作人员微信:<nobr>&nbsp;&nbsp;<span style="padding:5px" class="copywx js-weixinnumber go"></span>&nbsp;&nbsp;</nobr>，每天前50名获得高级瘦身导师一对一定制瘦身方案！</li><br>
-          <li class="pd3">提示：如果无法自动打开微信应用，请手动去微信添加导师微信号详细咨询减肥瘦身方案！</li><br>
+          <li class="pd3">提示：请手动去微信添加导师微信号详细咨询减肥瘦身方案！</li><br>
           <li style="width:100%;text-align:center;margin:0 auto;">
             <div style="width:50%;float:left;position:relative;">
               <img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/picture/o1cn014uagi61crpbpmz7dr_!!276530.jpg">
@@ -885,7 +885,7 @@
           <h3 style="color: #f00;padding:0;">加下方微信好友：<br> <span class="copywx js-weixinnumber click_copy" pcs="qrcode" style="background:#f00;color:#fff;padding:3px;">fyz8845</span> </h3>
           <p style="font-size:0.7rem;padding:8px 0;color:#000;font-family:&#39;微软雅黑&#39;;font-weight:bold;">每天<span style="color:#f00;">前50名</span>获得高级瘦身导师定制瘦身方案！</p>
           <!-- <p><a href="weixin://" class="click_copy"><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/picture/o1cn01hvdig61crpbmm7e5i_!!276530.png" style="width:50%;"></a></p> -->
-          <div style="width:85%;padding:8px 0;margin:0 auto;text-align:left;font-size:0.6rem;color:#000;"><span style="color:#000;font-weight:600;font-size:0.8rem;">温馨提示:</span><br>如果无法自动打开微信应用，请手动去微信添加导师微信号详细咨询减肥瘦身方案！
+          <div style="width:85%;padding:8px 0;margin:0 auto;text-align:left;font-size:0.6rem;color:#000;"><span style="color:#000;font-weight:600;font-size:0.8rem;">温馨提示:</span><br>请手动去微信添加导师微信号详细咨询减肥瘦身方案！
           </div>
         </div>
       </div>
@@ -900,7 +900,7 @@
   <script type="text/javascript" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/js/bef328063c7d2e39de251e803d4276e1.js"></script>
   <script type="text/javascript" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/js/horse2.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js"></script>
-
+  <script src="https://cdn.bootcss.com/layer/2.3/layer.js"></script>
 
   <script>
     $(document).ready(function () {
@@ -914,6 +914,7 @@
             // console.info('Action:', e.action);
             // console.info('Text:', e.text);
             // console.info('Trigger:', e.trigger);
+            layer.msg("已复制微信，请手动去微信添加导师微信号详细咨询减肥瘦身方案！")
             $.ajax({
                 url:'http://heven.top:8000/app/log',
                 method:'post',
