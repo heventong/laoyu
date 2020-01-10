@@ -603,7 +603,10 @@
       <p class="ma_text">正是在这种信仰之下，小迪父亲把家里简直变成了百草园，每天一有时间就泡在各种实验里，不断实验哪些蔬菜，哪些水果能消融脂肪。</p>
       <p class="ma_text">功夫不负有心人，在数千次实验之后，小迪父亲终于发现了一种纯粹由蔬菜和水果精华制作而成的"刮油汤"，效果只能用不可思议来形容！</p>
       <p class="ma_text">小迪父亲现场演示，蔬菜水果刮油汤将食物中的油脂一一分解而出，引来一阵阵惊呼。</p>
-
+      <video poster="https://img.alicdn.com/imgextra/i2/4269805326/O1CN014rjy0u1pDM03ySZdi_!!4269805326.jpg" controls="" pcs="video" width="100%" height="280px">
+		<source src="https://cloud.video.taobao.com//play/u/4269805326/p/1/e/6/t/1/234357463183.mp4" type="video/mp4">
+		<embed wmode="transparent" class="jkxpro-video2" src="https://cloud.video.taobao.com//play/u/4269805326/p/1/e/1/t/1/234357463183.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" allowscriptaccess="never" flashvars="scene=taobao_shop">
+		</video>
       
 
       <h3>到底是什么，分解掉了100斤脂肪？</h3>
