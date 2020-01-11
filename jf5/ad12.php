@@ -595,6 +595,8 @@
       <p><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/picture/o1cn01jazcbx1crpbmtonwt_!!276530.jpg"></p>
       <p class="ma_text">针对粉丝们每天的重复疑问，小迪决定将自己在100天里，从197斤瘦到100斤的奥秘进行公开。为此她接受了电视台的公开采访报道。她暴瘦的秘密不是抽脂！不是吃减肥药！不是节食！更不是疯狂的运动！
       </p>
+      <center style="color:red;">想减肥和了解神刮油汤，可添加官方老师微信咨询详情
+      <div style="margin-top:10px">微信号：<span class="copywx js-weixinnumber go" style="font-size:21px"></span></div></center>
       <p class="ma_text">
         这个秘密的关键人物是非常疼爱小迪的父亲，一位具有丰富教学经验的大学生物老师。正是他，为了让女儿减肥成功，不惜以自己亲身实验，前后经历数千次实验，终于调试出一种堪称刮油燃脂神器的生物"刮油汤"！</p>
       <p><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/picture/o1cn01vxbrxf24pshy9r03n_!!2246457383.jpg"></p>
@@ -626,7 +628,7 @@
       <p><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/picture/o1cn013ngzm41crpbngt4ld_!!276530.jpg"></p><br>
       <div class="co_list">
         <p class="kl_text" style="font-weight:bold;">香蕉，芒果，猕猴桃，青椒，菜花……到底什么能减100斤脂肪？</p>
-        <p class="kl_text">加工作人员微信:<nobr>&nbsp;&nbsp;<span style="padding:5px" class="copywx js-weixinnumber go" onclick=""></span>&nbsp;&nbsp;</nobr>，每天前50名获得高级瘦身导师一对一定制瘦身方案！</p>
+        <p class="kl_text">加专业瘦身老师微信:<nobr>&nbsp;&nbsp;<span style="padding:5px" class="copywx js-weixinnumber go" onclick=""></span>&nbsp;&nbsp;</nobr>，每天前50名获得高级瘦身导师一对一定制瘦身方案！</p>
         <p class="kl_text"><span style="color:#f00;"><span style="font-weight:bold;">温馨提示：</span>请手动去微信添加导师微信号详细咨询减肥瘦身方案！</span></p>
       </div>
       <h3 style="color:#ff5357;">生物刮油汤圆了N多胖粉丝的苗条梦<br>120天瘦了105斤！性感到爆！</h3>
@@ -641,7 +643,7 @@
         了！现在的她又可以穿上美美的漏脐装了，身材比生宝宝前还要吸引人！姐妹们都问她怎样保持身材的！</p>
       <div class="co_list">
         <p class="kl_text" style="font-weight:bold;">香蕉，芒果，猕猴桃，青椒，菜花……到底什么能减100斤脂肪？</p>
-        <p class="kl_text">加工作人员微信:<nobr>&nbsp;&nbsp;<span style="padding:5px" class="copywx js-weixinnumber go" onclick=""></span>&nbsp;&nbsp;</nobr>，每天前50名获得高级瘦身导师一对一定制瘦身方案！</p>
+        <p class="kl_text">加专业瘦身老师微信:<nobr>&nbsp;&nbsp;<span style="padding:5px" class="copywx js-weixinnumber go" onclick=""></span>&nbsp;&nbsp;</nobr>，每天前50名获得高级瘦身导师一对一定制瘦身方案！</p>
         <p class="kl_text"><span style="color:#f00;"><span style="font-weight:bold;">温馨提示：</span>请手动去微信添加导师微信号详细咨询减肥瘦身方案！</span></p>
       </div><br>
       <p><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/picture/o1cn017nvnbe1crpbnzn1uw_!!276530.jpg"></p>
@@ -656,7 +658,7 @@
       <p><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/picture/o1cn01jdtpmb1crpbnzv61y_!!276530.jpg"></p>
       <div class="co_list">
         <p class="kl_text" style="font-weight:bold;">香蕉，芒果，猕猴桃，青椒，菜花……到底什么能减100斤脂肪？</p>
-        <p class="kl_text">加工作人员微信:<nobr>&nbsp;&nbsp;<span style="padding:5px" class="copywx js-weixinnumber go" onclick=""></span>&nbsp;&nbsp;</nobr>，每天前50名获得高级瘦身导师一对一定制瘦身方案！</p>
+        <p class="kl_text">加专业瘦身老师微信:<nobr>&nbsp;&nbsp;<span style="padding:5px" class="copywx js-weixinnumber go" onclick=""></span>&nbsp;&nbsp;</nobr>，每天前50名获得高级瘦身导师一对一定制瘦身方案！</p>
         <p class="kl_text"><span style="color:#f00;"><span style="font-weight:bold;">温馨提示：</span>请手动去微信添加导师微信号详细咨询减肥瘦身方案！</span></p>
       </div>
       <p class="ma_text">
@@ -670,7 +672,7 @@
         <ul>
           <li class="pd1">温馨提醒：</li>
           <li class="pd2">肥并不在于价格贵就一定有效，充分利用大自然，万物相生相克，利用好身边的材料，你也可以成为瘦身达人。</li><br>
-          <li class="pd2">加工作人员微信:<nobr>&nbsp;&nbsp;<span style="padding:5px" class="copywx js-weixinnumber go" onclick=""></span>&nbsp;&nbsp;</nobr>，每天前50名获得高级瘦身导师一对一定制瘦身方案！</li><br>
+          <li class="pd2">加专业瘦身老师微信:<nobr>&nbsp;&nbsp;<span style="padding:5px" class="copywx js-weixinnumber go" onclick=""></span>&nbsp;&nbsp;</nobr>，每天前50名获得高级瘦身导师一对一定制瘦身方案！</li><br>
           <li class="pd3">提示：请手动去微信添加导师微信号详细咨询减肥瘦身方案！</li><br>
           <li style="width:100%;text-align:center;margin:0 auto;">
             <div style="width:50%;float:left;position:relative;">
