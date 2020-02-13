@@ -484,10 +484,10 @@ left: 1%;
     <div class="g-mm">
         <div class="g-bd">
              
-            <p class="text-indent lk ">
+            <!--<p class="text-indent lk ">
             
              <span style="display:block;">据报道，2019年中国的肥胖人口已经位居世界首位，男性人数为4320万人，女性人数为4640万人，分别占全球的16.3%和12.4%，肥胖不不止影响身体健康，更是严重打击了肥胖者的自信。</span>
-            </p>
+            </p>-->
             
 <p class="text-indent lk ">
             
@@ -666,11 +666,11 @@ left: 1%;
     </div>
     
     
-    <p class="text-indent lk ">
+    <!--<p class="text-indent lk ">
             
              <span style="display:block;">
 <b style="    color:#333;">本文结语：科学家多年的研究，最终创造出这种瘦身减肥神器，2019年的今天终于可以宣告：减肥难题彻底攻破!</b></span>
-            </p>
+            </p>-->
             
             
             
