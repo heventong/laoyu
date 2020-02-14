@@ -524,9 +524,9 @@ left: 1%;
             </span></p>
              <p class="text-indent lk ">
             
-             <span style="display:block;">既然我们已经知道造成肥胖的根本原因是<strong style="font-weight:bold">油分的吸收大于代谢</strong>，那么我们只要解决脂肪吸收的问题即可。首先我们来看一下专家的一个实验演示：</span></p>
-            <iframe frameborder="0" src="https://v.qq.com/txp/iframe/player.html?vid=c0880fwqt9e" allowFullScreen="true" style="width:100%;height:280px;"></iframe>
-		
+             <span style="display:block;">既然我们已经知道造成肥胖的根本原因是<strong style="font-weight:bold">油分的吸收大于代谢</strong>，那么我们只要解决脂肪吸收的问题即可。<!--首先我们来看一下专家的一个实验演示：--></span></p>
+            <!--<iframe frameborder="0" src="https://v.qq.com/txp/iframe/player.html?vid=c0880fwqt9e" allowFullScreen="true" style="width:100%;height:280px;"></iframe>
+		-->
 	<!-----	
 		<video poster="https://img.alicdn.com/imgextra/i2/4269805326/O1CN014rjy0u1pDM03ySZdi_!!4269805326.jpg" controls="" pcs="video" width="100%" height="280px">
 		<source src="https://cloud.video.taobao.com//play/u/4269805326/p/1/e/6/t/1/234357463183.mp4" type="video/mp4">
@@ -542,7 +542,7 @@ left: 1%;
             <p class="text-indent lk ">
             
              <span style="display:block;">
-演示显而易见，那么它到底是什么？如何帮我们瘦身呢？具体有怎样的功能呢？
+<!--演示显而易见，-->那么它到底是什么？如何帮我们瘦身呢？具体有怎样的功能呢？
 这就是由中国一家百强集团研发，历时5年，耗资15亿，2019年横空出世的一款减肥神器 。当它进入我们身体之后，迅速的凝结体内的油脂和毒素等，然后身体就会排除积存的油脂垃圾、宿便和毒素，不但强力瘦身，还会清理身体内部肮脏毒素。</span>
             </p>
     <div class="m-img x-wd">
