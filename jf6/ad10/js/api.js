@@ -1,0 +1,1 @@
+var siteInfo={"discount_id":"0","id":893,"domain":"lw.027hxyy.com","telphone":"400","callTelphone":"400","buycode":"神户1","company":"武汉华夏医院","indextitle":"","weixinnumber":"jin199202152","weixinnumber2":"","weixinnumber3":"","icp":"","is_verify":0,"title":"","keyword":"","description":"","enabled_promotion":0,"jump":"","token":"e552f6239fb0ff39eb5dd87b3691b805"}
