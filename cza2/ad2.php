@@ -317,7 +317,7 @@ li {
 			   
     <span style=" font-size: 0.7rem; color:#000;vertical-align: bottom;">头条新闻网 </span>
 			   <br>
-			<span>2019年10月01日 23:06:35</span>
+			<span><?php echo date('Y-m-d 18:32:22',strtotime("- 7days"))?></span>
 			   </p>
 			  
 			    <div class="share_box-1oLcdMMp">
