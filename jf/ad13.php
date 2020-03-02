@@ -1392,7 +1392,7 @@ $.ajax({
        
 
             $(document).on('click','.quxiao',function() {
-
+alert(1)
                 $("#tanchuang").fadeOut(400);
 
                 $("#prop-copy").fadeOut(400);
