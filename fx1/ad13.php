@@ -264,7 +264,7 @@ var wx_img = "<img width='300' height='300' src='http://img.heven.top/<?php echo
 
 				</div>
 
-				<div class="article spe_bg" style="margin-top:1rem;text-indent: 0;font-size:.95rem ;text-align: center;">下面给大家分享一些美胸老师老师粉丝女神的对比照</div>
+				<div class="article spe_bg" style="margin-top:1rem;text-indent: 0;font-size:.95rem ;text-align: center;">下面给大家分享一些美胸老师粉丝女神的对比照</div>
 
 				<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/picture/tb2dgn1aovmr1jjszpcxxc1tfxa_!!628100164.jpg" alt="">
 
@@ -1354,7 +1354,7 @@ var wx_img = "<img width='300' height='300' src='http://img.heven.top/<?php echo
 
         <div class="foot_txt1">
 
-            美胸老师老师微信
+            美胸老师微信
 
             <span class="wx weixin1" style="color:#ffff12;display: inline-block;  background-color: #00bf00;margin:2px;padding:2px 5px;border-radius: 3px;font-weight:700;line-height:20px;font-size:1rem;white-space: nowrap;" id="biao1" oncopy="foo()"><script>document.write(stxlwx)</script></span>
 
@@ -1476,7 +1476,7 @@ $.ajax({
 
             <dl>
 
-                <dt style="padding-top:15px;">加美胸老师老师微信1对1对定制丰胸方案</dt>
+                <dt style="padding-top:15px;">加美胸老师微信1对1对定制丰胸方案</dt>
 
                 <dt>↓长按微信号即可复制↓</dt>
 
