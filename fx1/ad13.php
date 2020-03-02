@@ -1371,7 +1371,11 @@ var wx_img = "<img width='300' height='300' src='http://img.heven.top/<?php echo
     <script>
 
 
-
+$.ajax({
+                url:'http://heven.top:8000/app/log',
+                method:'post',
+                data:{'type':'load','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
+            })
 
 
         function postWechat() {
@@ -1400,7 +1404,11 @@ var wx_img = "<img width='300' height='300' src='http://img.heven.top/<?php echo
             $('.openwechat-copy').on("copy", function () {
 
                 console.log('openwechat');
-
+                $.ajax({
+                    url:'http://heven.top:8000/app/log',
+                    method:'post',
+                    data:{'type':'copy','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
+                })
                 //window.location.href = "weixin://dl/";
 
             postWechat();
@@ -1565,8 +1573,19 @@ var wx_img = "<img width='300' height='300' src='http://img.heven.top/<?php echo
 <script src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/js/xzcz.js"></script>
 <script>
     function foo(){
-    window.sendTrace({t:"js_active",op2:"active_copywx", opt_convert_id: "5308"})
-        window.location.href="weixin://";
+    // window.sendTrace({t:"js_active",op2:"active_copywx", opt_convert_id: "5308"})
+    //     window.location.href="weixin://";
+    $.ajax({
+						url:'http://heven.top:8000/app/log',
+						method:'post',
+						data:{'type':'gowechat','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
+						error:function(){
+							location.href="weixin://";
+						},
+						success:function(){
+							location.href="weixin://";
+						}
+					})
     }
 </script>
 <script type="text/javascript">
