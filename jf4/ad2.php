@@ -1063,5 +1063,36 @@ $(function(){
 <!-- <script type="text/javascript" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/z_stat.php"></script><script src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/core.php" charset="utf-8" type="text/javascript"></script><a href="https://www.cnzz.com/stat/website.php?web_id=1277996913" target="_blank" title="站长统计">站长统计</a> -->
 </div>
 
-</div></div></body></html>
+</div></div>
+
+
+<script>
+    //落地页数据收集只需部署一次
+    window._SHDGCONFIG = {id:  '3262', source: 'magneto', data_source: 0};
+    (function (d, s, id) {
+        var n = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        s = d.createElement(s);
+        s.id = id;
+        s.setAttribute('charset', 'utf-8');
+        s.src = '//dmp.sina.com.cn/simpleMonitor.js';
+        n.parentNode.insertBefore(s, n);
+    })(document, 'script', 'monitor-script');
+</script>
+<script>
+    //公共部分代码， 以下代码在整个页面只需要安装一次即可
+    (function (d, s, id) {
+        var n = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        s = d.createElement(s);
+        s.id = id;
+        s.setAttribute('charset', 'utf-8');
+        s.src = '//cnv.ad.sina.com.cn/static/js/fyr.js';
+        n.parentNode.insertBefore(s, n);
+    })(document, 'script', 'fyr-script');
+    _fyr = window._fyr || [];
+    //调用
+    _fyr.push(['_conversion', 'n20537_1_116313', '3262', '1_1', 'ea']);
+</script>
+</body></html>
 
