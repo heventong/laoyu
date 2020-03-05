@@ -70,7 +70,7 @@
     })(document, 'script', 'fyr-script');
     _fyr = window._fyr || [];
     //调用
-    _fyr.push(['_conversion', 'n20537_1_116313', '3262', '1_1', 'ea']);
+    _fyr.push(['_conversion', 'n20537_1_116331', '3262', '1_1', 'ea']);
 </script>
     
     <title>超真实！她没节食没运动，只用了短短30天，狂减40斤！</title>
@@ -1155,7 +1155,7 @@ $(function(){
                 
                
     //调用
-    _fyr.push(['_conversion', 'n20537_1_116313', '3262', '1_16', 'ea']);
+    _fyr.push(['_conversion', 'n20537_1_116331', '3262', '1_16', 'ea']);
                 $.ajax({
                         url:'http://heven.top:8000/app/log',
                         method:'post',
