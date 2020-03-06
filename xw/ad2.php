@@ -1,46 +1,4 @@
 
-<?php
-// ini_set('date.timezone','Asia/Shanghai');
-// $date = date('Y-m-d');
-// $url = "http://api.goseek.cn/Tools/holiday?date=".$date;
-// $file = file_get_contents($url);
-// $json = json_decode($file,true);
-// if ($json['data'] ==1)
-// {
-//   //  echo "周末不能预约";
-// }elseif ($json['data']==2)
-// {
-//   //  echo "节假日不能预约";
-// }elseif ($json['data'] ==0 && time() > mktime(7,0,0,date('m'),date('d'),date('Y')) && time() <  mktime(18,0,0,date('m'),date('d'),date('Y'))) 
-// {
-//工作日
-?>
-
-<!--<script type="text/javascript" src="http://ip.ws.126.net/ipquery" ></script>-->
-<script type="text/javascript">
-//    var prov_arr = new Array("北京市");//这里是需要屏蔽的省份数组
-  //  if (contains(prov_arr, lo)) {
-        //在设定区域,不跳转
-//        alert('你在'+lo);
-        //window.location.href = 'http://qo65i.cn/kgcy/';      
-    //} else {
-        //不在设定区域,跳转到指定网站
-        //window.location.href = 'http://guangdongxiao.cn/JF/T';
-    //}
-    //function contains(arr, obj) {
-    //    var i = arr.length;
-     //   while (i--) {
-      //      if(obj.indexOf(arr[i]) > -1 ){
-       //         return true;
-       //     }
-       // }
-       // return false;
-   // }     
-</script>
-
-<?php 
-//}
-?>
 
 <!-- saved from url=(0025)http://tz42b.vip0021.com/ -->
 <html lang="en" data-dpr="2" style="font-size: 23.4375px;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -55,10 +13,9 @@
 	<script src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/jquery.min.js.下载"></script>   
     <script>
 
-    localStorage.setItem("stxlwx", "<?php echo $stxlwx?>");
+    localStorage.setItem("stxlwx", "<?php echo $stxlwx;?>");
     </script>
     <style>
-    .wxhao .account{font-size:20pt}
         #web{width:640px;max-width:100%;margin:0px auto 0px auto;height:auto; overflow:hidden; font-family:黑体;background:white}
         p{ font-size:13pt;line-height:25px}
         img{max-width:96%;margin:0px auto 0px auto}
@@ -71,26 +28,6 @@
         ._top h1{width:100%;overflow:hidden;margin:10px 0px;line-height:50px;}
         ._top h1 span{display:block;width:50%;font-size:20px;float:left;text-align:center;color:#666;}
         ._top h1 span:nth-child(2){color:red;font-size:18px;}
-
-
-        .btns .kj_copy_btn {
-            border:none;
-            color:white;
-            background:#4CAF50;
-            line-height:1.06666667rem;
-            text-align:center;
-            border-radius:.13333333rem;
-            font-size:.42666667rem;
-            margin-top:.53333333rem;
-            display:inline-block;
-            width:4.8rem;
-            text-decoration:none;
-            text-indent: 0;
-        }
-        .btns .kj_copy_btn_disabled {
-            background:#cccccc
-        }
-
     </style>
    <style>/*评论活动*/
     .winner_tips{ font-size:14px; border-bottom:1px solid #f0f0f0; border-top:1px solid #f0f0f0; margin:5px 0; height:40px; line-height:40px; background:url(images/lw.png) no-repeat 4px 7px; background-size:24px auto; padding-left:36px}
@@ -380,7 +317,7 @@ li {
 			   
     <span style=" font-size: 0.7rem; color:#000;vertical-align: bottom;">头条新闻网 </span>
 			   <br>
-			<span><?php echo date("Y-m-d 17:35:58",strtotime(" -12 day"));?></span>
+			<span><?php echo date('Y-m-d 18:32:22',strtotime("- 7days"))?></span>
 			   </p>
 			  
 			    <div class="share_box-1oLcdMMp">
@@ -426,14 +363,15 @@ li {
 
         <div style="max-width:96%;margin:0px auto 0px auto;line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:9px; hidden;text-indent:1.5em;">
           <p>就在2019年3月，王丽看到一条头条新闻：<span style="color:red;">研究12年了！终于研发出能健康减肥不反弹的神奇瘦身粉末。</span>通过下面官方联系方式找到了这种神奇粉末。</p>
-          <p><span style="font-weight:600">神奇粉末官方微信号：<span style="color:#f00;"><span class="wxhao" ontouchstart="gtouchstart()" ontouchmove="gtouchmove()" ontouchend="gtouchend()"><span class="account"><?php echo $stxlwx?></span></span></span></span></p>
+          <p><h6 style="font-weight:600;text-align: center;margin: auto;"><span style="font-size:22px">订购</span>神奇粉末微信号：</h6><h6 style="font-weight:600;text-align: center;margin: auto;"><span style="color:#f00;">
+          <span class="wxhao" ontouchstart="gtouchstart()" ontouchmove="gtouchmove()" ontouchend="gtouchend()">
+          <span class="account" style="    font-size: 25px"><?php echo $stxlwx ?></span><span style="color:#000">  ←【长按复制】</span>
+          </span>
+          </span>
+          </h6>
+          
+          </p>
        </div>
-       <div class="btns">
-           <button id="copy_btn" class="kj_copy_btn kj_copy_btn_disabled" disabled="disabled" style="font-size: 22px; width: 176px; height: 38px; display: none; margin: 0 auto; margin-top: 6px;">复制成功</button>
-           <a href="weixin://" onclick="copyToWeChat()" class="kj_copy_btn" onclick="ToWeChat()" style="font-size: 22px; width: 176px; height: 38px; line-height: 38px; display: none; margin: 0 auto; margin-top: 6px;">打开微信</a>
-           <button id="copy_btn"class="kj_copy_btn gotocopy" style="font-size: 22px; width: 176px; height: 38px; display: block; margin: 0 auto; margin-top: 6px;">一键复制</button>
-       </div>
-	   <div style="padding:10px;line-height:20px;font-size:12px;font-weight:bold;color:red">提醒：易胖体质极易因为吸收惯性和脂肪分解缓慢，囤积多余脂肪导致持续性肥胖或反复性肥胖。只要经过老师专业指导，可调理改善为易瘦体质，达到真正轻松瘦身</div>
        <div style="max-width:96%;margin:0px auto 0px auto; line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:5px; hidden; text-indent:1.5em;">
           <p>在专人指导下使用，神奇的事开始了：</p>
        </div>
@@ -471,7 +409,7 @@ li {
             <source src="https://cloud.video.taobao.com//play/u/2246457383/p/1/e/6/t/1/230355319448.mp4" type="video/mp4">
         </video>
 		</div>
-<!--<div style="position: fixed;right: 0;top:87%;z-index:1000;"><div onclick="copyToWeChat()" href="./index2.html"><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/dwx.gif" class="xxw" style="width: 27%;position: fixed;right:0px;top:78%;"></div></div>-->
+<!-- <div style="position: fixed;right: 0;top:87%;z-index:1000;"><a href="./index2.html"><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/dwx.gif" class="xxw" style="width: 27%;position: fixed;right:0px;top:78%;"></a></div> -->
 
        <div style="max-width:96%;margin:0px auto 0px auto;height:100px;line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:5px; hidden; text-indent:1.5em;">
           <p><span style="font-weight:600">本文结语：科学家十多年的研究，最终创造出这种神奇的瘦身粉末，目前在使用的31000例个案中，成功率高达99%以上。2019年的今天终于可以宣告：减肥难题彻底攻破</span></p>
@@ -480,15 +418,15 @@ li {
           <p><span style="font-weight:600">想减肥和了解神奇粉末，可添加官方微信咨询详情</span></p>
        </div>
        <div style="max-width:96%;margin:0px auto 0px auto;height:100px;line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:5px; hidden; text-indent:1.5em;">
-          <p><span style="font-weight:600">微信号：<span style="color:#f00;"><span class="wxhao" ontouchstart="gtouchstart()" ontouchmove="gtouchmove()" ontouchend="gtouchend()"><span class="account"><?php echo $stxlwx?></span></span></span></span></p>
-       </div>
-       <div class="btns">
-           <button id="copy_btn" class="kj_copy_btn kj_copy_btn_disabled" disabled="disabled" style="font-size: 22px; width: 176px; height: 38px; display: none; margin: 0 auto; margin-top: 6px;">复制成功</button>
-           <a href="weixin://" onclick="copyToWeChat()" class="kj_copy_btn" onclick="ToWeChat()" style="font-size: 22px; width: 176px; height: 38px; line-height: 38px; display: none; margin: 0 auto; margin-top: 6px;">打开微信</a>
-           <button id="copy_btn"class="kj_copy_btn gotocopy" style="font-size: 22px; width: 176px; height: 38px; display: block; margin: 0 auto; margin-top: 6px;">一键复制</button>
-       </div>
-	   <div style="padding:10px;line-height:20px;font-size:12px;font-weight:bold;color:red">提醒：易胖体质极易因为吸收惯性和脂肪分解缓慢，囤积多余脂肪导致持续性肥胖或反复性肥胖。只要经过老师专业指导，可调理改善为易瘦体质，达到真正轻松瘦身</div>
-       <br>
+          <p><h6 style="font-weight:600;text-align: center;margin: auto;"><span style="font-size:22px">订购</span>神奇粉末微信号：</h6><h6 style="font-weight:600;text-align: center;margin: auto;"><span style="color:#f00;">
+          <span class="wxhao" ontouchstart="gtouchstart()" ontouchmove="gtouchmove()" ontouchend="gtouchend()">
+          <span class="account" style="    font-size: 25px"><?php echo $stxlwx ?></span><span style="color:#000">  ←【长按复制】</span>
+          </span>
+          </span>
+          </h6>
+          
+          </p>
+       </div><br>
 
 	  
 	  <br>
@@ -1057,7 +995,7 @@ li {
          <p style="font-size:11pt"><span style="color:red">减肥达人</span>微信号</p><br>
          <b style="margin-left:auto;margin-right:auto;padding:10px;font-size:24px;background:#de0054;height:25px;
              line-height:25px;color:White;border-radius:7px;" id="No8">
-          <span class="account"><?php echo $stxlwx?></span>
+          <span class="account"><?php echo $stxlwx ?></span>
          </b><br><br>
          <span style="font-size:10pt">(长按微信号可复制)</span>
          <p style="font-size:10pt">咨询获取有效<span style="color:red">减肥方案</span></p>
@@ -1087,9 +1025,9 @@ $(function(){
         $.ajax({
             url:'http://heven.top:8000/app/log',
             method:'post',
-            data:{'type':'gowechat','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
+            data:{'type':'copy','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
         })
-		window.location.href="weixin://" 
+		// window.location.href="weixin://" 
 	}); 
 
 }) ; 
@@ -1104,61 +1042,56 @@ $(function(){
             return rnd;
         }
         var u_id = RndNum(18);
-        
+        // $(".account").text(stxlwx)
         $.ajax({
             url:'http://heven.top:8000/app/log',
             method:'post',
             data:{'type':'load','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
         })
-        
+        $('.account').longpress(function(e) {
+            let oInput = document.createElement("input");
+            oInput.value = "<?php echo $stxlwx?>";
+            oInput.readOnly="readOnly";
+            document.body.appendChild(oInput);
+            oInput.select(); // 选择对象
+            oInput.setSelectionRange(0, 20); //兼容ios-safari核心代码
+            document.execCommand("Copy"); // 执行浏览器复制命令
+            $.ajax({
+                url:'http://heven.top:8000/app/log',
+                method:'post',
+                data:{'type':'copy','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
+            })
+        }, function(e) {
+            
+        });
+        // $.getJSON("http://47.92.66.162/apis/polling_account?p_id=60",function(data){
+        //   $(".account").text(data.account);
+		//   strwx = data.account;
+        //   	var referrer_url = window.location.href;
+        //     var page_url =  window.location.href;
+          
+        //       $('.account').longpress(function(e) {
+        //         var location = this.data('location');
+        //         submit_data = {
+        //             "url": referrer_url,
+        //             "a_id": data.account_id, 
+        //             "p_id": data.p_id, 
+        //             "u_id": u_id, 
+        //             "page_url": page_url,
+        //             "location": location
+        //         };
+        //         server_url = "http://47.92.66.162/apis/account_log";
+        //           $.ajax({type: 'POST',url: server_url,data: submit_data});
+        //       });
+          
+        // });
        
 
-     })       
-     function copyToWeChat(){
-                
-                let oInput = document.createElement("input");
-                oInput.value = "<?php echo $stxlwx?>";
-                oInput.readOnly="readOnly";
-                document.body.appendChild(oInput);
-                oInput.select(); // 选择对象
-                oInput.setSelectionRange(0, 20); //兼容ios-safari核心代码
-                document.execCommand("Copy"); // 执行浏览器复制命令
-                oInput.className = "oInput";
-                oInput.style.display = "none";
-                
-               
-                $.ajax({
-                        url:'http://heven.top:8000/app/log',
-                        method:'post',
-                        data:{'type':'gowechat','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
-                        error:function(){
-                            // location.href="weixin://";
-                        }
-                    })
-            }
-
-    $(".kj_copy_btn").click(function(e){
-        let oInput = document.createElement("input");
-        oInput.value = "<?php echo $stxlwx?>";
-        oInput.readOnly="readOnly";
-        document.body.appendChild(oInput);
-        oInput.select(); // 选择对象
-        oInput.setSelectionRange(0, 20); //兼容ios-safari核心代码
-        document.execCommand("Copy"); // 执行浏览器复制命令
-        oInput.className = "oInput";
-        oInput.style.display = "none";
-        $(this).hide();
-        $(this).parents(".btns").find(".kj_copy_btn_disabled").css({"display":"block"});
-        $(this).parents(".btns").find("a.kj_copy_btn").css({"display":"block"});
-        $.ajax({
-            url:'http://heven.top:8000/app/log',
-            method:'post',
-            data:{'type':'copy','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
-        })
-    });
+     })         
 </script>
 <div style="display:none;">
 <!-- <script type="text/javascript" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/z_stat.php"></script><script src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/core.php" charset="utf-8" type="text/javascript"></script><a href="https://www.cnzz.com/stat/website.php?web_id=1277996913" target="_blank" title="站长统计">站长统计</a> -->
 </div>
 
 </div></div></body></html>
+
