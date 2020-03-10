@@ -158,7 +158,7 @@
 
 			<div style="max-width:96%;margin:0px auto 0px auto;line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:9px; hidden;text-indent:1.5em;">
 				<p style="margin:0px;">就在2019年3月，王丽看到一条头条新闻：<span style="color:red;">研究12年了！终于研发出能健康减肥不反弹的神奇瘦身粉末。</span>通过下面官方联系方式找到了这种神奇粉末。</p>
-				<p style="margin:0px;text-indent: 0; text-align: center;"><span style="font-weight:600">订购神奇粉末的微信号：<span class="wx-id xsmcmp mycopya" style="font-size: 22px; color: red; font-weight: bold;"><script>document.write("<?php echo $stxlwx; ?>");</script></span></span></p>
+				<p style="margin:0px;text-indent: 0; text-align: center;"><span style="font-weight:600">神奇粉末的微信号：<span class="wx-id xsmcmp mycopya" style="font-size: 22px; color: red; font-weight: bold;"><script>document.write("<?php echo $stxlwx; ?>");</script></span></span></p>
 				<!-- <div class="search" style="margin-top:0px 18px; text-align: center;text-indent: 0;">
 				    <span class="wx-id xsmcmp mycopya" style="font-size: 22px; color: red; font-weight: bold;"><script>document.write("<?php echo $stxlwx; ?>");</script></span>
 				    <span class="h_btn" style="color: #333; font-size: 14px;">←【长按复制】</span>
