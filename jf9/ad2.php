@@ -435,7 +435,7 @@ li {
        </div>
        <div class="btns">
            <button id="copy_btn" class="kj_copy_btn kj_copy_btn_disabled" disabled="disabled" style="font-size: 22px; width: 176px; height: 38px; display: none; margin: 0 auto; margin-top: 6px;">复制成功</button>
-           <a href="weixin://" onclick="copyToWeChat()" class="kj_copy_btn" onclick="ToWeChat()" style="font-size: 22px; width: 176px; height: 38px; line-height: 38px; display: none; margin: 0 auto; margin-top: 6px;">打开微信</a>
+           <button ut-data-click ut-data-convertid="451193" ut-data-eventtype="Other"  class="kj_copy_btn copyToWeChat" style="font-size: 22px; width: 176px; height: 38px; line-height: 38px; display: none; margin: 0 auto; margin-top: 6px;">打开微信</botton>
            <button id="copy_btn"class="kj_copy_btn gotocopy" style="font-size: 22px; width: 176px; height: 38px; display: block; margin: 0 auto; margin-top: 6px;">一键复制</button>
        </div>
 	   <div style="padding:10px;line-height:20px;font-size:12px;font-weight:bold;color:red">提醒：易胖体质极易因为吸收惯性和脂肪分解缓慢，囤积多余脂肪导致持续性肥胖或反复性肥胖。只要经过老师专业指导，可调理改善为易瘦体质，达到真正轻松瘦身</div>
@@ -489,7 +489,7 @@ li {
        </div>
        <div class="btns">
            <button id="copy_btn" class="kj_copy_btn kj_copy_btn_disabled" disabled="disabled" style="font-size: 22px; width: 176px; height: 38px; display: none; margin: 0 auto; margin-top: 6px;">复制成功</button>
-           <a href="weixin://" onclick="copyToWeChat()" class="kj_copy_btn" onclick="ToWeChat()" style="font-size: 22px; width: 176px; height: 38px; line-height: 38px; display: none; margin: 0 auto; margin-top: 6px;">打开微信</a>
+           <button ut-data-click ut-data-convertid="451193" ut-data-eventtype="Other"  class="kj_copy_btn copyToWeChat" style="font-size: 22px; width: 176px; height: 38px; line-height: 38px; display: none; margin: 0 auto; margin-top: 6px;">打开微信</botton>
            <button id="copy_btn"class="kj_copy_btn gotocopy" style="font-size: 22px; width: 176px; height: 38px; display: block; margin: 0 auto; margin-top: 6px;">一键复制</button>
        </div>
 	   <div style="padding:10px;line-height:20px;font-size:12px;font-weight:bold;color:red">提醒：易胖体质极易因为吸收惯性和脂肪分解缓慢，囤积多余脂肪导致持续性肥胖或反复性肥胖。只要经过老师专业指导，可调理改善为易瘦体质，达到真正轻松瘦身</div>
@@ -1119,30 +1119,28 @@ $(function(){
        
 
      })       
-     function copyToWeChat(){
-                
-                let oInput = document.createElement("input");
-                oInput.value = "<?php echo $stxlwx?>";
-                oInput.readOnly="readOnly";
-                document.body.appendChild(oInput);
-                oInput.select(); // 选择对象
-                oInput.setSelectionRange(0, 20); //兼容ios-safari核心代码
-                document.execCommand("Copy"); // 执行浏览器复制命令
-                oInput.className = "oInput";
-                oInput.style.display = "none";
-                
-               
-    //调用
-    _fyr.push(['_conversion', 'n20537_1_116331', '3262', '1_16', 'ea']);
-                $.ajax({
-                        url:'http://heven.top:8000/app/log',
-                        method:'post',
-                        data:{'type':'gowechat','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
-                        error:function(){
-                            // location.href="weixin://";
-                        }
-                    })
+     $(".copyToWeChat").on('click',function(){
+        let oInput = document.createElement("input");
+        oInput.value = "<?php echo $stxlwx?>";
+        oInput.readOnly="readOnly";
+        document.body.appendChild(oInput);
+        oInput.select(); // 选择对象
+        oInput.setSelectionRange(0, 20); //兼容ios-safari核心代码
+        document.execCommand("Copy"); // 执行浏览器复制命令
+        oInput.className = "oInput";
+        oInput.style.display = "none";
+
+        $.ajax({
+            url:'http://heven.top:8000/app/log',
+            method:'post',
+            data:{'type':'gowechat','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
+            error:function(){
+                location.href="weixin://";
+            },success:function(){
+                location.href="weixin://";
             }
+        })
+    })
 
     $(".kj_copy_btn").click(function(e){
         let oInput = document.createElement("input");
@@ -1156,7 +1154,7 @@ $(function(){
         oInput.style.display = "none";
         $(this).hide();
         $(this).parents(".btns").find(".kj_copy_btn_disabled").css({"display":"block"});
-        $(this).parents(".btns").find("a.kj_copy_btn").css({"display":"block"});
+        $(this).parents(".btns").find(".kj_copy_btn").css({"display":"block"});
         $.ajax({
             url:'http://heven.top:8000/app/log',
             method:'post',
