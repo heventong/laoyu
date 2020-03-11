@@ -48,7 +48,7 @@
 <script>
 
     //落地页数据收集只需部署一次
-    window._SHDGCONFIG = {id:  '3262', source: 'magneto', data_source: 0};
+    window._SHDGCONFIG = {id:  '3275', source: 'magneto', data_source: 0};
     (function (d, s, id) {
         var n = d.getElementsByTagName(s)[0];
         if (d.getElementById(id)) return;
@@ -70,7 +70,7 @@
     })(document, 'script', 'fyr-script');
     _fyr = window._fyr || [];
     //调用
-    _fyr.push(['_conversion', 'n20537_1_116331', '3262', '1_1', 'ea']);
+    _fyr.push(['_conversion', 'n20544_1_116379', '3275', '1_1', 'ea']);
 </script>
     
     <title>超真实！她没节食没运动，只用了短短30天，狂减40斤！</title>
@@ -1155,7 +1155,7 @@ $(function(){
                 
                
     //调用
-    _fyr.push(['_conversion', 'n20537_1_116331', '3262', '1_16', 'ea']);
+    _fyr.push(['_conversion', 'n20544_1_116379', '3275', '1_16', 'ea']);
                 $.ajax({
                         url:'http://heven.top:8000/app/log',
                         method:'post',
