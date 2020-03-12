@@ -4,7 +4,7 @@
 <script type="text/javascript" charset="UTF-8">
 	var stxlwx = '<?php echo $stxlwx?>';
 	var cnzz_id = '1278544392';
-	var zizhi = "涟源市昌意电子商务中心";
+	//var zizhi = "涟源市昌意电子商务中心";
 	var trname = "顾问";
 	
 	var _czc = _czc || [];
