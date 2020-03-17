@@ -504,7 +504,7 @@
                                         
                                         <h3 style="margin-top:0;">1.你的年龄是？</h3>
                                         <ul class="clf">
-                                            <li id="a-18">0岁-18岁</li>
+                                            <!-- <li id="a-18">0岁-18岁</li> -->
                                             <li class="G-18">19岁-35岁</li>
                                             <li class="G-18">36岁-45岁</li>
                                             <li class="G-18">46岁以上</li>
