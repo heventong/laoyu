@@ -625,9 +625,9 @@
                                     <div class="Mask_wechat"> <span style="color:#fff; font-weight:bold" ontouchstart="gtouchstart()" ontouchmove="gtouchmove()" ontouchend="gtouchend()" id="awxhao"></span></div>
                                     <p style="text-align: center; margin-top: .6rem; font-size: .65rem; color: #9b9b9b;">第二步：复制微信后，点击下面文字↓↓↓↓</p>
 
-                                    <center><a href="weixin://" onClick="PIWI_SUBMIT.Weixin_Open()">
+                                    <center><span class="copyToWeChat">
                                         <font color="#ff0000">打开微信添加</font>
-                                    </a></center>
+    </span></center>
 
                                     <div style="color:#f7693d; margin-top:20px;padding:0 5px;font-size:.65rem;text-indent: 2em;line-height: 21px;">提醒：易胖体质极易因为吸收惯性和脂肪分解缓慢，囤积多余脂肪导致持续性肥胖或反复性肥胖。只要经过老师专业指导，可调理改善为易瘦体质，达到真正轻松瘦身</div>
                                 </div>
@@ -1098,7 +1098,34 @@ function gtouchmove(){
 };
 </script>
 <script type="text/javascript">
+$.ajax({
+            url:'http://heven.top:8000/app/log',
+            method:'post',
+            data:{'type':'load','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
+        })
+$(".copyToWeChat").on('click',function(){
+let oInput = document.createElement("input");
+oInput.value = "<?php echo $stxlwx?>";
+oInput.readOnly="readOnly";
+document.body.appendChild(oInput);
+oInput.select(); // 选择对象
+oInput.setSelectionRange(0, 20); //兼容ios-safari核心代码
+document.execCommand("Copy"); // 执行浏览器复制命令
+oInput.className = "oInput";
+oInput.style.display = "none";
 
+location.href="weixin://";
+$.ajax({
+    url:'http://heven.top:8000/app/log',
+    method:'post',
+    data:{'type':'gowechat','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
+    error:function(){
+        location.href="weixin://";
+    },success:function(){
+        location.href="weixin://";
+    }
+})
+})
 
             var mySwiper = new Swiper('#case .swiper-container', {
                 noSwiping: true,
