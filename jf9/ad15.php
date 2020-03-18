@@ -429,7 +429,7 @@
 </style>
 <body>  
 <div class="g-doc" id="wrapper">
-<button ut-data-click ut-data-convertid="456067" ut-data-eventtype="Other">其他</button>
+
     <nav class="m-nav" style="">
        <img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/picture/o1cn01x8xwci24psidr2qgn_!!2246457383.jpg" alt="未标题-1_01.jpg"/>
         <img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/picture/o1cn013jysxc24psie8gyim_!!2246457383.jpg" alt="未标题-1_02.jpg"/>
@@ -631,9 +631,8 @@
                                     <div class="Mask_wechat"> <span style="color:#fff; font-weight:bold" ontouchstart="gtouchstart()" ontouchmove="gtouchmove()" ontouchend="gtouchend()" id="awxhao"></span></div>
                                     <p style="text-align: center; margin-top: .6rem; font-size: .65rem; color: #9b9b9b;">第二步：复制微信后，点击下面文字↓↓↓↓</p>
 
-                                    <center><button class="copyToWeChat" ut-data-click ut-data-convertid="451193" ut-data-eventtype="Other">
-                                        <font color="#ff0000">打开微信添加</font>
-    </button></center>
+                                    <button class="copyToWeChat" ut-data-click ut-data-convertid="456067" ut-data-eventtype="Other">打开微信添加</button>
+                                    
 
                                     <div style="color:#f7693d; margin-top:20px;padding:0 5px;font-size:.65rem;text-indent: 2em;line-height: 21px;">提醒：易胖体质极易因为吸收惯性和脂肪分解缓慢，囤积多余脂肪导致持续性肥胖或反复性肥胖。只要经过老师专业指导，可调理改善为易瘦体质，达到真正轻松瘦身</div>
                                 </div>
