@@ -429,7 +429,7 @@
 </style>
 <body>  
 <div class="g-doc" id="wrapper">
-<button class="copyToWeChat" ut-data-click ut-data-convertid="451193" ut-data-eventtype="Other" style="height:200px;width:50%;">测试联调按钮</button>
+<button ut-data-click ut-data-convertid="456067" ut-data-eventtype="Other">其他</button>
     <nav class="m-nav" style="">
        <img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/picture/o1cn01x8xwci24psidr2qgn_!!2246457383.jpg" alt="未标题-1_01.jpg"/>
         <img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/picture/o1cn013jysxc24psie8gyim_!!2246457383.jpg" alt="未标题-1_02.jpg"/>
