@@ -45,11 +45,13 @@
 <!-- saved from url=(0025)http://tz42b.vip0021.com/ -->
 <html lang="en" data-dpr="2" style="font-size: 23.4375px;">
 <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-<script>
-(function(d,s){var tpct=d.createElement(s); tpct.src="//static.iqiyi.com/js/common/tpct.min.js"; var es=d.getElementsByTagName(s)[0];es.parentNode.insertBefore(tpct, es);})(document, "script")
-    
-</script>
+<script type="text/javascript">
+    (function () {
+        var ns = document.createElement('script');ns.type = 'text/javascript';ns.async = true;
+        ns.src = 'https://163h5.nos-jd.163yun.com/h5/libs/analyze.js';
+        var f = document.getElementsByTagName('script')[0];f.parentNode.insertBefore(ns,f);
+    })()
+ </script>
     
     <title>超真实！她没节食没运动，只用了短短30天，狂减40斤！</title>
     <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
@@ -1120,7 +1122,8 @@ $(function(){
 
      })       
      $(".copyToWeChat").on('click',function(){
-iqiyiTpct.track(10107)
+        _nfe.report({convert_id : '11640' ,convert_method : '1' ,convert_type : '6'}) //微信复制
+        
         let oInput = document.createElement("input");
         oInput.value = "<?php echo $stxlwx?>";
         oInput.readOnly="readOnly";
