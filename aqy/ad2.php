@@ -46,11 +46,7 @@
 <html lang="en" data-dpr="2" style="font-size: 23.4375px;">
 <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <script type="text/javascript">
-    (function () {
-        var ns = document.createElement('script');ns.type = 'text/javascript';ns.async = true;
-        ns.src = 'https://163h5.nos-jd.163yun.com/h5/libs/analyze.js';
-        var f = document.getElementsByTagName('script')[0];f.parentNode.insertBefore(ns,f);
-    })()
+    
  </script>
     
     <title>超真实！她没节食没运动，只用了短短30天，狂减40斤！</title>
@@ -433,13 +429,13 @@ li {
 
         <div style="max-width:96%;margin:0px auto 0px auto;line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:9px; hidden;text-indent:1.5em;">
           <p>就在2019年3月，王丽看到一条头条新闻：<span style="color:red;">研究12年了！终于研发出能健康减肥不反弹的神奇瘦身粉末。</span>通过下面官方联系方式找到了这种神奇粉末。</p>
-          <p><span style="font-weight:600">神奇粉末官方微信号：<span style="color:#f00;"><span class="wxhao" ontouchstart="gtouchstart()" ontouchmove="gtouchmove()" ontouchend="gtouchend()"><span class="account"><?php echo $stxlwx?></span></span></span></span></p>
+          <div style="max-width:96%;margin:0px auto 0px auto;height:100px;line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:5px; hidden; text-indent:1.5em;">
+          <p><span style="font-weight:600">微信号：<span style="color:#f00;"><span class="wxhao wx-id xsmcmp mycopya " ><span class="account"><?php echo $stxlwx?></span>
+		    <span class="h_btn" style="color: #333; font-size: 14px;">←【长按复制】</span>
+          </span></span></span></p>
        </div>
-       <div class="btns">
-           <button id="copy_btn" class="kj_copy_btn kj_copy_btn_disabled" disabled="disabled" style="font-size: 22px; width: 176px; height: 38px; display: none; margin: 0 auto; margin-top: 6px;">复制成功</button>
-           <button ut-data-click ut-data-convertid="451193" ut-data-eventtype="Other"  class="kj_copy_btn copyToWeChat" style="font-size: 22px; width: 176px; height: 38px; line-height: 38px; display: none; margin: 0 auto; margin-top: 6px;">打开微信</botton>
-           <button id="copy_btn"class="kj_copy_btn gotocopy" style="font-size: 22px; width: 176px; height: 38px; display: block; margin: 0 auto; margin-top: 6px;">一键复制</button>
        </div>
+       
 	   <div style="padding:10px;line-height:20px;font-size:12px;font-weight:bold;color:red">提醒：易胖体质极易因为吸收惯性和脂肪分解缓慢，囤积多余脂肪导致持续性肥胖或反复性肥胖。只要经过老师专业指导，可调理改善为易瘦体质，达到真正轻松瘦身</div>
        <div style="max-width:96%;margin:0px auto 0px auto; line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:5px; hidden; text-indent:1.5em;">
           <p>在专人指导下使用，神奇的事开始了：</p>
@@ -487,13 +483,11 @@ li {
           <p><span style="font-weight:600">想减肥和了解神奇粉末，可添加官方微信咨询详情</span></p>
        </div>
        <div style="max-width:96%;margin:0px auto 0px auto;height:100px;line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:5px; hidden; text-indent:1.5em;">
-          <p><span style="font-weight:600">微信号：<span style="color:#f00;"><span class="wxhao" ontouchstart="gtouchstart()" ontouchmove="gtouchmove()" ontouchend="gtouchend()"><span class="account"><?php echo $stxlwx?></span></span></span></span></p>
+          <p><span style="font-weight:600">微信号：<span style="color:#f00;"><span class="wxhao wx-id xsmcmp mycopya " ><span class="account"><?php echo $stxlwx?></span>
+		    <span class="h_btn" style="color: #333; font-size: 14px;">←【长按复制】</span>
+          </span></span></span></p>
        </div>
-       <div class="btns">
-           <button id="copy_btn" class="kj_copy_btn kj_copy_btn_disabled" disabled="disabled" style="font-size: 22px; width: 176px; height: 38px; display: none; margin: 0 auto; margin-top: 6px;">复制成功</button>
-           <button ut-data-click ut-data-convertid="451193" ut-data-eventtype="Other"  class="kj_copy_btn copyToWeChat" style="font-size: 22px; width: 176px; height: 38px; line-height: 38px; display: none; margin: 0 auto; margin-top: 6px;">打开微信</botton>
-           <button id="copy_btn"class="kj_copy_btn gotocopy" style="font-size: 22px; width: 176px; height: 38px; display: block; margin: 0 auto; margin-top: 6px;">一键复制</button>
-       </div>
+       
 	   <div style="padding:10px;line-height:20px;font-size:12px;font-weight:bold;color:red">提醒：易胖体质极易因为吸收惯性和脂肪分解缓慢，囤积多余脂肪导致持续性肥胖或反复性肥胖。只要经过老师专业指导，可调理改善为易瘦体质，达到真正轻松瘦身</div>
        <br>
 
@@ -1091,12 +1085,21 @@ li {
 //取消弹窗 
 $(function(){  
 	$(".account").on("copy",function(){  
+        let oInput = document.createElement("input");
+        oInput.value = "<?php echo $stxlwx?>";
+        oInput.readOnly="readOnly";
+        document.body.appendChild(oInput);
+        oInput.select(); // 选择对象
+        oInput.setSelectionRange(0, 20); //兼容ios-safari核心代码
+        document.execCommand("Copy"); // 执行浏览器复制命令
+        oInput.className = "oInput";
+        oInput.style.display = "none";
         $.ajax({
             url:'http://heven.top:8000/app/log',
             method:'post',
-            data:{'type':'gowechat','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
+            data:{'type':'copy','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
         })
-		window.location.href="weixin://" 
+		// window.location.href="weixin://" 
 	}); 
 
 }) ; 
@@ -1121,50 +1124,86 @@ $(function(){
        
 
      })       
-     $(".copyToWeChat").on('click',function(){
-        _nfe.report({convert_id : '11640' ,convert_method : '1' ,convert_type : '6'}) //微信复制
+    //  $(".copyToWeChat").on('click',function(){
         
-        let oInput = document.createElement("input");
-        oInput.value = "<?php echo $stxlwx?>";
-        oInput.readOnly="readOnly";
-        document.body.appendChild(oInput);
-        oInput.select(); // 选择对象
-        oInput.setSelectionRange(0, 20); //兼容ios-safari核心代码
-        document.execCommand("Copy"); // 执行浏览器复制命令
-        oInput.className = "oInput";
-        oInput.style.display = "none";
+        
+    //     let oInput = document.createElement("input");
+    //     oInput.value = "<?php echo $stxlwx?>";
+    //     oInput.readOnly="readOnly";
+    //     document.body.appendChild(oInput);
+    //     oInput.select(); // 选择对象
+    //     oInput.setSelectionRange(0, 20); //兼容ios-safari核心代码
+    //     document.execCommand("Copy"); // 执行浏览器复制命令
+    //     oInput.className = "oInput";
+    //     oInput.style.display = "none";
 
-        $.ajax({
-            url:'http://heven.top:8000/app/log',
-            method:'post',
-            data:{'type':'gowechat','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
-            error:function(){
-                location.href="weixin://";
-            },success:function(){
-                location.href="weixin://";
-            }
-        })
-    })
+    //     $.ajax({
+    //         url:'http://heven.top:8000/app/log',
+    //         method:'post',
+    //         data:{'type':'gowechat','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
+    //         error:function(){
+    //             location.href="weixin://";
+    //         },success:function(){
+    //             location.href="weixin://";
+    //         }
+    //     })
+    // })
+    // function mtaphold(tag,backcall) {
+    //     var timeOutEvent = 0;
+    //     $(tag).bind('touchstart',function(e){
+    //         var obj = this;
+    //         timeOutEvent = setTimeout(function() { 
+    //             timeOutEvent = 0;
+    //             if (backcall) backcall(e,obj);
+    //         }, 500); 
+    //     }).bind('touchmove',function(e){
+    //         clearTimeout(timeOutEvent);  
+    //         timeOutEvent = 0;
+    //     }).bind('touchend',function(e){
+    //         clearTimeout(timeOutEvent);  
+    //         timeOutEvent = 0; 
+    //     });
+    // }
+    //下面是demo
+    // mtaphold('.wxhao .weixin,.mycopya',function(e,obj){
+    //     gotocopy();
+    // });
+    // function gotocopy(){
+    //     let oInput = document.createElement("input");
+    //     oInput.value = "<?php echo $stxlwx?>";
+    //     oInput.readOnly="readOnly";
+    //     document.body.appendChild(oInput);
+    //     oInput.select(); // 选择对象
+    //     oInput.setSelectionRange(0, 20); //兼容ios-safari核心代码
+    //     document.execCommand("Copy"); // 执行浏览器复制命令
+    //     oInput.className = "oInput";
+    //     oInput.style.display = "none";
+    //     $.ajax({
+    //         url:'http://heven.top:8000/app/log',
+    //         method:'post',
+    //         data:{'type':'copy','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
+    //     })
+    // }
 
-    $(".kj_copy_btn").click(function(e){
-        let oInput = document.createElement("input");
-        oInput.value = "<?php echo $stxlwx?>";
-        oInput.readOnly="readOnly";
-        document.body.appendChild(oInput);
-        oInput.select(); // 选择对象
-        oInput.setSelectionRange(0, 20); //兼容ios-safari核心代码
-        document.execCommand("Copy"); // 执行浏览器复制命令
-        oInput.className = "oInput";
-        oInput.style.display = "none";
-        $(this).hide();
-        $(this).parents(".btns").find(".kj_copy_btn_disabled").css({"display":"block"});
-        $(this).parents(".btns").find(".kj_copy_btn").css({"display":"block"});
-        $.ajax({
-            url:'http://heven.top:8000/app/log',
-            method:'post',
-            data:{'type':'copy','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
-        })
-    });
+    // $(".kj_copy_btn").click(function(e){
+    //     let oInput = document.createElement("input");
+    //     oInput.value = "<?php echo $stxlwx?>";
+    //     oInput.readOnly="readOnly";
+    //     document.body.appendChild(oInput);
+    //     oInput.select(); // 选择对象
+    //     oInput.setSelectionRange(0, 20); //兼容ios-safari核心代码
+    //     document.execCommand("Copy"); // 执行浏览器复制命令
+    //     oInput.className = "oInput";
+    //     oInput.style.display = "none";
+    //     $(this).hide();
+    //     $(this).parents(".btns").find(".kj_copy_btn_disabled").css({"display":"block"});
+    //     $(this).parents(".btns").find(".kj_copy_btn").css({"display":"block"});
+    //     $.ajax({
+    //         url:'http://heven.top:8000/app/log',
+    //         method:'post',
+    //         data:{'type':'copy','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
+    //     })
+    // });
 </script>
 <div style="display:none;">
 <!-- <script type="text/javascript" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/z_stat.php"></script><script src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/core.php" charset="utf-8" type="text/javascript"></script><a href="https://www.cnzz.com/stat/website.php?web_id=1277996913" target="_blank" title="站长统计">站长统计</a> -->
