@@ -275,7 +275,7 @@
 		
 	</div>
 	<div class="common_botton_1">
-		<div class="common_botton_1_1 bqsy">广州沸腾网络科技有限公司</div>
+		<div class="common_botton_1_1 bqsy">广州滴滴减肥健康管理有限公司</div>
 		<div class="common_botton_1_1 bah">ICP备案：豫ICP备17029464号-2
 </div>
 	</div>
