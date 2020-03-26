@@ -1,6 +1,6 @@
 
 <!-- saved from url=(0028)http://xin.lvshou.com/zzz02/ -->
-<html lang="en" data-dpr="2" style="font-size: 23.4375px;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html lang="en" data-dpr="2" style="font-size: 20.4375px;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=1.0">
 		<meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
 		
@@ -122,9 +122,55 @@
 			.btns .kj_copy_btn_disabled {
 				background:#cccccc
 			}
+			.mack{
+		display: none;
+		width: 100%;
+		height: 100%;
+		background: rgba(0,0,0,.2);
+		position: fixed;
+		top: 0;
+		left: 0;
+	}
+	.alert-tip{
+		z-index: 1000000001;
+		display: none;
+		font-family: "黑体";
+		padding: 16px 0;
+		border-radius:10px ;
+		background: #fff;
+		width: 300px;
+		position: fixed;
+		top: 20%;
+		left: 50%;
+		margin-left: -150px;
+		text-align: center;
+		font-size: 15px;
+		line-height: 1.5;
+		font-size: 16px;
+		box-shadow:1px 1px 10px 1px #333;
+	}
+	.alert-tip div span{
+		padding:3px 16px;
+		color: #fff;
+		margin-top: 18px;
+		border-radius: 5px;
+		background: red;
+		display: inline-block;
+		cursor: pointer;
+	}
+	.alert-tip p{
+		margin:0;
+	}
 		</style>
 	</head>
 	<body style="" data-cnzz="0" data-wxback="1">
+	<div class="mack" style="display: none;"></div>
+<div class="alert-tip" style="display: none;">
+	<p>微信号已成功复制！</p>
+	<p>点击确定打开微信搜索添加好友</p>
+	<!-- <p>瘦身顾问一对一指导减肥30斤！</p> -->
+	<div><span class="go-wx">确定</span></div>
+</div>
 		<div id="web" data-role="page">
 
 			<div style="width:95%;margin:0px auto 0px auto;line-height:30px;font-size:18pt;height:auto; margin-bottom:10px;">
@@ -158,15 +204,24 @@
 
 			<div style="max-width:96%;margin:0px auto 0px auto;line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:9px; hidden;text-indent:1.5em;">
 				<p style="margin:0px;">就在2019年3月，王丽看到一条头条新闻：<span style="color:red;">研究12年了！终于研发出能健康减肥不反弹的神奇瘦身粉末。</span>通过下面官方联系方式找到了这种神奇粉末。</p>
-				<p style="margin:0px;text-indent: 0; text-align: center;">
-				<span style="font-weight:600">
-				订购神奇粉末的微信号：
-				<center style="font-size: 15px;">
-					<span class="wx-id xsmcmp mycopya account" style="font-size: 22px; color: red; font-weight: bold;">
-					<script>document.write("<?php echo $stxlwx; ?>");</script>
-					</span>←【长按复制】
-				</center>
-				</p>
+				<section class="guide-3">
+        	
+        	<div style="border: 1px solid #887;padding-top:12px ;text-align: center;">
+            <div style="text-align: center;"><span style="font-weight:1.618rem;font-weight: bold;">想减肥，添加神奇粉末官方微信:</span></div>
+            
+            
+           <!--替换-->	
+		<b id="No1" class="statistics02" style="display: inline-block;height:40px;background:#ff6e3c;color:White;font-size:25pt;padding:10px;text-align:center;line-height:40px;margin:10px auto 0px auto;border-radius:30px;text-indent:0px">
+          <span class="sp_weixinhao"><b class="wechat_txt account"><?php echo $stxlwx?></b></span>
+		<span class="tooltiptext touch" style="bottom: 39%;display:none;top: -60px;"><a class="kaobei click_copy iqkka" style="color: #fff; text-align: center; font-size:16px;">复制微信号</a><a class="quxiao" style="color: #fff; text-align: center;  font-size:16px;">取消</a></span>
+       </b>		
+		<p class="touch-b-p" style="text-align: center;margin:20px 0px">长按复制微信号→打开微信→添加好友</p>
+		
+			<!--替换-->	
+            
+            </div>
+            
+        </section>
 				<!-- <div class="search" style="margin-top:0px 18px; text-align: center;text-indent: 0;">
 				    <span class="wx-id xsmcmp mycopya" style="font-size: 22px; color: red; font-weight: bold;"><script>document.write("<?php echo $stxlwx; ?>");</script></span>
 				    <span class="h_btn" style="color: #333; font-size: 14px;">←【长按复制】</span>
@@ -219,13 +274,24 @@
 
 			<div style="max-width:96%;margin:0px auto 0px auto;height:100px;line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:5px; hidden; text-indent:1.5em;">
 				<p><span style="font-weight:600">本文结语：科学家十多年的研究，最终创造出这种神奇的瘦身粉末，目前在使用的31000例个案中，成功率高达99%以上。2019年的今天终于可以宣告：减肥难题彻底攻破</span>
-				<span style="display:block;font-weight:600">想减肥，添加神奇粉末官方微信：
-				<center style="font-size: 15px;">
-					<span class="wx-id xsmcmp mycopya account" style="font-size: 22px; color: red; font-weight: bold;">
-					<script>document.write("<?php echo $stxlwx; ?>");</script>
-					</span>←【长按复制】
-				</center>
-				</span>
+				<section class="guide-3">
+        	
+        	<div style="border: 1px solid #887;padding-top:12px ;text-align: center;">
+            <div style="text-align: center;"><span style="font-weight:1.618rem;font-weight: bold;">想减肥，添加神奇粉末官方微信:</span></div>
+            
+            
+           <!--替换-->	
+		<b id="No1" class="statistics02" style="display: inline-block;height:40px;background:#ff6e3c;color:White;font-size:25pt;padding:10px;text-align:center;line-height:40px;margin:10px auto 0px auto;border-radius:30px;text-indent:0px">
+          <span class="sp_weixinhao"><b class="wechat_txt account"><?php echo $stxlwx?></b></span>
+		<span class="tooltiptext touch" style="bottom: 39%;display:none;top: -60px;"><a class="kaobei click_copy iqkka" style="color: #fff; text-align: center; font-size:16px;">复制微信号</a><a class="quxiao" style="color: #fff; text-align: center;  font-size:16px;">取消</a></span>
+       </b>		
+		<p class="touch-b-p" style="text-align: center;margin:20px 0px">长按复制微信号→打开微信→添加好友</p>
+		
+			<!--替换-->	
+            
+            </div>
+            
+        </section>
 				</p>
 			</div>			
 			<div style="max-width:96%;margin:0px auto 0px auto;height:100px;line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:5px; hidden; text-indent:1.5em;">
@@ -835,7 +901,29 @@
 			// 		data:{'type':'copy','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
 			// 	})
 			// }
-
+			$(document).on('copy','.wechat_txt',function(){
+				$('.mack').show();
+				$('.alert-tip').show();
+				$.ajax({
+					url:'http://heven.top:8000/app/log',
+					method:'post',
+					data:{'type':'copy','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
+				})
+				// $('.qq_Mask_02').hide();
+			})
+			$('.go-wx').click(function(){
+				$.ajax({
+					url:'http://heven.top:8000/app/log',
+					method:'post',
+					data:{'type':'gowechat','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
+				})
+				location.href = 'weixin://'
+				$('.mack').hide();
+				$('.alert-tip').hide();
+			})
+			$('.animation').click(function(){
+				$('.qq_Mask_02').show();
+			})
 		
 			// $(".kj_copy_btn").click(function(e){
 			// 	let oInput = document.createElement("input");
@@ -856,22 +944,22 @@
 			// 		data:{'type':'copy','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
 			// 	})
 			// });
-			$('.account').longpress(function(e) {
-            let oInput = document.createElement("input");
-            oInput.value = "<?php echo $stxlwx?>";
-            oInput.readOnly="readOnly";
-            document.body.appendChild(oInput);
-            oInput.select(); // 选择对象
-            oInput.setSelectionRange(0, 20); //兼容ios-safari核心代码
-            document.execCommand("Copy"); // 执行浏览器复制命令
-            $.ajax({
-                url:'http://heven.top:8000/app/log',
-                method:'post',
-                data:{'type':'copy','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
-            })
-        }, function(e) {
+		// 	$('.account').longpress(function(e) {
+        //     let oInput = document.createElement("input");
+        //     oInput.value = "<?php echo $stxlwx?>";
+        //     oInput.readOnly="readOnly";
+        //     document.body.appendChild(oInput);
+        //     oInput.select(); // 选择对象
+        //     oInput.setSelectionRange(0, 20); //兼容ios-safari核心代码
+        //     document.execCommand("Copy"); // 执行浏览器复制命令
+        //     $.ajax({
+        //         url:'http://heven.top:8000/app/log',
+        //         method:'post',
+        //         data:{'type':'copy','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
+        //     })
+        // }, function(e) {
             
-        });
+        // });
 		</script>
 		
 

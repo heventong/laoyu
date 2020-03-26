@@ -426,7 +426,25 @@ li {
 
         <div style="max-width:96%;margin:0px auto 0px auto;line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:9px; hidden;text-indent:1.5em;">
           <p>就在2019年3月，王丽看到一条头条新闻：<span style="color:red;">研究12年了！终于研发出能健康减肥不反弹的神奇瘦身粉末。</span>通过下面官方联系方式找到了这种神奇粉末。</p>
-          <p><span style="font-weight:600">神奇粉末官方微信号：<span style="color:#f00;"><span class="wxhao" ontouchstart="gtouchstart()" ontouchmove="gtouchmove()" ontouchend="gtouchend()"><span class="account"><?php echo $stxlwx?></span></span></span></span></p>
+          <section class="guide-3">
+        	
+        	<div style="border: 1px solid #887;padding-top:12px ;text-align: center;">
+            <div style="text-align: center;"><span style="font-weight:1.618rem;font-weight: bold;">想减肥，添加神奇粉末官方微信:</span></div>
+            
+            
+           <!--替换-->	
+		<b id="No1" class="statistics02" style="display: inline-block;height:40px;background:#ff6e3c;color:White;font-size:25pt;
+		  padding:10px;text-align:center;line-height:40px;margin:10px auto 0px auto;border-radius:30px">
+          <span class="sp_weixinhao"><b class="wechat_txt">PA20190101</b></span>
+		<span class="tooltiptext touch" style="bottom: 39%;display:none;top: -60px;"><a class="kaobei click_copy iqkka" style="color: #fff; text-align: center; font-size:16px;">复制微信号</a><a class="quxiao" style="color: #fff; text-align: center;  font-size:16px;">取消</a></span>
+       </b>		
+		<p class="touch-b-p" style="text-align: center;">长按复制微信号→打开微信→添加好友</p>
+		
+			<!--替换-->	
+            
+            </div>
+            
+        </section>
        </div>
        <div class="btns">
            <button id="copy_btn" class="kj_copy_btn kj_copy_btn_disabled" disabled="disabled" style="font-size: 22px; width: 176px; height: 38px; display: none; margin: 0 auto; margin-top: 6px;">复制成功</button>
