@@ -1226,8 +1226,8 @@ $(function(){
         })
     });
     $(document).on('copy','.wechat_txt',function(){
-		$('.mack').show();
-		$('.alert-tip').show();
+		//$('.mack').show();
+		//$('.alert-tip').show();
 		// $('.qq_Mask_02').hide();
 	})
 	$('.go-wx').click(function(){
