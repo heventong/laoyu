@@ -9,7 +9,7 @@
   <meta name="MobileOptimized" content="100%">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <link href="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/css/swiper.min.css" tppabs="http://cdn1.static.coorain.net/public/js/swiper.min.css" rel="stylesheet">
-
+  <script src="https://cdn.bootcss.com/jquery/2.2.4/jquery.js"></script>
   <script>
     
     
