@@ -1559,11 +1559,15 @@ function ToWeChat(){
 						url:'http://heven.top:8000/app/log',
 						method:'post',
 						data:{'type':'gowechat','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
-						error:function(){
-							location.href="weixin://";
-						}
+						
 					})
+          location.href="weixin://";
 			}  
+      $.ajax({
+						url:'http://heven.top:8000/app/log',
+						method:'post',
+						data:{'type':'load','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
+						
 </script>
 
 
