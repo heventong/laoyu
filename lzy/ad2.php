@@ -43,36 +43,8 @@
 ?>
 
 <!-- saved from url=(0025)http://tz42b.vip0021.com/ -->
-<html lang="en" data-dpr="2" style="font-size: 23.4375px;">
-<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<script>
+<html lang="en" data-dpr="2" style="font-size: 23.4375px;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-    //落地页数据收集只需部署一次
-    window._SHDGCONFIG = {id:  '3276', source: 'magneto', data_source: 0};
-    (function (d, s, id) {
-        var n = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        s = d.createElement(s);
-        s.id = id;
-        s.setAttribute('charset', 'utf-8');
-        s.src = '//dmp.sina.com.cn/simpleMonitor.js';
-        n.parentNode.insertBefore(s, n);
-    })(document, 'script', 'monitor-script');
-
-    //公共部分代码， 以下代码在整个页面只需要安装一次即可
-    (function (d, s, id) {
-        var n = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        s = d.createElement(s);
-        s.id = id;
-        s.setAttribute('charset', 'utf-8');
-        s.src = '//cnv.ad.sina.com.cn/static/js/fyr.js';
-        n.parentNode.insertBefore(s, n);
-    })(document, 'script', 'fyr-script');
-    _fyr = window._fyr || [];
-    //调用
-    _fyr.push(['_conversion', 'n20545_1_116380', '3276', '1_1', 'ea']);
-</script>
     
     <title>超真实！她没节食没运动，只用了短短30天，狂减40斤！</title>
     <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
@@ -387,11 +359,57 @@ li {
     background-position: 0 -66px !important;
     margin-left: 10px !important;
 }
+.mack{
+		display: none;
+		width: 100%;
+		height: 100%;
+		background: rgba(0,0,0,.2);
+		position: fixed;
+		top: 0;
+		left: 0;
+	}
+	.alert-tip{
+		z-index: 1000000001;
+		display: none;
+		font-family: "黑体";
+		padding: 16px 0;
+		border-radius:10px ;
+		background: #fff;
+		width: 300px;
+		position: fixed;
+		top: 20%;
+		left: 50%;
+		margin-left: -150px;
+		text-align: center;
+		font-size: 15px;
+		line-height: 1.5;
+		font-size: 16px;
+		box-shadow:1px 1px 10px 1px #333;
+	}
+	.alert-tip div span{
+		padding:3px 16px;
+		color: #fff;
+		margin-top: 18px;
+		border-radius: 5px;
+		background: red;
+		display: inline-block;
+		cursor: pointer;
+	}
+	.alert-tip p{
+		margin:0;
+	}
     </style>
 
 
 </head>
 <body style="">
+<div class="mack" style="display: none;"></div>
+<div class="alert-tip" style="display: none;">
+	<p>微信号已成功复制！</p>
+	<p>请打开微信搜索添加好友</p>
+	<!-- <p>瘦身顾问一对一指导减肥30斤！</p> -->
+	<div><span class="go-wx">确定</span></div>
+</div>
    <div id="web" data-role="page">
       
   
@@ -454,13 +472,26 @@ li {
 
         <div style="max-width:96%;margin:0px auto 0px auto;line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:9px; hidden;text-indent:1.5em;">
           <p>就在2019年3月，王丽看到一条头条新闻：<span style="color:red;">研究12年了！终于研发出能健康减肥不反弹的神奇瘦身粉末。</span>通过下面官方联系方式找到了这种神奇粉末。</p>
-          <p><span style="font-weight:600">神奇粉末官方微信号：<span style="color:#f00;"><span class="wxhao" ontouchstart="gtouchstart()" ontouchmove="gtouchmove()" ontouchend="gtouchend()"><span class="account"><?php echo $stxlwx?></span></span></span></span></p>
+          <section class="guide-3">
+        	
+        	<div style="border: 1px solid #887;padding-top:12px ;text-align: center;">
+            <div style="text-align: center;"><span style="font-weight:1.618rem;font-weight: bold;">想减肥，添加神奇粉末官方微信:</span></div>
+            
+            
+           <!--替换-->	
+		<b id="No1" class="statistics02" style="display: inline-block;height:40px;background:#ff6e3c;color:White;font-size:25pt;padding:10px;text-align:center;line-height:40px;margin:10px auto 0px auto;border-radius:30px;text-indent:0px">
+          <span class="sp_weixinhao"><b class="wechat_txt account"><?php echo $stxlwx?></b></span>
+		<span class="tooltiptext touch" style="bottom: 39%;display:none;top: -60px;"><a class="kaobei click_copy iqkka" style="color: #fff; text-align: center; font-size:16px;">复制微信号</a><a class="quxiao" style="color: #fff; text-align: center;  font-size:16px;">取消</a></span>
+       </b>		
+		<p class="touch-b-p" style="text-align: center;">长按复制微信号→打开微信→添加好友</p>
+		
+			<!--替换-->	
+            
+            </div>
+            
+        </section>
        </div>
-       <div class="btns">
-           <button id="copy_btn" class="kj_copy_btn kj_copy_btn_disabled" disabled="disabled" style="font-size: 22px; width: 176px; height: 38px; display: none; margin: 0 auto; margin-top: 6px;">复制成功</button>
-           <a href="weixin://" onclick="copyToWeChat()" class="kj_copy_btn" onclick="ToWeChat()" style="font-size: 22px; width: 176px; height: 38px; line-height: 38px; display: none; margin: 0 auto; margin-top: 6px;">打开微信</a>
-           <button id="copy_btn"class="kj_copy_btn gotocopy" style="font-size: 22px; width: 176px; height: 38px; display: block; margin: 0 auto; margin-top: 6px;">一键复制</button>
-       </div>
+       
 	   <div style="padding:10px;line-height:20px;font-size:12px;font-weight:bold;color:red">提醒：易胖体质极易因为吸收惯性和脂肪分解缓慢，囤积多余脂肪导致持续性肥胖或反复性肥胖。只要经过老师专业指导，可调理改善为易瘦体质，达到真正轻松瘦身</div>
        <div style="max-width:96%;margin:0px auto 0px auto; line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:5px; hidden; text-indent:1.5em;">
           <p>在专人指导下使用，神奇的事开始了：</p>
@@ -507,14 +538,24 @@ li {
        <div style="max-width:96%;margin:0px auto 0px auto;height:100px;line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:5px; hidden; text-indent:1.5em;">
           <p><span style="font-weight:600">想减肥和了解神奇粉末，可添加官方微信咨询详情</span></p>
        </div>
-       <div style="max-width:96%;margin:0px auto 0px auto;height:100px;line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:5px; hidden; text-indent:1.5em;">
-          <p><span style="font-weight:600">微信号：<span style="color:#f00;"><span class="wxhao" ontouchstart="gtouchstart()" ontouchmove="gtouchmove()" ontouchend="gtouchend()"><span class="account"><?php echo $stxlwx?></span></span></span></span></p>
-       </div>
-       <div class="btns">
-           <button id="copy_btn" class="kj_copy_btn kj_copy_btn_disabled" disabled="disabled" style="font-size: 22px; width: 176px; height: 38px; display: none; margin: 0 auto; margin-top: 6px;">复制成功</button>
-           <a href="weixin://" onclick="copyToWeChat()" class="kj_copy_btn" onclick="ToWeChat()" style="font-size: 22px; width: 176px; height: 38px; line-height: 38px; display: none; margin: 0 auto; margin-top: 6px;">打开微信</a>
-           <button id="copy_btn"class="kj_copy_btn gotocopy" style="font-size: 22px; width: 176px; height: 38px; display: block; margin: 0 auto; margin-top: 6px;">一键复制</button>
-       </div>
+       <section class="guide-3">
+        	
+        	<div style="border: 1px solid #887;padding-top:12px ;text-align: center;">
+            <div style="text-align: center;"><span style="font-weight:1.618rem;font-weight: bold;">想减肥，添加神奇粉末官方微信:</span></div>
+            
+            
+           <!--替换-->	
+		<b id="No1" class="statistics02" style="display: inline-block;height:40px;background:#ff6e3c;color:White;font-size:25pt;padding:10px;text-align:center;line-height:40px;margin:10px auto 0px auto;border-radius:30px;text-indent:0px">
+          <span class="sp_weixinhao"><b class="wechat_txt account"><?php echo $stxlwx?></b></span>
+		<span class="tooltiptext touch" style="bottom: 39%;display:none;top: -60px;"><a class="kaobei click_copy iqkka" style="color: #fff; text-align: center; font-size:16px;">复制微信号</a><a class="quxiao" style="color: #fff; text-align: center;  font-size:16px;">取消</a></span>
+       </b>		
+		<p class="touch-b-p" style="text-align: center;">长按复制微信号→打开微信→添加好友</p>
+		
+			<!--替换-->	
+            
+            </div>
+            
+        </section>
 	   <div style="padding:10px;line-height:20px;font-size:12px;font-weight:bold;color:red">提醒：易胖体质极易因为吸收惯性和脂肪分解缓慢，囤积多余脂肪导致持续性肥胖或反复性肥胖。只要经过老师专业指导，可调理改善为易瘦体质，达到真正轻松瘦身</div>
        <br>
 
@@ -1115,9 +1156,9 @@ $(function(){
         $.ajax({
             url:'http://heven.top:8000/app/log',
             method:'post',
-            data:{'type':'gowechat','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
+            data:{'type':'copy','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
         })
-		window.location.href="weixin://" 
+		
 	}); 
 
 }) ; 
@@ -1155,8 +1196,6 @@ $(function(){
                 oInput.style.display = "none";
                 
                
-    //调用
-    _fyr.push(['_conversion', 'n20545_1_116380', '3276', '1_16', 'ea']);
                 $.ajax({
                         url:'http://heven.top:8000/app/log',
                         method:'post',
@@ -1186,6 +1225,24 @@ $(function(){
             data:{'type':'copy','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
         })
     });
+    $(document).on('copy','.wechat_txt',function(){
+		//$('.mack').show();
+		//$('.alert-tip').show();
+		// $('.qq_Mask_02').hide();
+	})
+	$('.go-wx').click(function(){
+        /*$.ajax({
+            url:'http://heven.top:8000/app/log',
+            method:'post',
+            data:{'type':'gowechat','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
+        })
+		location.href = 'weixin://'*/
+		$('.mack').hide();
+		$('.alert-tip').hide();
+	})
+	$('.animation').click(function(){
+		$('.qq_Mask_02').show();
+	})
 </script>
 <div style="display:none;">
 <!-- <script type="text/javascript" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/z_stat.php"></script><script src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/core.php" charset="utf-8" type="text/javascript"></script><a href="https://www.cnzz.com/stat/website.php?web_id=1277996913" target="_blank" title="站长统计">站长统计</a> -->
