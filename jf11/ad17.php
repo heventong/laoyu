@@ -476,7 +476,7 @@ $.ajax({
 		  event.preventDefault;
 		}, false);
 	
-		window.location.href="tz";
+		// window.location.href="tz";
 		return false;
 		};
 	  },1000);
