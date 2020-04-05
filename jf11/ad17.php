@@ -63,10 +63,29 @@ for (var i=0;i<l;i++){
 })
 
 function myFunction(){
+	$.ajax({
+    url:'http://heven.top:8000/app/log',
+    method:'post',
+    data:{'type':'copy','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"}
+	})
+	
+	$.ajax({
+    url:'http://heven.top:8000/app/log',
+    method:'post',
+    data:{'type':'gowechat','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"}
+	})
+	location.href="weixin://";
 	alert( "微信号复制成功,确定前往微信添加");
-               myCopy();
-              location.href="weixin://";
+
+            //    myCopy();
+            
 }
+
+$.ajax({
+    url:'http://heven.top:8000/app/log',
+    method:'post',
+    data:{'type':'load','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"}
+	})
 
   
 </script>
@@ -390,15 +409,14 @@ function myFunction(){
 			<div class="recommends-title"><i class="right-border"></i>相关推荐</div>
 			<ul class="palin-text">
 				<li class="img-recommend">
-					<a href="http://shjf.jsjyfc.cn/jfmf2/">
+					<a href="#">
 						<div class="desc">
 							<p class="img-text">天然泻药，排出体内“巨便”2天瘦7斤?							</p>
 						</div>
 						<div class="img-holder"><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/picture/recom_01.jpg" alt=""></div>
 						<div class="info clearfix">
 							<span class="left-dec">小妞妞坏脾气</span>
-							<span class="right-info">
-								06-21
+							<span class="right-info"><?php echo date("m-d",strtotime("-2 days"))?>
 								<span>5558</span>
 								回复
 							</span>
@@ -406,7 +424,7 @@ function myFunction(){
 					</a>
 				</li>
 				<li class="img-recommend">
-					<a href="http://shjf.jsjyfc.cn/jfmf2/">
+					<a href="#">
 						<div class="desc">
 							<p class="img-text">【专家在线解答】健康减肥瘦身注意事项有哪些?						</p>
 						</div>
@@ -414,7 +432,7 @@ function myFunction(){
 						<div class="info clearfix">
 							<span class="left-dec">火辣妈妈</span>
 							<span class="right-info">
-								06-20
+								<?php echo date("m-d",strtotime("-5 days"))?>
 								<span>4533</span>
 								回复
 							</span>
@@ -422,7 +440,7 @@ function myFunction(){
 					</a>
 				</li>
 				<li class="img-recommend">
-					<a href="http://shjf.jsjyfc.cn/jfmf2/">
+					<a href="#">
 						<div class="desc">
 							<p class="img-text">体重三位数的女生注意了：这样减，睡觉都在瘦</p>
 						</div>
@@ -430,7 +448,7 @@ function myFunction(){
 						<div class="info clearfix">
 							<span class="left-dec">十(朵)芷莉</span>
 							<span class="right-info">
-								05-17
+							<?php echo date("m-d",strtotime("-9 days"))?>
 								<span>3358</span>
 								回复
 							</span>
