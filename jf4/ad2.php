@@ -406,7 +406,7 @@ li {
 <div class="mack" style="display: none;"></div>
 <div class="alert-tip" style="display: none;">
 	<p>微信号已成功复制！</p>
-	<p>点击确定打开微信搜索添加好友</p>
+	<!--<p>点击确定打开微信搜索添加好友</p>-->
 	<!-- <p>瘦身顾问一对一指导减肥30斤！</p> -->
 	<div><span class="go-wx">确定</span></div>
 </div>
@@ -1196,14 +1196,14 @@ $(function(){
                 oInput.style.display = "none";
                 
                
-                $.ajax({
+                /*$.ajax({
                         url:'http://heven.top:8000/app/log',
                         method:'post',
                         data:{'type':'gowechat','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
                         error:function(){
                             // location.href="weixin://";
                         }
-                    })
+                    })*/
             }
 
     $(".kj_copy_btn").click(function(e){
@@ -1231,12 +1231,13 @@ $(function(){
 		// $('.qq_Mask_02').hide();
 	})
 	$('.go-wx').click(function(){
-        $.ajax({
+        /*$.ajax({
             url:'http://heven.top:8000/app/log',
             method:'post',
             data:{'type':'gowechat','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
         })
 		location.href = 'weixin://'
+*/
 		$('.mack').hide();
 		$('.alert-tip').hide();
 	})
