@@ -1,0 +1,34 @@
+[13-Dec-2019 11:25:07 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Cannot use object of type Predis\Client as array in /Data/apps/www/temp/laoyu/jf/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /Data/apps/www/temp/laoyu/jf/index.php on line 6
+[13-Dec-2019 11:27:14 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Cannot use object of type Predis\Client as array in /Data/apps/www/temp/laoyu/jf/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /Data/apps/www/temp/laoyu/jf/index.php on line 6
+[13-Dec-2019 11:27:18 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Cannot use object of type Predis\Client as array in /Data/apps/www/temp/laoyu/jf/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /Data/apps/www/temp/laoyu/jf/index.php on line 6
+[13-Dec-2019 11:28:33 Asia/Shanghai] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /Data/apps/www/temp/laoyu/jf/index.php on line 4
+[13-Dec-2019 11:28:33 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Cannot use object of type Predis\Client as array in /Data/apps/www/temp/laoyu/jf/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /Data/apps/www/temp/laoyu/jf/index.php on line 6
+[13-Dec-2019 11:29:01 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Cannot use object of type Predis\Client as array in /Data/apps/www/temp/laoyu/jf/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /Data/apps/www/temp/laoyu/jf/index.php on line 6
+[13-Dec-2019 11:29:31 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Cannot use object of type Predis\Client as array in /Data/apps/www/temp/laoyu/jf/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /Data/apps/www/temp/laoyu/jf/index.php on line 6
+[13-Dec-2019 11:29:32 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Cannot use object of type Predis\Client as array in /Data/apps/www/temp/laoyu/jf/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /Data/apps/www/temp/laoyu/jf/index.php on line 6
+[13-Dec-2019 11:32:21 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Cannot use object of type Predis\Client as array in /Data/apps/www/temp/laoyu/jf/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /Data/apps/www/temp/laoyu/jf/index.php on line 6
+[13-Dec-2019 11:33:08 Asia/Shanghai] PHP Notice:  Only variables should be passed by reference in /Data/apps/www/temp/laoyu/jf/index.php on line 7
