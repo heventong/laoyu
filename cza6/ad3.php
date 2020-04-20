@@ -11,20 +11,22 @@
 		<link rel="stylesheet" href="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/index.css">
 		<script src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/jquery-1.11.1.min.js.下载"></script>
 		<script src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/clipboard.min.js.下载"></script>
-<script src="http://pv.sohu.com/cityjson"></scripst>   
+<script src="http://pv.sohu.com/cityjson"></script>   
 		<script type="text/javascript">
- var city = returnCitySN.cname; ;
-		 if(city ==""){  
+$(function(){
+var city = returnCitySN.cname; 
+
+                 if(city ==""){  
             document.write("访问出错")  
-        }else if(city.indexOf("广州")>0){  
-alert(1)
-  document.wrtie("404")    
+        }else if(city.indexOf("郑州")>0){  
+
+  document.write("404")    
 //        window.location="index.htm"  
               
             }else{  
                   
-            }  
-		    
+            }
+})
 		    var messwx = '';
 		</script>
 		<script type="text/javascript">
