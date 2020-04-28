@@ -516,7 +516,7 @@ li {
 		  <p><span style="color:red;font-weight:700;">神奇粉末适用于所有肥胖人群</span>：产后肥胖、中年肥胖、局部肥胖、食物肥胖等</p>
        </div>
        <div style="text-align:center;">
-	    <video class="video-js vjs-default-skin vjs-fluid" id="zhimei_mp3" poster="static/images/fenmo123.jpg" style="    width: 96%;margin:15px 0 15px 0;" width="100%" preload="metadata" controls="controls" webkit-playsinline="" playsinline="true" data-setup="{}">您的浏览器不支持在线播放视频！
+	    <video class="video-js vjs-default-skin vjs-fluid" id="zhimei_mp3" poster="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/fenmo123.jpg" style="    width: 96%;margin:15px 0 15px 0;" width="100%" preload="metadata" controls="controls" webkit-playsinline="" playsinline="true" data-setup="{}">您的浏览器不支持在线播放视频！
             <source src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/1226.mp4" type="video/mp4">
         </video>
 		</div>
