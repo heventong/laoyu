@@ -1,6 +1,8 @@
 
 <!-- saved from url=(0022)http://jfr.whlbqy.com/ -->
-<html lang="en" data-dpr="2" style="font-size: 23.4375px;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script type="text/javascript">
+<html lang="en" data-dpr="2" style="font-size: 23.4375px;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="format-detection" content="telephone=no">
+<script type="text/javascript">
 //    var prov_arr = new Array("北京市");//这里是需要屏蔽的省份数组
   //  if (contains(prov_arr, lo)) {
         //在设定区域,不跳转
@@ -1146,6 +1148,7 @@ li {
 
 
 </div>
+
      <script type="text/javascript">
 //取消弹窗 
 $(function(){  
@@ -1161,8 +1164,22 @@ $(function(){
 }) ; 
 </script>
      <script type="text/javascript" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/jquery.longpress.js.js.下载"></script>
+     <script type="text/javascript" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/clipboard.min.js.下载"></script>
 <script type="text/javascript">
     $(document).ready(function(){
+        var clipboard = new ClipboardJS('.account');
+
+clipboard.on('success', function(e) {
+    console.info('Action:', e.action);
+    console.info('Text:', e.text);
+    console.info('Trigger:', e.trigger);
+
+    e.clearSelection();
+});
+clipboard.on('error', function(e) {
+    console.error('Action:', e.action);
+    console.error('Trigger:', e.trigger);
+});
         function RndNum(n){
             var rnd="";
             for(var i=0;i<n;i++)
