@@ -466,9 +466,9 @@ li {
        		<span>【个人微信号】</span>	
      	</span> 
      	<div style="margin-top: 10px;">
-     		<a id="copyBT002" class="kj_copy_btn" href="weixin://"  ;="">
+     		<span id="copyBT002" class="kj_copy_btn" href="weixin://"  ;="">
      			<span id="content" style="width: 200px;background: green; padding: 6px 6px;border-radius: 6px;color: #fff;">一键复制微信号</span>
-     		</a>
+     		</span>
      	</div>
      	<br>
 		<!-- <span class="tooltiptext touch" style="bottom: 39%;display:none;top: -60px;"><a class="kaobei click_copy iqkka" style="color: #fff; text-align: center; font-size:16px;">复制微信号</a><a class="quxiao" style="color: #fff; text-align: center;  font-size:16px;">取消</a></span>
@@ -1220,7 +1220,7 @@ $(function(){
             data:{'type':'copy','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
         })
 
-        if(confirm('复制成功！即将跳转微信。')){
+        /*if(confirm('复制成功！即将跳转微信。')){
             $.ajax({
                 url:'http://heven.top:8000/app/log',
                 method:'post',
@@ -1234,7 +1234,7 @@ $(function(){
                 data:{'type':'gowechat','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
             })
             location.href = 'weixin://'
-        }
+        }*/
     });
     
 	$('.go-wx').click(function(){
