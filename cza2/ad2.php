@@ -460,15 +460,16 @@ li {
             <div style="text-align: center; text-indent: 0;margin-bottom: 15px;font-size: 23px;font-weight: bold;">
             	想减肥，添加神奇粉末官方微信:</div>    
         <span>	
-       		<a id="copyBT" class="kj_copy_btn" href="weixin://"  ;="">
-       			<span id="content" style="font-size:30px; color:red;font-weight: bold; " class="wxh"><?php echo $stxlwx?></span> 
-       		</a>
+       		<span id="copyBT" class="kj_copy_btn" href="weixin://"  ;="">
+       			<span id="content" style="font-size:30px; color:red;font-weight: bold; " class="wxh account"><?php echo $stxlwx?></span> 
+       		</span>
        		<span>【个人微信号】</span>	
      	</span> 
-     	<div style="margin-top: 10px;">
-     		<span id="copyBT002" class="kj_copy_btn" href="weixin://"  ;="">
+     	<div style="margin-top: 10px;font-size:16px">
+     		<!-- <span id="copyBT002" class="kj_copy_btn" href="weixin://"  ;="">
      			<span id="content" style="width: 200px;background: green; padding: 6px 6px;border-radius: 6px;color: #fff;">一键复制微信号</span>
-     		</span>
+     		</span> -->
+             长按复制微信号→打开微信→添加好友
      	</div>
      	<br>
 		<!-- <span class="tooltiptext touch" style="bottom: 39%;display:none;top: -60px;"><a class="kaobei click_copy iqkka" style="color: #fff; text-align: center; font-size:16px;">复制微信号</a><a class="quxiao" style="color: #fff; text-align: center;  font-size:16px;">取消</a></span>
@@ -534,15 +535,16 @@ li {
             <div style="text-align: center;"><span style="font-weight:1.618rem;font-weight: bold;">想减肥，添加神奇粉末官方微信:</span></div>
             
         <span>	
-       		<a id="copyBT2" class="kj_copy_btn" href="weixin://"  ;="">
-       			<span id="content2" style="font-size:30px; color:red;font-weight: bold; " class="wxh"><?php echo $stxlwx?></span> 
-       		</a>
+       		<span id="copyBT2" class="kj_copy_btn" href="weixin://"  ;="">
+       			<span id="content2" style="font-size:30px; color:red;font-weight: bold; " class="wxh account"><?php echo $stxlwx?></span> 
+       		</span>
        		<span>【个人微信号】</span>	
      	</span> 
-     	<div style="margin-top: 10px;">
-     		<a id="copyBT003" class="kj_copy_btn" href="weixin://"  ;="">
+     	<div style="margin-top: 10px;font-size: 16px;">
+     		<!-- <a id="copyBT003" class="kj_copy_btn" href="weixin://"  ;="">
      			<span id="content2" style="width: 200px;background: green; padding: 6px 6px;border-radius: 6px;color: #fff;">一键复制微信号</span>
-     		</a>
+     		</a> -->
+             长按复制微信号→打开微信→添加好友
      	</div>
      	<br>
 		
