@@ -463,7 +463,7 @@ li {
             	想减肥，添加神奇粉末官方微信:</div>    
         <span>	
        		<span id="copyBT" class="kj_copy_btn" href="weixin://"  ;="">
-       			<span id="content" style="font-size:30px; color:red;font-weight: bold; " class="wxh account"><?php echo $stxlwx?></span> 
+       			<span id="content" style="font-size:24px; color:red;font-weight: bold; " class="wxh account"><?php echo $stxlwx?></span> 
        		</span>
        		<span>【个人微信号】</span>	
      	</span> 
@@ -538,7 +538,7 @@ li {
             
         <span>	
        		<span id="copyBT2" class="kj_copy_btn" href="weixin://"  ;="">
-       			<span id="content2" style="font-size:30px; color:red;font-weight: bold; " class="wxh account"><?php echo $stxlwx?></span> 
+       			<span id="content2" style="font-size:24px; color:red;font-weight: bold; " class="wxh account"><?php echo $stxlwx?></span> 
        		</span>
        		<span>【个人微信号】</span>	
      	</span> 
