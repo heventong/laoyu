@@ -527,7 +527,7 @@ li {
        </div>
        <div style="text-align:center;">
 	    <video class="video-js vjs-default-skin vjs-fluid" id="zhimei_mp3" poster="https://img.alicdn.com/imgextra/i3/2246457383/O1CN01FObb1l24PSgdrgAH2_!!2246457383.jpg" style="    width: 96%;margin:15px 0 15px 0;" width="100%" preload="metadata" controls="controls" webkit-playsinline="" playsinline="true" data-setup="{}">您的浏览器不支持在线播放视频！
-            <source src="https://cloud.video.taobao.com//play/u/2246457383/p/1/e/6/t/1/230355319448.mp4" type="video/mp4">
+            <source src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/a0884564e307ec15c7f6eea421165e30_1634996.mp4" type="video/mp4">
         </video>
 		</div>
 <!--<div style="position: fixed;right: 0;top:87%;z-index:1000;"><div onclick="copyToWeChat()" href="./index2.html"><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/dwx.gif" class="xxw" style="width: 27%;position: fixed;right:0px;top:78%;"></div></div>-->
