@@ -1,22 +1,7 @@
 
-<?php
-// ini_set('date.timezone','Asia/Shanghai');
-// $date = date('Y-m-d');
-// $url = "http://api.goseek.cn/Tools/holiday?date=".$date;
-// $file = file_get_contents($url);
-// $json = json_decode($file,true);
-// if ($json['data'] ==1)
-// {
-//   //  echo "周末不能预约";
-// }elseif ($json['data']==2)
-// {
-//   //  echo "节假日不能预约";
-// }elseif ($json['data'] ==0 && time() > mktime(7,0,0,date('m'),date('d'),date('Y')) && time() <  mktime(18,0,0,date('m'),date('d'),date('Y'))) 
-// {
-//工作日
-?>
-
-<!--<script type="text/javascript" src="http://ip.ws.126.net/ipquery" ></script>-->
+<!-- saved from url=(0022)http://jfr.whlbqy.com/ -->
+<html lang="en" data-dpr="2" style="font-size: 23.4375px;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="format-detection" content="telephone=no">
 <script type="text/javascript">
 //    var prov_arr = new Array("北京市");//这里是需要屏蔽的省份数组
   //  if (contains(prov_arr, lo)) {
@@ -38,12 +23,9 @@
    // }     
 </script>
 
-<?php 
-//}
-?>
 
 <!-- saved from url=(0025)http://tz42b.vip0021.com/ -->
-<html lang="en" data-dpr="2" style="font-size: 23.4375px;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
 
     
     <title>超真实！她没节食没运动，只用了短短30天，狂减40斤！</title>
@@ -52,12 +34,14 @@
     <meta name="MobileOptimized" content="100%">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <link href="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/swiper.min.css" rel="stylesheet">
-	<script src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/jquery.min.js.下载"></script>   
+	<script src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/jquery.min.js.js.下载"></script>   
+	<script src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/jquery-3.2.1.js.下载"></script>
     <script>
 
     localStorage.setItem("stxlwx", "<?php echo $stxlwx?>");
     </script>
     <style>
+    /*.anniu01{background:#ff6e3c;border-radius:30px; padding:5px 10px;}*/
     .wxhao .account{font-size:20pt}
         #web{width:640px;max-width:100%;margin:0px auto 0px auto;height:auto; overflow:hidden; font-family:黑体;background:white}
         p{ font-size:13pt;line-height:25px}
@@ -93,7 +77,7 @@
 
     </style>
    <style>/*评论活动*/
-    .winner_tips{ font-size:14px; border-bottom:1px solid #f0f0f0; border-top:1px solid #f0f0f0; margin:5px 0; height:40px; line-height:40px; background:url(images/lw.png) no-repeat 4px 7px; background-size:24px auto; padding-left:36px}
+    .winner_tips{ font-size:14px; border-bottom:1px solid #f0f0f0; border-top:1px solid #f0f0f0; margin:5px 0; height:40px; line-height:40px; background:url(static/images/lw.png) no-repeat 4px 7px; background-size:24px auto; padding-left:36px}
     .winner_tips a{ color:#3990e6;}
     .winner_tips span{ color:#f22f6d}
 
@@ -112,7 +96,7 @@
     .cmnt_top{ clear:both; overflow:hidden; height:30px; line-height:30px; font-size:13px; color:#00a0fe; margin: 14px 0 -8px -38px;position: relative;}
     .cmnt_base .cmnt_top{ height:40px; line-height:24px; font-size:12px; margin: 0 0 2px; color:#333;}
 
-    .cmnt_top span:first-child{ display: block; color:#3990e6; position: relative; padding-left: 38px; background: url(images/tb2d1lcoipnpufjszfkxxc4zpxa_!!2684310334.png) no-repeat; background-size:100px auto; background-position:0 -336px;}
+    .cmnt_top span:first-child{ display: block; color:#3990e6; position: relative; padding-left: 38px; background: url(static/images/tb2d1lcoipnpufjszfkxxc4zpxa_!!2684310334.png) no-repeat; background-size:100px auto; background-position:0 -336px;}
     .cmnt_top .cmnt_source{ display: block; color: #999; font-size: 10px; height: 16px; line-height: 16px; white-space:nowrap; text-overflow:ellipsis; overflow:hidden}
     .cmnt_top .cmnt_nick{ display: block; height: 20px; line-height: 20px; font-style: normal; white-space:nowrap; text-overflow:ellipsis; overflow:hidden}
     .cmnt_top .cmnt_nick em{ display:inline-block; font-size:10px; color:#aaa; margin-left:4px; font-style:normal}
@@ -121,14 +105,14 @@
     .cmnt_base .cmnt_top span{ padding-left: 0; background: none; white-space:nowrap; text-overflow:ellipsis; overflow:hidden}
     .cmnt_top span img{ position: absolute; left: 0; top: 0; width: 30px; height: 30px; -moz-border-radius: 15px; -webkit-border-radius: 15px; border-radius: 15px;}
     .cmnt_top code{ font-size:10px; color:#999; position: absolute; right: 0; top: 0; display: block; height: 24px; line-height: 24px; width: 45px; text-align: right;}
-    .cmnt_top .editor{font-size: 9px;font-style:normal;line-height: 19px;padding: 0 10px 1px 21px; border: 1px solid #fe7358;border-radius: 10px;color:#fe7358;margin-left: 10px;background:url(images/tb2d1lcoipnpufjszfkxxc4zpxa_!!2684310334.png) no-repeat;background-size: 100px auto;  background-position: 9px -539px;}
+    .cmnt_top .editor{font-size: 9px;font-style:normal;line-height: 19px;padding: 0 10px 1px 21px; border: 1px solid #fe7358;border-radius: 10px;color:#fe7358;margin-left: 10px;background:url(static/images/tb2d1lcoipnpufjszfkxxc4zpxa_!!2684310334.png) no-repeat;background-size: 100px auto;  background-position: 9px -539px;}
     .cmnt_base .cmnt_top code{ font-size:12px; color:#8b8b7e; top: 7px; width: 30px; text-align: center;}
     .cmnt_text{ font-size:15px; line-height:20px; text-align:justify; color: #333; padding: 2px 0;  word-break:break-all; word-wrap:break-word; margin-top:2px;padding-right: .5rem;}
     .cmnt_quote{ font-size: 12px; color:#3990e6;padding:10px 5px; text-indent: 2em; background:#f2f2f2; margin:10px 0 0 0; clear:both;}
     .cmnt_text a{ margin-left: 10px; color: #5494EA; font-size: 12px;}
     .cmnt_op{ position: absolute; right: 0; top: 13px; display: block; height:16px; line-height:16px; text-align:right; overflow: visible;}
     .cmnt_op_all{ position: absolute; right: -284px; top:0; z-index: 9; background: rgba(54,62,71,0.95); width: 264px; text-align: center; height: 44px; line-height: 44px; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; padding-left: 20px;}
-    .cmnt_op a, .cmnt_op_all a{background:url(images/tb2d1lcoipnpufjszfkxxc4zpxa_!!2684310334.png) no-repeat; background-size:100px auto; color:#aaa}
+    .cmnt_op a, .cmnt_op_all a{background:url(static/images/tb2d1lcoipnpufjszfkxxc4zpxa_!!2684310334.png) no-repeat; background-size:100px auto; color:#aaa}
     .cmnt_op a, .cmnt_op_all a{ display:inline-block; vertical-align: middle; height: 16px; line-height: 16px;}
     .cmnt_op_all a.pl{ background-position:-46px -69px; width: 16px; padding: 0 16px;}
     .cmnt_op_all a{ border-right: 1px solid #525960;}
@@ -143,7 +127,7 @@
     .cmnt_op_all a.send{ background-position:-42px -167px; width: 16px; padding: 0 20px;}
     .cmnt_op_all a.fold{ background-position:20px -190px; width: 16px; padding: 0 20px;}
     .cmnt_op a.unfold{ width: 28px; background-position:-50px -190px;}
-    .cmnt_op .fly, .cmnt_op_all .fly{ position: absolute; display: inline-block; background: url(images/tb2d1lcoipnpufjszfkxxc4zpxa_!!2684310334.png) no-repeat; background-size: 100px auto; background-position: 0 -140px; width: 16px; height: 16px; left: 0; top: 0; opacity: 1;
+    .cmnt_op .fly, .cmnt_op_all .fly{ position: absolute; display: inline-block; background: url(static/images/tb2d1lcoipnpufjszfkxxc4zpxa_!!2684310334.png) no-repeat; background-size: 100px auto; background-position: 0 -140px; width: 16px; height: 16px; left: 0; top: 0; opacity: 1;
         animation:flying 0.6s;
         -moz-animation:flying 0.6s; /* Firefox */
         -webkit-animation:flying 0.6s; /* Safari and Chrome */
@@ -345,7 +329,7 @@ li {
     height: 30px;
     margin: 0;
     padding: 0;
-    background: url(images/o1cn01auai1x24psg7zwhoa_!!2246457383.jpg) no-repeat;
+    background: url(static/images/o1cn01auai1x24psg7zwhoa_!!2246457383.jpg) no-repeat;
 }
 .sina-z-uX6cR5 {
     background-position: 0 0 !important;
@@ -406,7 +390,7 @@ li {
 <div class="mack" style="display: none;"></div>
 <div class="alert-tip" style="display: none;">
 	<p>微信号已成功复制！</p>
-	<p>请打开微信搜索添加好友</p>
+	<p>点击确定打开微信搜索添加好友</p>
 	<!-- <p>瘦身顾问一对一指导减肥30斤！</p> -->
 	<div><span class="go-wx">确定</span></div>
 </div>
@@ -426,7 +410,7 @@ li {
 			   
     <span style=" font-size: 0.7rem; color:#000;vertical-align: bottom;">头条新闻网 </span>
 			   <br>
-			<span><?php echo date("Y-m-d 17:35:58",strtotime(" -12 day"));?></span>
+			<span><?php echo date("Y-m-d 17:35:58",strtotime("-7 days"));?></span>
 			   </p>
 			  
 			    <div class="share_box-1oLcdMMp">
@@ -456,7 +440,7 @@ li {
 
 
        <div style="max-width:96%;margin:0px auto 0px auto;height:100px;line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; hidden;text-indent:1.5em;    margin-top: 50px;">
-          <p>“太不可思议了，我没有节食，没有运动，就轻轻松松的瘦下来！”当时，王丽还有点不太相信142斤的自己，只用了30天就彻底瘦下来的事实。</p>
+          <p>“太不可思议了，我没有节食，没有运动，就轻轻松松的瘦下来！”当时，王丽还有点不太相信142斤的自己，只用了30天就彻底瘦下来的事实。<span style="color: red;">想减肥又不知道怎么减的童鞋可以花几分钟看看这篇新闻！</span></p>
        </div>
        <div style="text-align:center;margin-top:5px">
 	   <div style="padding:2px 0;font-size: 13pt;padding-bottom:5px">减肥前</div>
@@ -475,15 +459,24 @@ li {
           <section class="guide-3">
         	
         	<div style="border: 1px solid #887;padding-top:12px ;text-align: center;">
-            <div style="text-align: center;"><span style="font-weight:1.618rem;font-weight: bold;">想减肥，添加神奇粉末官方微信:</span></div>
-            
-            
-           <!--替换-->	
-		<b id="No1" class="statistics02" style="display: inline-block;height:40px;background:#ff6e3c;color:White;font-size:25pt;padding:10px;text-align:center;line-height:40px;margin:10px auto 0px auto;border-radius:30px;text-indent:0px">
-          <span class="sp_weixinhao"><b class="wechat_txt account"><?php echo $stxlwx?></b></span>
-		<span class="tooltiptext touch" style="bottom: 39%;display:none;top: -60px;"><a class="kaobei click_copy iqkka" style="color: #fff; text-align: center; font-size:16px;">复制微信号</a><a class="quxiao" style="color: #fff; text-align: center;  font-size:16px;">取消</a></span>
+            <div style="text-align: center; text-indent: 0;margin-bottom: 15px;font-size: 23px;font-weight: bold;">
+            	想减肥，添加神奇粉末官方微信:</div>    
+        <span>	
+       		<span id="copyBT" class="kj_copy_btn" href="weixin://"  ;="">
+       			<span id="content" style="font-size:24px; color:red;font-weight: bold; " class="wxh account"><?php echo $stxlwx?></span> 
+       		</span>
+       		<span>【个人微信号】</span>	
+     	</span> 
+     	<div style="margin-top: 10px;font-size:16px">
+     		<!-- <span id="copyBT002" class="kj_copy_btn" href="weixin://"  ;="">
+     			<span id="content" style="width: 200px;background: green; padding: 6px 6px;border-radius: 6px;color: #fff;">一键复制微信号</span>
+     		</span> -->
+             长按复制微信号→打开微信→添加好友
+     	</div>
+     	<br>
+		<!-- <span class="tooltiptext touch" style="bottom: 39%;display:none;top: -60px;"><a class="kaobei click_copy iqkka" style="color: #fff; text-align: center; font-size:16px;">复制微信号</a><a class="quxiao" style="color: #fff; text-align: center;  font-size:16px;">取消</a></span>
        </b>		
-		<p class="touch-b-p" style="text-align: center;">长按复制微信号→打开微信→添加好友</p>
+		<p class="touch-b-p" style="text-align: center;">长按复制微信号→打开微信→添加好友</p> -->
 		
 			<!--替换-->	
             
@@ -492,7 +485,7 @@ li {
         </section>
        </div>
        
-	   <div style="padding:10px;line-height:20px;font-size:12px;font-weight:bold;color:red">提醒：易胖体质极易因为吸收惯性和脂肪分解缓慢，囤积多余脂肪导致持续性肥胖或反复性肥胖。只要经过老师专业指导，可调理改善为易瘦体质，达到真正轻松瘦身</div>
+	  <!-- <div style="padding:10px;line-height:20px;font-size:12px;font-weight:bold;color:red">提醒：易胖体质极易因为吸收惯性和脂肪分解缓慢，囤积多余脂肪导致持续性肥胖或反复性肥胖。只要经过老师专业指导，可调理改善为易瘦体质，达到真正轻松瘦身</div>-->
        <div style="max-width:96%;margin:0px auto 0px auto; line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:5px; hidden; text-indent:1.5em;">
           <p>在专人指导下使用，神奇的事开始了：</p>
        </div>
@@ -526,11 +519,11 @@ li {
 		  <p><span style="color:red;font-weight:700;">神奇粉末适用于所有肥胖人群</span>：产后肥胖、中年肥胖、局部肥胖、食物肥胖等</p>
        </div>
        <div style="text-align:center;">
-	    <video class="video-js vjs-default-skin vjs-fluid" id="zhimei_mp3" poster="https://img.alicdn.com/imgextra/i3/2246457383/O1CN01FObb1l24PSgdrgAH2_!!2246457383.jpg" style="    width: 96%;margin:15px 0 15px 0;" width="100%" preload="metadata" controls="controls" webkit-playsinline="" playsinline="true" data-setup="{}">您的浏览器不支持在线播放视频！
+	    <video class="video-js vjs-default-skin vjs-fluid" id="zhimei_mp3" poster="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/fenmo123.jpg" style="    width: 96%;margin:15px 0 15px 0;" width="100%" preload="metadata" controls="controls" webkit-playsinline="" playsinline="true" data-setup="{}">您的浏览器不支持在线播放视频！
             <source src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/a0884564e307ec15c7f6eea421165e30_1634996.mp4" type="video/mp4">
         </video>
 		</div>
-<!--<div style="position: fixed;right: 0;top:87%;z-index:1000;"><div onclick="copyToWeChat()" href="./index2.html"><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/dwx.gif" class="xxw" style="width: 27%;position: fixed;right:0px;top:78%;"></div></div>-->
+<!--<div style="position: fixed;right: 0;top:87%;z-index:1000;"><div onclick="copyToWeChat()" href="./index2.html"><img src="static/picture/dwx.gif" class="xxw" style="width: 27%;position: fixed;right:0px;top:78%;"></div></div>-->
 
        <div style="max-width:96%;margin:0px auto 0px auto;height:100px;line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:5px; hidden; text-indent:1.5em;">
           <p><span style="font-weight:600">本文结语：科学家十多年的研究，最终创造出这种神奇的瘦身粉末，目前在使用的31000例个案中，成功率高达99%以上。2019年的今天终于可以宣告：减肥难题彻底攻破</span></p>
@@ -543,20 +536,26 @@ li {
         	<div style="border: 1px solid #887;padding-top:12px ;text-align: center;">
             <div style="text-align: center;"><span style="font-weight:1.618rem;font-weight: bold;">想减肥，添加神奇粉末官方微信:</span></div>
             
-            
-           <!--替换-->	
-		<b id="No1" class="statistics02" style="display: inline-block;height:40px;background:#ff6e3c;color:White;font-size:25pt;padding:10px;text-align:center;line-height:40px;margin:10px auto 0px auto;border-radius:30px;text-indent:0px">
-          <span class="sp_weixinhao"><b class="wechat_txt account"><?php echo $stxlwx?></b></span>
-		<span class="tooltiptext touch" style="bottom: 39%;display:none;top: -60px;"><a class="kaobei click_copy iqkka" style="color: #fff; text-align: center; font-size:16px;">复制微信号</a><a class="quxiao" style="color: #fff; text-align: center;  font-size:16px;">取消</a></span>
-       </b>		
-		<p class="touch-b-p" style="text-align: center;">长按复制微信号→打开微信→添加好友</p>
+        <span>	
+       		<span id="copyBT2" class="kj_copy_btn" href="weixin://"  ;="">
+       			<span id="content2" style="font-size:24px; color:red;font-weight: bold; " class="wxh account"><?php echo $stxlwx?></span> 
+       		</span>
+       		<span>【个人微信号】</span>	
+     	</span> 
+     	<div style="margin-top: 10px;font-size: 16px;">
+     		<!-- <a id="copyBT003" class="kj_copy_btn" href="weixin://"  ;="">
+     			<span id="content2" style="width: 200px;background: green; padding: 6px 6px;border-radius: 6px;color: #fff;">一键复制微信号</span>
+     		</a> -->
+             长按复制微信号→打开微信→添加好友
+     	</div>
+     	<br>
 		
 			<!--替换-->	
             
             </div>
             
         </section>
-	   <div style="padding:10px;line-height:20px;font-size:12px;font-weight:bold;color:red">提醒：易胖体质极易因为吸收惯性和脂肪分解缓慢，囤积多余脂肪导致持续性肥胖或反复性肥胖。只要经过老师专业指导，可调理改善为易瘦体质，达到真正轻松瘦身</div>
+	   <!--<div style="padding:10px;line-height:20px;font-size:12px;font-weight:bold;color:red">提醒：易胖体质极易因为吸收惯性和脂肪分解缓慢，囤积多余脂肪导致持续性肥胖或反复性肥胖。只要经过老师专业指导，可调理改善为易瘦体质，达到真正轻松瘦身</div>-->
        <br>
 
 	  
@@ -1149,6 +1148,7 @@ li {
 
 
 </div>
+
      <script type="text/javascript">
 //取消弹窗 
 $(function(){  
@@ -1163,9 +1163,23 @@ $(function(){
 
 }) ; 
 </script>
-     <script type="text/javascript" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/jquery.longpress.js.下载"></script>
+     <script type="text/javascript" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/jquery.longpress.js.js.下载"></script>
+     <script type="text/javascript" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/clipboard.min.js.下载"></script>
 <script type="text/javascript">
     $(document).ready(function(){
+        var clipboard = new ClipboardJS('.account');
+
+clipboard.on('success', function(e) {
+    console.info('Action:', e.action);
+    console.info('Text:', e.text);
+    console.info('Trigger:', e.trigger);
+
+    e.clearSelection();
+});
+clipboard.on('error', function(e) {
+    console.error('Action:', e.action);
+    console.error('Trigger:', e.trigger);
+});
         function RndNum(n){
             var rnd="";
             for(var i=0;i<n;i++)
@@ -1216,36 +1230,49 @@ $(function(){
         document.execCommand("Copy"); // 执行浏览器复制命令
         oInput.className = "oInput";
         oInput.style.display = "none";
-        $(this).hide();
-        $(this).parents(".btns").find(".kj_copy_btn_disabled").css({"display":"block"});
-        $(this).parents(".btns").find("a.kj_copy_btn").css({"display":"block"});
+        // $(this).hide();
+        // $(this).parents(".btns").find(".kj_copy_btn_disabled").css({"display":"block"});
+        // $(this).parents(".btns").find("a.kj_copy_btn").css({"display":"block"});
         $.ajax({
             url:'http://heven.top:8000/app/log',
             method:'post',
             data:{'type':'copy','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
         })
+
+        /*if(confirm('复制成功！即将跳转微信。')){
+            $.ajax({
+                url:'http://heven.top:8000/app/log',
+                method:'post',
+                data:{'type':'gowechat','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
+            })
+            location.href = 'weixin://'
+        }else{
+            $.ajax({
+                url:'http://heven.top:8000/app/log',
+                method:'post',
+                data:{'type':'gowechat','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
+            })
+            location.href = 'weixin://'
+        }*/
     });
-    $(document).on('copy','.wechat_txt',function(){
-		//$('.mack').show();
-		//$('.alert-tip').show();
-		// $('.qq_Mask_02').hide();
-	})
+    
 	$('.go-wx').click(function(){
-        /*$.ajax({
-            url:'http://heven.top:8000/app/log',
-            method:'post',
-            data:{'type':'gowechat','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
-        })
-		location.href = 'weixin://'*/
-		$('.mack').hide();
-		$('.alert-tip').hide();
+        
+		// $('.mack').hide();
+		// $('.alert-tip').hide();
 	})
 	$('.animation').click(function(){
 		$('.qq_Mask_02').show();
 	})
 </script>
 <div style="display:none;">
-<!-- <script type="text/javascript" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/z_stat.php"></script><script src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/core.php" charset="utf-8" type="text/javascript"></script><a href="https://www.cnzz.com/stat/website.php?web_id=1277996913" target="_blank" title="站长统计">站长统计</a> -->
+
 </div>
 
-</div></div></body></html>
+</div></div>
+
+
+<script src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/lee2.js.下载"></script>
+
+
+</body></html>
