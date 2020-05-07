@@ -209,17 +209,25 @@
         	<div style="border: 1px solid #887;padding-top:12px ;text-align: center;">
             <div style="text-align: center;"><span style="font-weight:1.618rem;font-weight: bold;">想减肥，添加神奇粉末官方微信:</span></div>
             
-            
-           <!--替换-->	
-		<b id="No1" class="statistics02" style="display: inline-block;height:40px;background:#ff6e3c;color:White;font-size:25pt;padding:10px;text-align:center;line-height:40px;margin:10px auto 0px auto;border-radius:30px;text-indent:0px">
-          <span class="sp_weixinhao"><b class="wechat_txt account"><?php echo $stxlwx?></b></span>
-		<span class="tooltiptext touch" style="bottom: 39%;display:none;top: -60px;"><a class="kaobei click_copy iqkka" style="color: #fff; text-align: center; font-size:16px;">复制微信号</a><a class="quxiao" style="color: #fff; text-align: center;  font-size:16px;">取消</a></span>
-       </b>		
-		<p class="touch-b-p" style="text-align: center;margin:20px 0px">长按复制微信号→打开微信→添加好友</p>
+        <span>	
+       		<span id="copyBT2" class="kj_copy_btn" href="weixin://"  ;="">
+       			<span id="content2" style="font-size:24px; color:red;font-weight: bold; " class="wxh account"><?php echo $stxlwx?></span> 
+       		</span>
+       		<span>【个人微信号】</span>	
+     	</span> 
+     	<div style="margin-top: 10px;font-size: 16px;">
+     		<!-- <a id="copyBT003" class="kj_copy_btn" href="weixin://"  ;="">
+     			<span id="content2" style="width: 200px;background: green; padding: 6px 6px;border-radius: 6px;color: #fff;">一键复制微信号</span>
+     		</a> -->
+             长按复制微信号→打开微信→添加好友
+     	</div>
+     	<br>
 		
 			<!--替换-->	
             
             </div>
+            
+        <!-- </section> -->
             
         </section>
 				<!-- <div class="search" style="margin-top:0px 18px; text-align: center;text-indent: 0;">
@@ -274,22 +282,47 @@
 
 			<div style="max-width:96%;margin:0px auto 0px auto;height:100px;line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:5px; hidden; text-indent:1.5em;">
 				<p><span style="font-weight:600">本文结语：科学家十多年的研究，最终创造出这种神奇的瘦身粉末，目前在使用的31000例个案中，成功率高达99%以上。2019年的今天终于可以宣告：减肥难题彻底攻破</span>
-				<section class="guide-3">
+				<!-- <section class="guide-3"> -->
         	
-        	<div style="border: 1px solid #887;padding-top:12px ;text-align: center;">
+        	<!-- <div style="border: 1px solid #887;padding-top:12px ;text-align: center;">
             <div style="text-align: center;"><span style="font-weight:1.618rem;font-weight: bold;">想减肥，添加神奇粉末官方微信:</span></div>
             
             
-           <!--替换-->	
+           
 		<b id="No1" class="statistics02" style="display: inline-block;height:40px;background:#ff6e3c;color:White;font-size:25pt;padding:10px;text-align:center;line-height:40px;margin:10px auto 0px auto;border-radius:30px;text-indent:0px">
-          <span class="sp_weixinhao"><b class="wechat_txt account"><?php echo $stxlwx?></b></span>
+          <span class="sp_weixinhao"><b class="wechat_txt account"><?php //echo $stxlwx?></b></span>
 		<span class="tooltiptext touch" style="bottom: 39%;display:none;top: -60px;"><a class="kaobei click_copy iqkka" style="color: #fff; text-align: center; font-size:16px;">复制微信号</a><a class="quxiao" style="color: #fff; text-align: center;  font-size:16px;">取消</a></span>
        </b>		
 		<p class="touch-b-p" style="text-align: center;margin:20px 0px">长按复制微信号→打开微信→添加好友</p>
 		
+			
+            
+            </div> -->
+
+			<section class="guide-3">
+        	
+        	<div style="border: 1px solid #887;padding-top:12px ;text-align: center;">
+            <div style="text-align: center;"><span style="font-weight:1.618rem;font-weight: bold;">想减肥，添加神奇粉末官方微信:</span></div>
+            
+        <span>	
+       		<span id="copyBT2" class="kj_copy_btn" href="weixin://"  ;="">
+       			<span id="content2" style="font-size:24px; color:red;font-weight: bold; " class="wxh account"><?php echo $stxlwx?></span> 
+       		</span>
+       		<span>【个人微信号】</span>	
+     	</span> 
+     	<div style="margin-top: 10px;font-size: 16px;">
+     		<!-- <a id="copyBT003" class="kj_copy_btn" href="weixin://"  ;="">
+     			<span id="content2" style="width: 200px;background: green; padding: 6px 6px;border-radius: 6px;color: #fff;">一键复制微信号</span>
+     		</a> -->
+             长按复制微信号→打开微信→添加好友
+     	</div>
+     	<br>
+		
 			<!--替换-->	
             
             </div>
+            
+        <!-- </section> -->
             
         </section>
 				</p>
@@ -901,9 +934,9 @@
 			// 		data:{'type':'copy','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
 			// 	})
 			// }
-			$(document).on('copy','.wechat_txt',function(){
-				$('.mack').show();
-				$('.alert-tip').show();
+			$(document).on('copy','.account',function(){
+				// $('.mack').show();
+				// $('.alert-tip').show();
 				$.ajax({
 					url:'http://heven.top:8000/app/log',
 					method:'post',
