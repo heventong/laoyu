@@ -1,0 +1,136 @@
+﻿*{margin:0;padding:0;font-family: "微软雅黑";}
+.contnet{max-width: 700px;margin:0 auto}
+.Boundary{padding-right: 15px;padding-left:15px;}
+.contnet img{display: block;width: 100%;margin-top:5px}
+.contnet li{list-style: none;line-height:20px;margin-top:10px}
+.contnet p{line-height: 30px;font-size: 17px;margin-top:5px;text-indent:2em}
+.contnet h3{font-size: 26px;margin-top: 5px;}
+.Boundary .bt{font-size: 20px;text-align: center;margin-top: 17px;}
+.Boundary .bt1{font-size:18px;text-align: center;margin-top: 5px;margin-bottom:10px;font-weight: bold;color: #666;}
+.Boundary .red{color:red;font-weight: bold}
+.Boundary .bt2{font-size:18px;width:100px;margin:0 auto;text-align:center;background: rgb(51,170,51);font-weight:bold;color:#fff;padding:10px;margin-top:10px;margin-bottom:10px}
+.bian{
+    margin-left:10px;
+    margin-right: 10px;
+}
+.pltxt {
+    overflow: hidden;
+    border-bottom: 1px dotted #d9d9d9;
+    padding-bottom: 10px;
+margin-top: 10px;
+}
+ .fl {
+    float: left;
+    overflow: hidden;
+}
+ .fltu {
+    width: 15%;
+}
+.pig {
+    width: 82%;
+    padding-left: 3%;
+}
+ .pltu {
+    width: 42px;
+    height: 42px;
+    border-radius: 100%;
+    margin-top: 10px;
+}
+.dog {
+    overflow: hidden;
+}
+ .pltxt p {
+    font-size: 14px;
+    text-indent: 0;
+    line-height: 18px;
+    overflow: hidden;
+}
+ .txt0 {
+    margin-top: 20px;
+}
+ .zan1 {
+    margin-top: 20px;
+}
+
+ .rig {
+    float: right;
+    overflow: hidden;
+}
+ .zan {
+    width: 16px;
+    height: 16px;
+    float: left;
+    margin: 0;
+    margin-right: 4px;
+}
+
+.pl{
+    margin-top:50px;
+    border-bottom:2px #88abc3 solid;
+    padding-bottom:3px;
+    text-align: left;
+    text-indent: 0em;
+        margin-bottom: 10px;
+}
+@media(min-width: 600px){
+    body{
+        width: 600px;
+        margin:0 auto;
+    }
+}
+
+        .fuchuang {
+            position: fixed;
+            bottom: 0;
+            bottom: 0;
+            background: #31c6b7;
+            height: 50px;
+            width: 100%;
+            left: 0;
+            font-size: 15px;
+            z-index: 100;
+        }
+
+        @media screen and (max-width: 320px) {
+            .fuchuang {
+                font-size: 13px;
+            }
+        }
+
+        @media screen and (max-width:800px) {
+            #header,
+            #foo {
+                display: none;
+            }
+        }
+
+        .tu3 {
+            animation: as 0.8s infinite;
+        }
+
+        @keyframes as {
+            0% {
+                transform: scale(0.8);
+            }
+            50% {
+                transform: scale(1);
+            }
+            100% {
+                transform: scale(0.8);
+            }
+        }
+
+        .navss ul {
+            overflow: hidden;
+        }
+
+        .navss ul li {
+            float: left;
+            width: 25%;
+            text-align: center;
+            line-height: 1.8rem;
+        }
+
+        .navss ul li a {
+            color: #fff;
+        }
