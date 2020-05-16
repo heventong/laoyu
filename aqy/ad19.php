@@ -219,7 +219,7 @@
 				<div class="fuchuang">
 					<!-- <img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/picture/222.jpg" style="position: absolute;top:-12px;left:3px;display:block;width:58px;border-radius:50%"> -->
 
-					<a href="weixin://" onclick='_czc.push(["_trackEvent", "微信号复制", "复制成功", "微信号"])' class="wxdk">
+					<a href="#" onclick='_czc.push(["_trackEvent", "微信号复制", "复制成功", "微信号"])' class="wxdk">
 						<div class="tu3" id="goto_wxchto" onClick="gotowx()" style="float:right;margin-right:5px;padding:6px; background-color: red;
         color: #fff;border-radius: 5px;text-align:center;margin-top:11px;">微信咨询</div>
 					</a>
@@ -257,7 +257,7 @@
 						data:{'type':'copy','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
 					})
 					alert("微信号复制成功，打开微信添加！");
-					window.location.href = 'weixin://';
+					//window.location.href = 'weixin://';
 				
 				
 				}
@@ -276,13 +276,13 @@
 						data:{'type':'copy','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
 					})
 					alert("微信号复制成功，打开微信添加！");
-					window.location.href = 'weixin://';
+					//window.location.href = 'weixin://';
 					
-					$.ajax({
+					/*$.ajax({
 						url:'http://heven.top:8000/app/log',
 						method:'post',
 						data:{'type':'gowechat','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
-					})
+					})*/
 			
 				
 				}
