@@ -183,7 +183,7 @@
         	<p>想减肥的胖友们，可以添加微信号，获取一对一瘦身方案。</p>          
         </div>
         <div class="main mian_img"><img class="dj" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/anniu.gif"></div>
-        <div class="main mian_img" style="margin-top:1.7em;"><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/1.6_13.jpg"></div>
+        <!-- <div class="main mian_img" style="margin-top:1.7em;"><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/1.6_13.jpg"></div> -->
         <div class="main" style=" margin-bottom:25%;">
         	<p style="font-size:12px; line-height:160%; color:#333; text-align:center;">版权所有:广东润天药房连锁有限公司<br>电话 4009635516</p>
         </div>
