@@ -1,0 +1,383 @@
+ $(function () {
+
+            // 答案数据
+
+            var json = [
+
+                "18岁以下10斤以下试过减肥，但体重反弹",
+
+                "18岁以下10斤以下一直想减肥，但没有行动",
+
+                "18岁以下10斤以下成功了，还想再瘦",
+
+                "18岁以下10-20斤试过减肥，但体重反弹",
+
+                "18岁以下10-20斤一直想减肥，但没有行动",
+
+                "18岁以下10-20斤成功了，还想再瘦",
+
+                "18岁以下20斤以上试过减肥，但体重反弹",
+
+                "18岁以下20斤以上一直想减肥，但没有行动",
+
+                "18岁以下20斤以上成功了，还想再瘦",
+
+                "18岁-25岁10斤以下试过减肥，但体重反弹",
+
+                "18岁-25岁10斤以下一直想减肥，但没有行动",
+
+                "18岁-25岁10斤以下成功了，还想再瘦",
+
+                "18岁-25岁10-20斤试过减肥，但体重反弹",
+
+                "18岁-25岁10-20斤一直想减肥，但没有行动",
+
+                "18岁-25岁10-20斤成功了，还想再瘦",
+
+                "18岁-25岁20斤以上试过减肥，但体重反弹",
+
+                "18岁-25岁20斤以上一直想减肥，但没有行动",
+
+                "18岁-25岁20斤以上成功了，还想再瘦",
+
+                "25岁以上10斤以下试过减肥，但体重反弹",
+
+                "25岁以上10斤以下一直想减肥，但没有行动",
+
+                "25岁以上10斤以下成功了，还想再瘦",
+
+                "25岁以上10-20斤试过减肥，但体重反弹",
+
+                "25岁以上10-20斤一直想减肥，但没有行动",
+
+                "25岁以上10-20斤成功了，还想再瘦",
+
+                "25岁以上20斤以上试过减肥，但体重反弹",
+
+                "25岁以上20斤以上一直想减肥，但没有行动",
+
+                "25岁以上20斤以上成功了，还想再瘦"
+
+            ];
+
+            // 第一题
+
+            var question_1 = '', question_2 = '', question_3 = '', Last_question = '';
+
+            $("#first li").on("click", function () {
+
+                $(this).addClass("on").siblings().removeClass("on");
+
+                question_1 = $(this).html();
+
+                mySwiper.slideNext();
+
+            });
+
+
+
+            // 第二题
+
+            $("#second li").on("click", function () {
+
+                $(this).addClass("on").siblings().removeClass("on");
+
+                question_2 = $(this).html();
+
+                mySwiper.slideNext();
+
+            });
+
+
+
+            // 第三题
+
+            $("#third li").on("click", function () {
+
+                $(this).addClass("on").siblings().removeClass("on");
+
+                question_3 = $(this).html();
+
+                question_3 = question_3.replace(/[A-Z]+\./g, "");
+
+
+
+            });
+
+
+
+            // 点击提交弹出对应编号
+
+            $("#submit_btn").on("click", function () {
+
+
+                // $(".first").css("display","none")
+
+                if (question_3 == "") {
+
+                    alert("请告诉我们您以前试过减肥吗！");
+
+                    return;
+
+                }
+
+
+
+
+
+                // Last_question = question_1 + question_2 + question_3;
+
+
+
+                // Last_question = $.trim(Last_question);
+
+                // Last_questionIndex = $.inArray(Last_question, json) + 1;
+
+                //Last_questionIndex=Math.ceil(Math.random()*10);
+
+               /* Last_questionIndex=$('.a1').attr('data')+$('.a2').attr('data')+$('.a3').attr('data')+$('.a4').attr('data')+$('.a5').attr('data')+$('.a6').attr('data')+$('.a7').attr('data') ;
+
+                $("#Mask .Mask_txt h3 span,#Mask .Mask_txt .num").html(Last_questionIndex)*/;
+
+
+
+                $(".qq_Mask_02").fadeIn(400);
+
+            });
+
+
+
+            // 点击关闭按钮关闭遮罩层并且将测试返回第一题
+
+            $(".close_Mask").on("click", function () {
+
+                $("#Mask").fadeOut(400);
+
+                mySwiper.slideTo(0);
+
+
+
+            });
+
+
+
+            // 点击上一题
+
+            $(".prev").on("click", function () {
+
+                mySwiper.slidePrev();
+
+            });
+
+
+
+
+
+            // 导航切换
+
+            $(".menu li").on("click", function () {
+
+                $(this).addClass("on").siblings().removeClass("on");
+
+                var TabIndex = $(this).index();
+
+                if (TabIndex == 0) {
+
+                    $("#case").fadeIn(400);
+
+                    $(".content_nr").fadeIn(400);
+
+                    $("#comment1").fadeOut(400);
+
+                } else {
+
+                    $("#comment1").fadeIn(400);
+
+                    $("#case").fadeOut(400);
+
+                    $(".content_nr").fadeOut(400);
+
+                }
+
+            });
+
+
+
+
+            var isPlay = false;
+
+
+
+            // 点击播放语音
+
+            $(".voice").click(function () {
+
+                if (!isPlay) {
+
+                    AudioPlay($(this), ".voice_pic");
+
+                    isPlay = true;
+
+                } else {
+
+                    AudioPause($(this), ".voice_pic");
+
+                    isPlay = false;
+
+                }
+
+            });
+
+
+
+            $(".M_voice").on("click", function () {
+
+                if (!isPlay) {
+
+                    AudioPlay($(this), ".Middle_voice");
+
+                    isPlay = true;
+
+                } else {
+
+                    AudioPause($(this), ".Middle_voice");
+
+                    isPlay = false;
+
+                }
+
+            });
+
+
+
+            $(".audio_bottom").on("click", function () {
+
+                if (!isPlay) {
+
+                    AudioPlay($(this), ".bottom_voice");
+
+                    isPlay = true;
+
+                } else {
+
+                    AudioPause($(this), ".bottom_voice");
+
+                    isPlay = false;
+
+                }
+
+            });
+
+
+
+            // 音频播放函数
+
+            function AudioPlay(obj, obj_voice) {
+
+                obj.children("audio").get(0).play();
+
+                obj.children("em,i").fadeOut();
+
+                obj.children(obj_voice).addClass("on");
+
+            }
+
+            // 音频暂停且当前时间设为0函数
+
+            function AudioPause(obj, obj_voice) {
+
+                obj.children("audio").get(0).pause();
+
+                obj.children("audio").get(0).currentTime = 0;
+
+                obj.children(obj_voice).removeClass("on");
+
+            }
+
+
+
+            // 点击评论区小图放大到整屏显示
+
+            $("#thumb .thumb_close").click(function () {
+
+                $("#thumb").fadeOut(400);
+
+                $("#thumb .swiper-container .swiper-wrapper").html('');
+
+            });
+
+
+
+            $(".close_Mask").click(function () {
+
+                $(".qq_Mask,.qq_Mask_02,.qq_Mask_01").fadeOut(400);
+
+            });
+
+            $(".top_r").click(function () {
+
+               $(".qq_Mask_01").fadeIn(400);
+               /* fzshu(21);*/
+
+            });
+            $(".bottom_btn").click(function () {
+
+               $(".qq_Mask_01").fadeIn(400);
+
+
+
+            });
+
+
+
+           $(".bottom_btn,.Link,.top_l").click(function () {
+
+                // $(".qq_Mask").fadeIn(400);
+
+               // window.location.href="http://cjr.aniug.cn/0314ri/w32/02/index2.html?num="+Last_questionIndex;
+
+            });
+
+
+
+
+
+            $(".a1 li").click(function(){
+
+                $(this).parent().attr( 'data',$( ".a1 li" ).index($(this)[0])+1 );
+
+            });
+
+            $(".a2 li").click(function(){
+
+                $(this).parent().attr( 'data',$( ".a2 li" ).index($(this)[0])+1 );
+
+            });
+
+            $(".a3 li").click(function(){
+
+                $(this).parent().attr( 'data',$( ".a3 li" ).index($(this)[0])+1 );
+
+            });
+
+            $(".a4 li").click(function(){
+
+                $(this).parent().attr( 'data',$( ".a4 li" ).index($(this)[0])+1 );
+
+            });
+
+            $(".a5 li").click(function(){
+
+                $(this).parent().attr( 'data',$( ".a5 li" ).index($(this)[0])+1 );
+
+            });
+
+            $(".a6 li").click(function(){
+
+                $(this).parent().attr( 'data',$( ".a6 li" ).index($(this)[0])+1 );
+
+            });
+
+
+
+        });
