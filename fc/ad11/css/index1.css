@@ -1,0 +1,93 @@
+﻿.m-message:before {
+ border-left: .1rem solid #227446;
+ border-top: .1rem solid #227446;
+}
+.m-message:after {
+ border-bottom: .1rem solid #227446;
+ border-right: .1rem solid #227446;
+}
+strong {
+	color: #227446;
+}
+.zs {
+	border-top: 1px solid #227446;
+	border-bottom: 1px solid #aaa;
+ padding: .5rem 0;
+}
+.zs-title {
+	font-size: 0.8rem;
+	font-weight: 700;
+ padding-left: .5rem;
+ margin-bottom: .3rem;
+}
+.zs-info {
+ font-size: .7rem;
+}
+.xh {
+	background: #227446;
+	color: #fff;
+	border-radius: 50%;
+	text-align: center;
+ padding: .15rem .4rem;
+	font-weight: 600;
+}
+.zs-info {
+ padding: 0 .5rem;
+}
+.change #case .first li {
+	background: #649e7e;
+}
+.change .first li.on {
+	background: #227446 !important;
+}
+.change .first #submit_btn {
+	background: #187742;
+}
+.Mask_wechat {
+	background: #227446;
+}
+object, embed {
+	-webkit-animation-duration: .001s;
+	-webkit-animation-name: playerInserted;
+	-ms-animation-duration: .001s;
+	-ms-animation-name: playerInserted;
+	-o-animation-duration: .001s;
+	-o-animation-name: playerInserted;
+	animation-duration: .001s;
+	animation-name: playerInserted;
+}
+ @-webkit-keyframes playerInserted {
+ from {
+ opacity: 0.99;
+}
+to {
+	opacity: 1;
+}
+}
+ @-ms-keyframes playerInserted {
+ from {
+ opacity: 0.99;
+}
+to {
+	opacity: 1;
+}
+}
+ @-o-keyframes playerInserted {
+ from {
+ opacity: 0.99;
+}
+to {
+	opacity: 1;
+}
+}
+ @keyframes playerInserted {
+ from {
+ opacity: 0.99;
+}
+to {
+	opacity: 1;
+}
+}
+        .content .menu li.on {
+            border-bottom-color: #227446;
+        }
