@@ -186,9 +186,17 @@ var prov_arr = new Array("北京市","广州市","深圳市","上海市","江西
     <em>&gt;</em>
     <em style="color: rgba(0,0,0,.5);">正文</em></span>
 			</div>
+			
 			<div class="g-doc">
+		
 				<header>
-					<p class="m-title" style="padding-top: 72px">【良心推荐】我的狐臭就是这么好的，要信我！</p>
+				<div  style="padding-top: 51px;display:flex;border-bottom: 1px solid black">
+				<div style="width:25%;text-align:center">首页</div>
+				<div style="width:25%;text-align:center">关于我们</div>
+				<div style="width:25%;text-align:center">产品中心</div>
+				<div style="width:25%;text-align:center">联系我们</div>
+				</div>
+					<p class="m-title" style="/*padding-top: 72px*/">【良心推荐】我的狐臭就是这么好的，要信我！</p>
 					<p style="white-space:nowrap;line-height: 1.6; ">
 						<span class="m-header-tips ">发表于 2020-01-02 21:30</span>
 						<span class="m-header-tips m-header-right">阅读 22345 点赞 102</span></p>
@@ -705,8 +713,8 @@ var prov_arr = new Array("北京市","广州市","深圳市","上海市","江西
 						
 						
 					</section>
-					<div style="text-align:center;color:#000;margin-top:45px;margin-bottom: 45px">
-						版权：					</div>
+					<div style="text-align:center;color:#000;margin-top:45px;margin-bottom: 65px">
+						版权：鹰潭市天琪电子科技有限公司</div>
 					<br>
 					<div class="s-footer">
 
