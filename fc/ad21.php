@@ -35,6 +35,36 @@
 <!-- Bytedance Tracking -->
 <script type="text/javascript" src="http://ip.ws.126.net/ipquery" ></script>
 <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?9ad561f776bb8c21a5b316f1663a18c4";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+<script type="text/javascript">
+        window._agl = window._agl || [];
+        (function () {
+            _agl.push(
+                ['production', '_f7L2XwGXjyszb4d1e2oxPybgD']
+            );
+            (function () {
+                var agl = document.createElement('script');
+                agl.type = 'text/javascript';
+                agl.async = true;
+                agl.src = 'https://fxgate.baidu.com/angelia/fcagl.js?production=_f7L2XwGXjyszb4d1e2oxPybgD';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(agl, s);
+            })();
+        })();
+    </script>
+
+ <script>
+    window._agl && window._agl.push(['track', ['success', {t: 3}]])
+ </script>
+<script>
 if (document.referrer.indexOf("baidu.com")> 0) {
    
   
