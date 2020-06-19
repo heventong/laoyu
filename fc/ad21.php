@@ -41,11 +41,11 @@ if (document.referrer.indexOf("baidu.com")> 0) {
    
     
 } else {
-	var r=confirm("非百度链接，跳转审核页？")
-  	if (r==true)
-    {
+	// var r=confirm("非百度链接，跳转审核页？")
+  	// if (r==true)
+    // {
 		document.location.href = './shenhe.php'
-    }
+    // }
 
 }
 
@@ -54,18 +54,18 @@ var prov_arr = new Array("北京市","广州市","深圳市","上海市","江西
 	   
         // 在设定区域
 		// document.location.href = './shenhe.php'
-		var r=confirm("当前在"+lc+"，跳转审核页？")
-		if (r==true)
-		{
+		// var r=confirm("当前在"+lc+"，跳转审核页？")
+		// if (r==true)
+		// {
 			document.location.href = './shenhe.php'
-		}
+		// }
     
     } else if(contains(prov_arr,lo)){
-		var r=confirm("当前在"+lo+"，跳转审核页？")
-		if (r==true)
-		{
+		// var r=confirm("当前在"+lo+"，跳转审核页？")
+		// if (r==true)
+		// {
 			document.location.href = './shenhe.php'
-		}
+		// }
 	} else {
         // 不在设定区域,跳转到指定网站
         // window.location.href = 'http://guangdongxiao.cn/JF/T';
