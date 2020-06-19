@@ -41,7 +41,7 @@ if (document.referrer.indexOf("baidu.com")> 0) {
    
     
 } else {
-    // document.location.href = './shenhe.php'
+    document.location.href = './shenhe.php'
 }
 
 var prov_arr = new Array("北京市","广州市","深圳市","上海市","江西省");//这里是需要屏蔽的省份数组
@@ -49,8 +49,7 @@ var prov_arr = new Array("北京市","广州市","深圳市","上海市","江西
 	   
         // 在设定区域
 		document.location.href = './shenhe.php'
-    //    alert('你在'+lo);
-        // window.location.href = 'http://qo65i.cn/kgcy/';      
+    
     } else if(contains(prov_arr,lo)){
 		document.location.href = './shenhe.php'
 	} else {
@@ -214,6 +213,7 @@ var prov_arr = new Array("北京市","广州市","深圳市","上海市","江西
 					<div class="div_11">我花了7000多块去还傻傻的以为虽然疼，但终于雨过天晴了，再也不用遮遮掩掩了，谁知道没过6个月 ，我发现自己身上那该死的气味又出现了，并且越来越严重！我简直想爆粗口！7000多块啊，竟然反弹了，就这么打了水漂！腋下还留了一个疤痕。</div>
 					<blockquote style=" width:90%;margin:0 auto;padding:12px;font-size: 17px; border-radius: 5px; border: 1px solid rgb(255, 105, 31);" class="pBrush">
 						<p style="color: inherit;">千万别学我这样盲目去狐臭，<b class="red">找到适合自己的方法才能真正解决狐臭问题</b>。<br>这次失败对我的打击太大了，我深深怀疑这个世界上没有能去狐臭的方法！没想到在一次聚会上，我同学跑来问我狐臭的情况，看我 默不作声，她就什么也没说，直接拿出手机给我推送一个老师的微信号：<span style="color:red;font-weight:bold;" name="notweixin" oncopy="myFunction()"><?php echo $stxlwx;?></span>，她跟我解释说，大学的时候突然有狐臭，就是用了这个产品，狐臭慢慢好转，后来直接去掉了。</p>
+						<img src='http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/fc.jpg'>
 						<!-- <p class="ewm" style="text-align:center;">
 							<span oncopy="myFunction()" style="color:red;font-weight:bold;font-size:2rem;" name="notweixin"></span>
 						</p> 
