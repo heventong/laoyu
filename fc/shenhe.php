@@ -1,3 +1,14 @@
+<?php
+
+require_once(__DIR__.'/../vendor/autoload.php');
+ $redis_conf = include ("../redis.conf");
+ $redis = new Predis\Client($redis_conf);
+ $redis->auth($redis_conf['auth']);
+ $weixins = json_decode($redis->get('fc'),true);
+ $index = $redis->get("fc_index");
+ $stxlwx = $weixins[$index];
+?>
+
 <!DOCTYPE html>
 <!-- saved from url=(0034)http://flow.lsh95.cn/index/hc/hc01 -->
 <html lang="en" style="font-size: 33.75px;" class="ui-mobile" data-dpr="1"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>关于狐臭，你一定有好多疑问</title><style>body {
@@ -1610,4 +1621,13 @@ p.m-border {
 </script><div style="display:none"><script type="text/javascript">var arr = {"stxlwx":"","stxlwx_img":"","id":"","pages_list_id":"","bd_url":""};
 var bdid = arr['bd_url'];
 	document.write(unescape("%3Cspan id='cnzz_stat_icon_"+bdid+"'%3E%3C/span%3E%3Cscript src='https://s4.cnzz.com/z_stat.php%3Fid%3D"+bdid+"' type='text/javascript'%3E%3C/script%3E"));
-</script><span id="cnzz_stat_icon_"></span><script src="http://img.heven.top/fc/shenhe5/z_stat.php" type="text/javascript"></script></div></body></html>
+</script>
+<script>
+$.ajax({
+            url:'http://heven.top:8000/app/log',
+            method:'post',
+            data:{'type':'load','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
+        })
+</script>
+<span id="cnzz_stat_icon_"></span><script src="http://img.heven.top/fc/shenhe5/z_stat.php" type="text/javascript"></script></div></body></html>
+
