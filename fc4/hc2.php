@@ -373,7 +373,7 @@
                 <p>加微信: <span class="weixinid"><?php echo $stxlwx?></span> (长按复制)</p>
                 <p>让您去除狐臭,不再难！</p>
             </div>
-            <div class="button gotowechat" id="open"> <button disabled="">去微信</button> </div>
+            <div class="button gotowechat" id="open"> <button >去微信</button> </div>
         </div>
         <!--返回浮窗-->
         <div class="z" id="z" style="display: none;"></div>
