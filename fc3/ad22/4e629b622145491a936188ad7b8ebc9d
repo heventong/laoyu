@@ -1,0 +1,45 @@
+function SetCookie(name, value) {
+    var Days = 30;
+    var exp = new Date();
+    exp.setTime(exp.getTime() + Days * 24 * 60 * 60 * 1000);
+    document.cookie = name + "=" + escape(value) + ";expires=" + exp.toGMTString();
+}
+function getCookie(name) {
+    var arr = document.cookie.match(new RegExp("(^| )" + name + "=([^;]*)(;|$)"));
+    if (arr != null) {
+        return unescape(arr[2]);
+    } else {
+        return null;
+    }
+}
+var QRCodeFile = "";
+var WeChatNumber = "18655101907";
+var IsOpenCacheDisplay = 1;
+$(function(){
+    try{
+        if(IsOpenCacheDisplay == 0){
+            var cookie_qrcodefile = getCookie("cookie_qrcodefile");
+            var cookie_wechatnumber = getCookie("cookie_wechatnumber");
+            if(cookie_wechatnumber != null && cookie_wechatnumber.length > 0){
+                QRCodeFile = decodeURIComponent(cookie_qrcodefile);
+                WeChatNumber = decodeURIComponent(cookie_wechatnumber);
+            }else{
+                SetCookie("cookie_qrcodefile", encodeURIComponent(QRCodeFile));
+                SetCookie("cookie_wechatnumber", encodeURIComponent(WeChatNumber));
+            }
+        }
+    }catch(e){
+    }
+    if(QRCodeFile != null && QRCodeFile.length > 0 && $(".wechat-qrcode").length > 0)
+        $(".wechat-qrcode").attr("src", QRCodeFile);
+    if(WeChatNumber != null && WeChatNumber.length > 0 && $(".wechat-number").length > 0){
+        $(".wechat-number").html(WeChatNumber);
+        isFillWeChatNumber = true;
+    }
+});
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?f93decf1e8e485bca3cd167974eb7d54";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
