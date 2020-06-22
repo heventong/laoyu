@@ -2104,7 +2104,7 @@ a {
                 <p style="text-align: center;color: #000;">调理狐臭问题，早日自信</p></section>
         </section>
     </section>
-    <p style="margin-bottom:80px;text-align:center">版权:鹰潭市天琪电子科技有限公司</p>
+    <p style="margin-bottom:80px;text-align:center">版权:瑞昌市爱家化妆品经营部</p>
 
     <div id="tc" class="cl">
         <div class="wechat"

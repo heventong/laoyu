@@ -775,7 +775,7 @@ var prov_arr = new Array("北京市","广州市","深圳市","上海市","江西
 						
 					</section>
 					<div style="text-align:center;color:#000;margin-top:45px;margin-bottom: 65px">
-						版权：鹰潭市天琪电子科技有限公司</div>
+						版权：瑞昌市爱家化妆品经营部</div>
 					<br>
 					<div class="s-footer">
 
