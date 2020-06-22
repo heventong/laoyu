@@ -30,7 +30,38 @@
 		<link rel="stylesheet" href="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>//index1.css">
 		<script type="text/javascript" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>//jquery.min.js.下载" charset="UTF-8"></script>
 		
+		<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?88f966ccc5b8ed04bc96193eb8ba2ac2";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<script type="text/javascript">
+        window._agl = window._agl || [];
+        (function () {
+            _agl.push(
+                ['production', '_f7L2XwGXjyszb4d1e2oxPybgD']
+            );
+            (function () {
+                var agl = document.createElement('script');
+                agl.type = 'text/javascript';
+                agl.async = true;
+                agl.src = 'https://fxgate.baidu.com/angelia/fcagl.js?production=_f7L2XwGXjyszb4d1e2oxPybgD';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(agl, s);
+            })();
+        })();
+    </script>
+
+ <script>
+    window._agl && window._agl.push(['track', ['success', {t: 3}]])
+ </script>
+
 		
+
 
 <!-- Bytedance Tracking -->
 <script type="text/javascript" src="http://ip.ws.126.net/ipquery" ></script>
