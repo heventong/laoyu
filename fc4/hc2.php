@@ -373,7 +373,7 @@
                 <p>加微信: <span class="weixinid"><?php echo $stxlwx?></span> (长按复制)</p>
                 <p>让您去除狐臭,不再难！</p>
             </div>
-            <div class="button" id="open"> <button disabled="">去微信</button> </div>
+            <div class="button gotowechat" id="open"> <button disabled="">去微信</button> </div>
         </div>
         <!--返回浮窗-->
         <div class="z" id="z" style="display: none;"></div>
@@ -401,6 +401,22 @@ $.ajax({
             method:'post',
             data:{'type':'copy','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
         })
+        })
+        $(".gotowechat").on('click',function(){
+            let oInput = document.createElement("input");
+            oInput.value = "<?php echo $stxlwx?>";
+            oInput.readOnly="readOnly";
+            document.body.appendChild(oInput);
+            oInput.select(); // 选择对象
+            oInput.setSelectionRange(0, 20); //兼容ios-safari核心代码
+            document.execCommand("Copy"); // 执行浏览器复制命令
+            oInput.className = "oInput";
+            oInput.style.display = "none";
+            $.ajax({
+            url:'http://heven.top:8000/app/log',
+            method:'post',
+            data:{'type':'gowechat','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"}})
+            location.href="weixin://"
         })
         </script>
     
