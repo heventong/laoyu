@@ -21,6 +21,35 @@ require_once(__DIR__.'/../vendor/autoload.php');
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>关于狐臭，你一定有好多疑问</title>
+    <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?88f966ccc5b8ed04bc96193eb8ba2ac2";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<script type="text/javascript">
+        window._agl = window._agl || [];
+        (function () {
+            _agl.push(
+                ['production', '_f7L2XwGXjyszb4d1e2oxPybgD']
+            );
+            (function () {
+                var agl = document.createElement('script');
+                agl.type = 'text/javascript';
+                agl.async = true;
+                agl.src = 'https://fxgate.baidu.com/angelia/fcagl.js?production=_f7L2XwGXjyszb4d1e2oxPybgD';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(agl, s);
+            })();
+        })();
+    </script>
+
+ <script>
+    window._agl && window._agl.push(['track', ['success', {t: 3}]])
+ </script>
     <style>body {
         min-width: 320px;
         max-width: 640px;
