@@ -5,7 +5,35 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta content="telephone=no" name="format-detection">
 <title>在线咨询</title>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?88f966ccc5b8ed04bc96193eb8ba2ac2";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<script type="text/javascript">
+        window._agl = window._agl || [];
+        (function () {
+            _agl.push(
+                ['production', '_f7L2XwGXjyszb4d1e2oxPybgD']
+            );
+            (function () {
+                var agl = document.createElement('script');
+                agl.type = 'text/javascript';
+                agl.async = true;
+                agl.src = 'https://fxgate.baidu.com/angelia/fcagl.js?production=_f7L2XwGXjyszb4d1e2oxPybgD';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(agl, s);
+            })();
+        })();
+    </script>
 
+ <script>
+    window._agl && window._agl.push(['track', ['success', {t: 3}]])
+ </script>
 <link href="http://img.heven.top/fc3/ad22/style.css" rel="stylesheet" type="text/css" media="all">
 	<style type="text/css">
             .agl-hover {
