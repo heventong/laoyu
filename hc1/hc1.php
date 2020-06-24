@@ -119,7 +119,7 @@ function isPc() {
                 </div>
             </div>
             <div class="floorBottom" id="floorBottom">
-                <p>想了挺长时间才决定发这个文章，真不知道该怎么写，在这里我得到过很多人的帮助，因为我当初的腋下臭经历让我一度不敢出门。还好遇见了<span class="laoshi">狐消消草本祛臭专家老师</span>，我才治好了我的腋下臭。所以作为回报，我就把我祛除腋下臭的经历分享给大家，希望大家能够看完，然后互帮互助给传递下去。(<span class="laoshi">狐消消草本祛臭专家老师</span>微信号：<span class="weixinid"><script>document.write(mess2);</script></span>，有腋下臭的朋友加一下她)</p>
+                <p>想了挺长时间才决定发这个文章，真不知道该怎么写，在这里我得到过很多人的帮助，因为我当初的腋下臭经历让我一度不敢出门。还好遇见了<span class="laoshi">草本祛臭专家老师</span>，我才治好了我的腋下臭。所以作为回报，我就把我祛除腋下臭的经历分享给大家，希望大家能够看完，然后互帮互助给传递下去。(<span class="laoshi">草本祛臭专家老师</span>微信号：<span class="weixinid"><script>document.write(mess2);</script></span>，有腋下臭的朋友加一下她)</p>
                  <center>
 
           </center>
@@ -140,7 +140,7 @@ function isPc() {
                     <span style="font-weight:bold">这就是我以前的情况，为了少出臭味，夏天我穿成这样，也是拼了<br></span>
                     <span><img style="width:100%" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/xywy_4.jpg" alt=""></span>
                 </p>
-                <p>就这样在5月17号收到爸爸带回来的一小瓶所谓的自配产品，刚一拿到，有一股淡淡的清香味，试着喷了二下，希望第二天身上别再有那讨厌的味道。按照 那个微信给我的指导方法，每次喷2-3下，连续使用一周后，自己总是特意低下头去闻，好像分别不出到底淡了多少。5月21号下午，一个高兴的日子，我和表 姐一起逛街，从下午3点一直到晚上七点，表姐突然说了一句“今天没有闻到味道”，我突然意识到，就赶紧低头闻了一下腋下，天呀，臭味基本闻不到了，这才相信我每天低头去闻确实是真的闻不到了，乐死了。到家后，赶紧在微信上 联系那个，问要不要每天再加量使用或是用三次，这样好的更快，他回复我说，不用，按正常早晚用就行了，除非是非常浓烈的味道可以每天喷三次，一般 一个月左右就没有味道了，坚持使用，可以祛除。我目前已经使用快2个月了，现在一点异味都没有了，真的感觉很棒！今天我把这位的微信分享给大家， 希望你们早日摆脱臭味缠身。叫狐消消草本祛臭专家老师，是女的，微信： <span class="weixinid"><script>document.write(mess2);</script></span> （有狐 臭的朋友可以加下她，复制不了微信号的朋友可以记下微信号再加喔）。后来和 <span class="laoshi">狐消消草本祛臭专家老师</span>的交流中了解到，她曾经也是一个腋下臭的受害者，而且有7年的困扰期，她用了很多方法都没有治好。后来自己根据一些书籍记载，利用在药材交易市 场的便利，自己配制的喷剂，之后也没有复发。所以，就给了很多朋友使用，渐渐的名声就传开了。我一个同事之前用止汗散，但是止汗散只是单纯止汗，还会 导致腋下臭越来越严重。  </p>
+                <p>就这样在5月17号收到爸爸带回来的一小瓶所谓的自配产品，刚一拿到，有一股淡淡的清香味，试着喷了二下，希望第二天身上别再有那讨厌的味道。按照 那个微信给我的指导方法，每次喷2-3下，连续使用一周后，自己总是特意低下头去闻，好像分别不出到底淡了多少。5月21号下午，一个高兴的日子，我和表 姐一起逛街，从下午3点一直到晚上七点，表姐突然说了一句“今天没有闻到味道”，我突然意识到，就赶紧低头闻了一下腋下，天呀，臭味基本闻不到了，这才相信我每天低头去闻确实是真的闻不到了，乐死了。到家后，赶紧在微信上 联系那个，问要不要每天再加量使用或是用三次，这样好的更快，他回复我说，不用，按正常早晚用就行了，除非是非常浓烈的味道可以每天喷三次，一般 一个月左右就没有味道了，坚持使用，可以祛除。我目前已经使用快2个月了，现在一点异味都没有了，真的感觉很棒！今天我把这位的微信分享给大家， 希望你们早日摆脱臭味缠身。叫草本祛臭专家老师，是女的，微信： <span class="weixinid"><script>document.write(mess2);</script></span> （有狐 臭的朋友可以加下她，复制不了微信号的朋友可以记下微信号再加喔）。后来和 <span class="laoshi">草本祛臭专家老师</span>的交流中了解到，她曾经也是一个腋下臭的受害者，而且有7年的困扰期，她用了很多方法都没有治好。后来自己根据一些书籍记载，利用在药材交易市 场的便利，自己配制的喷剂，之后也没有复发。所以，就给了很多朋友使用，渐渐的名声就传开了。我一个同事之前用止汗散，但是止汗散只是单纯止汗，还会 导致腋下臭越来越严重。  </p>
                 <p class="impg">
                     <span style="font-weight:bold">这是我朋友用止汗散后腋下成为这个样子<br></span>
                     <span><img style="width:100%" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/xywy_5.jpg" alt=""></span>
@@ -150,7 +150,7 @@ function isPc() {
                     <span style="font-weight:bold">这是我看到一位网友动刀子后腋下的疤痕，哎，心酸啊！<br></span>
                     <span><img style="width:100%" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/xywy_6.jpg" alt=""></span>
                 </p>
-                <p>这里再一次向<span class="laoshi">狐消消草本祛臭专家老师</span>表示感谢。如果你也有腋下臭困扰，加她微信（<span class="weixinid"><script>document.write(mess2);</script></span>）向她咨询 吧！<br> </p><center>
+                <p>这里再一次向<span class="laoshi">草本祛臭专家老师</span>表示感谢。如果你也有腋下臭困扰，加她微信（<span class="weixinid"><script>document.write(mess2);</script></span>）向她咨询 吧！<br> </p><center>
 
           </center>
           <center>
@@ -353,7 +353,7 @@ function isPc() {
                 </div>
             </div>
             <div class="floorBottom">
-                <p>我老公的腋下臭也是找<span class="laoshi">狐消消草本祛臭专家老师</span>治好的，么么哒 </p>
+                <p>我老公的腋下臭也是找<span class="laoshi">草本祛臭专家老师</span>治好的，么么哒 </p>
             </div>
             <div class="zan"><b></b>357</div>
         </div>
@@ -381,7 +381,7 @@ function isPc() {
                 </div>
             </div>
             <div class="floorBottom">
-                <p>腋下臭都十年了，一直都治不好，也不敢去切除。味特别大，夏天一冒汗，自己受不了，止汗散用的腋下变的那种黑黑的，<span class="laoshi">狐消消草本祛臭专家老师</span>的产品真的神奇，这么严重的腋下臭都没了，一点都没过敏，而且腋下现在也没黑黑的东西了。 </p>
+                <p>腋下臭都十年了，一直都治不好，也不敢去切除。味特别大，夏天一冒汗，自己受不了，止汗散用的腋下变的那种黑黑的，<span class="laoshi">草本祛臭专家老师</span>的产品真的神奇，这么严重的腋下臭都没了，一点都没过敏，而且腋下现在也没黑黑的东西了。 </p>
             </div>
             <div class="zan"><b></b>853</div>
         </div>
@@ -494,7 +494,7 @@ function isPc() {
             </div>
             <div class="floorBottom">
                 <div class="blockquote">
-                    <a>落单的鹦鹉：具体你问问<span class="laoshi">狐消消草本祛臭专家老师</span>吧，你可以加她微信：<span class="weixinid"><script>document.write(mess2);</script></span>了解了解  </a>
+                    <a>落单的鹦鹉：具体你问问<span class="laoshi">草本祛臭专家老师</span>吧，你可以加她微信：<span class="weixinid"><script>document.write(mess2);</script></span>了解了解  </a>
                 </div>
                 <p style="text-indent:0;">我也有严重的腋下臭真的可以好吗</p>
             </div>
@@ -510,7 +510,7 @@ function isPc() {
                 </div>
             </div>
             <div class="floorBottom">
-                <p>很有效果，我给我女儿用了三次已经没有味道了，孩子才11岁，太小了，不敢用其它的东西。选择了<span class="laoshi">狐消消草本祛臭专家老师</span>很幸运！</p>
+                <p>很有效果，我给我女儿用了三次已经没有味道了，孩子才11岁，太小了，不敢用其它的东西。选择了<span class="laoshi">草本祛臭专家老师</span>很幸运！</p>
             </div>
             <div class="zan"><b></b>410</div>
        </div>
@@ -524,7 +524,7 @@ function isPc() {
                 </div>
             </div>
             <div class="floorBottom">
-                <p>说到<span class="laoshi">狐消消草本祛臭专家老师</span>，我应该比较有发言权，我是她的学生，她是我的专业课。当时我算是最先用她方子的人，因为之前她有腋下臭挺严重的上课的时候都能闻到，后来慢慢的没有了，我就去问了一下，她就给我配了一小瓶，结果我也好了。哈哈，当时让她对外销售的主意还是我帮助想的。<span class="laoshi">狐消消草本祛臭专家老师</span>，好人一个，热心肠一个。我们班的同学几乎都吃过她家饭。现在已经毕业两年多了，也已经两年多没有看到过<span class="laoshi">狐消消草本祛臭专家老师</span>了，感谢前面的朋友留的微信号：<span class="weixinid"><script>document.write(mess2);</script></span>，我也要加一下问候一声。</p>
+                <p>说到<span class="laoshi">草本祛臭专家老师</span>，我应该比较有发言权，我是她的学生，她是我的专业课。当时我算是最先用她方子的人，因为之前她有腋下臭挺严重的上课的时候都能闻到，后来慢慢的没有了，我就去问了一下，她就给我配了一小瓶，结果我也好了。哈哈，当时让她对外销售的主意还是我帮助想的。<span class="laoshi">草本祛臭专家老师</span>，好人一个，热心肠一个。我们班的同学几乎都吃过她家饭。现在已经毕业两年多了，也已经两年多没有看到过<span class="laoshi">草本祛臭专家老师</span>了，感谢前面的朋友留的微信号：<span class="weixinid"><script>document.write(mess2);</script></span>，我也要加一下问候一声。</p>
             </div>
             <div class="zan"><b></b>844</div>
         </div>
@@ -538,7 +538,7 @@ function isPc() {
                 </div>
             </div>
             <div class="floorBottom">
-                <p><span class="laoshi">狐消消草本祛臭专家老师</span>加油！好人就应该宣传，可以帮助更多的人。我和楼主的遭遇类似，现在也已经好了。　</p>
+                <p><span class="laoshi">草本祛臭专家老师</span>加油！好人就应该宣传，可以帮助更多的人。我和楼主的遭遇类似，现在也已经好了。　</p>
             </div>
             <div class="zan"><b></b>310</div>
         </div>
@@ -598,7 +598,7 @@ function isPc() {
       <div class="f_text">
         <p>恭喜您，获得咨询<span>↓↓↓</span>资格</p>
         <p class="open" data-target="1"><script>document.write(mess2)</script></p>
-        <p>腋下臭达人-狐消消草本祛臭专家老师</p>
+        <p>腋下臭达人-草本祛臭专家老师</p>
         <p class="weixinid"></p>
         <p style="">每天仅<span>50个</span>名额，错过遗憾一辈子！</p>
       </div>
