@@ -585,7 +585,7 @@ function isPc() {
             <p>调理狐臭问题，让你不再自信</p>
         </div>
         <div class="button open">
-                <button type="button" class="btn btn-success">去微信</button>
+                <!--<button type="button" class="btn btn-success">去微信</button>-->
             <!--  -->
         </div>
     </div>
