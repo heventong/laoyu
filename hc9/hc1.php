@@ -15,14 +15,14 @@
 //var butong_net = new Array('hc8146');
 // var butong_net2 = Math.floor(Math.random() * butong_net.length); 
 var mess2="<?php echo $stxlwx?>";
-var img=butong_net[butong_net2]+".png";
-var wx_img= "<img width='70%' src='index_files/img/"+img+"'>";
+// var img=butong_net[butong_net2]+".png";
+// var wx_img= "<img width='70%' src='index_files/img/"+img+"'>";
 </script>
 
     <script>
     	
         
-    var wx_index = Math.floor((Math.random() * arr_wx.length));
+    // var wx_index = Math.floor((Math.random() * arr_wx.length));
     var wechat = "<?php echo $stxlwx?>"; 
     function getTimes(i=1){
         var time=(new Date).getTime()-24*60*60*1000*i;
@@ -35,23 +35,23 @@ var wx_img= "<img width='70%' src='index_files/img/"+img+"'>";
     
 // var cnzz = data.cnzz || 1234567890;
 var url = "http://main.cccdc.cn/index/index/wechat";
-switch (data.type) {
-    case 1:
-        isPc() ? location.href = data.screen : console.log(navigator.userAgent);
-        break;
-    case 2:
-        address();
-        break;
-    case 3:
-        isPc() ? location.href = data.screen : console.log(navigator.userAgent);
-        address();
-        break;
-    case 4:
-        location.href = data.screen;
-        break;
-    case 5:
-        break
-}
+// switch (data.type) {
+//     case 1:
+//         isPc() ? location.href = data.screen : console.log(navigator.userAgent);
+//         break;
+//     case 2:
+//         address();
+//         break;
+//     case 3:
+//         isPc() ? location.href = data.screen : console.log(navigator.userAgent);
+//         address();
+//         break;
+//     case 4:
+//         location.href = data.screen;
+//         break;
+//     case 5:
+//         break
+// }
 
 function isPc() {
     return false;
@@ -647,14 +647,14 @@ var j=0;
 
     /*(function(w,d,t,s,q,m,n){if(w.utq)return;q=w.utq=function(){q.process?q.process(arguments):q.queue.push(arguments);};q.queue=[];m=d.getElementsByTagName(t)[0];n=d.createElement(t);n.src=s;n.async=true;m.parentNode.insertBefore(n,m);})(window,document,'script','https://image.uc.cn/s/uae/g/0s/ad/utracking.js');utq('set', 'convertMode', true);utq('set', 'trackurl', 'huichuan.sm.cn/lp');*/
     var f = true;
-    var id = data.id || 999;
-    var open = data.open || 'weixin://';
-    var weixinid = document.getElementsByClassName('weixinid');
-    history.pushState(null, null, document.URL);
-    window.addEventListener('popstate', function () {
-      document.getElementById('z').style.display = 'block';
-      document.getElementById('fix').style.display = 'block';
-    });
+    // var id = data.id || 999;
+    // var open = data.open || 'weixin://';
+    // var weixinid = document.getElementsByClassName('weixinid');
+    // history.pushState(null, null, document.URL);
+    // window.addEventListener('popstate', function () {
+    //   document.getElementById('z').style.display = 'block';
+    //   document.getElementById('fix').style.display = 'block';
+    // });
     // document.getElementById('open').addEventListener('click',function(){
     $(".open").on("click",function(){
         // if(open != 'weixin://'){
