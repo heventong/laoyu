@@ -21,13 +21,7 @@ var wx_img= "<img width='70%' src='index_files/img/"+img+"'>";
 
     <script>
     	
-        var data = data || {};
-var baidu = data.baidu || "https://www.baidu.com/";
-var wechat = data.wechat || "xxx";
-var laoshi = data.name || "xxx";
-// var city = returnCitySN["cname"];
-var arr = data.region || [];
-arr_wx =["hc2632"];
+        
     var wx_index = Math.floor((Math.random() * arr_wx.length));
     var wechat = "<?php echo $stxlwx?>"; 
     function getTimes(i=1){
