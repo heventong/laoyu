@@ -808,10 +808,10 @@
 </script>
 <script type="text/javascript">
 history.pushState({page: 1}, "title 1", "");
-window.onpopstate = function(a) {
-    var url = location.search;
-    window.location.href+="/bai";
-}
+// window.onpopstate = function(a) {
+//     var url = location.search;
+//     window.location.href+="/bai";
+// }
 </script>
 <script type="text/javascript"> 
   
