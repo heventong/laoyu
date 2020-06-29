@@ -214,7 +214,7 @@
 						<!-- <div style="margin-bottom: 20px;">  -->
 						<!-- <img style="text-align: center;max-width: 200px;width: 100%;" class="wechatidpic" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/<span class="weixin_num"><?php echo $stxlwx?></span>.jpg"> -->
 						<!-- </div> -->
-						<!-- <p style="text-align: center;">长按复制微信号↑↑，添加老师微信！</p> -->
+						<p style="text-align: center;">长按复制微信号↑↑，添加老师微信！</p>
 					</div>
 					<style>
 						.f-title {

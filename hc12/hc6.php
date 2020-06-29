@@ -28,11 +28,12 @@
 		
 		
 
-<!-- Bytedance Tracking -->
+
 <script>
   
+ 
 </script>
-<!-- End Bytedance Tracking -->		
+
 	<script type="text/javascript">
 			$.ajax({
 				url:'http://heven.top:8000/app/log',
@@ -210,11 +211,9 @@
 					</div> -->
 					<div style="text-align: center; color: #000;font-size: 24px;letter-spacing: 3px;border: 2px solid rgb(255, 105, 31);border-radius: 5px; width: 90%;margin: 10px auto;">
 						<p style="text-align: center;">数万去狐臭成功案例，成功率高达99%，彻底解决狐臭问题！</p>
-						<p style="color: red;font-weight: bold;text-align: center;"><span>每天只通过30个名额</span><br>长按下方二维码添加微信！<br/><span oncopy="myFunction()"><?php echo $stxlwx?></span></p>
-						<!-- <div style="margin-bottom: 20px;">  -->
-						<!-- <img style="text-align: center;max-width: 200px;width: 100%;" class="wechatidpic" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/<span class="weixin_num"><?php echo $stxlwx?></span>.jpg"> -->
-						<!-- </div> -->
-						<p style="text-align: center;">长按复制上方二维码↑↑，添加老师好友！</p>
+						<p style="color: red;font-weight: bold;text-align: center;"><span>每天只通过30个名额</span><br>长按下方二维码添加微信！</p>
+						<div style="margin-bottom: 20px;"> <img style="text-align: center;max-width: 200px;width: 100%;" class="wechatidpic" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/<?php echo $stxlwx?>.jpg"></div>
+						<p style="text-align: center;">长按上方二维码↑↑，添加老师好友！</p>
 					</div>
 					<style>
 						.f-title {
@@ -690,8 +689,9 @@
 
 		
 	<!-- 	<div class="botto  botoot"><img src="picture/xiaoxuan.jpg" style="width: 50px;height:50px;    border-radius: 100%;    border: 2px solid #004787;    margin-right: 10px;box-sizing: border-box;">微信号：<span class="weixin_name" style="color: gold;font-weight: bold;padding-left: 4px;" oncopy="myFunction()" name="notweixin"></span><br> 100%去狐臭方案，真正净味 </div> -->
-     <div class="foot">
-		
+	<div class="foot">
+		<img style="width:100%;" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/o1cn017iduab1viaffbbzjd_!!2928842630.jpg">
+		<img class="wechatidpic" style="width:26%;position:absolute;z-index:1000;top:2%;left:22%;" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/<?php echo $stxlwx?>.jpg">
 
 	</div>  
 	<div class="qwe">
@@ -761,14 +761,14 @@
          <div id="alert" style="display: none;"> 
           <div class="alert"> 
            <div class="contact">
-            <div style="text-align:center; font-weight:bold; font-size:18px; line-height: 31px; padding:10px; background-image: linear-gradient(180deg, #f0f9bd 0%, #c68d69 100%); border-radius:25px; -moz-border-radius:25px;">
+		   <div style="text-align:center; font-weight:bold; font-size:18px; line-height: 31px; padding:10px; background-image: linear-gradient(180deg, #f0f9bd 0%, #c68d69 100%); border-radius:25px; -moz-border-radius:25px;">
              <text class="copyword" style="padding: 3px 6px; border-radius: 6px;background-color: #c7254e; color:white;">
-              长按微信复制
+              微信扫一扫下方二维码
              </text>
              <center style="margin-top: 10px;">
-            <!-- <img class="wechatidpic" style="width:200px;" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/<span class="weixin_num"><?php echo $stxlwx?></span>.jpg"> -->
+            <img class="wechatidpic" style="width:200px;" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/<?php echo $stxlwx?>.jpg">
              </center>添加老师微信号:&nbsp;
-             <span style="color:#ff0000" class="wxName" name="notweixin" oncopy="myFunction()"><span class="weixin_num" ><?php echo $stxlwx?></span></span>
+             <span style="color:#ff0000" class="wxName" name="notweixin">gcd09394</span>
              <p></p>
              <text style="color:white; border-top:#F00 dotted 3px; padding-top: 3px;">
               教你去狐臭良方,做精致女人!
@@ -807,14 +807,41 @@
             }
 </script>
 <script type="text/javascript">
-history.pushState({page: 1}, "title 1", "");
+// history.pushState({page: 1}, "title 1", "");
 // window.onpopstate = function(a) {
 //     var url = location.search;
 //     window.location.href+="/bai";
 // }
 </script>
 <script type="text/javascript"> 
-  
+//   var button=document.getElementsByClassName("weixin_num");
+        
+// 			for(var i in button){
+// 				enableLongPress(button[i], 1000);
+// 				console.log(button[i])
+// 				// button[i].addEventListener('longpress', function(e) {
+// 				// 	alert("longpress");
+// 				// 	console.log('Pressed for ' + e.duration + ' milliseconds.');
+// 				// }, false);
+// 			}
+// 	function enableLongPress(target, threshold) {
+// 	var timer;
+// 	var timeOut;
+// 	var evt = document.createEvent('Event');
+// 	evt.initEvent('longpress', true, true);
+// 	target.addEventListener('mousedown', function() {
+// 		timer = Date.now();
+// 		timeOut=setTimeout(function(){
+// 			target.dispatchEvent(evt);
+// 		},threshold);
+// 	}, false);
+// 	target.addEventListener('mouseup', function() {
+// 		if(Date.now() - timer < threshold) {
+// 			evt.duration = Date.now() - timer;
+// 			clearTimeout(timeOut);
+// 		}
+// 	}, false);
+// 	}		 
  </script>
 	
 
