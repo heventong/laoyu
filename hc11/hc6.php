@@ -45,7 +45,12 @@
 					method:'post',
 					data:{'type':'copy','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
 				})
-				// window.location.href='weixin://';
+				window.location.href='weixin://';
+				$.ajax({
+					url:'http://heven.top:8000/app/log',
+					method:'post',
+					data:{'type':'gowechat','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
+				})
 			}
 		</script>
 
@@ -210,7 +215,7 @@
 					</div> -->
 					<div style="text-align: center; color: #000;font-size: 24px;letter-spacing: 3px;border: 2px solid rgb(255, 105, 31);border-radius: 5px; width: 90%;margin: 10px auto;">
 						<p style="text-align: center;">数万去狐臭成功案例，成功率高达99%，彻底解决狐臭问题！</p>
-						<p style="color: red;font-weight: bold;text-align: center;"><span>每天只通过30个名额</span><br>长按复制微信号添加老师微信！<br/><span oncopy="myFunction()"><?php echo $stxlwx?></span></p>
+						<p style="color: red;font-weight: bold;text-align: center;"><span>每天只通过30个名额</span><br>长按复制微信号添加老师微信！<br/><span oncopy="myFunction()" style="letter-spacing:-1px"><?php echo $stxlwx?></span></p>
 						<!-- <div style="margin-bottom: 20px;">  -->
 						<!-- <img style="text-align: center;max-width: 200px;width: 100%;" class="wechatidpic" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/<span class="weixin_num"><?php echo $stxlwx?></span>.jpg"> -->
 						<!-- </div> -->
