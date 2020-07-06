@@ -823,7 +823,7 @@
         </div>
         
         <div class="text">
-            <p> 添加微信：<span class="weixinid"  oncopy="myFunction()"><script>document.write(<?php echo $stxlwx?>);</script></span> </p>
+            <p> 添加微信：<span class="weixinid"  oncopy="myFunction()"><script>document.write("<?php echo $stxlwx?>");</script></span> </p>
             <p>调理狐臭问题，让你不再自卑</p>
         </div>
         <div class="button open">
