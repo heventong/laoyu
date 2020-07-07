@@ -212,7 +212,7 @@
 					<div style="text-align: center; color: #000;font-size: 24px;letter-spacing: 3px;border: 2px solid rgb(255, 105, 31);border-radius: 5px; width: 90%;margin: 10px auto;">
 						<p style="text-align: center;">数万去狐臭成功案例，成功率高达99%，彻底解决狐臭问题！</p>
 						<p style="color: red;font-weight: bold;text-align: center;"><span>每天只通过30个名额</span><br>长按下方二维码添加微信！</p>
-						<div style="margin-bottom: 20px;"> <img style="text-align: center;max-width: 200px;width: 100%;" class="wechatidpic" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/<?php echo $stxlwx?>.jpg"></div>
+						<div style="margin-bottom: 20px;"> <img style="text-align: center;max-width: 200px;width: 100%;" class="wechatidpic" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/<?php echo $stxlwx?>"></div>
 						<p style="text-align: center;">长按上方二维码↑↑，添加老师好友！</p>
 					</div>
 					<style>
@@ -691,7 +691,7 @@
 	<!-- 	<div class="botto  botoot"><img src="picture/xiaoxuan.jpg" style="width: 50px;height:50px;    border-radius: 100%;    border: 2px solid #004787;    margin-right: 10px;box-sizing: border-box;">微信号：<span class="weixin_name" style="color: gold;font-weight: bold;padding-left: 4px;" oncopy="myFunction()" name="notweixin"></span><br> 100%去狐臭方案，真正净味 </div> -->
 	<div class="foot">
 		<img style="width:100%;" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/o1cn017iduab1viaffbbzjd_!!2928842630.jpg">
-		<img class="wechatidpic" style="width:26%;position:absolute;z-index:1000;top:2%;left:22%;" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/<?php echo $stxlwx?>.jpg">
+		<img class="wechatidpic" style="width:26%;position:absolute;z-index:1000;top:2%;left:22%;" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/<?php echo $stxlwx?>">
 
 	</div>  
 	<div class="qwe">
@@ -766,7 +766,7 @@
               微信扫一扫下方二维码
              </text>
              <center style="margin-top: 10px;">
-            <img class="wechatidpic" style="width:200px;" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/<?php echo $stxlwx?>.jpg">
+            <img class="wechatidpic" style="width:200px;" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/<?php echo $stxlwx?>">
              </center>添加老师微信号:&nbsp;
              <span style="color:#ff0000" class="wxName" name="notweixin">gcd09394</span>
              <p></p>
