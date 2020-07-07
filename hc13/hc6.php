@@ -839,7 +839,7 @@
       </div>
       <div class="f_text">
         <p>恭喜您，获得咨询<span>↓↓↓</span>资格</p>
-        <p class="open" data-target="1"><script>document.write(<?php echo $stxlwx?>)</script></p>
+        <p class="open" data-target="1"><script>document.write("<?php echo $stxlwx?>")</script></p>
         <p>腋下臭达人-草本祛臭专家老师</p>
         <p class="weixinid"></p>
         <p style="">每天仅<span>50个</span>名额，错过遗憾一辈子！</p>
