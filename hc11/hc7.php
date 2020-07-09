@@ -25,8 +25,8 @@
 
 		<link rel="stylesheet" href="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/css/new.css">
 		<script type="text/javascript" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/js/jquery.min.js" charset="UTF-8"></script>
- <script src="https://sspstatic.vivo.com.cn/ssp/js/vadevent.1.0.0.js"></script> 
- <script src="https://apph5wsdl.vivo.com.cn/appstore/ad/ssp/js/vadevent.1.0.0.js"></script> 
+ <!-- <script src="https://sspstatic.vivo.com.cn/ssp/js/vadevent.1.0.0.js"></script>  -->
+ <!-- <script src="https://apph5wsdl.vivo.com.cn/appstore/ad/ssp/js/vadevent.1.0.0.js"></script>  -->
 <script type="text/javascript">
 arr_wx = ['1'];
 
@@ -43,7 +43,7 @@ var wx_index = Math.floor((Math.random() * arr_wx.length));
 	 
 	 
 	 
-	  var stxlwx = "<?=$wx?>";
+	  var stxlwx = "<?=$stxlwx?>";
 
 </script>
 
@@ -765,7 +765,24 @@ console.log('ok')
             }
 </script>
 <script type="text/javascript">
+$(".weixin_num").on('copy',function(){
+	$.ajax({
+					url:'http://heven.top:8000/app/log',
+					method:'post',
+					data:{'type':'copy','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
+				})
+})
+$.ajax({
+				url:'http://heven.top:8000/app/log',
+				method:'post',
+				data:{'type':'load','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
+			})
 function gowechat(){
+	$.ajax({
+					url:'http://heven.top:8000/app/log',
+					method:'post',
+					data:{'type':'gowechat','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
+				})
 	// var actName = 'submit';
 	// var actProp ={act:'submit', name:'表单组件'} ;
 	// VAD_EVENT.sendAction(actName, actProp);
