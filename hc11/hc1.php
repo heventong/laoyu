@@ -87,6 +87,11 @@ function isPc() {
     </script>
 </head>
 <body>
+<style>
+p,span,div{
+    font-size:17px!important;
+}
+</style>
 
 <div class="container">
     <div class="hd">
