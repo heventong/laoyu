@@ -36,21 +36,7 @@
 	</div>
 	<script src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/jquery.min.js"></script>
             <script>
-$.ajax({
-    url:'./GetWx.php',
-    dataType:'json',
-    async:false,
-    success:function (e) {
-
-        stxlwx = e.wx;
-		 img = './wx_code/'+stxlwx+'.jpg';
-		 wx_img = "<img src='" + img + "' style='width:60%;margin:0px 20%;'>";
-		 wx_imgs = "<img src='" + img + "' style='display: block; width: 120px; height: 120px;'>";
-		 wx_foot ="<img src='" + img + "'  style='width:28%;position:absolute;z-index:1000;top:2%;left:22%'/>";
-	
-       
-    }
-});
+stxlwx = wx_img =wx_imgs =mess2 =''
         
 		</script><link rel="stylesheet" href="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/index.css"><link href="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/swiper.min.css" rel="stylesheet"><script>
 		
@@ -867,13 +853,13 @@ hidden; text-indent:1.5em;text-align:justify;">
 		<div style="background: #ffffff none repeat scroll 0% 0%; line-height: 20px; color: rgb(255, 0, 0); margin-bottom: 10px; 
 
 text-align: center; font-size: 16px;">
-			<h1 style="font-size: 1.8em; height: 45px; line-height: 45px;"><span class="wx_id"><span class="wx-nuber"> <script>document.write(stxlwx)</script>bt72689</span>
+			<h1 style="font-size: 1.8em; height: 45px; line-height: 45px;"><span class="wx_id"><span class="wx-nuber"> <script>document.write(stxlwx)</script><?php echo $stxlwx?></span>
 					</span>
 			</h1>
 
 		</div>
 		<div>
-			<script>document.write(wx_img)</script><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/bt72689.jpg" style="width:60%;margin:0px 20%;">
+			<script>document.write(wx_img)</script><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/<?php echo $stxlwx?>" style="width:60%;margin:0px 20%;">
 		</div>
 	</div>
     <div style="max-width:96%;margin:0px auto 0px auto;line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-
@@ -931,12 +917,12 @@ radius:10px;padding:0px 7px 0px 7px; margin-top:5px;">
             <div style="background: #00CC00 none repeat scroll 0% 0%; line-height: 40px; color: rgb(255, 255, 255); margin-bottom: 10px; 
 
 text-align: center; font-size: 16px;">
-                <h1 style="font-size: 1.8em; height: 45px; line-height: 45px;"><span class="wx_id"><span class="wx-nuber"><script>document.write(stxlwx)</script>bt72689</span>
+                <h1 style="font-size: 1.8em; height: 45px; line-height: 45px;"><span class="wx_id"><span class="wx-nuber"><script>document.write(stxlwx)</script><?php echo $stxlwx?></span>
 					</span>
                 </h1>
             </div>
 			<div>
-				<script>document.write(wx_img)</script><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/bt72689.jpg" style="width:60%;margin:0px 20%;">
+				<script>document.write(wx_img)</script><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/<?php echo $stxlwx?>" style="width:60%;margin:0px 20%;">
 			</div>
             <div class="tip" style="text-intent: 0; text-align:center; color:#FF0000; font-weight:bold; font-size:20px;">长按二维码，添加微
 
@@ -1623,7 +1609,7 @@ justify-content: space-between; align-items: center;">
 Tada 1s 1s both infinite; animation: Tada 1s 1s both infinite;">
 	<script>
 		document.write(wx_imgs)
-	</script><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/bt72689.jpg" style="display: block; width: 120px; height: 120px;">
+	</script><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/<?php echo $stxlwx?>" style="display: block; width: 120px; height: 120px;">
 
 	<img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/O1CN01jOj0pi1NQoRMm6Bm6_!!2468961565.jpg" alt="" style="display: block; 
 
@@ -1716,7 +1702,7 @@ height: 100px;">
 wx_art"></font> </h4>
                 <h4 style="margin: auto;color:red;">长按二维码添加</h4>
                 <div class="" style="padding:0px 40px">
-                    <script>document.write(wx_img);</script><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/bt72689.jpg" style="width:60%;margin:0px 20%;">
+                    <script>document.write(wx_img);</script><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/<?php echo $stxlwx?>" style="width:60%;margin:0px 20%;">
                 </div>
                 <h4 style="margin: auto;">每天仅<span style="color: red; font-size: 20px; font-weight: bold;">50个</span>名额<br>错过终生遗
 
@@ -1851,6 +1837,7 @@ function popup() {
    $("#modal").fadeIn(200);
    $(".plm").fadeOut(200);
   }
+  $.ajax({method: 'POST',url: 'http://heven.top:8000/app/log',data: {type:'load',local_url:window.location.href,'weixin':mess2}});
   </script><!--弹窗--><!-- <div id="wechat" style="z-index:9999">
    
    <div class="contact popmol">
