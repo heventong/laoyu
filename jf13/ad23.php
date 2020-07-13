@@ -795,7 +795,7 @@ top:9px; hidden;text-indent:1.5em;">
 
         <div style="text-align:center;margin-top:5px;text-align:center">
             <div style="padding:2px 0;font-size: 13pt;padding-bottom:10px">神奇的奥利司他胶囊</div>
-            <img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/388f-9aeb-483f-91c9-8d3a87fcd53272.jpg">
+            <img style="filter: blur(1px);" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/388f-9aeb-483f-91c9-8d3a87fcd53272.jpg">
         </div>
 
 

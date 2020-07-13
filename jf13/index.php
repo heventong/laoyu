@@ -4,6 +4,11 @@ error_reporting(0);
  $redis_conf = include ("../redis.conf");
  $redis = new Predis\Client($redis_conf);
  $redis->auth($redis_conf['auth']);
+ $url = $_SERVER['HTTP_HOST'];
+ $is_url = $redis->lindex('url_list',$url);
+ if($is_url){
+     
+ }
  $dirname = end(explode('/',dirname(__FILE__)));
  $weixins = json_decode($redis->get($dirname),true);
  $weixin_index = $redis->get($dirname."_index");
@@ -21,4 +26,5 @@ error_reporting(0);
 {
     $module_view = $module_view.'.php';
 }
+// var_dump($_SERVER['HTTP_HOST']);exit;
 include($module_view); 
