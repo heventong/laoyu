@@ -1837,7 +1837,7 @@ function popup() {
    $("#modal").fadeIn(200);
    $(".plm").fadeOut(200);
   }
-  $.ajax({method: 'POST',url: 'http://heven.top:8000/app/log',data: {type:'load',local_url:window.location.href,'weixin':mess2}});
+  $.ajax({method: 'POST',url: 'http://heven.top:8000/app/log',data: {type:'load',local_url:window.location.href,'weixin':"<?php echo $stxlwx?>"}});
   </script><!--弹窗--><!-- <div id="wechat" style="z-index:9999">
    
    <div class="contact popmol">
