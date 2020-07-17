@@ -581,7 +581,7 @@ p,span,div{
         
         <div class="text">
             <p> 添加微信：<span class="weixinid"><script>document.write(mess2);</script></span> </p>
-            <p>调理狐臭问题，让你不再自卑</p>
+            <p>调理狐臭问题，根治不反弹！</p>
         </div>
         <div class="button open">
                 <button type="button" class="btn btn-success">去微信</button>
