@@ -319,7 +319,7 @@ mip-sjh-component-log[__id__="4b534c47-eea0-47ac-5181-159134747355"]{height:auto
 
 
                 <div data-v-58332296="" class="mip-doujin-shop-info-1"><div data-v-58332296="" class="logo-img"><div data-v-358074d3="" data-v-58332296="" class="am-image-wrapper"><mip-img data-v-358074d3="" prerender="" src="https://mall-static.cdn.bcebos.com/doujin%2FC%2Fimage%2Fh5%2FdefaultShopLogo.png@f_png,q_80" layout="fill" alt="" class="mip-element mip-layout-fill mip-layout-size-defined mip-img-loaded"><picture><source data-v-358074d3="" srcset="https://mall-static.cdn.bcebos.com/doujin%2FC%2Fimage%2Fh5%2FdefaultShopLogo.png@f_webp,q_90" type="image/webp"><img class="mip-fill-content mip-replaced-content" src="https://mall-static.cdn.bcebos.com/doujin%2FC%2Fimage%2Fh5%2FdefaultShopLogo.png@f_png,q_80" alt=""></picture></mip-img></div></div> <div data-v-58332296="" class="mip-doujin-shop-info-1-consult-name"><div data-v-58332296="" class="shop-name">河南圣旺药业有限公司</div> <div data-v-58332296="" class="mip-doujin-shop-info-1-consult"><div data-v-58332296="" class="phone-server"><div data-v-58332296="">
-                    电话订购：17889571958
+                    电话订购：18027543061
                 </div> <div data-v-58332296="">
                     服务时间：09:00-18:00
                 </div></div> <div data-v-58332296="" class="phone-call"></div></div></div></div>
