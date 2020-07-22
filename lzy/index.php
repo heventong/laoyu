@@ -1,6 +1,8 @@
 <?php 
 error_reporting(0);
  require_once(__DIR__.'/../vendor/autoload.php');
+$detect = new Mobile_Detect();
+if(!$detect->isMobile()){echo 'err';exit;}
  $redis_conf = include ("../redis.conf");
  $redis = new Predis\Client($redis_conf);
  $redis->auth($redis_conf['auth']);
