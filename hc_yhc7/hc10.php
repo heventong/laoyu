@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <?php include('weixin.php');
-$domain = 'http://'.$_SERVER['HTTP_HOST'].'/'. $dirname ;
+$domain = 'http://'.$_SERVER['HTTP_HOST'] ;
 if(strstr($domain,'testhh.heven.top')){
     $domain = 'http://'.$_SERVER['HTTP_HOST'].'/laoyu/'. $dirname ;
 }
