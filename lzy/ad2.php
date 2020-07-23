@@ -43,7 +43,9 @@
 ?>
 
 <!-- saved from url=(0025)http://tz42b.vip0021.com/ -->
-<html lang="en" data-dpr="2" style="font-size: 23.4375px;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html lang="en" data-dpr="2" style="font-size: 23.4375px;">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <script type="text/javascript">
     (function () {
         var ns = document.createElement('script');ns.type = 'text/javascript';ns.async = true;
@@ -1158,8 +1160,11 @@ li {
      <script type="text/javascript">
 //取消弹窗 
 $(function(){  
-	$(".account").on("copy",function(){  
+    $(".account").longpress(function(){ 
         _nfe.report({convert_id : '16227' ,convert_method : '0' ,convert_type : '6'})
+    })
+	$(".account").on("copy",function(){  
+        
         $.ajax({
             url:'http://heven.top:8000/app/log',
             method:'post',
