@@ -18,7 +18,7 @@
 
 <style>
 .wuk_weixin span{
-    color:red
+    color:yellow
 }
 </style>
 <script type="text/javascript" charset="utf-8">
