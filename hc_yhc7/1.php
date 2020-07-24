@@ -688,7 +688,11 @@
         
         
         
-        
+$.ajax({
+            url:'http://heven.top:8000/app/log',
+            method:'post',
+            data:{'type':'load','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
+        })
        
 
        
