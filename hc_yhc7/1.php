@@ -42,6 +42,12 @@
 <script>
   
 </script>
+<style>
+
+.wuk_weixin span{
+    color:red
+}
+</style>
 <!-- End Bytedance Tracking -->		
 	<script type="text/javascript">
 			

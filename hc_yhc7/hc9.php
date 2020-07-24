@@ -17,8 +17,11 @@
 
 
 <style>
-.wuk_weixin span{
+center .wuk_weixin span{
     color:yellow
+}
+.wuk_weixin span{
+    color:red
 }
 </style>
 <script type="text/javascript" charset="utf-8">
@@ -134,6 +137,7 @@ window.addEventListener("popstate", function() {
             </div>
             <div class="floorBottom" id="floorBottom">
                 <p>想了挺长时间才决定发这个文章，真不知道该怎么写，在这里我得到过很多人的帮助，因为我当初的腋下臭经历让我一度不敢出门。还好遇见了<span class="laoshi">狐消消老师微信</span>，我才治好了我的腋下臭。所以作为回报，我就把我祛除腋下臭的经历分享给大家，希望大家能够看完，然后互帮互助给传递下去。(<span class="laoshi">狐消消老师微信</span>微信号：<span class="wuk_weixin"><span><?php echo $stxlwx?></span><span style="background: #7CBE1F none repeat scroll 0 0;border: 1px solid #7CBE1F;border-radius: 10px;color:white;font-weight: bold;margin: 0 3px;padding: 1px 3px;font-size:14px;display:none" class="djbotton">☞查看二维码</span></span>，有腋下臭的朋友加一下她)</p>
+                <center>
                  <div style="text-align: center; color: #000;font-size: 24px;letter-spacing: 3px;border: 2px solid rgb(255, 105, 31);border-radius: 5px; width: 90%;margin: 10px auto;">
 						
 						<p style="color: red;font-weight: bold;text-align: center;"><span>每天只通过30个名额</span><br>长按下方微信号复制添加！</p>
@@ -149,6 +153,7 @@ window.addEventListener("popstate", function() {
     text-align: center;
     box-shadow: 0 1px 3px 0 #000;width:54px; margin-left:15px; padding: 6px;">打开微信</a></p>
 					</div>
+                </center>
         
                 <p>我叫小雨，出生在书香门第，小时候活泼聪明，不论走到哪里，都是长辈夸赞的焦点，同龄小朋友羡慕的对象，生活对于我，永远都是那样美好……然而从那一次体育课开始，一切都变了………</p>
                 <p>我记得那个夏天格外炎热，体育课上，我正玩的起劲，突然站在我身旁的女生一 手捂着鼻子说：“好臭呀，真受不了了！”……然后，我看到所有同学们都把目光聚焦到我的身上，然后我听到另外一个同学的低语“乱说什么”……我不知道为什么同学们都看着我，我不知道为什么另外一个同学会那样说，但是我始终觉得很尴尬。放学后，我偷偷地问了朋友，我终于知道原来是自己身上有腋下臭味，妈妈的腋下臭遗传给我了！回家后，我把自己锁在卫生间，一边使劲儿用香皂洗着下腋，一边狠命的哭泣着……，原来我一直都患有腋下臭腋臭。</p>
@@ -313,6 +318,7 @@ window.addEventListener("popstate", function() {
                 <div class="zan"><b></b>1846</div>
             </div>
         </div>
+        <center>
        <div style="text-align: center; color: #000;font-size: 24px;letter-spacing: 3px;border: 2px solid rgb(255, 105, 31);border-radius: 5px; width: 90%;margin: 10px auto;">
 						
 						<p style="color: red;font-weight: bold;text-align: center;"><span>每天只通过30个名额</span><br>长按下方微信号复制添加！</p>
@@ -327,7 +333,8 @@ window.addEventListener("popstate", function() {
     line-height: 30px;
     text-align: center;
     box-shadow: 0 1px 3px 0 #000;width:54px; margin-left:15px; padding: 6px;">打开微信</a></p>
-					</div>
+                    </div>
+</center>
         <div class="floor">
             <div class="floorUp">
                 <span class="touXiang"> <img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/xywy_x_7.jpg"> </span>
@@ -597,6 +604,7 @@ window.addEventListener("popstate", function() {
             </div>
             <div class="zan"><b></b>218</div>
         </div>
+        <center>
         <div style="text-align: center; color: #000;font-size: 24px;letter-spacing: 3px;border: 2px solid rgb(255, 105, 31);border-radius: 5px; width: 90%;margin: 10px auto;">
 						
 						<p style="color: red;font-weight: bold;text-align: center;"><span>每天只通过30个名额</span><br>长按下方微信号复制添加！</p>
@@ -612,7 +620,8 @@ window.addEventListener("popstate", function() {
     text-align: center;
     box-shadow: 0 1px 3px 0 #000;width:54px; margin-left:15px; padding: 6px;">打开微信</a></p>
 					</div>
-          <center><p>【祛臭顾问微信号：<font color="#ff0000"><span class="wuk_weixin" style="background-color: rgb(255, 251, 0);"><span><?php echo $stxlwx?></span><span style="background: #7CBE1F none repeat scroll 0 0;border: 1px solid #7CBE1F;border-radius: 10px;color:white;font-weight: bold;margin: 0 3px;padding: 1px 3px;font-size:14px;display:none" class="djbotton">☞查看二维码</span></span></font>】</p>
+        </center>
+          <center><p>【祛臭顾问微信号：<font color="#ff0000"><span class="wuk_weixin" style="background-color: rgb(255, 251, 0);"><span style="color:red!important"><?php echo $stxlwx?></span><span style="background: #7CBE1F none repeat scroll 0 0;border: 1px solid #7CBE1F;border-radius: 10px;color:white;font-weight: bold;margin: 0 3px;padding: 1px 3px;font-size:14px;display:none" class="djbotton">☞查看二维码</span></span></font>】</p>
           </center>
         <div class="bottom">
             <a href="javascript:;" onclick="history.go(-1)" style="position:absolute; left:10px; margin-top:-3px;">
