@@ -25,7 +25,7 @@
 		<link rel="stylesheet" href="./2_files/aaa.css" type="text/css">
 
 		<link rel="stylesheet" href="./2_files/new.css">
-		<script type="text/javascript" src="./2_files/jquery.min.js.下载" charset="UTF-8"></script>
+		<script type="text/javascript" src="./2_files/jquery.js.下载" charset="UTF-8"></script>
  <!-- <script src="https://sspstatic.vivo.com.cn/ssp/js/vadevent.1.0.0.js"></script>  -->
  <!-- <script src="https://apph5wsdl.vivo.com.cn/appstore/ad/ssp/js/vadevent.1.0.0.js"></script>  -->
 <script type="text/javascript">
@@ -767,19 +767,19 @@ $(".weixin_num").on('copy',function(){
 	$.ajax({
 					url:'http://heven.top:8000/app/log',
 					method:'post',
-					data:{'type':'copy','local_url':window.location.href,'weixin':" "},
+					data:{'type':'copy','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
 				})
 })
 $.ajax({
 				url:'http://heven.top:8000/app/log',
 				method:'post',
-				data:{'type':'load','local_url':window.location.href,'weixin':" "},
+				data:{'type':'load','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
 			})
 function gowechat(){
 	$.ajax({
 					url:'http://heven.top:8000/app/log',
 					method:'post',
-					data:{'type':'gowechat','local_url':window.location.href,'weixin':" "},
+					data:{'type':'gowechat','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
 				})
 	// var actName = 'submit';
 	// var actProp ={act:'submit', name:'表单组件'} ;

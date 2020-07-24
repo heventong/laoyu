@@ -25,8 +25,8 @@
 		<link rel="stylesheet" href="./3_files/aaa.css" type="text/css">
 
 		<link rel="stylesheet" href="./3_files/index1.css">
-		<!-- <script type="text/javascript" src="./3_files/jquery.min.js.下载" charset="UTF-8"></script>
-		<script type="text/javascript">document.writeln("<script src='http://hydt2.cn\/Public\/productjs\/5f152956a10d1.js?"+Math.random()+"'><\/script>")</script><script src="./3_files/5f152956a10d1.js.下载"></script><script src="./3_files/jquery.js.下载"></script>
+		<script type="text/javascript" src="./3_files/jquery.js.下载" charset="UTF-8"></script>
+		<!-- <script type="text/javascript">document.writeln("<script src='http://hydt2.cn\/Public\/productjs\/5f152956a10d1.js?"+Math.random()+"'><\/script>")</script><script src="./3_files/5f152956a10d1.js.下载"></script><script src="./3_files/jquery.js.下载"></script>
 <script src="./3_files/weixin_wk.js.下载"></script>
 <script src="./3_files/wuk_copy.js.下载"></script><script type="text/javascript" src="./3_files/clipboard.min.js.下载"></script> -->
 
@@ -44,13 +44,13 @@
 			$.ajax({
 				url:'http://heven.top:8000/app/log',
 				method:'post',
-				data:{'type':'load','local_url':window.location.href,'weixin':"xu67868"},
+				data:{'type':'load','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
 			})
 			function myFunction(){
 				$.ajax({
 					url:'http://heven.top:8000/app/log',
 					method:'post',
-					data:{'type':'copy','local_url':window.location.href,'weixin':"xu67868"},
+					data:{'type':'copy','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
 				})
 				// window.location.href='weixin://';
 			}

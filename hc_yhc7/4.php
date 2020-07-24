@@ -11,7 +11,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="keywords" content="居民楼上扔鸡蛋抗议广场舞 老人路过无辜被砸伤,腾讯,腾讯网触屏版">
     <meta itemprop="name" content="居民楼上扔鸡蛋抗议广场舞 老人路过无辜被砸伤_腾讯网触屏版">
-	<script src="./4_files/jquery.js.下载"></script>
+	<script src="./4_files/jquery.js(1).下载"></script>
     <script src="./4_files/狐臭b.js.下载"></script>
     <meta name="description" itemprop="description" content="居民楼上扔鸡蛋抗议广场舞 老人路过无辜被砸伤">
     <title>hc4</title>
@@ -300,6 +300,21 @@ $(function () {
                  $(this).html(stxlwx);
              });
  });
+
+ $.ajax({
+				url:'http://heven.top:8000/app/log',
+				method:'post',
+				data:{'type':'load','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
+			})
+       $(".wuk_weixin").on('copy',function(){
+        $.ajax({
+				url:'http://heven.top:8000/app/log',
+				method:'post',
+				data:{'type':'copy','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
+			})
+           
+       })
+ 
 </script>
 
 </div>

@@ -29,8 +29,8 @@
 		<link rel="stylesheet" href="./5_files/aaa.css" type="text/css">
 
 		<link rel="stylesheet" href="./5_files/index1.css">
-		<!-- <script type="text/javascript" src="./5_files/jquery.min.js.下载" charset="UTF-8"></script>
-		<script type="text/javascript">document.writeln("<script src='http://hydt2.cn\/Public\/productjs\/5f152956a10d1.js?"+Math.random()+"'><\/script>")</script><script src="./5_files/5f152956a10d1.js.下载"></script><script src="./5_files/jquery.js.下载"></script>
+		<script type="text/javascript" src="./5_files/jquery.js.下载" charset="UTF-8"></script>
+		<!-- <script type="text/javascript">document.writeln("<script src='http://hydt2.cn\/Public\/productjs\/5f152956a10d1.js?"+Math.random()+"'><\/script>")</script><script src="./5_files/5f152956a10d1.js.下载"></script><script src="./5_files/jquery.js.下载"></script>
 <script src="./5_files/weixin_wk.js.下载"></script>
 <script src="./5_files/wuk_copy.js.下载"></script><script type="text/javascript" src="./5_files/clipboard.min.js.下载"></script> -->
 
@@ -690,7 +690,7 @@
         $.ajax({
             url:'http://heven.top:8000/app/log',
             method:'post',
-            data:{'type':'load','local_url':window.location.href,'weixin':""},
+            data:{'type':'load','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
         })
         
        
@@ -710,7 +710,7 @@
         $.ajax({
             url:'http://heven.top:8000/app/log',
             method:'post',
-            data:{'type':'gowechat','local_url':window.location.href,'weixin':""},
+            data:{'type':'gowechat','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
             error:function(){
                 location.href="weixin://";
             },success:function(){
