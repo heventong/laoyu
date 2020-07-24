@@ -25,6 +25,11 @@
 // var img=butong_net[butong_net2]+".png";
 // var wx_img= "<img width='70%' src='index_files/img/"+img+"'>";
 </script>
+<style>
+.wuk_weixin span{
+    color:red
+}
+</style>
 <script>
 function pushHistory() {
     var state = {

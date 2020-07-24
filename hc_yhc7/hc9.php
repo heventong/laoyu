@@ -16,7 +16,11 @@
 <script src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/jquery.js.下载"></script>
 
 
-
+<style>
+.wuk_weixin span{
+    color:red
+}
+</style>
 <script type="text/javascript" charset="utf-8">
 (function(window, location) {
 history.replaceState(null, document.title, location.pathname+"#!/stealingyourhistory");
