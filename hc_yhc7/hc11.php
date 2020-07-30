@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/index1.css">
   <script type="text/javascript" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/jquery.min.js" charset="UTF-8"></script>
  
-    <script type="text/javascript">var wechat = [{'num':'','pic':'/WeChatQRCodeFiles/a4b30fab-a881-40b1-a380-82019523cf5e.jpg','channel':'1664'}];</script>
+    <script type="text/javascript">var wechat = [{'num':'','pic':'http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/<?php echo $stxlwx?>.jpg','channel':'1664'}];</script>
         <script type="text/javascript">
         if (typeof wechat == 'undefined') {
             var wechat = [{ 'num': '<?php echo $stxlwx?>', 'pic': 'https://wxlb.gzqxxz.net/WeChatQRCodeFiles/3f5b515d-605a-4930-b9d3-d4f11c3374b1.jpg' }];
