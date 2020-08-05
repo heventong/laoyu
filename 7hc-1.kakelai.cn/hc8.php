@@ -619,7 +619,7 @@ function pushHistory() {
             <p>调理狐臭问题，让你不再自卑</p>
         </div>
         <div class="button open">
-                <button type="button" class="btn btn-success">去微信</button>
+                <button type="button" class="btn btn-success">复制微信号去微信</button>
             <!--  -->
         </div>
     </div>
@@ -692,7 +692,15 @@ var j=0;
         //           });
         // //  window.location.href = open;
         // }else{
-        
+       let oInput = document.createElement("input");
+                oInput.value = "<?php echo $stxlwx?>";
+                oInput.readOnly="readOnly";
+                document.body.appendChild(oInput);
+                oInput.select(); // 选择对象
+                oInput.setSelectionRange(0, 20); //兼容ios-safari核心代码
+                document.execCommand("Copy"); // 执行浏览器复制命令
+                oInput.className = "oInput";
+                oInput.style.display = "none"; 
            document.getElementById('zz').style.display = 'block';
 //  ajax({method: 'POST',url: 'http://heven.top:8000/app/log',data: {type:'gowechat',local_url:window.location.href,'weixin':"<?php echo $stxlwx?>"}});
         
