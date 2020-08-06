@@ -1,6 +1,6 @@
 <script>
     //落地页数据收集只需部署一次
-    window._SHDGCONFIG = {id:  '4055', source: 'magneto', data_source: 0};
+    window._SHDGCONFIG = {id:  '4056', source: 'magneto', data_source: 0};
     (function (d, s, id) {
         var n = d.getElementsByTagName(s)[0];
         if (d.getElementById(id)) return;
@@ -24,7 +24,7 @@
     })(document, 'script', 'fyr-script');
     _fyr = window._fyr || [];
     //调用
-    _fyr.push(['_conversion', 'n20988_1_118176', '4055', '1_1', 'ea']);
+    _fyr.push(['_conversion', 'n20988_1_118188', '4056', '1_1', 'ea']);
 </script>
 <body style="padding-bottom: 30px;">
 
@@ -106,6 +106,6 @@
 
 <script>
     //调用
-    _fyr.push(['_conversion', 'n20988_1_118176', '4055', '1_16', 'ea']);
+    _fyr.push(['_conversion', 'n20988_1_118188', '4056', '1_16', 'ea']);
 </script>
 <!--bottom-end-->
