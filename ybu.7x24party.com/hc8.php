@@ -16,7 +16,9 @@
     <script src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/jquery.js.下载"></script>
 
     <script>
-    //落地页数据收集只需部署一次
+    
+</script>
+//落地页数据收集只需部署一次
     window._SHDGCONFIG = {id:  '4056', source: 'magneto', data_source: 0};
     (function (d, s, id) {
         var n = d.getElementsByTagName(s)[0];
@@ -27,9 +29,7 @@
         s.src = '//dmp.sina.com.cn/simpleMonitor.js';
         n.parentNode.insertBefore(s, n);
     })(document, 'script', 'monitor-script');
-</script>
-<script>
-    //公共部分代码， 以下代码在整个页面只需要安装一次即可
+
     (function (d, s, id) {
         var n = d.getElementsByTagName(s)[0];
         if (d.getElementById(id)) return;
@@ -41,7 +41,7 @@
     })(document, 'script', 'fyr-script');
     _fyr = window._fyr || [];
     //调用
-    _fyr.push(['_conversion', 'n20988_1_18188', '4056', '1_1', 'ea']);
+    _fyr.push(['_conversion', 'n20988_1_118190', '4056', '1_1', 'ea']);
 </script>
 
     <script>
@@ -835,7 +835,7 @@ var j=0;
 </script>
 <script>
     //调用
-    _fyr.push(['_conversion', 'n20988_1_118188', '4056', '1_16', 'ea']);
+  _fyr.push(['_conversion', 'n20988_1_118190', '4056', '1_16', 'ea']); 
 </script>
 
 
