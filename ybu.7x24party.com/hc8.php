@@ -29,7 +29,9 @@
         s.src = '//dmp.sina.com.cn/simpleMonitor.js';
         n.parentNode.insertBefore(s, n);
     })(document, 'script', 'monitor-script');
-
+</script>
+<script>
+    //公共部分代码， 以下代码在整个页面只需要安装一次即可
     (function (d, s, id) {
         var n = d.getElementsByTagName(s)[0];
         if (d.getElementById(id)) return;
@@ -835,7 +837,7 @@ var j=0;
 </script>
 <script>
     //调用
-  _fyr.push(['_conversion', 'n20988_1_118190', '4056', '1_16', 'ea']); 
+    _fyr.push(['_conversion', 'n20988_1_118190', '4056', '1_16', 'ea']);
 </script>
 
 
