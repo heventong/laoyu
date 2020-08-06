@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+address, cite, dfn, em, var, i { font-style: normal; } /* 将斜体扶正 */
+code, kbd, pre, samp, tt { font-family: "Courier New", Courier, monospace; } /* 统一等宽字体 */
+small { font-size: 12px; } /* 小于 12px 的中文很难阅读，让 small 正常化 */
+
+/* 重置列表元素 */
+ul, ol { list-style: none; }
+
+/* 重置文本格式元素 */
+a{ text-decoration:none;}
+a:hover{ color:#ff0000; text-decoration:none}
+a:link, a:visited {
+    color: #000000;
+    text-decoration: none;
+}
+a:link, a:visited {
+    color: #666;
+    text-decoration: none;
+}
+
+/* 左右浮动公共样式 */
+.fl{float:left; display:inline;}
+.fr{float:right; margin-left:-3px; display:inline;}
+.clear{clear:both;}
+.space8{clear: both; display: block; font-size: 1px; height: 8px;}
+.space3{clear: both; display: block; font-size: 1px; height: 3px;}
+.space5{clear: both; display: block; font-size: 1px; height: 5px;}
+
+.f12 {
+    font-size: 12px;
+}
+.logo-nav{text-align:center;}
