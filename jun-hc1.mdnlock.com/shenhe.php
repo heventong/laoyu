@@ -1,6 +1,6 @@
 <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
 <body style="margin:0px">
-<div>
+<div style='width:100%'>
 <img style="width:100%" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/1.jpg"/>
 <img style="width:100%" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/2.jpg"/>
 <img style="width:100%" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/3.jpg"/>
