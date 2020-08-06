@@ -17,7 +17,7 @@
 
     <script>
     
-</script>
+<script>
 //落地页数据收集只需部署一次
     window._SHDGCONFIG = {id:  '4056', source: 'magneto', data_source: 0};
     (function (d, s, id) {
