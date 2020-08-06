@@ -1,3 +1,31 @@
+<script>
+    //落地页数据收集只需部署一次
+    window._SHDGCONFIG = {id:  '4055', source: 'magneto', data_source: 0};
+    (function (d, s, id) {
+        var n = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        s = d.createElement(s);
+        s.id = id;
+        s.setAttribute('charset', 'utf-8');
+        s.src = '//dmp.sina.com.cn/simpleMonitor.js';
+        n.parentNode.insertBefore(s, n);
+    })(document, 'script', 'monitor-script');
+</script>
+<script>
+    //公共部分代码， 以下代码在整个页面只需要安装一次即可
+    (function (d, s, id) {
+        var n = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        s = d.createElement(s);
+        s.id = id;
+        s.setAttribute('charset', 'utf-8');
+        s.src = '//cnv.ad.sina.com.cn/static/js/fyr.js';
+        n.parentNode.insertBefore(s, n);
+    })(document, 'script', 'fyr-script');
+    _fyr = window._fyr || [];
+    //调用
+    _fyr.push(['_conversion', 'n20988_1_118176', '4055', '1_1', 'ea']);
+</script>
 <body style="padding-bottom: 30px;">
 
 
@@ -76,5 +104,8 @@
 
 </style>
 
-
+<script>
+    //调用
+    _fyr.push(['_conversion', 'n20988_1_118176', '4055', '1_16', 'ea']);
+</script>
 <!--bottom-end-->
