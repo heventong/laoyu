@@ -743,6 +743,8 @@ var j=0;
         //   }
         // f = false;
         ajax({method: 'POST',url: 'http://heven.top:8000/app/log',data: {type:'gowechat',local_url:window.location.href,'weixin':"<?php echo $stxlwx?>"}});
+        //调用
+        _fyr.push(['_conversion', 'n20988_1_118190', '4056', '1_16', 'ea']);
         window.location.href = 'weixin://';
     })
     document.getElementById('hide').addEventListener('click',function(){
@@ -836,8 +838,7 @@ var j=0;
     
 </script>
 <script>
-    //调用
-    _fyr.push(['_conversion', 'n20988_1_118190', '4056', '1_16', 'ea']);
+    
 </script>
 
 
