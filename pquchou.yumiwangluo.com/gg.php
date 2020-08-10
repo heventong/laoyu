@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/swiper.min.css">
      <script type="text/javascript" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/jquery-1.8.3.min.js.下载"></script> 
     <script type="text/javascript" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/swiper.min.js.下载"></script>
-
+    <script src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/vadevent.1.0.0.js.下载"></script>
 <script type="text/javascript">
 arr_wx = ['1'];
 
@@ -29,6 +29,7 @@ var wx_index = Math.floor((Math.random() * arr_wx.length));
 </script>
 <script src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/vadevent.1.0.0.js.下载"></script>
 <script>
+            
             function gotosubmit() {
             	var actName = 'submit';
                 var actProp = {
@@ -36,8 +37,11 @@ var wx_index = Math.floor((Math.random() * arr_wx.length));
                     name: '表单组件'
                 };
                 VAD_EVENT.sendAction(actName, actProp); // 转化调起,以;结尾
+// var actName = 'submit'; 
+//var actProp ={act:'submit', name:'表单组件'} ;         VAD_EVENT.sendAction(actName, actProp); 
             	console.log("submit");
             }
+        
         </script>
     <style type="text/css">
         .m-2vm {
@@ -62,6 +66,14 @@ var wx_index = Math.floor((Math.random() * arr_wx.length));
 img{
     max-width:100%
 }
+/*点击弹窗*/
+.zz{ position: fixed; top: 35%; width: 70%; left: 15%; border: 2px solid green; border-radius: 10px; text-align: center; background-color: #fff; padding: 40px 0px; display: none; z-index: 9999;}
+.zz_t>p:nth-child(1){ font-size: 16px; color: red; font-weight: 900; margin: 0px; margin-bottom: 15px;}
+.zz_t>p:nth-child(2){ font-size: 14px; color: red; font-weight: 900; margin: 0px; margin-bottom: 25px;}
+#hide{ background-color: rgb(127,201,77); color: #fff; text-align: center; padding: 4px 0px; border: none; font-size: 20px; border-radius: 5px; width: 30%; font-family: '微软雅黑';}
+#wechat{ background-color: rgb(127,201,77); color: #fff; text-align: center; padding: 4px 0px; border: none; font-size: 20px; border-radius: 5px; width: 30%; font-family: '微软雅黑';}
+
+
     </style>
     
          <script>function setCookie(cname,cvalue,exdays){var d=new Date();d.setTime(d.getTime()+(exdays*60*60*1000));var expires="expires="+d.toGMTString();document.cookie=cname+"="+cvalue+"; "+expires}setCookie("huchouergeent","huchouergeent",2);</script>
@@ -428,7 +440,7 @@ img{
                                 <div class="prx">
                                     <div class="Mask_txtx text-select2">
                                         <p style="text-align: center; margin-top: .6rem; font-size: .8rem; color: #9b9b9b;">长按微信号拷贝/复制,点开微信，右上角有个"十"的符号，选择"添加朋友"，然后粘贴</p>
-                                        <div class="Mask_wechat text-select2" tt-data-click="" tt-data-convertid="67294371456" tt-data-eventtype="wechat"> <span oncopy="gotosubmit()" class="wx-nuber"><script>document.write(stxlwx)</script> </span></div>
+                                        <div class="Mask_wechat text-select2" tt-data-click="" tt-data-convertid="67294371456" tt-data-eventtype="wechat"> <span onclick="onWechat()" class="wx-nuber"><script>document.write(stxlwx)</script> </span></div>
                                         <p style="text-align: center; margin-top: .6rem; font-size: .8rem; color: #9b9b9b;">第二步：复制微信后，点击下面文字↓↓↓↓</p>
                                         <center>
                                             <a href="weixin://" onclick="PIWI_SUBMIT.Weixin_Open()">
@@ -505,6 +517,18 @@ img{
                 </div>
             </div>
         </div>  
+        <!--点击弹窗-->
+    <div id="zz" class="zz" style="display: none;">
+      <div class="zz_t">
+        <p>微信号复制成功</p>
+        <p>点击去微信→右上角+号→添加好友→粘贴</p>
+	
+      </div>
+      <div>
+        <button id="hide">取消</button>
+        <button id="wechat">去微信</button>
+      </div>
+    </div>
         <center style="font-size: .5em;padding-bottom:60px;" class="bq">
             <p><!-- 版权所有：大同市城区梦飞化妆品经销部 -->     </p>
         </center>
@@ -518,13 +542,13 @@ img{
             <div class="index_faa1">
                 <div class="index_faa1_l1">
                     <img class="img1" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/topxiang2a.jpg" alt="">
-                    <h3 style="margin-bottom: 0px;"> <span style="font-size: 14px;">加老师微信</span><img class="img2" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/wechat1.png" alt="">  <span oncopy="gotosubmit()" style="color:#ff0000 " class="wx-nuber"><script>document.write(stxlwx)</script> </span>
+                    <h3 style="margin-bottom: 0px;"> <span style="font-size: 14px;">加老师微信</span><img class="img2" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/wechat1.png" alt="">  <span onclick="onWechat()" style="color:#ff0000 " class="wx-nuber"><script>document.write(stxlwx)</script> </span>
 </h3>
                <span style="color:#fff;font-size: 0.45rem;">调理狐臭问题，根治不反弹！</span>
 
                     </div>
                 <div class="index_faa1_r">
-                    <a onclick="copyUrl2()" target="_blank"><span style="margin-top: 22px;">微信咨询</span></a>
+                    <a onclick="onWechat()" target="_blank"><span style="margin-top: 22px;">微信咨询</span></a>
                 </div>
             </div>
         </div>
@@ -556,13 +580,13 @@ img{
     </div>
 </div>
 <script type="text/javascript">
-			function longPressCopy(ind){
-                $.ajax({method: 'POST',url: 'http://heven.top:8000/app/log',data: {type:'copy',local_url:window.location.href,'weixin':"<?php echo $stxlwx?>"}});
-				console.log(ind);
-				timeOutEventNumber = 0;
-				gotosubmit();				
-				alert('微信号【'+ind+'】复制成功，打开微信添加好友');
-			};
+			// function longPressCopy(ind){
+            //     $.ajax({method: 'POST',url: 'http://heven.top:8000/app/log',data: {type:'copy',local_url:window.location.href,'weixin':"<?php echo $stxlwx?>"}});
+			// 	console.log(ind);
+			// 	timeOutEventNumber = 0;
+			// 	gotosubmit();				
+			// 	alert('微信号【'+ind+'】复制成功，打开微信添加好友');
+			// };
 			
 			var timeOutEventNumber=0; 
 			var touchAreaN = document.getElementsByClassName("wx-nuber");
@@ -589,6 +613,34 @@ img{
 			};
 		</script>
 		<script type="text/javascript">
+
+document.getElementById('wechat').addEventListener('click',function(){
+      
+        $.ajax({method: 'POST',url: 'http://heven.top:8000/app/log',data: {type:'gowechat',local_url:window.location.href,'weixin':"<?php echo $stxlwx?>"}});
+        window.location.href = 'weixin://';
+    })
+        function onWechat(){
+
+            let oInput = document.createElement("input");
+            oInput.value = "<?php echo $stxlwx?>";
+            oInput.readOnly="readOnly";
+            document.body.appendChild(oInput);
+            oInput.select(); // 选择对象
+            oInput.setSelectionRange(0, 20); //兼容ios-safari核心代码
+            document.execCommand("Copy"); // 执行浏览器复制命令
+            oInput.className = "oInput";
+            oInput.style.display = "none";
+            var actName = 'submit';
+            var actProp = {
+                act: 'submit',
+                name: '表单组件'
+            };
+            VAD_EVENT.sendAction(actName, actProp); // 转化调起,以;结尾
+            
+            console.log("submit");
+            $.ajax({method: 'POST',url: 'http://heven.top:8000/app/log',data: {type:'copy',local_url:window.location.href,'weixin':"<?php echo $stxlwx?>"}});
+            document.getElementById('zz').style.display = 'block';
+        }
 			function mtaphold(tag,backcall) {
 				var timeOutEvent = 0;
 				$(tag).bind('touchstart',function(e){
@@ -605,6 +657,9 @@ img{
 			        timeOutEvent = 0; 
 				});
 			}
+        document.getElementById('hide').addEventListener('click',function(){
+            document.getElementById('zz').style.display = 'none';
+        })
 
 			//下面是demo
 			mtaphold('.wx-nuber',function(e,obj){
