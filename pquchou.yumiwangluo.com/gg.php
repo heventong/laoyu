@@ -518,9 +518,9 @@ img{
             <div class="index_faa1">
                 <div class="index_faa1_l1">
                     <img class="img1" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/topxiang2a.jpg" alt="">
-                    <h3> <span style="font-size: 14px;">加微信</span><img class="img2" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/wechat1.png" alt="">  <span oncopy="gotosubmit()" style="color:#ff0000 " class="wx-nuber"><script>document.write(stxlwx)</script> </span>
+                    <h3 style="margin-bottom: 0px;"> <span style="font-size: 14px;">加老师微信</span><img class="img2" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/wechat1.png" alt="">  <span oncopy="gotosubmit()" style="color:#ff0000 " class="wx-nuber"><script>document.write(stxlwx)</script> </span>
 </h3>
-               <span style="color:#fff;font-size: 0.45rem;">(领取狐臭秘籍,96879人成功案例)</span>
+               <span style="color:#fff;font-size: 0.45rem;">调理狐臭问题，根治不反弹！</span>
 
                     </div>
                 <div class="index_faa1_r">
