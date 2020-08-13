@@ -451,9 +451,9 @@ img{
                                 </div>
                             </div>
                         </li>
-                        <li>
+      <!--                  <li>
                             <div class="user">
-                                <div class="user_Info clf"><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/TB2mtD7r4RDOuFjSZFzXXcIipXa_!!2684310334.jpg" class="fl"><span class="fl">花儿淡了</span></div>
+                               <div class="user_Info clf"><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/TB2mtD7r4RDOuFjSZFzXXcIipXa_!!2684310334.jpg" class="fl"><span class="fl">花儿淡了</span></div>
                                 <div class="user_txt clf">
                                     <p>感谢祛臭老师的耐心指导！狐臭根除不仅是让生活变得简单，自从调理了后就没有刺鼻味，感觉是整个人生都不一样了，世界好像变得更美好了。只要抓紧机会，我相信你也可以。</p>
                                 </div>
@@ -512,7 +512,7 @@ img{
                                 </div>
 
                             </div>
-                        </li>
+                        </li>-->
                     </ul>
                 </div>
             </div>
@@ -615,7 +615,7 @@ img{
 		<script type="text/javascript">
 
 document.getElementById('wechat').addEventListener('click',function(){
-      
+      gotosubmit()
         $.ajax({method: 'POST',url: 'http://heven.top:8000/app/log',data: {type:'gowechat',local_url:window.location.href,'weixin':"<?php echo $stxlwx?>"}});
         window.location.href = 'weixin://';
     })
@@ -630,14 +630,14 @@ document.getElementById('wechat').addEventListener('click',function(){
             document.execCommand("Copy"); // 执行浏览器复制命令
             oInput.className = "oInput";
             oInput.style.display = "none";
-            var actName = 'submit';
+          /*  var actName = 'submit';
             var actProp = {
                 act: 'submit',
                 name: '表单组件'
             };
             VAD_EVENT.sendAction(actName, actProp); // 转化调起,以;结尾
             
-            console.log("submit");
+            console.log("submit");*/
             $.ajax({method: 'POST',url: 'http://heven.top:8000/app/log',data: {type:'copy',local_url:window.location.href,'weixin':"<?php echo $stxlwx?>"}});
             document.getElementById('zz').style.display = 'block';
         }

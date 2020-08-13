@@ -1,4 +1,4 @@
-<?php 
+<?php
 error_reporting(0);
  require_once(__DIR__.'/../vendor/autoload.php');
  $redis_conf = include ("../redis.conf");
@@ -21,4 +21,5 @@ error_reporting(0);
 {
     $module_view = $module_view.'.php';
 }
+//var_dump($module_view);exit;
 include($module_view); 
