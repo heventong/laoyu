@@ -14,7 +14,7 @@
 <!-- <script src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/weixin_wk.js.下载"></script> -->
 
     <script src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/jquery.js.下载"></script>
-<script type="text/javascript" src="https://v1.cnzz.com/z_stat.php?id=1279179760&web_id=1279179760"></script>
+<!--<script type="text/javascript" src="https://v1.cnzz.com/z_stat.php?id=1279179760&web_id=1279179760"></script>-->
 
 
     <script>
@@ -796,6 +796,6 @@ var j=0;
     })
     $(".time").first().text(getTimes(i))
 </script>
-
+<script type="text/javascript" src="https://v1.cnzz.com/z_stat.php?id=1279179760&web_id=1279179760"></script>
 
 <button class="wukzdcopy" style="position:fixed;top:-500px;left:0px;background:none;border:none"></button></body></html>
