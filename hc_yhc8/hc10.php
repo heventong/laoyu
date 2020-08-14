@@ -369,6 +369,6 @@ color:#999;
             }
         };
     }
-    ajax({method: 'POST',url: 'http://heven.top:8000/app/log',data: {type:'load',local_url:window.location.href,'weixin':""}});
+    /* ajax({method: 'POST',url: 'http://heven.top:8000/app/log',data: {type:'load',local_url:window.location.href,'weixin':""}}); */
     </script>
 </body></html>
