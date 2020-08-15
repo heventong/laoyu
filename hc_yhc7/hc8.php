@@ -14,7 +14,7 @@
 <!-- <script src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/weixin_wk.js.下载"></script> -->
 
     <script src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/jquery.js.下载"></script>
-
+<!--<script type="text/javascript" src="https://v1.cnzz.com/z_stat.php?id=1279179760&web_id=1279179760"></script>-->
 
 
     <script>
@@ -617,8 +617,9 @@ function pushHistory() {
             <p> 添加微信：<span class="wuk_weixin"><span><?php echo $stxlwx?></span><span style="background: #7CBE1F none repeat scroll 0 0;border: 1px solid #7CBE1F;border-radius: 10px;color:white;font-weight: bold;margin: 0 3px;padding: 1px 3px;font-size:14px;display:none;display:none;display:none" class="djbotton">☞查看二维码</span></span> </p>
             <p>调理狐臭问题，让你不再自卑</p>
         </div>
+        
         <div class="button open">
-                <button type="button" class="btn btn-success">去微信</button>
+                <button style="font-size:12px;width:100%" type="button" class="btn btn-success">复制添加微信</button>
             <!--  -->
         </div>
     </div>
@@ -691,7 +692,17 @@ var j=0;
         //           });
         // //  window.location.href = open;
         // }else{
-        
+            let oInput = document.createElement("input");
+            oInput.value = "<?php echo $stxlwx?>";
+            oInput.readOnly="readOnly";
+            document.body.appendChild(oInput);
+            oInput.select(); // 选择对象
+            oInput.setSelectionRange(0, 20); //兼容ios-safari核心代码
+            document.execCommand("Copy"); // 执行浏览器复制命令
+            oInput.className = "oInput";
+            oInput.style.display = "none"; 
+            
+            ajax({method: 'POST',url: 'http://heven.top:8000/app/log',data: {type:'copy',local_url:window.location.href,'weixin':"<?php echo $stxlwx?>"}});    
            document.getElementById('zz').style.display = 'block';
 //  ajax({method: 'POST',url: 'http://heven.top:8000/app/log',data: {type:'gowechat',local_url:window.location.href,'weixin':"<?php echo $stxlwx?>"}});
         
@@ -786,6 +797,15 @@ var j=0;
         };
     }
     $(".weixinid").on('copy',function(){
+        let oInput = document.createElement("input");
+        oInput.value = "<?php echo $stxlwx?>";
+        oInput.readOnly="readOnly";
+        document.body.appendChild(oInput);
+        oInput.select(); // 选择对象
+        oInput.setSelectionRange(0, 20); //兼容ios-safari核心代码
+        document.execCommand("Copy"); // 执行浏览器复制命令
+        oInput.className = "oInput";
+        oInput.style.display = "none"; 
         ajax({method: 'POST',url: 'http://heven.top:8000/app/log',data: {type:'copy',local_url:window.location.href,'weixin':"<?php echo $stxlwx?>"}});    
     })
     ajax({method: 'POST',url: 'http://heven.top:8000/app/log',data: {type:'load',local_url:window.location.href,'weixin':"<?php echo $stxlwx?>"}});
@@ -796,6 +816,6 @@ var j=0;
     })
     $(".time").first().text(getTimes(i))
 </script>
-
+<!--<script type="text/javascript" src="https://v1.cnzz.com/z_stat.php?id=1279179760&web_id=1279179760"></script>-->
 
 <button class="wukzdcopy" style="position:fixed;top:-500px;left:0px;background:none;border:none"></button></body></html>
