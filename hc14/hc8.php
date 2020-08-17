@@ -18,7 +18,7 @@
 
 
     <script>
-    
+    (function(w,d,t,s,q,m,n){if(w.utq)return;q=w.utq=function(){q.process?q.process(arguments):q.queue.push(arguments);};q.queue=[];m=d.getElementsByTagName(t)[0];n=d.createElement(t);n.src=s;n.async=true;m.parentNode.insertBefore(n,m);})(window,document,'script','https://image.uc.cn/s/uae/g/0s/ad/utracking.js');utq('set', 'convertMode', true);utq('set', 'trackurl', 'huichuan.sm.cn/lp');
 // var butong_net = new Array('bd6708','hc7636'); 
 //var butong_net = new Array('hc8146');
 // var butong_net2 = Math.floor(Math.random() * butong_net.length); 
