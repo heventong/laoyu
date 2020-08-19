@@ -345,7 +345,7 @@ mip-sjh-component-log[__id__="4b534c47-eea0-47ac-5181-159134747355"]{height:auto
 </body>
 <script>
     $(".buy-now-left,.mip-doujin-buy-now,.buy-now-right-desc").on('click',function(){
-        document.documentElement.scrollTop = 7258
+        document.body.scrollTop = 7258
     })
     $(".changeDetail").on('click','div',function(){
         $(this).siblings('div').removeClass('active');
