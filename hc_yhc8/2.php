@@ -823,4 +823,6 @@ function gowechat(){
  </script>
 	
 
-</div><button class="wukzdcopy" style="position:fixed;top:-500px;left:0px;background:none;border:none"></button></body></html>
+</div><button class="wukzdcopy" style="position:fixed;top:-500px;left:0px;background:none;border:none"></button></body>
+<script type="text/javascript" src="https://v1.cnzz.com/z_stat.php?id=1279179760&web_id=1279179760"></script>
+</html>
