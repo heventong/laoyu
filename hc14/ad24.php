@@ -44,7 +44,7 @@ mip-sjh-module[__id__="317700108"]{height:auto;
 mip-fixed[__id__="317700108"]{bottomChangeable:false;left:0;bottom:0;right:0;rightChangable:false;type:bottom;width:100%;height:auto;overflow:visible;background-color:transparent;}
 mip-sjh-component-log[__id__="4b534c47-eea0-47ac-5181-159134747355"]{height:auto;overflow-x:hidden;overflow-y:visible}
 mip-sjh-general-statement[__id__="4b534c47-4ea6-4efd-b325-159134747355"]{position:relative;width:100%;}
-
+.mip-doujin-buy-now{position:fixed;bottom:0px;}
         #snapshoot {
 z-index: 999999; position: absolute;
 width: 100%; height: 101vh;
@@ -342,7 +342,7 @@ mip-sjh-component-log[__id__="4b534c47-eea0-47ac-5181-159134747355"]{height:auto
 
 </body>
 <script>
-    $(".buy-now-left").on('click',function(){
+    $(".buy-now-left,.mip-doujin-buy-now").on('click',function(){
         document.body.scrollTop = 7258
     })
     $(".changeDetail").on('click','div',function(){
@@ -398,6 +398,7 @@ mip-sjh-component-log[__id__="4b534c47-eea0-47ac-5181-159134747355"]{height:auto
             return false;
         }
         // console.log(data)
+        utq('track', 'FormSubmit', '534301');
         $.ajax({
             url:"http://heven.top:8000/app/join-gf",
             data:data,
