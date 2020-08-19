@@ -5,7 +5,9 @@
     <title>【古方传承狐臭粉】 不开刀，改善狐臭！直击源头！长效清新</title>
     <link rel="canonical" href="https://sjh.baidu.com/site/qianhu.wejianzhan.com/692fc153-6f62-4efd-bb24-665493acb685">
     <link rel="stylesheet" href="./ad24/mip.css">
-    
+    <script>
+    (function(w,d,t,s,q,m,n){if(w.utq)return;q=w.utq=function(){q.process?q.process(arguments):q.queue.push(arguments);};q.queue=[];m=d.getElementsByTagName(t)[0];n=d.createElement(t);n.src=s;n.async=true;m.parentNode.insertBefore(n,m);})(window,document,'script','https://image.uc.cn/s/uae/g/0s/ad/utracking.js');utq('set', 'convertMode', true);utq('set', 'trackurl', 'huichuan.sm.cn/lp');
+    </script>
     <style mip-custom="">
         html {font-size: 16px;}
         html {font-size: 4.26666667vw !important;}
@@ -340,6 +342,9 @@ mip-sjh-component-log[__id__="4b534c47-eea0-47ac-5181-159134747355"]{height:auto
 
 </body>
 <script>
+    $(".buy-now-left").on('click',function(){
+        document.body.scrollTop = 7258
+    })
     $(".changeDetail").on('click','div',function(){
         $(this).siblings('div').removeClass('active');
         $(this).addClass('active')
@@ -382,12 +387,15 @@ mip-sjh-component-log[__id__="4b534c47-eea0-47ac-5181-159134747355"]{height:auto
         }
         if(!data.name){
             alert("请输入用户名")
+            return false;
         }
         if(!data.phone){
             alert("请输入手机号")
+            return false;
         }
         if(!data.address){
             alert("请输入地址")
+            return false;
         }
         // console.log(data)
         $.ajax({
