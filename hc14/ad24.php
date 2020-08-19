@@ -109,7 +109,7 @@ mip-sjh-component-log[__id__="4b534c47-eea0-47ac-5181-159134747355"]{height:auto
 <script src="./ad24/swiper.min.js"> </script>
 <script src="./ad24/jquery-2.1.1.min.js"></script>
 </head>
-<body style="font-size: 17.0667px !important;">
+<body style="font-size: 17.0667px !important;height:auto">
     <div class="swiper-container">
         <div class="swiper-wrapper" style="height: 400px;">
           <div class="swiper-slide"><img class="mip-fill-content mip-replaced-content" src="https://jianzhan-image.cdn.bcebos.com/0/pic/c520602740fc82b02fbb838380aeffdd.jpg"></div>
@@ -345,7 +345,10 @@ mip-sjh-component-log[__id__="4b534c47-eea0-47ac-5181-159134747355"]{height:auto
 </body>
 <script>
     $(".buy-now-left,.mip-doujin-buy-now,.buy-now-right-desc").on('click',function(){
-        document.body.scrollTop = 7258
+        
+        // window.scrollTo(0, 0)
+        // document.documentElement.scrollTop = 0
+        window.scrollTo(0,$(".mip-doujin-attributes-selector-title")[0].offsetTop)
     })
     $(".changeDetail").on('click','div',function(){
         $(this).siblings('div').removeClass('active');
