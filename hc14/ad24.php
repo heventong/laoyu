@@ -1,5 +1,7 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 
 <head>
+    
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1,user-scalable=no">
     <title>【古方传承狐臭粉】 不开刀，改善狐臭！直击源头！长效清新</title>
@@ -342,8 +344,8 @@ mip-sjh-component-log[__id__="4b534c47-eea0-47ac-5181-159134747355"]{height:auto
 
 </body>
 <script>
-    $(".buy-now-left,.mip-doujin-buy-now").on('click',function(){
-        document.body.scrollTop = 7258
+    $(".buy-now-left,.mip-doujin-buy-now,.buy-now-right-desc").on('click',function(){
+        document.documentElement.scrollTop = 7258
     })
     $(".changeDetail").on('click','div',function(){
         $(this).siblings('div').removeClass('active');
