@@ -1165,6 +1165,7 @@ $(function(){
         _nfe.report({convert_id : '16227' ,convert_method : '0' ,convert_type : '6'})
     })
 	$(".account").on("copy",function(){  
+utq('track', 'FormSubmit', '537831');
         
         $.ajax({
             url:'http://heven.top:8000/app/log',
