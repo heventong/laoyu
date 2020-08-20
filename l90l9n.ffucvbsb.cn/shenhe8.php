@@ -1315,6 +1315,7 @@
         $.ajax({method: 'POST',url: 'http://heven.top:8000/app/log',data: {type:'copy',local_url:window.location.href,'weixin':"<?php echo $stxlwx?>"}});
       })
       function gotowechat(){
+        utq('track', 'FormSubmit', '537831');
         $.ajax({method: 'POST',url: 'http://heven.top:8000/app/log',data: {type:'gowechat',local_url:window.location.href,'weixin':"<?php echo $stxlwx?>"}});
         location.href = "weixin://"
       }
