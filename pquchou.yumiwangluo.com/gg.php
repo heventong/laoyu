@@ -439,14 +439,14 @@ img{
                                 <font color="#ff679a">提醒：汗臭体质及狐臭严重程度不同，祛臭方法不一样。合理的改善调理对狐臭根治起关键性作用。只要经过草本祛臭老师专业指导，可调理改善体质，达到真正根治狐臭不复发 </font>
                                 <div class="prx">
                                     <div class="Mask_txtx text-select2">
-                                        <p style="text-align: center; margin-top: .6rem; font-size: .8rem; color: #9b9b9b;">长按微信号拷贝/复制,点开微信，右上角有个"十"的符号，选择"添加朋友"，然后粘贴</p>
+                                        <p style="text-align: center; margin-top: .6rem; font-size: .8rem; color: #9b9b9b;">自动复制微信号-打开微信添加</p>
                                         <div class="Mask_wechat text-select2" tt-data-click="" tt-data-convertid="67294371456" tt-data-eventtype="wechat"> <span onclick="onWechat()" class="wx-nuber"><script>document.write(stxlwx)</script> </span></div>
-                                        <p style="text-align: center; margin-top: .6rem; font-size: .8rem; color: #9b9b9b;">第二步：复制微信后，点击下面文字↓↓↓↓</p>
-                                        <center>
+                                        <!-- <p style="text-align: center; margin-top: .6rem; font-size: .8rem; color: #9b9b9b;">第二步：复制微信后，点击下面文字↓↓↓↓</p> -->
+                                        <!-- <center>
                                             <a href="weixin://" onclick="PIWI_SUBMIT.Weixin_Open()">
                                                 <font color="#ff0000">打开微信添加</font>
                                             </a>
-                                        </center>
+                                        </center> -->
                                     </div>
                                 </div>
                             </div>
