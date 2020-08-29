@@ -614,12 +614,12 @@ function pushHistory() {
         </div>
         
         <div class="text">
-            <p> 添加微信：<span class="wuk_weixin"><span><?php echo $stxlwx?></span><span style="background: #7CBE1F none repeat scroll 0 0;border: 1px solid #7CBE1F;border-radius: 10px;color:white;font-weight: bold;margin: 0 3px;padding: 1px 3px;font-size:14px;display:none;display:none;display:none" class="djbotton">☞查看二维码</span></span> </p>
-            <p>调理狐臭问题，让你不再自卑</p>
+            <p> 老师微信：<span class="wuk_weixin"><span><?php echo $stxlwx?></span><span style="background: #7CBE1F none repeat scroll 0 0;border: 1px solid #7CBE1F;border-radius: 10px;color:white;font-weight: bold;margin: 0 3px;padding: 1px 3px;font-size:14px;display:none;display:none;display:none" class="djbotton">☞查看二维码</span></span> </p>
+            <p>免费咨询祛狐臭方案,100%净味！</p>
         </div>
         
         <div class="button open">
-                <button style="font-size:12px;width:100%" type="button" class="btn btn-success">复制添加微信</button>
+                <button style="font-size:12px;width:100%" type="button" class="btn btn-success">☞复制添加微信</button>
             <!--  -->
         </div>
     </div>
