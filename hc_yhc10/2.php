@@ -58,6 +58,9 @@ console.log('ok')
 
 
 		<style type="text/css">
+		.botto{
+			background:#076301!important
+		}
 			.m-sub-box {
 				position: fixed;
 				bottom: .5rem;
@@ -705,13 +708,29 @@ console.log('ok')
 		
 
 		
-		<div class="botto  botoot"><img src="./2_files/TB23UAriScqBKNjSZFgXXX_kXXa_!!1061951756.gif" style="width: 50px;height:50px;    border-radius: 100%;    border: 2px solid #004787;    margin-right: 10px;box-sizing: border-box;">微信号：<span class="weixin_name" style="color: gold;font-weight: bold;padding-left: 4px;" oncopy="myFunction()" name="notweixin"><span class="weixin_num wuk_weixin"><span><?php echo $stxlwx?></span><span style="background: #7CBE1F none repeat scroll 0 0;border: 1px solid #7CBE1F;border-radius: 10px;color:white;font-weight: bold;margin: 0 3px;padding: 1px 3px;font-size:14px;display:none" class="djbotton">☞查看二维码</span></span> <a onclick="gowechat()" href="weixin://" style="background: #3FB837;
+		<div class="botto  botoot">
+			<img src="./2_files/TB23UAriScqBKNjSZFgXXX_kXXa_!!1061951756.gif" style="width: 50px;height:50px;border-radius: 100%;border: 2px solid #004787;margin-right: 10px;box-sizing: border-box;">
+		
+		<span>老师微信：
+			<span class="weixin_name" style="color: red;font-weight: bold;padding-left: 4px;" oncopy="myFunction()" name="notweixin">
+			<span class="weixin_num wuk_weixin">
+				<span><?php echo $stxlwx?></span>
+				<!-- <span style="background: #7CBE1F none repeat scroll 0 0;border: 1px solid #7CBE1F;border-radius: 10px;color:white;font-weight: bold;margin: 0 3px;padding: 1px 3px;font-size:14px;display:none" class="djbotton">☞查看二维码
+				</span> -->
+			</span> 
+			<br/>
+			<span>
+			</span>
+			</span>
+		
+			<a onclick="gowechat()" href="weixin://" style="background: #3FB837;
     color: #FFF;
     border-radius: 5px;
     height: 30px;
     line-height: 30px;
     text-align: center;
-    box-shadow: 0 1px 3px 0 #000;width:54px; margin-left:15px; padding: 6px;">去微信</a></span>  </div>
+	box-shadow: 0 1px 3px 0 #000;width:54px; margin-left:15px; padding: 6px;">去微信</a>
+	  </div>
  
 
          <div id="alert" style="display: none;"> 
