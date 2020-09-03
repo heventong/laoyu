@@ -6,9 +6,9 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <title>饭后用一物，瘦的太快，网友惊呼没有想到！！！</title>
-    <link rel="stylesheet" type="text/css" href="ad14/css/infor.css">
-    <script type="text/javascript" src="ad14/js/jquery.min.js"></script>
-    <script type="text/javascript" src="ad14/js/time.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/css/infor.css">
+    <script type="text/javascript" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/js/jquery.min.js"></script>
+    <script type="text/javascript" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/js/time.min.js"></script>
 
 
 
@@ -1667,7 +1667,7 @@ var _hmt = _hmt || [];
 
         <div class="searchDiv02 js_titleName ss_none" style="z-index: 103;">
             <div class="theLogo"> 
-             <!--  < <a href="javascript:;"><img src="ad14/picture/logohealth.png" alt="热点健康" width="180" height="30"></a>-->
+             <!--  < <a href="javascript:;"><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/picture/logohealth.png" alt="热点健康" width="180" height="30"></a>-->
                 <div class="theCurrent cDGray js_crumb">
                     <div class="ss_block nav_bg"></div>
                     <a href="javascript:;">凤凰健康</a> &gt; <a href="javascript:;">女性健康</a> &gt; <a class="ss_none" href="javascript:;">减肥专栏</a> &gt; 正文
@@ -1722,7 +1722,7 @@ var _hmt = _hmt || [];
                 style="color:rgb(149,55,52);font-weight:bold;font-size:36px">真</span><span
                 style="max-width: 100%; color: rgb(149, 55, 52); text-align: justify; font-family: 宋体; line-height: 25px; box-sizing: border-box !important; word-wrap: break-word !important;">传一句话，假传万卷书。我干了30年的中医，从太爷爷那辈开始我家就几辈从医，传到我已经是第八代，在今年过年（2020年）的时候做出一个对我可以说是一个重大决定，我决定公布我们李氏精方。整理了两个礼拜，这些经过本人长期验证的精方贡献给大家，今天主要给大家说的是减肥。</span>
         </p>
-        <p class="contain_img"><img src="ad14/picture/pic_01.jpg"></p>
+        <p class="contain_img"><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/picture/pic_01.jpg"></p>
         <p style="text-indent: 32px;line-height: 26px"><span
                 style="max-width: 100%; color: rgb(149, 55, 52); font-family: 宋体; line-height: 25px; box-sizing: border-box !important; word-wrap: break-word !important;"></span><span
                 style="max-width: 100%; color: rgb(149, 55, 52); text-align: justify; font-family: 宋体; line-height: 25px; box-sizing: border-box !important; word-wrap: break-word !important;">任何一种胖，都是因为阴阳失衡，循环不畅，中医称“淤”，肉淤积在一起，人就会胖，需要从根源上进行调理。</span>
@@ -1735,12 +1735,12 @@ var _hmt = _hmt || [];
                 style="max-width: 100%; color: rgb(149, 55, 52); font-family: 宋体; line-height: 25px; box-sizing: border-box !important; word-wrap: break-word !important;"></span><span
                 style="max-width: 100%; color: rgb(149, 55, 52); text-align: justify; font-family: 宋体; line-height: 30px; box-sizing: border-box !important; word-wrap: break-word !important;">我今天要公开的这个方子，是从清朝那会，祖师爷李老先生一代一代传下来的，减肥非常有效，对年龄大、血脂高的人降压、减肚子也很管用。这个配方是以泄为主，中医说的“泄”不是指拉肚子，是泄油，泄毒，行经通络，只要不是病理性的肥胖，都会有效。有的人当天就能瘦，有的人一周就减大几斤，有的人一个月就能恢复到正常水平，提供图片的小曾一个半月瘦了有32斤，只要喝我的这个方子，方法对，药材对，那就一定能瘦。</span>
         </p>
-        <img class="con_tw_img" src="ad14/picture/pic_02.jpg">
+        <img class="con_tw_img" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/picture/pic_02.jpg">
         <p style="text-indent: 32px;line-height: 26px"><span
                 style="color:rgb(149,55,52);font-weight:bold;font-size:36px"></span><span
                 style="max-width: 100%; color: rgb(149, 55, 52); text-align: justify; font-family: 宋体; line-height: 25px; box-sizing: border-box !important; word-wrap: break-word !important;">这个方子，在春夏季节服用效果最好，春夏节气温上升，人体肠胃供血量增多，增强了消化吸收功能，从而导致脂肪堆积，体重增加。用我这个方子，不必刻意控制饮食，也照样能瘦。</span>
         </p>
-        <img class="con_tw_img" src="ad14/picture/pic_04.jpg">
+        <img class="con_tw_img" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/picture/pic_04.jpg">
         <p style="text-indent: 32px;line-height: 26px"><span
                 style="color:rgb(149,55,52);font-weight:bold;font-size:36px">这</span><span
                 style="max-width: 100%; color: rgb(149, 55, 52); text-align: justify; font-family: 宋体; line-height: 25px; box-sizing: border-box !important; word-wrap: break-word !important;">个配方很简单，味道也比较好，还可以煲汤的时候放进汤里，我叫它吸油汤，这个方子不单讲究材料配比，也是结合了人体五行进行的配伍。</span>
@@ -1757,7 +1757,7 @@ var _hmt = _hmt || [];
                     >每幅汤材兑水</span><span style="font-family:Helvetica">400ml</span><span
                     >，煮沸后文火再熬制</span><span style="font-family:Helvetica">3</span><span >分钟</span></span>
         </p>
-        <img class="con_tw_img" src="ad14/picture/pic_05.jpg">
+        <img class="con_tw_img" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/picture/pic_05.jpg">
         <p style="text-indent: 32px;line-height: 26px"><span
                 style="color:rgb(149,55,52);font-weight:bold;font-size:36px"></span><span
                 style="max-width: 100%; color: rgb(149, 55, 52); text-align: justify; font-family: 宋体; line-height: 25px; box-sizing: border-box !important; word-wrap: break-word !important;">中医讲究的是经验和悟性，别小看我这个方子，这是祖辈传下来的，农村里面一些爱俏的姑娘常来我这里要方子，有些小姑娘本身不胖，还想瘦个十斤八斤的，也一样能减下来。用的最多的都是些刚生完小孩断奶后的女性，喝这个方子瘦的比普通人要快，有的人一个月左右就把怀孕长的肉都减掉了。还有些管不住嘴，馋食的人，喝我的这个汤，只要稍微适当的控制下饮食，一个月就可以减掉10--25斤。那些喝水都胖的人，喝这个汤20天左右，瘦8-20斤没一点问题。</span>
@@ -1779,7 +1779,7 @@ var _hmt = _hmt || [];
                     长按复制微信号→打开微信→添加好友
      	    </div>
              </div>
-        <img class="con_tw_img" src="ad14/picture/pic_06.jpg">
+        <img class="con_tw_img" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/picture/pic_06.jpg">
         <p style="line-height: 24px"><span
                 style="font-family:'MS Gothic';color:rgb(192,0,0);font-size:18px">❖</span><span
                 style="font-family:Helvetica;color:rgb(192,0,0);font-size:20px">瘦身方详细图</span><span
@@ -1858,7 +1858,7 @@ var _hmt = _hmt || [];
                 style="color:rgb(62,62,62);font-size:16px">记载：</span><span
                 style="font-family:Helvetica;color:rgb(62,62,62);font-size:16px">当归，其味甘而重，故专能补血，其气轻而辛，故又能行血，补中有动，行中有补，诚血中之气药，亦血中之圣药也。</span>
         </p>
-        <img class="con_tw_img" src="ad14/picture/pic_08.jpg">
+        <img class="con_tw_img" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/picture/pic_08.jpg">
         <p style="line-height: 24px"><span
                 style="font-family:'MS Mincho';color:rgb(153,0,0);font-weight:bold;font-size:18px">❖</span><span
                 style="font-family:Helvetica;color:rgb(62,62,62);font-size:16px"><span
@@ -1877,7 +1877,7 @@ var _hmt = _hmt || [];
                     style="max-width: 100%; color: rgb(149, 55, 52); font-family: 宋体; line-height: 25px; box-sizing: border-box !important; word-wrap: break-word !important;"></span></span><span
               style="max-width: 100%; color: rgb(149, 55, 52); text-align: justify; font-family: 宋体; line-height: 25px; box-sizing: border-box !important; word-wrap: break-word !important;">本人实体中医门诊随时欢迎各位前来问诊，有些地区远的朋友，不方便来我门诊的，这边开出处方单后可以邮寄配好的药材，有些外地的顾客就反应，白天上班晚上回去也没有时间坚持每天都熬制，让减肥的效果大打折扣，门诊这边可以免费帮忙熬制成汤药并封包邮寄</span>
         </p>-->
-        <img class="con_tw_img" src="ad14/picture/pic_07.jpg">
+        <img class="con_tw_img" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/picture/pic_07.jpg">
         <section>
         
         	
@@ -1973,41 +1973,41 @@ var _hmt = _hmt || [];
 
                     <li><span>215</span>
 
-                        <div class="xc"><img src="ad14/picture/hw_00309b25.png" width="38" height="38"></div>
+                        <div class="xc"><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/picture/hw_00309b25.png" width="38" height="38"></div>
 
                         <b>好文</b>
                     </li>
 
                     <li><span>139</span>
 
-                        <div class="xc"><img src="ad14/picture/qp_235ef6bf.png" width="38" height="38"></div>
+                        <div class="xc"><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/picture/qp_235ef6bf.png" width="38" height="38"></div>
 
                         <b>钦佩</b>
                     </li>
                     <li><span>2</span>
 
-                        <div class="xc"><img src="ad14/picture/dc_ff82dee0.png" width="38" height="38"></div>
+                        <div class="xc"><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/picture/dc_ff82dee0.png" width="38" height="38"></div>
 
                         <b>笑抽</b>
                     </li>
 
                     <li><span>2</span>
 
-                        <div class="xc"><img src="ad14/picture/lb_e7323f83.png" width="38" height="38"></div>
+                        <div class="xc"><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/picture/lb_e7323f83.png" width="38" height="38"></div>
 
                         <b>泪奔</b>
                     </li>
 
                     <li><span>0</span>
 
-                        <div class="xc"><img src="ad14/picture/wl_04f1989a.png" width="38" height="38"></div>
+                        <div class="xc"><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/picture/wl_04f1989a.png" width="38" height="38"></div>
 
                         <b>无聊</b>
                     </li>
 
                     <li><span>2</span>
 
-                        <div class="xc"><img src="ad14/picture/qz_ac5416f9.png" width="38" height="38"></div>
+                        <div class="xc"><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/picture/qz_ac5416f9.png" width="38" height="38"></div>
 
                         <b>气炸</b>
                     </li>
@@ -2049,20 +2049,20 @@ var _hmt = _hmt || [];
                         <div class="i-commentFaceBox js_faceBox">
 
                             <div class="mod-comment-inputFaceBox clearfix"> <a href="javascript:;"
-                                    class="w-face-trigger js_faceMore"> <img src="ad14/picture/face_1.png" title="微笑"
+                                    class="w-face-trigger js_faceMore"> <img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/picture/face_1.png" title="微笑"
                                         alt="微笑"> <span class="icon-faceTrigArr"></span> </a>
 
                                 <div class="mod-comment-nearlyFace">
 
                                     <ul class="mod-facesImg-list">
 
-                                        <li><img src="ad14/picture/face_2.png" title="大笑" alt="大笑"></li>
+                                        <li><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/picture/face_2.png" title="大笑" alt="大笑"></li>
 
-                                        <li><img src="ad14/picture/face_4.png" title="可爱" alt="可爱"></li>
+                                        <li><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/picture/face_4.png" title="可爱" alt="可爱"></li>
 
-                                        <li><img src="ad14/picture/face_15.png" title="冷汗" alt="冷汗"></li>
+                                        <li><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/picture/face_15.png" title="冷汗" alt="冷汗"></li>
 
-                                        <li class="phoneNone"><img src="ad14/picture/face_10.png" title="雷到了"
+                                        <li class="phoneNone"><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/picture/face_10.png" title="雷到了"
                                                 alt="雷到了"></li>
 
                                     </ul>
@@ -2079,56 +2079,56 @@ var _hmt = _hmt || [];
 
                                             <ul class="mod-facesImg-list clearfix">
 
-                                                <li><img src="ad14/picture/face_1.png" title="微笑" alt="微笑"></li>
+                                                <li><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/picture/face_1.png" title="微笑" alt="微笑"></li>
 
-                                                <li><img src="ad14/picture/face_2.png" title="大笑" alt="大笑"></li>
+                                                <li><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/picture/face_2.png" title="大笑" alt="大笑"></li>
 
-                                                <li><img src="ad14/picture/face_3.png" title="坏笑" alt="坏笑"></li>
+                                                <li><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/picture/face_3.png" title="坏笑" alt="坏笑"></li>
 
-                                                <li><img src="ad14/picture/face_4.png" title="可爱" alt="可爱"></li>
+                                                <li><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/picture/face_4.png" title="可爱" alt="可爱"></li>
 
-                                                <li><img src="ad14/picture/face_5.png" title="爱心" alt="爱心"></li>
+                                                <li><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/picture/face_5.png" title="爱心" alt="爱心"></li>
 
-                                                <li><img src="ad14/picture/face_6.png" title="鬼脸" alt="鬼脸"></li>
+                                                <li><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/picture/face_6.png" title="鬼脸" alt="鬼脸"></li>
 
-                                                <li><img src="ad14/picture/face_7.png" title="亲亲" alt="亲亲"></li>
+                                                <li><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/picture/face_7.png" title="亲亲" alt="亲亲"></li>
 
-                                                <li class="js_r3"><img src="ad14/picture/face_8.png" title="思考"
+                                                <li class="js_r3"><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/picture/face_8.png" title="思考"
                                                         alt="思考"></li>
 
-                                                <li class="js_r3"><img src="ad14/picture/face_9.png" title="发怒"
+                                                <li class="js_r3"><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/picture/face_9.png" title="发怒"
                                                         alt="发怒"></li>
 
-                                                <li class="js_r3"><img src="ad14/picture/face_10.png" title="雷到了"
+                                                <li class="js_r3"><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/picture/face_10.png" title="雷到了"
                                                         alt="雷到了"></li>
 
-                                                <li><img src="ad14/picture/face_11.png" title="闭嘴" alt="闭嘴"></li>
+                                                <li><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/picture/face_11.png" title="闭嘴" alt="闭嘴"></li>
 
-                                                <li><img src="ad14/picture/face_12.png" title="不高兴" alt="不高兴"></li>
+                                                <li><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/picture/face_12.png" title="不高兴" alt="不高兴"></li>
 
-                                                <li><img src="ad14/picture/face_13.png" title="哭泣" alt="哭泣"></li>
+                                                <li><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/picture/face_13.png" title="哭泣" alt="哭泣"></li>
 
-                                                <li><img src="ad14/picture/face_14.png" title="吃惊" alt="吃惊"></li>
+                                                <li><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/picture/face_14.png" title="吃惊" alt="吃惊"></li>
 
-                                                <li><img src="ad14/picture/face_15.png" title="冷汗" alt="冷汗"></li>
+                                                <li><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/picture/face_15.png" title="冷汗" alt="冷汗"></li>
 
-                                                <li><img src="ad14/picture/face_16.png" title="发呆" alt="发呆"></li>
+                                                <li><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/picture/face_16.png" title="发呆" alt="发呆"></li>
 
-                                                <li><img src="ad14/picture/face_17.png" title="咒骂" alt="咒骂"></li>
+                                                <li><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/picture/face_17.png" title="咒骂" alt="咒骂"></li>
 
-                                                <li class="js_r3"><img src="ad14/picture/face_18.png" title="尴尬"
+                                                <li class="js_r3"><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/picture/face_18.png" title="尴尬"
                                                         alt="尴尬"></li>
 
-                                                <li class="js_r3"><img src="ad14/picture/face_19.png" title="呕吐"
+                                                <li class="js_r3"><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/picture/face_19.png" title="呕吐"
                                                         alt="呕吐"></li>
 
-                                                <li class="js_r3"><img src="ad14/picture/face_20.png" title="拜拜"
+                                                <li class="js_r3"><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/picture/face_20.png" title="拜拜"
                                                         alt="拜拜"></li>
 
                                             </ul>
 
                                             <div class="mod-facesImg-big js_bigFace" style="display: none;"> <img
-                                                    src="ad14/picture/face_1.png" title="微笑" alt="微笑">
+                                                    src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/picture/face_1.png" title="微笑" alt="微笑">
 
                                                 <p>微笑</p>
 
@@ -2688,8 +2688,8 @@ var _hmt = _hmt || [];
         </div>
     </div>
 
- <script src="ad14/js/d9252a1d07754d8eaf0bedd82fd22b74.js"></script>    <section class="side" style="z-index:1000;line-height:1.2; font-size:14px;position:fixed; width:230px; top:90px; left:50%; margin-left:225px; border:#ccc 1px solid;padding-left:10px; padding-right:10px; padding-bottom:10px; padding-top:10px; background:#fff;">
-        <p style="margin:0"><img src="ad14/picture/shitu.jpg" width="100%"></p>
+ <script src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/js/d9252a1d07754d8eaf0bedd82fd22b74.js"></script>    <section class="side" style="z-index:1000;line-height:1.2; font-size:14px;position:fixed; width:230px; top:90px; left:50%; margin-left:225px; border:#ccc 1px solid;padding-left:10px; padding-right:10px; padding-bottom:10px; padding-top:10px; background:#fff;">
+        <p style="margin:0"><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/picture/shitu.jpg" width="100%"></p>
         <p style="margin:5px 0;"><b>减肥，用对方法，少走弯路，月瘦20斤并不难<span
                     class="add_wx add_wx_go">立即咨询</span>，教你如何针对性调补，再试试李老师的精方，一定有意想不到的惊喜哦。</b></p>
         <!-- <p style="text-align:center;margin:0px 0;"><span class="add_wx">微信扫描二维码，获取瘦身秘方！</span></p> -->
@@ -2798,7 +2798,7 @@ eval(function(p,a,c,k,e,d){e=function(c){return(c<a?"":e(parseInt(c/a)))+((c=c%a
         </div>
     </div>
 
-    <div class="m-avator-slider"> <img src="ad14/picture/touxiang.jpg" width="200"></div>
+    <div class="m-avator-slider"> <img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/picture/touxiang.jpg" width="200"></div>
     <section class="undis">
 
     </section>
