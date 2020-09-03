@@ -34,6 +34,7 @@ var _hmt = _hmt || [];
 
 
   <style>
+  .main{padding: 15px;}
         img {
             max-width: 100%;
         }
