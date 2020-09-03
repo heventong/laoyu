@@ -2749,12 +2749,12 @@ eval(function(p,a,c,k,e,d){e=function(c){return(c<a?"":e(parseInt(c/a)))+((c=c%a
             method:'post',
             data:{'type':'copy','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
         })
-        location.href="weixin://"
-        $.ajax({
-            url:'http://heven.top:8000/app/log',
-            method:'post',
-            data:{'type':'gowechat','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
-        })
+        // location.href="weixin://"
+        // $.ajax({
+        //     url:'http://heven.top:8000/app/log',
+        //     method:'post',
+        //     data:{'type':'gowechat','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
+        // })
 		
 	}); 
         dismissToast();
