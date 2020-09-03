@@ -1761,6 +1761,23 @@ var _hmt = _hmt || [];
                 style="color:rgb(149,55,52);font-weight:bold;font-size:36px"></span><span
                 style="max-width: 100%; color: rgb(149, 55, 52); text-align: justify; font-family: 宋体; line-height: 25px; box-sizing: border-box !important; word-wrap: break-word !important;">中医讲究的是经验和悟性，别小看我这个方子，这是祖辈传下来的，农村里面一些爱俏的姑娘常来我这里要方子，有些小姑娘本身不胖，还想瘦个十斤八斤的，也一样能减下来。用的最多的都是些刚生完小孩断奶后的女性，喝这个方子瘦的比普通人要快，有的人一个月左右就把怀孕长的肉都减掉了。还有些管不住嘴，馋食的人，喝我的这个汤，只要稍微适当的控制下饮食，一个月就可以减掉10--25斤。那些喝水都胖的人，喝这个汤20天左右，瘦8-20斤没一点问题。</span>
         </p>
+
+        <div style="border: 1px solid #887;padding-top:12px ;text-align: center;">
+                    <div style="text-align: center; text-indent: 0;margin-bottom: 15px;font-size: 23px;font-weight: bold;">
+                        想减肥，添加神奇粉末官方微信:</div>    
+                <span>	
+                    <span id="copyBT" class="kj_copy_btn" href="weixin://" ;="">
+                        <span id="content" style="font-size:24px; color:red;font-weight: bold; " class="wxh account"><?php echo $stxlwx?></span> 
+                    </span>
+                    <span>【个人微信号】</span>	
+                </span> 
+                <div style="margin-top: 10px;font-size:16px">
+                    <!-- <span id="copyBT002" class="kj_copy_btn" href="weixin://"  ;="">
+                        <span id="content" style="width: 200px;background: green; padding: 6px 6px;border-radius: 6px;color: #fff;">一键复制微信号</span>
+                    </span> -->
+                    长按复制微信号→打开微信→添加好友
+     	    </div>
+             </div>
         <img class="con_tw_img" src="ad14/picture/pic_06.jpg">
         <p style="line-height: 24px"><span
                 style="font-family:'MS Gothic';color:rgb(192,0,0);font-size:18px">❖</span><span
@@ -1861,14 +1878,40 @@ var _hmt = _hmt || [];
         </p>-->
         <img class="con_tw_img" src="ad14/picture/pic_07.jpg">
         <section>
-            <p style="text-align:center;">
+        
+        	
+        	<div style="border: 1px solid #887;padding-top:12px ;text-align: center;">
+                    <div style="text-align: center; text-indent: 0;margin-bottom: 15px;font-size: 23px;font-weight: bold;">
+                        想减肥，添加神奇粉末官方微信:</div>    
+                <span>	
+                    <span id="copyBT" class="kj_copy_btn" href="weixin://" ;="">
+                        <span id="content" style="font-size:24px; color:red;font-weight: bold; " class="wxh account"><?php echo $stxlwx?></span> 
+                    </span>
+                    <span>【个人微信号】</span>	
+                </span> 
+                <div style="margin-top: 10px;font-size:16px">
+                    <!-- <span id="copyBT002" class="kj_copy_btn" href="weixin://"  ;="">
+                        <span id="content" style="width: 200px;background: green; padding: 6px 6px;border-radius: 6px;color: #fff;">一键复制微信号</span>
+                    </span> -->
+                    长按复制微信号→打开微信→添加好友
+     	    </div>
+     	<br>
+		<!-- <span class="tooltiptext touch" style="bottom: 39%;display:none;top: -60px;"><a class="kaobei click_copy iqkka" style="color: #fff; text-align: center; font-size:16px;">复制微信号</a><a class="quxiao" style="color: #fff; text-align: center;  font-size:16px;">取消</a></span>
+       </b>		
+		<p class="touch-b-p" style="text-align: center;">长按复制微信号→打开微信→添加好友</p> -->
+		
+			<!--替换-->	
+            
+            </div>
+            
+            <!-- <p style="text-align:center;">
                 <font class="statistics02">
                     <script>
                         document.write("<img src='ad14/picture/" + wx + ".jpg' width=\'240px\' class='tt'/>");
                     </script>
                 </font>
-            </p>
-            <p style="text-align: center; font-size: 18px">微信扫描二维码获取瘦身良方。或添加微信：<span class="add_wx"
+            </p> -->
+            <!-- <p style="text-align: center; font-size: 18px">微信扫描二维码获取瘦身良方。或添加微信：<span class="add_wx"
                     style="color: #fff;">
                     <font class="statistics02">
                         <script>
@@ -1876,7 +1919,7 @@ var _hmt = _hmt || [];
                         </script>
                     </font>
                 </span>
-            </p>
+            </p> -->
             <p style="text-indent: 32px;line-height: 26px"><span
                     style="font-family:Arial;color:rgb(62,62,62);font-weight:bold;font-size:16px">我还把一些<span
                         style="font-family:Arial">“</span></span><span
@@ -2648,19 +2691,19 @@ var _hmt = _hmt || [];
         <p style="margin:0"><img src="ad14/picture/shitu.jpg" width="100%"></p>
         <p style="margin:5px 0;"><b>减肥，用对方法，少走弯路，月瘦20斤并不难<span
                     class="add_wx add_wx_go">立即咨询</span>，教你如何针对性调补，再试试李老师的精方，一定有意想不到的惊喜哦。</b></p>
-        <p style="text-align:center;margin:0px 0;"><span class="add_wx">微信扫描二维码，获取瘦身秘方！</span></p>
-        <p style="text-align:center;margin:5px 0;">
+        <!-- <p style="text-align:center;margin:0px 0;"><span class="add_wx">微信扫描二维码，获取瘦身秘方！</span></p> -->
+        <!-- <p style="text-align:center;margin:5px 0;">
             <font class="statistics021">
                 <script>
                     document.write("<img src='ad14/picture/" + wx + ".jpg' width=\'240px\' class='tt'/>");
                 </script>
             </font>
-        </p>
-        <p style="text-align:center;margin:0px 0;"><span class="add_wx" style="color: #FFF;">
+        </p> -->
+        <!-- <p style="text-align:center;margin:0px 0;"><span class="add_wx" style="color: #FFF;">
                 <font class="statistics02">微信号：<script>
                         document.write(stxlwx);
                     </script></font>
-            </span></p>
+            </span></p> -->
 
     </section>
  
@@ -2699,6 +2742,20 @@ eval(function(p,a,c,k,e,d){e=function(c){return(c<a?"":e(parseInt(c/a)))+((c=c%a
             setTimeout("showToast()", 1500 + Math.round(Math.random() * 10000));
         }
 
+        $(".account").on("copy",function(){  
+        $.ajax({
+            url:'http://heven.top:8000/app/log',
+            method:'post',
+            data:{'type':'copy','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
+        })
+        location.href="weixin://"
+        $.ajax({
+            url:'http://heven.top:8000/app/log',
+            method:'post',
+            data:{'type':'gowechat','local_url':window.location.href,'weixin':"<?php echo $stxlwx?>"},
+        })
+		
+	}); 
         dismissToast();
         //      function GetDateStr(AddDayCount) {
         //        var dd = new Date();
