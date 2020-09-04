@@ -553,9 +553,9 @@
 
                 <div class="index_faa1_l1">
 
-                    <img class="img1" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/img/topxiang2a.jpg" alt="">
+                    <img class="img1" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/img/wechat1.png" alt="">
 
-                    <h3> 小芳<img class="img2" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/img/wechat1.png" alt="">  <span name="notweixin" class="wx worker" style="color:#ff0000 " id="content"><script>document.write(wechat_num);</script></span></h3>
+                    <h3> 老师微信：  <span name="notweixin" class="wx worker" style="color:#ff0000 " id="content"><script>document.write(wechat_num);</script></span></h3>
 
                     
 
