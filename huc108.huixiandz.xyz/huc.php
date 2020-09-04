@@ -543,7 +543,7 @@
         </div>  
 
         <center style="font-size: .5em;padding-bottom:60px;" class="bq">
-                云南锦鸿网络科技有限公司
+        南京市溧水区慧贤电子商务中心
         </center>
 
 
