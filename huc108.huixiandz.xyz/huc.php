@@ -57,10 +57,10 @@
             //window.location.href = '2/';
             // alert(1)
             
-            // window.location.href="zz.php"
+            window.location.href="zz.php"
         }else{
             // alert(1)   
-            window.location.href = 'zz.php';
+            // window.location.href = 'zz.php';
         }
 
     </script>
