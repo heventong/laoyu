@@ -31,7 +31,7 @@
 }
 </style>
 <script>
-function pushHistory() {
+/*function pushHistory() {
     var state = {
         title: "index",
         url: "hc9.php"
@@ -50,7 +50,7 @@ function pushHistory() {
                 location.href = window.history.state.url;
             }
         });
-    }, 300);
+    }, 300);*/
     </script>
     <script>
     	
