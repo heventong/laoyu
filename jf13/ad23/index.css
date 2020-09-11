@@ -1,98 +1,1012 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
-<html xmlns="http://www.w3.org/1999/xhtml"> 
-<head> 
-<title>IIS 8.0 详细错误 - 404.0 - Not Found</title> 
-<style type="text/css"> 
-<!-- 
-body{margin:0;font-size:.7em;font-family:Verdana,Arial,Helvetica,sans-serif;} 
-code{margin:0;color:#006600;font-size:1.1em;font-weight:bold;} 
-.config_source code{font-size:.8em;color:#000000;} 
-pre{margin:0;font-size:1.4em;word-wrap:break-word;} 
-ul,ol{margin:10px 0 10px 5px;} 
-ul.first,ol.first{margin-top:5px;} 
-fieldset{padding:0 15px 10px 15px;word-break:break-all;} 
-.summary-container fieldset{padding-bottom:5px;margin-top:4px;} 
-legend.no-expand-all{padding:2px 15px 4px 10px;margin:0 0 0 -12px;} 
-legend{color:#333333;;margin:4px 0 8px -12px;_margin-top:0px; 
-font-weight:bold;font-size:1em;} 
-a:link,a:visited{color:#007EFF;font-weight:bold;} 
-a:hover{text-decoration:none;} 
-h1{font-size:2.4em;margin:0;color:#FFF;} 
-h2{font-size:1.7em;margin:0;color:#CC0000;} 
-h3{font-size:1.4em;margin:10px 0 0 0;color:#CC0000;} 
-h4{font-size:1.2em;margin:10px 0 5px 0; 
-}#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS",Verdana,sans-serif; 
- color:#FFF;background-color:#5C87B2; 
-}#content{margin:0 0 0 2%;position:relative;} 
-.summary-container,.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;} 
-.content-container p{margin:0 0 10px 0; 
-}#details-left{width:35%;float:left;margin-right:2%; 
-}#details-right{width:63%;float:left;overflow:hidden; 
-}#server_version{width:96%;_height:1px;min-height:1px;margin:0 0 5px 0;padding:11px 2% 8px 2%;color:#FFFFFF; 
- background-color:#5A7FA5;border-bottom:1px solid #C1CFDD;border-top:1px solid #4A6C8E;font-weight:normal; 
- font-size:1em;color:#FFF;text-align:right; 
-}#server_version p{margin:5px 0;} 
-table{margin:4px 0 4px 0;width:100%;border:none;} 
-td,th{vertical-align:top;padding:3px 0;text-align:left;font-weight:normal;border:none;} 
-th{width:30%;text-align:right;padding-right:2%;font-weight:bold;} 
-thead th{background-color:#ebebeb;width:25%; 
-}#details-right th{width:20%;} 
-table tr.alt td,table tr.alt th{} 
-.highlight-code{color:#CC0000;font-weight:bold;font-style:italic;} 
-.clear{clear:both;} 
-.preferred{padding:0 5px 2px 5px;font-weight:normal;background:#006633;color:#FFF;font-size:.8em;} 
---> 
-</style> 
- 
-</head> 
-<body> 
-<div id="content"> 
-<div class="content-container"> 
-  <h3>HTTP 错误 404.0 - Not Found</h3> 
-  <h4>您要找的资源已被删除、已更名或暂时不可用。</h4> 
-</div> 
-<div class="content-container"> 
- <fieldset><h4>最可能的原因:</h4> 
-  <ul> 	<li>指定的目录或文件在 Web 服务器上不存在。</li> 	<li>URL 拼写错误。</li> 	<li>某个自定义筛选器或模块(如 URLScan)限制了对该文件的访问。</li> </ul> 
- </fieldset> 
-</div> 
-<div class="content-container"> 
- <fieldset><h4>可尝试的操作:</h4> 
-  <ul> 	<li>在 Web 服务器上创建内容。</li> 	<li>检查浏览器 URL。</li> 	<li>创建跟踪规则以跟踪此 HTTP 状态代码的失败请求，并查看是哪个模块在调用 SetStatus。有关为失败的请求创建跟踪规则的详细信息，请单击<a href="http://go.microsoft.com/fwlink/?LinkID=66439">此处</a>。</li> </ul> 
- </fieldset> 
-</div> 
- 
-<div class="content-container"> 
- <fieldset><h4>详细错误信息:</h4> 
-  <div id="details-left"> 
-   <table border="0" cellpadding="0" cellspacing="0"> 
-    <tr class="alt"><th>模块</th><td>&nbsp;&nbsp;&nbsp;IIS Web Core</td></tr> 
-    <tr><th>通知</th><td>&nbsp;&nbsp;&nbsp;MapRequestHandler</td></tr> 
-    <tr class="alt"><th>处理程序</th><td>&nbsp;&nbsp;&nbsp;StaticFile</td></tr> 
-    <tr><th>错误代码</th><td>&nbsp;&nbsp;&nbsp;0x80070002</td></tr> 
-     
-   </table> 
-  </div> 
-  <div id="details-right"> 
-   <table border="0" cellpadding="0" cellspacing="0"> 
-    <tr class="alt"><th>请求的 URL</th><td>&nbsp;&nbsp;&nbsp;http://jf.dtschw.cn:80/index_files/index.css</td></tr> 
-    <tr><th>物理路径</th><td>&nbsp;&nbsp;&nbsp;D:\wwwroot\liuzongjianfeierhu\index_files\index.css</td></tr> 
-    <tr class="alt"><th>登录方法</th><td>&nbsp;&nbsp;&nbsp;匿名</td></tr> 
-    <tr><th>登录用户</th><td>&nbsp;&nbsp;&nbsp;匿名</td></tr> 
-     
-   </table> 
-   <div class="clear"></div> 
-  </div> 
- </fieldset> 
-</div> 
- 
-<div class="content-container"> 
- <fieldset><h4>更多信息:</h4> 
-  此错误表明文件或目录在服务器上不存在。请创建文件或目录并重新尝试请求。 
-  <p><a href="http://go.microsoft.com/fwlink/?LinkID=62293&amp;IIS70Error=404,0,0x80070002,9200">查看更多信息 &raquo;</a></p> 
-   
- </fieldset> 
-</div> 
-</div> 
-</body> 
-</html> 
+body {
+    min-width: 320px;
+    max-width: 640px;
+    margin: 0 auto;
+    background: #E6E6E6;
+}
+
+.g-doc {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    font-size: .7rem;
+    background: #fff;
+}
+
+.m-nav {
+    width: 100%;
+}
+
+.m-nav img {
+    width: 100%;
+}
+
+.m-title {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: #000;
+    text-align: center;
+    line-height: 2em;
+}
+
+.m-footer {
+    font-size: .7rem;
+    font-weight: bolder;
+    color: #000;
+    text-align: center;
+    /*padding-bottom: 1.5rem;*/
+    line-height: 5em;
+}
+
+p {
+    padding: .18rem;
+}
+
+p.text-indent {
+    text-indent: 2em;
+    font-size: .7rem;
+    margin: .1rem auto;
+    width: 95%;
+}
+
+strong {
+    color: #ae038b;
+    /*background-image: url(../images/underline.png);*/
+    background-repeat: repeat-x;
+    background-position: bottom center;
+    padding-bottom: .3rem;
+}
+
+p.m-tips {
+    font-weight: 700;
+    color: #fff;
+    background: #ae038b;
+    margin: .1rem auto;
+    padding-top: .6rem;
+    padding-bottom: .6rem;
+}
+
+p.m-tips span {
+    color: #feff00;
+}
+
+p.m-border {
+    border: 1px solid #ccc;
+    padding-top: .6rem;
+    padding-bottom: .6rem;
+
+}
+
+.m-ul li {
+    position: relative;
+    border-top: .1rem dotted #ccc;
+    padding: .3rem 1.6rem;
+}
+
+.m-ul li:after {
+    background: #ae038b;
+    color: #fff;
+    content: attr(data-id);
+    position: absolute;
+    left: 1%;
+    top: 15%;
+    border-radius: 50%;
+    padding: .1rem;
+    width: .8rem;
+    height: .8rem;
+    text-align: center;
+}
+
+.m-message {
+    color: #ae038b;
+    padding: .5rem;
+    position: relative;
+    margin: .5rem;
+
+}
+
+.m-message li {
+    /*list-style-type: disc;*/
+    /*margin-left: 1rem;*/
+    /*margin-right: 1rem;*/
+    font-weight: 700;
+    width: 98%;
+}
+
+.m-message:before {
+    border-left: .1rem solid #ae038b;
+    border-top: .1rem solid #ae038b;
+    width: 2.5rem;
+    height: 2.5rem;
+    background: transparent;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.m-message:after {
+    border-bottom: .1rem solid #ae038b;
+    border-right: .1rem solid #ae038b;
+    width: 2.5rem;
+    height: 2.5rem;
+    background: transparent;
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.clf:before, .clf:after {
+    content: "";
+    display: table;
+}
+
+.clf:after {
+    clear: both;
+}
+
+.clf {
+    *zoom: 1;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.pr {
+    position: relative;
+}
+
+.disnone {
+    display: none;
+}
+
+.mg1 {
+    margin: 1.4rem 0;
+}
+
+.mt1 {
+    margin-top: 1rem;
+}
+
+.col_pink {
+    color: #ff679a;
+}
+
+.col_green {
+    color: #ae038b !important;
+}
+
+.col_deepgreen {
+    color: #22ac38 !important;
+}
+
+.col_yellow {
+    color: #ffff00 !important;
+}
+
+.textIndent2 {
+    text-indent: 2em !important;
+}
+
+.fwb {
+    font-weight: bold !important;
+}
+
+.fz09 {
+    font-size: .9rem !important;
+}
+
+.main {
+    margin: 0 auto;
+    max-width: 640px;
+    min-width: 320px;
+    padding: 0;
+    background: #f6f6f6;
+    margin-top: -35px
+}
+
+#floatQQ {
+    position: fixed;
+    z-index: 10000;
+    right: 0;
+    top: 40%;
+    width: 20%;
+    max-width: 100px;
+    cursor: pointer;
+    display: none;
+}
+
+#floatQQ img {
+    width: 100%;
+    height: auto;
+}
+
+.top {
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+.top_box {
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+
+.top_box .top_l {
+    position: absolute;
+    left: 6%;
+    top: 23%;
+    width: 5rem;
+    height: 5rem;
+}
+
+.top_box .top_c {
+    position: absolute;
+    left: 29%;
+    top: 26%;
+}
+
+.top_c p {
+    line-height: 1.6rem;
+    text-align: left;
+    font-size: 1.1rem;
+    color: #fff;
+}
+
+.top_c p .sex {
+    width: 14%;
+    margin-left: .6rem;
+}
+
+.top_c p:nth-of-type(2) {
+    font-size: .9rem;
+}
+
+.top_c p .vip {
+    width: 24%;
+    margin-left: .4rem;
+    margin-top: .2rem;
+}
+
+.voice {
+    background: #fff;
+    border-radius: .6rem;
+    display: block;
+    width: 64%;
+    height: 2.4rem;
+    line-height: 1.6rem;
+    margin-top: .2rem;
+    position: relative;
+    left: .3rem;
+    top: 0;
+}
+
+.voice .voice_pic {
+    width: 13%;
+    margin-left: -4.7rem;
+    margin-top: .6rem;
+}
+
+.voice span {
+    position: absolute;
+    left: 2.4rem;
+    top: .4rem;
+    color: #000;
+    font-size: .7rem;
+}
+
+.voice i {
+    display: block;
+    position: absolute;
+    right: .7rem;
+    top: .3rem;
+    width: .5rem;
+    height: .5rem;
+    background: #ff3d6d;
+    border-radius: 50%;
+    animation: shake .5s ease infinite alternate;
+    -webkit-animation: shake .5s ease infinite alternate;
+    -moz-animation: shake .5s ease infinite alternate;
+    -ms-animation: shake .5s ease infinite alternate;
+    -o-animation: shake .5s ease infinite alternate;
+}
+
+.voice .border {
+    position: absolute;
+    left: -.4rem;
+    top: .2rem;
+    width: 6%;
+}
+
+.top_r {
+    background: #ff679a;
+    border-top-left-radius: 4rem;
+    border-bottom-left-radius: 4rem;
+    position: absolute;
+    right: 0;
+    top: 4.5rem;
+    width: 6.5rem;
+    height: 2.9rem;
+    line-height: 2.4rem;
+    overflow: hidden;
+    animation: moveleft 1s forwards 0s;
+    -webkit-animation: moveleft 1s forwards 0s;
+    -moz-animation: moveleft 1s forwards 0s;
+    -ms-animation: moveleft 1s forwards 0s;
+    -o-animation: moveleft 1s forwards 0s;
+}
+
+@keyframes moveleft {
+    0% {
+        right: -100%;
+        opacity: 0;
+    }
+    100% {
+        right: 0%;
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes moveleft {
+    0% {
+        right: -100%;
+        opacity: 0;
+    }
+    100% {
+        right: 0%;
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes moveleft {
+    0% {
+        right: -100%;
+        opacity: 0;
+    }
+    100% {
+        right: 0%;
+        opacity: 1;
+    }
+}
+
+@-o-keyframes moveleft {
+    0% {
+        right: -100%;
+        opacity: 0;
+    }
+    100% {
+        right: 0%;
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes moveleft {
+    0% {
+        right: -100%;
+        opacity: 0;
+    }
+    100% {
+        right: 0%;
+        opacity: 1;
+    }
+}
+
+.content {
+    background: #fff;
+    /*padding-bottom: 6rem;*/
+}
+
+.content .menu {
+    padding: 1rem 1rem 0;
+}
+
+.content .menu li {
+    float: left;
+    width: 50%;
+    text-align: center;
+    padding-bottom: .2rem;
+    border-bottom: 4px solid #e4e4e4;
+}
+
+.content .menu li.on {
+    border-bottom-color: #ae038b;
+}
+
+.change .tips {
+    height: 4rem;
+    line-height: 4rem;
+    text-align: right;
+    font-size: .8rem;
+    margin-right: .8rem;
+    color: #999;
+}
+
+.change .prev {
+    margin-left: .8rem;
+}
+
+.change .first {
+    height: 14.2rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: none;
+    width: 100%;
+}
+
+.change .first p {
+    text-align: center;
+}
+
+.change .first p:nth-of-type(1) {
+    color: #64aaff;
+    margin-top: -1.3rem;
+}
+
+.change .first p:nth-of-type(2) {
+    color: #ff679a;
+    margin-top: .3rem;
+}
+
+.change .first h3 {
+    text-align: center;
+    margin-top: .7rem;
+    font-weight: bold;
+    font-size:1rem!important;
+}
+
+.change .first a {
+    color: #64aaff;
+    font-size: .7rem;
+    text-align: center;
+    display: inline-block;
+    margin-top: 1.1rem;
+}
+
+.change .first #submit_btn {
+    background: #ff679a;
+    color: #fff;
+    font-size: .9rem;
+    padding: .4rem 3rem;
+    border-bottom: none;
+    border-radius: .4rem;
+    margin-top: 0 !important;
+}
+
+.change .first li.on {
+    background: #ff679a !important;
+}
+
+.change #case img{
+    height:15rem;
+}
+.change #case .first ul {
+    padding: .5rem;
+    width:100%;
+}
+
+.change #case .first li {
+    float: left;
+    width: 45%;
+    background: #ff8db3;
+    text-align: center;
+    padding: 0.4rem 0;
+    font-size: .8rem;
+    color: #fff;
+    border-radius: .3rem;
+    margin:1%;
+    line-height:1rem;
+}
+
+
+
+#case {
+    margin-top: 1rem;
+}
+
+#case p {
+    font-size: .95rem;
+    line-height: 1.4rem;
+}
+
+#case #swiper_container {
+    padding: 0 .7rem 0;
+}
+
+.bottom_float {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 1000000;
+    width: 100%
+}
+
+.bottom_float .audio_bottom {
+    width: 8rem;
+    height: 3rem;
+    position: absolute;
+    left: 5.1rem;
+    top: .4rem;
+}
+
+.bottom_float .audio_bottom .bottom_voice {
+    width: 13%;
+    margin-left: 1.2rem;
+    margin-top: .8rem;
+}
+
+.bottom_float .audio_bottom span {
+    margin-top: .7rem;
+    margin-left: .3rem;
+    display: inline-block;
+}
+
+.bottom_float .audio_bottom em {
+    width: .4rem;
+    height: .4rem;
+    border-radius: 50%;
+    background: #ff3d6d;
+    display: inline-block;
+    position: absolute;
+    right: 1rem;
+    top: .6rem;
+    animation: shake .5s ease infinite alternate;
+    -webkit-animation: shake .5s ease infinite alternate;
+    -moz-animation: shake .5s ease infinite alternate;
+    -ms-animation: shake .5s ease infinite alternate;
+    -o-animation: shake .5s ease infinite alternate;
+}
+
+.bottom_float .bottom_btn {
+    width: 6rem;
+    height: 3rem;
+    position: absolute;
+    right: .6rem;
+    top: 1.5rem;
+    animation: big 1.4s ease infinite alternate;
+    -webkit-animation: big 1.4s ease infinite alternate;
+    -moz-animation: big 1.4s ease infinite alternate;
+    -ms-animation: big 1.4s ease infinite alternate;
+    -o-animation: big 1.4s ease infinite alternate;
+}
+
+.middle_voice .m_voiceTop .icon {
+    width: 8%;
+    margin-right: .3rem;
+}
+
+.middle_voice .m_voiceTop span {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: .1rem;
+}
+
+.middle_voice .m_voiceBottom {
+    margin-top: .6rem;
+}
+
+.middle_voice .m_voiceBottom p {
+    font-size: .9rem;
+    line-height: 1.4rem;
+    color: #555;
+}
+
+.middle_voice .m_voiceBottom a {
+    font-size: .95rem;
+    line-height: 1.4rem;
+    color: #ff6699;
+    margin: .2rem 0 .5rem;
+    display: inline-block;
+}
+
+#case .M_voice {
+    padding: 0 1rem;
+}
+
+#case .M_voice .Middle_voice {
+    width: 5%;
+    position: absolute;
+    left: 11rem;
+    top: 2.4rem;
+}
+
+#case .M_voice span {
+    position: absolute;
+    left: 12.8rem;
+    top: 2.4rem;
+}
+
+#case .M_voice em {
+    width: .4rem;
+    height: .4rem;
+    border-radius: 50%;
+    background: #ff3d6d;
+    display: inline-block;
+    position: absolute;
+    right: 7.6rem;
+    top: 2.2rem;
+    animation: shake .5s ease infinite alternate;
+    -webkit-animation: shake .5s ease infinite alternate;
+    -moz-animation: shake .5s ease infinite alternate;
+    -ms-animation: shake .5s ease infinite alternate;
+    -o-animation: shake .5s ease infinite alternate;
+}
+
+#Mask ,.qq_Mask{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .75);
+    z-index: 1000000000;
+    display: none;
+    max-width:640px;
+    min-width:320px;
+}
+.pr{
+    position: absolute;
+    left:0;
+    width:100%;
+    height:20rem;
+}
+.ok_Mask .pr{
+    width: 70%;
+    bottom: 50%;
+    left: 15%;
+    -webkit-border-radius:.5rem;
+    -moz-border-radius:.5rem;
+    border-radius:.5rem;
+}
+.ok_Mask .Mask_txt p{
+    text-align:center;
+}
+.ok_Mask .Mask_txt p:last-child{
+    border-top:1px solid silver;
+}
+@media screen and (max-width: 500px) {
+
+    .pr {  bottom:0;}
+
+}
+#Mask img,.qq_Mask img{
+    position: absolute;
+    left: 0.2rem;
+    /*top:8rem;*/
+    width: 96%;
+    height: 20rem;
+    padding: .3rem;
+}
+
+#Mask .Mask_txt ,.qq_Mask .Mask_txt{
+    position: absolute;
+    top: 8rem;
+    font-size:.7rem;
+    padding: .6rem;;
+}
+
+
+#Mask .Mask_txt h3, .qq_Mask .Mask_txt h3{
+    font-weight: bold;
+    margin-bottom: .3rem;
+}
+
+#Mask .Mask_txt p:nth-of-type(1) {
+    margin-bottom: .6rem;
+    padding:.6rem;
+
+}
+
+#Mask .close_Mask {
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    right: 0;
+    top: 8rem;
+}
+
+#comment {
+    display: none;
+    padding: 0 1rem;
+}
+
+#comment li {
+    padding-bottom: 1.1rem;
+    border-bottom: 2px solid #f2f2f2;
+    margin-top: 1.1rem;
+}
+
+#comment .user_Info img {
+    width: 12%;
+}
+
+#comment .user_Info span {
+    font-weight: bold;
+    margin-top: .7rem;
+    margin-left: .6rem;
+}
+
+#comment .user_Info strong {
+    font-weight: normal;
+    color: #999;
+    margin-top: .8rem;
+    font-size: .9rem;
+    margin-right: .5rem;
+}
+
+#comment .user_txt p {
+    font-size: .9rem;
+    color: #555;
+    line-height: 1.4rem;
+    margin-top: .8rem;
+}
+
+#comment .user_Pic li:nth-of-type(1) {
+    margin-left: 0;
+}
+
+#comment .user_Pic li {
+    float: left;
+    width: 30%;
+    padding-bottom: 0;
+    margin-left: .4rem;
+}
+
+.voice_pic.on, .Middle_voice.on, .bottom_voice.on {
+    animation: shake .35s ease infinite alternate;
+    -webkit-animation: shake .35s ease infinite alternate;
+    -moz-animation: shake .35s ease infinite alternate;
+    -ms-animation: shake .35s ease infinite alternate;
+    -o-animation: shake .35s ease infinite alternate;
+}
+
+@keyframes shake {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: .1;
+    }
+}
+
+@-webkit-keyframes shake {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: .1;
+    }
+}
+
+@-moz-keyframes shake {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: .1;
+    }
+}
+
+@-ms-keyframes shake {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: .1;
+    }
+}
+
+@-o-keyframes shake {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: .1;
+    }
+}
+.add_btn {
+    width: 5rem;
+    height: 2rem;
+    position: absolute;
+    left: 10rem;
+    top: 17rem;
+    background: #ff679a;
+    border-radius: .5rem;
+    text-align: center;
+    line-height: 2rem;
+    color: #fff !important;
+    font-size: .7rem;
+    text-decoration: none !important;
+}
+
+#third p {
+    margin-top: 0 !important;
+}
+
+/*缂╃暐鍥�*/
+#thumb {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: #000;
+    z-index: 100000000000;
+    display: none;
+}
+
+#thumb .thumb_close {
+    padding: .4rem;
+    color: #fff;
+    position: absolute;
+    right: 0;
+    top: 3rem;
+    font-size: 1.8rem;
+    font-size: 'Helvetica';
+}
+
+.depart {
+    width: 100%;
+    height: .4rem;
+    background: #f2f2f2;
+}
+
+.case_main {
+    padding: 0 1rem 0;
+}
+
+.case_main p {
+    color: #000;
+}
+
+/*.qq_Mask {*/
+    /*position: fixed;*/
+    /*left: .1rem;*/
+    /*top: 0;*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*background: rgba(0, 0, 0, .75);*/
+    /*z-index: 1000000000;*/
+    /*display: none;*/
+    /*font-size: .8rem!important;*/
+/*}*/
+
+/*.qq_Mask img {*/
+    /*position: absolute;*/
+    /*left: 0;*/
+    /*top: 15rem;*/
+    /*width:98%;*/
+/*}*/
+
+.qq_Mask .Mask_txt {
+    position: absolute;
+    top: 9rem;
+    font-size: .7rem;
+    padding: .6rem;
+}
+.qq_Mask p{
+    font-size:.8rem;
+}
+.qq_Mask .Mask_txt h3 {
+    font-weight: bold;
+    font-size:.8rem;
+}
+
+.qq_Mask .close_Mask {
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    right: 0;
+    top: 8rem;
+}
+
+.wechat {
+    background: #ffff00;
+    text-align: center;
+    padding: .4rem 0;
+    margin-bottom: 1rem;
+}
+
+.wechat span {
+    background: #e60012;
+    color: #000;
+    padding: .1rem .3rem;
+}
+
+.Link {
+    color: #66b3ff;
+    text-decoration: underline;
+}
+
+.Mask_wechat {
+    background: #ff679a;
+    padding: .5rem 0 .7rem;
+    text-align: center;
+    color: #fff;
+    font-size: 1.6rem;
+    width: 78%;
+    margin: .6rem auto 0;
+    border-radius: .5rem;
+}
+
+.case_main .wechat_txt {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 1.6rem;
+}
+
+.case_main .wechat_txt p {
+    font-size: 1rem !important;
+}
+
+.case_main .wechat_txt .wechat_txtnum {
+    color: #fff;
+    background: #ae038b;
+    border-radius: 2rem;
+    display: inline-block;
+    padding: 0rem .5rem .3rem;
+    margin: .4rem 0;
+}
+
+.InfoTitle {
+    text-align: center;
+    background: #22ac38;
+    padding: .3rem 0;
+    margin-bottom: 1.2rem;
+}
+
+.InfoTitle h3 {
+    color: #fff;
+}
+
+.box_80 {
+    width: 80%;
+    margin: 1rem auto;
+}
+
+.case_main .middle_voice {
+    padding: .6rem .3rem;
+    box-sizing: border-box;
+    border: 1px solid #e5e5e5;
+}
+
+.case_main .fit_people {
+    margin-bottom: 1rem;
+}
+
+.case_main .fit_people p {
+    text-indent: 2em;
+}
+
+.case_main .fit_people .fitTitle {
+    text-align: center;
+    color: #ae038b;
+    font-size: 1.1rem;
+    margin: .8rem 0 .4rem;
+}
+
+.case_main .fit_people .fitTitle img {
+    width: 4%;
+    margin-top: .3rem;
+    margin-right: .2rem;
+}
+	 
+			  
+					/* #newPl .cmnt_item{ background:#fff;    border-bottom: 1px solid #e5e5e5; margin-bottom:2px;} */
+ 					/* .cmnt_op{ top:1px !important ; display:none;} */
+					/* .comment-number{ display:none !important;} */
+					/* .module-mobile-cmt-list{ display:none !important;} */
+					/* .j_cmnt_single{ display:none !important;} */
+					/* #SOHUCS #SOHU_MAIN .module-login-box .login-by-other .other-note .note-text {    display: none;} */
+			 
