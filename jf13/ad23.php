@@ -323,7 +323,7 @@
 			<div style="max-width:96%;margin:0px auto 0px auto; line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:0; hidden; text-indent:1.5em;text-align:justify;">
 				<p><span style="font-weight:700; color:#FF0000">第1天</span>，惊讶！喝完当天排出2斤“巨便”，还不腹泻，排完小肚子塌一半，又软又舒服</p>
 				<center>
-					<!-- <p><span><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/aac.jpg" width="250" height="250"></span> </p> -->
+					<p><span><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/aac.jpg" width="250" height="250"></span> </p>
 				</center>
 			</div>
 			<div style="max-width:96%;margin:0px auto 0px auto; line-height:30px;height:auto; overflow:hidden;padding:0px 7px 0px 7px; margin-top:0; hidden; text-indent:1.5em;text-align:justify;">
