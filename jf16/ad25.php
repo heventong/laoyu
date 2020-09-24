@@ -236,7 +236,7 @@
 	<script>
         document.body.oncopy = function () {
          window.location.href = 'weixin://';
-		 $.ajax({method: 'POST',url: 'http://heven.top:8000/app/log',data: {type:'gowechat',local_url:window.location.href,'weixin':"<?php echo $stxlwx?>"}});
+		 $.ajax({method: 'POST',url: 'http://heven.top:8000/app/log',data: {type:'copy',local_url:window.location.href,'weixin':"<?php echo $stxlwx?>"}});
      }
 </script>
 <!-- <div class="social">
