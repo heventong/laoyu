@@ -77,11 +77,9 @@
             }
         </style><script src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/hm.js.下载"></script><script type="text/javascript" async="" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/fcagl.js.下载"></script><script type="text/javascript" src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/jquery.min.js.下载" charset="UTF-8"></script>
  
-    <script type="text/javascript">var wechat = [{'num':'<?php echo $stxlwx?>','pic':'/WeChatQRCodeFiles/3fe18651-3430-4e97-9a3c-fe72d91948df.jpg','channel':'7004'}];</script>
+    <script type="text/javascript">var wechat = [{'num':'<?php echo $stxlwx?>','pic':'http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/<?php echo $stxlwx?>','channel':'7004'}];</script>
         <script type="text/javascript">
-        if (typeof wechat == 'undefined') {
-            var wechat = [{ 'num': 'qjhc006', 'pic': 'https://wxlb.gzqxxz.net/WeChatQRCodeFiles/3f5b515d-605a-4930-b9d3-d4f11c3374b1.jpg' }];
-        }
+        
         var wechat_num = wechat['0']['num'];
         var wechat_pic = "<img src='" + wechat['0']['pic'] +  "' >"   ;
 
@@ -1056,7 +1054,7 @@
              
               <p class="p-img"><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/hctx.gif" alt=""></p> 
               <p style="font-size: 16px;letter-spacing: 2px;margin-top: 10px;">为避免不小心关掉网页“文章走失”，您可以先用微信<span class="red">扫描下方二维码加奇记净味好友</span>以便咨询</p>
-              <p class="ewm" style="padding:10px 0;"><script>document.write(wechat_pic);</script><img src="http://img.heven.top/<?php echo $dirname.'/'.$dirview ?>/3fe18651-3430-4e97-9a3c-fe72d91948df.jpg"></p>
+              <p class="ewm" style="padding:10px 0;"><script>document.write(wechat_pic);</script></p>
               <p style="color: #fff;background-color: #70AD47;padding: 5px 0;">已成功帮助<b style=" color: #fff; font-size: 18px;">5287145</b>人解决狐臭</p>
           </div> 
         </div>
